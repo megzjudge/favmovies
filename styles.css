@@ -172,14 +172,6 @@ h2 span.flag {
 }
 
 @font-face {
-    font-family: 'FoxyScriptRegular';
-    src: url('/fonts/FoxyScriptRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Rosehot';
     src: url('/font/Rosehot.ttf') format('truetype');
     font-weight: normal;

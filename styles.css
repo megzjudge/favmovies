@@ -5,7 +5,7 @@
     font-size: calc(16px + 0.390625vw);
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}    
+}
 
 html {
     background: rgb(10, 54, 107);
@@ -64,6 +64,7 @@ section {
     margin-top: 8px;
     margin-bottom: 8px;
     flex-shrink: 1;
+    text-align: center; /* Added to center the text */
 }
 
 .series-details p {
@@ -72,6 +73,7 @@ section {
     font-size: calc(13px + 0.390625vw);
     line-height: 1.4;
     margin-bottom: 6px;
+    display: inline-block; /* Ensures text stays centered and wraps properly */
 }
 
 .series-details p:last-child {

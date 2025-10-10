@@ -64,7 +64,7 @@ section {
     margin-top: 8px;
     margin-bottom: 8px;
     flex-shrink: 1;
-    text-align: center; /* Added to center the text */
+    text-align: center;
 }
 
 .series-details p {
@@ -73,7 +73,10 @@ section {
     font-size: calc(13px + 0.390625vw);
     line-height: 1.4;
     margin-bottom: 6px;
-    display: inline-block; /* Ensures text stays centered and wraps properly */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .series-details p:last-child {

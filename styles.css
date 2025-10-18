@@ -1,4 +1,3 @@
-/* Global Reset and Base Styles */
 * {
     color: rgb(220, 220, 220);
     margin: 0;
@@ -47,6 +46,7 @@ section {
     align-items: center;
     text-align: center;
     scroll-snap-align: start;
+    overflow: hidden;
 }
 
 .page {
@@ -67,6 +67,7 @@ section {
 }
 
 .series-details p {
+    color: rgb(220, 220, 220);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: calc(13px + 0.390625vw);
     line-height: 1.4;
@@ -94,7 +95,7 @@ section {
 
 .series-image {
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 20px; /* Added padding above the movie image thumbnail */
     display: flex;
     justify-content: center;
     aspect-ratio: 2 / 3;
@@ -141,7 +142,7 @@ h1 {
     font-family: 'Rosehot', cursive, sans-serif;
     line-height: 1.3;
     color: rgb(100, 160, 240);
-    padding-bottom: 20px;
+    padding-bottom: 20px; /* Added padding under h1 */
 }
 
 h2 {
@@ -166,6 +167,7 @@ h2 span.flag {
 }
 
 .footer p {
+    color: rgb(220, 220, 220);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: calc(13px + 0.390625vw);
     line-height: 1.4;
@@ -181,7 +183,7 @@ h2 span.flag {
 
 @font-face {
     font-family: 'Rosehot';
-    src: url('/fonts/Rults/Rosehot.ttf') format('truetype');
+    src: url('/fonts/Rosehot.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -221,91 +223,5 @@ h2 span.flag {
     .link-container img {
         width: 34px;
         height: 34px;
-    }
-}
-
-/* Dropdown and Movie List Adjustments */
-.dropdown-container {
-    margin-bottom: 10px; /* Space between dropdown and movie list */
-}
-
-#genreDropdown {
-    background: rgb(10, 54, 107);
-    border: 2px solid rgb(74, 144, 226);
-    border-radius: 8px;
-    padding: 8px;
-    font-size: calc(14px + 0.390625vw);
-    color: rgb(220, 220, 220);
-    width: 224px; /* Increased from 200px for ~2 extra letters */
-    margin-top: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#genreDropdown:hover {
-    background: rgb(30, 95, 139);
-}
-
-#genreDropdown:focus {
-    outline: none;
-    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
-}
-
-#genreDropdown option {
-    background: rgb(10, 54, 107);
-    color: rgb(220, 220, 220);
-}
-
-.movie-list {
-    width: 80%; /* Matches .page width, centered */
-    max-height: 50vh; /* Allows scrolling if many movies */
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
-    margin-top: 0; /* Ensure it sits directly below dropdown */
-}
-
-.movie-list::-webkit-scrollbar {
-    width: 8px;
-}
-
-.movie-list::-webkit-scrollbar-track {
-    background: rgb(10, 54, 107);
-    box-shadow: inset 1px 1px 5px black;
-}
-
-.movie-list::-webkit-scrollbar-thumb {
-    background: linear-gradient(0deg, rgb(74, 144, 226), rgb(10, 54, 107));
-    border-radius: 10px;
-}
-
-.movie-list::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(0deg, rgb(100, 160, 240), rgb(30, 95, 139));
-}
-
-.movie-list p {
-    font-size: calc(13px + 0.390625vw);
-    line-height: 1.4;
-    padding: 8px;
-    background: rgba(74, 144, 226, 0.1);
-    border-radius: 5px;
-    margin: 5px 0;
-    text-align: center; /* Centered as in the image */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-@media (max-width: 600px) {
-    #genreDropdown {
-        width: 100%;
-        max-width: 204px; /* Adjusted for responsive design */
-        font-size: calc(12px + 0.390625vw);
-    }
-    .movie-list {
-        width: 100%;
-        max-height: 40vh; /* Adjusted for smaller screens */
-    }
-    .movie-list p {
-        font-size: calc(11px + 0.390625vw);
     }
 }

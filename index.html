@@ -871,9 +871,11 @@
     <section>
         <div class="page">
             <h2>Filter Movies by Genre</h2>
-            <select id="genreDropdown" onchange="filterMovies()">
-                <option value="">Select a Genre</option>
-            </select>
+            <div class="dropdown-container">
+                <select id="genreDropdown" onchange="filterMovies()">
+                    <option value="">Select a Genre</option>
+                </select>
+            </div>
             <div id="movieList" class="movie-list"></div>
         </div>
     </section>

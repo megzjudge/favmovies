@@ -4,16 +4,25 @@ function initializeDropdown() {
     const movieSections = document.querySelectorAll('section .page');
 
     const genres = new Set();
+
     movieSections.forEach(section => {
-        const genreP = section.querySelector('.series-details p:nth-child(2)');
-        if (genreP && genreP.textContent.startsWith('Genre:')) {
+        // More robust genre detection: find any <p> starting with "Genre:"
+        const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p => 
+            p.textContent.startsWith('Genre:')
+        );
+        
+        if (genreP) {
             const genreText = genreP.textContent.replace('Genre: ', '').trim();
             const genreArray = genreText.split(',').map(g => g.trim());
             genreArray.forEach(genre => genres.add(genre));
         }
     });
 
-    genres.forEach(genre => {
+    // Sort genres alphabetically and populate dropdown
+    if (genres.size === 0) {
+        console.warn('No genres found in movie sections—check your HTML structure.');
+    }
+    Array.from(genres).sort().forEach(genre => {
         const option = document.createElement('option');
         option.value = genre;
         option.textContent = genre;
@@ -24,16 +33,29 @@ function initializeDropdown() {
         const selectedGenre = dropdown.value;
         movieListContainer.innerHTML = '';
 
-        if (!selectedGenre) {
-            movieListContainer.innerHTML = '<p>Please select a genre.</p>';
-            return;
-        }
-
         let hasMovies = false;
+
         movieSections.forEach(section => {
-            const genreP = section.querySelector('.series-details p:nth-child(2)');
-            const title = section.querySelector('h2').textContent.replace(/🇺[🇸🇦]/, '').trim();
-            if (genreP && genreP.textContent.includes(selectedGenre)) {
+            // Skip the filter section itself
+            const titleElement = section.querySelector('h2');
+            if (!titleElement || titleElement.textContent.trim() === 'Filter Movies by Genre') {
+                return;
+            }
+
+            // Robust genre detection (same as above)
+            const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p => 
+                p.textContent.startsWith('Genre:')
+            );
+
+            const title = titleElement.textContent.replace(/🇺🇸|🇨🇦/g, '').trim();
+
+            // Show all if no genre selected, or filter if matches
+            let shouldShow = !selectedGenre;
+            if (selectedGenre && genreP) {
+                shouldShow = genreP.textContent.includes(selectedGenre);
+            }
+
+            if (shouldShow) {
                 const movieItem = document.createElement('p');
                 movieItem.textContent = title;
                 movieListContainer.appendChild(movieItem);
@@ -42,9 +64,13 @@ function initializeDropdown() {
         });
 
         if (!hasMovies) {
-            movieListContainer.innerHTML = '<p>No movies found for this genre.</p>';
+            movieListContainer.innerHTML = '<p>No movies found.</p>';
         }
     };
+
+    // Optionally trigger once on load to show all movies initially
+    filterMovies();
 }
 
+// Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', initializeDropdown);

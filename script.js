@@ -1,10 +1,8 @@
-// Function to initialize the dropdown and filter
 function initializeDropdown() {
     const dropdown = document.getElementById('genreDropdown');
     const movieListContainer = document.getElementById('movieList');
     const movieSections = document.querySelectorAll('section .page');
 
-    // Collect unique genres
     const genres = new Set();
     movieSections.forEach(section => {
         const genreP = section.querySelector('.series-details p:nth-child(2)');
@@ -15,7 +13,6 @@ function initializeDropdown() {
         }
     });
 
-    // Populate dropdown with genres
     genres.forEach(genre => {
         const option = document.createElement('option');
         option.value = genre;
@@ -23,10 +20,9 @@ function initializeDropdown() {
         dropdown.appendChild(option);
     });
 
-    // Filter movies based on selected genre
     window.filterMovies = function() {
         const selectedGenre = dropdown.value;
-        movieListContainer.innerHTML = ''; // Clear previous list
+        movieListContainer.innerHTML = '';
 
         if (!selectedGenre) {
             movieListContainer.innerHTML = '<p>Please select a genre.</p>';
@@ -51,5 +47,4 @@ function initializeDropdown() {
     };
 }
 
-// Run initialization when the page loads
 document.addEventListener('DOMContentLoaded', initializeDropdown);

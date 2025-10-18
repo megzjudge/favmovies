@@ -1,18 +1,19 @@
 /* Global Reset and Base Styles */
 * {
+    color: rgb(220, 220, 220);
     margin: 0;
     padding: 0;
+    font-size: calc(16px + 0.390625vw);
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: calc(16px + 0.390625vw);
-    color: rgb(220, 220, 220);
-}
+}    
 
 html {
     background: rgb(10, 54, 107);
-    scroll-snap-type: y mandatory;
-    scrollbar-width: thin;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+    scrollbar-width: thin;
+    scroll-snap-type: y mandatory;
 }
 
 html::-webkit-scrollbar {
@@ -37,28 +38,10 @@ html::-webkit-scrollbar-thumb:active {
     background: linear-gradient(0deg, rgb(10, 54, 107), rgb(0, 30, 80));
 }
 
-/* Font Definitions */
-@font-face {
-    font-family: 'FoxyScriptRegular';
-    src: url('/fonts/FoxyScriptRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rosehot';
-    src: url('/fonts/Rosehot.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Layout Styles */
 section {
     height: 100vh;
+    background: radial-gradient(circle, rgb(74, 144, 226) 0%, rgb(10, 54, 107) 100%);
     min-height: 100vh;
-    background: radial-gradient(circle, rgb(74, 144, 226) 0%, rgb(10 viejo, 54, 107) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,46 +57,20 @@ section {
     justify-content: center;
     align-items: center;
     padding: 12px;
+    box-sizing: border-box;
 }
 
-/* Typography */
-h1 {
-    font-size: 3.5rem;
-    font-family: 'Rosehot', cursive, sans-serif;
-    line-height: 1.3;
-    color: rgb(100, 160, 240);
-    padding-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-h2 {
-    font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(84px + 0.390625vw);
-    line-height: 1.2;
-    color: rgb(100, 160, 240);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 12px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-h2 span.flag {
-    font-size: calc(28px + 0.390625vw);
-    margin-top: 12px;
-}
-
-/* Component Styles */
 .series-details {
-    margin: 8px 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
     flex-shrink: 1;
 }
 
 .series-details p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: calc(13px + 0.390625vw);
     line-height: 1.4;
     margin-bottom: 6px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .series-details p:last-child {
@@ -132,9 +89,11 @@ h2 span.flag {
 .link-container img {
     width: 40px;
     height: 40px;
+    margin: 0 auto;
 }
 
 .series-image {
+    margin-top: 0;
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -160,6 +119,13 @@ h2 span.flag {
     transform: scale(1.05);
 }
 
+section p img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+
 a {
     color: rgb(100, 160, 240);
     text-decoration: none;
@@ -167,9 +133,102 @@ a {
 
 a:hover {
     color: rgb(74, 144, 226);
+    cursor: pointer;
 }
 
-/* Dropdown and Movie List */
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Rosehot', cursive, sans-serif;
+    line-height: 1.3;
+    color: rgb(100, 160, 240);
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: rgb(100, 160, 240);
+    font-family: 'Rosehot', cursive, sans-serif;
+    font-size: calc(84px + 0.390625vw);
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1;
+    margin-bottom: 12px;
+}
+
+h2 span.flag {
+    font-size: calc(28px + 0.390625vw);
+    margin-top: 12px;
+}
+
+.footer {
+    margin-top: 12px;
+}
+
+.footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: calc(13px + 0.390625vw);
+    line-height: 1.4;
+}
+
+@font-face {
+    font-family: 'FoxyScriptRegular';
+    src: url('/fonts/FoxyScriptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosehot';
+    src: url('/fonts/Rults/Rosehot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: calc(60px + 0.390625vw);
+        margin-bottom: 12px;
+    }
+    h2 span.flag {
+        font-size: calc(24px + 0.390625vw);
+        margin-top: 20px;
+    }
+    .series-details p {
+        font-size: calc(11px + 0.390625vw);
+    }
+    .series-details p:last-child {
+        padding-bottom: 8px;
+    }
+    .footer p {
+        font-size: calc(11px + 0.390625vw);
+    }
+    .series-image {
+        max-height: 28vh;
+    }
+    .link-container {
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    .series-image {
+        margin-top: 12px;
+    }
+    .link-container img {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+/* Dropdown and Movie List Adjustments */
+.dropdown-container {
+    margin-bottom: 10px; /* Space between dropdown and movie list */
+}
+
 #genreDropdown {
     background: rgb(10, 54, 107);
     border: 2px solid rgb(74, 144, 226);
@@ -177,7 +236,7 @@ a:hover {
     padding: 8px;
     font-size: calc(14px + 0.390625vw);
     color: rgb(220, 220, 220);
-    width: 200px;
+    width: 224px; /* Increased from 200px for ~2 extra letters */
     margin-top: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -199,12 +258,12 @@ a:hover {
 }
 
 .movie-list {
-    margin-top: 20px;
-    width: 100%;
-    max-height: 50vh;
+    width: 80%; /* Matches .page width, centered */
+    max-height: 50vh; /* Allows scrolling if many movies */
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+    margin-top: 0; /* Ensure it sits directly below dropdown */
 }
 
 .movie-list::-webkit-scrollbar {
@@ -232,62 +291,21 @@ a:hover {
     background: rgba(74, 144, 226, 0.1);
     border-radius: 5px;
     margin: 5px 0;
-    text-align: left;
+    text-align: center; /* Centered as in the image */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.footer {
-    margin-top: 12px;
-}
-
-.footer p {
-    font-size: calc(13px + 0.390625vw);
-    line-height: 1.4;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-/* Responsive Design */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: calc(60px + 0.390625vw);
-        margin-bottom: 12px;
-    }
-
-    h2 span.flag {
-        font-size: calc(24px + 0.390625vw);
-        margin-top: 20px;
-    }
-
-    .series-details p,
-    .footer p,
-    .movie-list p {
-        font-size: calc(11px + 0.390625vw);
-    }
-
-    .series-details p:last-child {
-        padding-bottom: 8px;
-    }
-
-    .series-image {
-        max-height: 28vh;
-    }
-
-    .link-container {
-        margin: 8px 0 10px;
-    }
-
-    .link-container img {
-        width: 34px;
-        height: 34px;
-    }
-
     #genreDropdown {
         width: 100%;
-        max-width: 180px;
+        max-width: 204px; /* Adjusted for responsive design */
         font-size: calc(12px + 0.390625vw);
+    }
+    .movie-list {
+        width: 100%;
+        max-height: 40vh; /* Adjusted for smaller screens */
+    }
+    .movie-list p {
+        font-size: calc(11px + 0.390625vw);
     }
 }

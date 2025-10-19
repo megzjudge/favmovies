@@ -57,10 +57,11 @@ function initializeDropdown() {
             }
             const title = titleClone.textContent.trim();
 
-            // Show all if no genre selected, or filter if matches
+            // Show all if no genre selected, or filter if exact match
             let shouldShow = !selectedGenre;
             if (selectedGenre && genreP) {
-                shouldShow = genreP.textContent.includes(selectedGenre);
+                const movieGenres = genreP.textContent.replace('Genre: ', '').trim().split(',').map(g => g.trim());
+                shouldShow = movieGenres.includes(selectedGenre);
             }
 
             if (shouldShow) {

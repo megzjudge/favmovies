@@ -47,7 +47,13 @@ function initializeDropdown() {
                 p.textContent.startsWith('Genre:')
             );
 
-            const title = titleElement.textContent.replace(/🇺🇸|🇨🇦/g, '').trim();
+            // Extract title without flag span
+            const titleClone = titleElement.cloneNode(true);
+            const flagSpan = titleClone.querySelector('.flag');
+            if (flagSpan) {
+                flagSpan.remove();
+            }
+            const title = titleClone.textContent.trim();
 
             // Show all if no genre selected, or filter if matches
             let shouldShow = !selectedGenre;

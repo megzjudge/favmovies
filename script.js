@@ -36,9 +36,11 @@ function initializeDropdown() {
         let hasMovies = false;
 
         movieSections.forEach(section => {
-            // Skip the filter section itself
+            // Skip the filter section and correlation sections
             const titleElement = section.querySelector('h2');
-            if (!titleElement || titleElement.textContent.trim() === 'Filter Movies by Genre') {
+            if (!titleElement || 
+                titleElement.textContent.trim() === 'Filter Movies by Genre' || 
+                titleElement.textContent.trim() === 'Correlations') {
                 return;
             }
 

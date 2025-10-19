@@ -32,13 +32,13 @@ function initializeDropdown() {
 
     // Genre descriptions (pure text only—no genre name prefixed; add/edit as needed)
     const genreDescriptions = {
-        'Psychological Thriller': 'Woof woof woof.',
-        'Philosophical Drama': 'Woof woof woof.',
+        'Psychological Thriller': "A tense, twisting tale where perception and reality blur, and a snaking plotline coils around the protagonist’s unraveling inner world.",
+        'Philosophical Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
         'Cerebral Crime': 'Woof woof woof.',
         'High-Stakes Action': 'Woof woof woof.',
         'Surreal Adventure': 'Woof woof woof.',
         'Dystopian Sci-Fi': 'Woof woof woof.',
-        'Magical Realism': 'Woof woof woof.',
+        'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
         'Dark Comedy': 'Woof woof woof.',
         'Film Noir': 'Woof woof woof.',
         'Biography': 'Woof woof woof.',

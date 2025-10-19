@@ -204,10 +204,6 @@ a:hover {
 
 .description {
     margin: 10px 0;
-    padding: 10px;
-    background: rgba(74, 144, 226, 0.1);
-    border: 1px solid rgba(74, 144, 226, 0.3);
-    border-radius: 8px;
     text-align: left;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
@@ -314,6 +310,5 @@ a:hover {
 
     .description {
         margin: 8px 0;
-        padding: 8px;
     }
 }

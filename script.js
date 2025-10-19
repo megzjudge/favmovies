@@ -1,6 +1,7 @@
 function initializeDropdown() {
     const dropdown = document.getElementById('genreDropdown');
     const movieListContainer = document.getElementById('movieList');
+    const descriptionContainer = document.getElementById('genreDescription');
     const movieSections = document.querySelectorAll('section .page');
 
     const genres = new Set();
@@ -29,9 +30,37 @@ function initializeDropdown() {
         dropdown.appendChild(option);
     });
 
+    // Genre descriptions (add more as needed)
+    const genreDescriptions = {
+        'Psychological Thriller': 'Woof woof woof.',
+        'Philosophical Drama': 'Woof woof woof.',
+        'Cerebral Crime': 'Woof woof woof.',
+        'High-Stakes Action': 'Woof woof woof.',
+        'Surreal Adventure': 'Woof woof woof.',
+        'Dystopian Sci-Fi': 'Woof woof woof.',
+        'Magical Realism': 'Woof woof woof.',
+        'Dark Comedy': 'Woof woof woof.',
+        'Film Noir': 'Woof woof woof.',
+        'Biography': 'Woof woof woof.',
+        'History': 'Woof woof woof.',
+        'Drama': 'Woof woof woof.',
+        'Satire': 'Woof woof woof.',
+        'Romance': 'Woof woof woof.',   
+        'Musical': 'Woof woof woof.',
+        'Horror': 'Woof woof woof.',
+        'Mystery': 'Woof woof woof.',
+    };
+
     window.filterMovies = function() {
         const selectedGenre = dropdown.value;
         movieListContainer.innerHTML = '';
+
+        // Update description
+        if (selectedGenre) {
+            descriptionContainer.innerHTML = `<p><strong>${selectedGenre}:</strong> ${genreDescriptions[selectedGenre] || 'No description available.'}</p>`;
+        } else {
+            descriptionContainer.innerHTML = '';
+        }
 
         let hasMovies = false;
 

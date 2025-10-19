@@ -30,7 +30,7 @@ function initializeDropdown() {
         dropdown.appendChild(option);
     });
 
-    // Genre descriptions (add more as needed)
+    // Genre descriptions (pure text only—no genre name prefixed; add/edit as needed)
     const genreDescriptions = {
         'Psychological Thriller': 'Woof woof woof.',
         'Philosophical Drama': 'Woof woof woof.',
@@ -55,9 +55,9 @@ function initializeDropdown() {
         const selectedGenre = dropdown.value;
         movieListContainer.innerHTML = '';
 
-        // Update description
-        if (selectedGenre) {
-            descriptionContainer.innerHTML = `<p><strong>${selectedGenre}:</strong> ${genreDescriptions[selectedGenre] || 'No description available.'}</p>`;
+        // Update description (pure text only—no title repeat or prefix)
+        if (selectedGenre && genreDescriptions[selectedGenre]) {
+            descriptionContainer.innerHTML = `<p>${genreDescriptions[selectedGenre]}</p>`;
         } else {
             descriptionContainer.innerHTML = '';
         }

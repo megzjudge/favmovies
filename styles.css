@@ -170,6 +170,10 @@ a:hover {
 }
 
 /* Dropdown and Movie List */
+.dropdown-container {
+    margin-bottom: 15px; /* Padding under the dropdown before description */
+}
+
 #genreDropdown {
     background: rgb(10, 54, 107);
     border: 2px solid rgb(74, 144, 226);
@@ -196,6 +200,22 @@ a:hover {
 #genreDropdown option {
     background: rgb(10, 54, 107);
     color: rgb(220, 220, 220);
+}
+
+.description {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(74, 144, 226, 0.1);
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 8px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.description p {
+    font-size: calc(13px + 0.390625vw);
+    line-height: 1.4;
+    margin: 0;
 }
 
 .movie-list {
@@ -264,7 +284,8 @@ a:hover {
 
     .series-details p,
     .footer p,
-    .movie-list p {
+    .movie-list p,
+    .description p {
         font-size: calc(11px + 0.390625vw);
     }
 
@@ -289,5 +310,10 @@ a:hover {
         width: 100%;
         max-width: 180px;
         font-size: calc(12px + 0.390625vw);
+    }
+
+    .description {
+        margin: 8px 0;
+        padding: 8px;
     }
 }

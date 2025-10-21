@@ -41,7 +41,7 @@ function initializeDropdown() {
         'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
         'Dark Comedy': 'Woof woof woof.',
         'Film Noir': 'A shadowy descent into urban corruption, fatal dames, and hard-boiled antiheroes, drenched in moral ambiguity and cigarette smoke.',
-        'Buddy Film': "A rowdy journey of masculine camaraderie, forged through banter, loyalty, and thrilling exploits against all odds.",
+        'Male Camaraderie': "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds."
         'Biography': 'Woof woof woof.',
         'History': 'Woof woof woof.',
         'Drama': 'Woof woof woof.',

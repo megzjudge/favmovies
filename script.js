@@ -26,17 +26,17 @@ function initializeDropdown() {
     });
 
     const genreDescriptions = {
-        'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world."
-        'Philosophical Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
-        'Film Noir': "A shadowy descent into urban corruption, fatal dames, and hard-boiled antiheroes, drenched in moral ambiguity and cigarette smoke.",
+        'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
+        'Existential Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
+        'Film Noir': "A shadowy descent into the underbelly of society, filled with fatale dames and hard-edged antiheroes, riddled with grey ethics and the weight of consequence.",
         'Male Camaraderie': "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds.",
         'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
-        'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling conspiracies through razor-sharp deduction and moral ambiguity.",
+        'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling or orchestrating intelligent crimes through razor-sharp deduction and moral tension.",
         'Intelligent Action': "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
         'High-Stakes Mystery': "Woof woof woof.",
-        'Surreal Adventure': "Woof woof woof.",
-        'Dystopian Sci-Fi': "Woof woof woof.",
-        'Dark Comedy': "Woof woof woof.",
+        'Surreal Adventure': "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
+        'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
+        'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
         'Biography': "Woof woof woof.",
         'History': "Woof woof woof.",
         'Drama': "Woof woof woof.",

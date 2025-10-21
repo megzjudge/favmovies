@@ -28,24 +28,24 @@ function initializeDropdown() {
     const genreDescriptions = {
         'Psychological Thriller': "A tense, twisting tale where perception and reality blur, and a snaking plotline coils around the protagonist's unraveling inner world.",
         'Philosophical Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
-        'Film Noir': 'A shadowy descent into urban corruption, fatal dames, and hard-boiled antiheroes, drenched in moral ambiguity and cigarette smoke.',
+        'Film Noir': "A shadowy descent into urban corruption, fatal dames, and hard-boiled antiheroes, drenched in moral ambiguity and cigarette smoke.",
         'Male Camaraderie': "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds.",
         'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
-        'Cerebral Crime': 'Woof woof woof.',
-        'Intelligent Action': 'Woof woof woof.',
-        'High-Stakes Adventure': 'Woof woof woof.',
-        'High-Stakes Mystery': 'Woof woof woof.',
-        'Surreal Adventure': 'Woof woof woof.',
-        'Dystopian Sci-Fi': 'Woof woof woof.',
-        'Dark Comedy': 'Woof woof woof.',
-        'Biography': 'Woof woof woof.',
-        'History': 'Woof woof woof.',
-        'Drama': 'Woof woof woof.',
-        'Satire': 'Woof woof woof.',
-        'Romance': 'Woof woof woof.',   
-        'Musical': 'Woof woof woof.',
-        'Horror': 'Woof woof woof.',
-        'Mystery': 'Woof woof woof.',
+        'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling conspiracies through razor-sharp deduction and moral ambiguity.",
+        'Intelligent Action': "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
+        'High-Stakes Adventure': 'Woof woof woof.",
+        'High-Stakes Mystery': "Woof woof woof.",
+        'Surreal Adventure': "Woof woof woof.",
+        'Dystopian Sci-Fi': "Woof woof woof.",
+        'Dark Comedy': "Woof woof woof.",
+        'Biography': "Woof woof woof.",
+        'History': "Woof woof woof.",
+        'Drama': "Woof woof woof.",
+        'Satire': "Woof woof woof.",
+        'Romance': "Woof woof woof.",   
+        'Musical': "Woof woof woof.",
+        'Horror': "Woof woof woof.",
+        'Mystery': "Woof woof woof.",
     };
 
     const genreLinks = {
@@ -89,6 +89,12 @@ function initializeDropdown() {
         'Magical Realism': [
             { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
             { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' }
+        ],
+        'Dystopian Sci-Fi': [
+            { url: 'https://www.imdb.com/interest/in0000160/', icon: 'imdb' },
+            { url: 'https://www.imdb.com/list/ls003911192/?sort=user_rating%2Cdesc', icon: 'imdb' },
+            { url: 'https://en.wikipedia.org/wiki/Utopian_and_dystopian_fiction', icon: 'wikipedia' },
+            { url: 'https://en.wikipedia.org/wiki/List_of_dystopian_films', icon: 'wikipedia' }
         ],
         'Film Noir': [
             { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' }

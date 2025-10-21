@@ -117,7 +117,7 @@ function initializeDropdown() {
                     } else if (link.icon === 'wikipedia') {
                         iconHtml = `<a href="${link.url}" target="_blank"><img src="/images/wikipedia.png" alt="Wikipedia" style="width:1.2em;height:1.2em;vertical-align:middle;margin:0 2px;"></a>`;
                     } else {
-                        iconHtml = `<a href="${link.url}" target="_blank" style="margin:0 2px;"><🔗></a>`;
+                        iconHtml = `<a href="${link.url}" target="_blank" style="margin:0 2px;">🔗</a>`;
                     }
                     iconsHtml += iconHtml;
                 });

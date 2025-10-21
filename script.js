@@ -33,7 +33,6 @@ function initializeDropdown() {
         'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
         'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling conspiracies through razor-sharp deduction and moral ambiguity.",
         'Intelligent Action': "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
-        'High-Stakes Adventure': 'Woof woof woof.",
         'High-Stakes Mystery': "Woof woof woof.",
         'Surreal Adventure': "Woof woof woof.",
         'Dystopian Sci-Fi': "Woof woof woof.",

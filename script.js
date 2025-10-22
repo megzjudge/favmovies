@@ -33,18 +33,9 @@ function initializeDropdown() {
         'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
         'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling or orchestrating intelligent crimes through razor-sharp deduction and moral tension.",
         'Intelligent Action': "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
-        'High-Stakes Mystery': "Woof woof woof.",
         'Surreal Adventure': "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
         'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
         'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
-        'Biography': "Woof woof woof.",
-        'History': "Woof woof woof.",
-        'Drama': "Woof woof woof.",
-        'Satire': "Woof woof woof.",
-        'Romance': "Woof woof woof.",   
-        'Musical': "Woof woof woof.",
-        'Horror': "Woof woof woof.",
-        'Mystery': "Woof woof woof.",
     };
 
     const genreLinks = {
@@ -65,10 +56,13 @@ function initializeDropdown() {
             { url: 'https://www.imdb.com/interest/in0000182/', icon: 'imdb' },
             { url: 'https://www.imdb.com/search/title/?lists=ls002428615&sort=user_rating,desc', icon: 'imdb' }
         ],
-        'Philosophical Drama': [
-            { url: 'https://www.imdb.com/list/ls033275136/?sort=user_rating%2Cdesc', icon: 'imdb' },
+        'Existential Drama': [
+            { url: 'https://search.brave.com/search?q=Existential+Drama+genre&summary=1&conversation=d958cbb6d5164758391180', icon: 'link' },
             { url: 'https://search.brave.com/search?q=Philosophical+Drama+list+of+films&summary=1&conversation=b004dc96feb281c1a8db3f', icon: 'link' },
-            { url: 'https://www.imdb.com/list/ls070122193/?sort=user_rating%2Cdesc', icon: 'imdb' }
+            { url: 'https://www.imdb.com/list/ls027345204/?sort=user_rating%2Cdesc', icon: 'imdb' },
+            { url: 'https://www.ranker.com/list/list-of-all-existentialism-movies/raul-cortez?pos=63&ref=listed_on', icon: 'link' },
+            { url: 'https://www.imdb.com/list/ls033275136/?sort=user_rating%2Cdesc', icon: 'imdb' },
+            { url: 'https://www.imdb.com/list/ls070122193/?sort=user_rating%2Cdesc', icon: 'imdb' },
         ],
         'Cerebral Crime': [
             { url: 'https://www.ranker.com/list/best-smart-clever-movies/ranker-film', icon: 'link' },
@@ -87,7 +81,8 @@ function initializeDropdown() {
         ],
         'Magical Realism': [
             { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
-            { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' }
+            { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' },
+            { url: 'https://www.ranker.com/list/best-movies-with-magical-realism/ben-pearson?pos=65', icon: 'link' }
         ],
         'Dystopian Sci-Fi': [
             { url: 'https://www.imdb.com/interest/in0000160/', icon: 'imdb' },
@@ -96,7 +91,8 @@ function initializeDropdown() {
             { url: 'https://en.wikipedia.org/wiki/List_of_dystopian_films', icon: 'wikipedia' }
         ],
         'Film Noir': [
-            { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' }
+            { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
+            { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
         ]
     };
 

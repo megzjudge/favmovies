@@ -37,18 +37,11 @@ html::-webkit-scrollbar-thumb:active {
     background: linear-gradient(0deg, rgb(10, 54, 107), rgb(0, 30, 80));
 }
 
-/* Font Definitions */
-@font-face {
-    font-family: 'FoxyScriptRegular';
-    src: url('/fonts/FoxyScriptRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+/* Font Definitions https://www.dafont.com/rosehot.font */
 
 @font-face {
     font-family: 'Rosehot';
-    src: url('/fonts/Rosehot.ttf') format('truetype');
+    src: url('fonts/Rosehot.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

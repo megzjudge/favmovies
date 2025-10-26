@@ -4,6 +4,57 @@ function initializeDropdown() {
     const descriptionContainer = document.getElementById('genreDescription');
     const movieSections = document.querySelectorAll('section .page');
 
+    const genreEmojis = {
+        'Male Camaraderie': '🫂',
+        'Dark Comedy': '🎭',
+        'Psychological Thriller': '🧠',
+        'Existential Drama': '⏳',
+        'Cerebral Crime': '🎯',
+        'Intelligent Action': '💥',
+        'Surreal Adventure': '👣',
+        'Magical Realism': '✨',
+        'Dystopian Sci-Fi': '☠️',
+        'Film Noir': '🐈‍⬛'
+    };
+
+    // Function to add emojis to Genre: paragraphs
+    function addEmojisToGenreParagraphs() {
+        movieSections.forEach(section => {
+            const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p => 
+                p.textContent.startsWith('Genre:')
+            );
+            
+            if (genreP) {
+                const originalText = genreP.textContent.trim();
+                const genresPart = originalText.replace('Genre: ', '').trim();
+                const genreList = genresPart.split(',').map(g => g.trim());
+                
+                // Clear and rebuild
+                genreP.innerHTML = 'Genre: ';
+                
+                genreList.forEach((genre, index) => {
+                    if (index > 0) {
+                        const commaNode = document.createTextNode(', ');
+                        genreP.appendChild(commaNode);
+                    }
+                    
+                    const genreNode = document.createTextNode(genre);
+                    genreP.appendChild(genreNode);
+                    
+                    if (genreEmojis[genre]) {
+                        const spaceNode = document.createTextNode(' ');
+                        genreP.appendChild(spaceNode);
+                        
+                        const emojiSpan = document.createElement('span');
+                        emojiSpan.textContent = genreEmojis[genre];
+                        emojiSpan.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)'; // White shadow on emoji only
+                        genreP.appendChild(emojiSpan);
+                    }
+                });
+            }
+        });
+    }
+
     const genres = new Set();
 
     movieSections.forEach(section => {
@@ -21,9 +72,16 @@ function initializeDropdown() {
     Array.from(genres).sort().forEach(genre => {
         const option = document.createElement('option');
         option.value = genre;
-        option.textContent = genre;
+        const displayText = genre + (genreEmojis[genre] ? ' ' + genreEmojis[genre] : '');
+        option.textContent = displayText;
+        if (genreEmojis[genre]) {
+            option.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)'; // White shadow for options with emoji
+        }
         dropdown.appendChild(option);
     });
+
+    // Add emojis to all Genre: paragraphs after collecting
+    addEmojisToGenreParagraphs();
 
     const genreDescriptions = {
         'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
@@ -128,7 +186,7 @@ function initializeDropdown() {
             descriptionContainer.appendChild(descPara);
         }
 
-        // 2. Filter Movies (unchanged)
+        // 2. Filter Movies
         let hasMovies = false;
         movieSections.forEach(section => {
             const titleElement = section.querySelector('h2');
@@ -149,7 +207,9 @@ function initializeDropdown() {
 
             let shouldShow = !selectedGenre;
             if (selectedGenre && genreP) {
-                const movieGenres = genreP.textContent.replace('Genre: ', '').trim().split(',').map(g => g.trim());
+                // Strip emojis from parsed genres for matching
+                const movieGenresRaw = genreP.textContent.replace('Genre: ', '').trim().split(',').map(g => g.trim());
+                const movieGenres = movieGenresRaw.map(g => g.replace(/\s\S+$/, '').trim());
                 shouldShow = movieGenres.includes(selectedGenre);
             }
 

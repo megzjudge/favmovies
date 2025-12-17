@@ -165,9 +165,15 @@ a:hover {
 /* Dropdown and Movie List */
 .dropdown-container {
     margin-bottom: 15px; /* Padding under the dropdown before description */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#genreDropdown {
+#genreDropdown,
+#countryDropdown,
+#yearDropdown {
     background: rgb(10, 54, 107);
     border: 2px solid rgb(74, 144, 226);
     border-radius: 8px;
@@ -181,16 +187,22 @@ a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-#genreDropdown:hover {
+#genreDropdown:hover,
+#countryDropdown:hover,
+#yearDropdown:hover {
     background: rgb(30, 95, 139);
 }
 
-#genreDropdown:focus {
+#genreDropdown:focus,
+#countryDropdown:focus,
+#yearDropdown:focus {
     outline: none;
     box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
 }
 
-#genreDropdown option {
+#genreDropdown option,
+#countryDropdown option,
+#yearDropdown option {
     background: rgb(10, 54, 107);
     color: rgb(220, 220, 220);
 }
@@ -324,7 +336,9 @@ a:hover {
         height: 34px;
     }
 
-    #genreDropdown {
+    #genreDropdown,
+    #countryDropdown,
+    #yearDropdown {
         width: 100%;
         max-width: 180px;
         font-size: calc(12px + 0.390625vw);

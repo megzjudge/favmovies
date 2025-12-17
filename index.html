@@ -28,16 +28,22 @@
         </div>
     </section>
     <section>
-        <div class="page">
-            <h2>Filter Movies by Genre</h2>
-            <div class="dropdown-container">
-                <select id="genreDropdown" onchange="filterMovies()">
-                    <option value="">Select a Genre</option>
-                </select>
-            </div>
-            <div id="genreDescription" class="description"></div>
-            <div id="movieList" class="movie-list"></div>
+        <div class="dropdown-container">
+        <select id="genreDropdown" onchange="filterMovies()">
+            <option value="">All Genres</option>
+        </select>
+
+        <select id="countryDropdown" onchange="filterMovies()">
+            <option value="">All Countries</option>
+        </select>
+
+        <select id="yearDropdown" onchange="filterMovies()">
+            <option value="">All Years</option>
+        </select>
         </div>
+
+        <div id="genreDescription" class="description"></div>
+        <div id="movieList" class="movie-list"></div>
     </section>
     <section>
     <div class="page">

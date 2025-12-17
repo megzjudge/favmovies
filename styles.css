@@ -220,17 +220,23 @@ a:hover {
     flex: 0 0 auto;
 }
 
-/* NEW: INLINE ICON STYLING - SCALES WITH TEXT */
 .description p a {
     margin: 0 2px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.2em;
+    font-size: 1em;
+    vertical-align: middle;
     transition: all 0.2s ease;
 }
 
 .description p a img {
     width: 1.2em;
     height: 1.2em;
-    vertical-align: middle;
+    display: block;
 }
 
 .description p a:hover {

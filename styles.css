@@ -252,9 +252,9 @@ a:hover {
 }
 
 .movie-list {
-    margin-top: 20px;
+    margin: 20px auto 0;
     width: 85%;
-    min-height: 0;     /* keep */
+    min-height: 0;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);

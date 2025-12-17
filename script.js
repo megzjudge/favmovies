@@ -167,9 +167,17 @@ function initializeDropdown() {
     // Countries from flag
     const iso = getCountryISOFromSection(section);
     if (iso) {
-      const flag = titleElement.querySelector('.flag')?.textContent.trim() || '';
+      const rawFlag = titleElement.querySelector('.flag')?.textContent.trim() || '';
+      const flag = normalizeFlagForISO(iso, rawFlag);
+
       if (!countries.has(iso)) {
         countries.set(iso, { name: isoToCountryName(iso), flag });
+      } else {
+        // If we already have it, still ensure GB shows 🇬🇧
+        const existing = countries.get(iso);
+        if (iso === 'GB' && existing.flag !== '🇬🇧') {
+          countries.set(iso, { ...existing, flag: '🇬🇧' });
+        }
       }
     }
 

@@ -1,5 +1,3 @@
-// script.js
-
 function initializeDropdown() {
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');
@@ -21,6 +19,205 @@ function initializeDropdown() {
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛'
   };
+
+  function getFieldValue(section, label) {
+    const p = Array.from(section.querySelectorAll('.series-details p'))
+      .find(el => el.textContent.trim().startsWith(label + ':'));
+    if (!p) return '';
+    return p.textContent.replace(label + ':', '').trim();
+  }
+
+  function parseList(value) {
+    return value
+      .split(',')
+      .map(s => s.trim())
+      .filter(Boolean);
+  }
+
+  // ----- COUNTRY (flag-only in h2) -----
+  function flagEmojiToISO(flag) {
+    if (!flag) return '';
+    const codePoints = Array.from(flag).map(ch => ch.codePointAt(0));
+    if (codePoints.length !== 2) return '';
+    const A = 0x1F1E6;
+    return String.fromCharCode(codePoints[0] - A + 65) + String.fromCharCode(codePoints[1] - A + 65);
+  }
+
+  function isoToCountryName(iso) {
+    if (!iso) return '';
+    try {
+      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
+      return dn.of(iso) || iso;
+    } catch {
+      return iso;
+    }
+  }
+
+  function getCountryISOFromSection(section) {
+    const h2 = section.querySelector('h2');
+    if (!h2) return '';
+    const flagEl = h2.querySelector('.flag');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    return flagEmojiToISO(flag);
+  }
+
+  // ----- YEAR parsing -----
+  // Supports:
+  //  - "Year: 2018"
+  //  - "Year: 2018-2024" => expands to [2018,2019,2020,2021,2022,2023,2024]
+  //  - "Year: 2018, 2020, 2024" => [2018,2020,2024]
+  //  - mixed text; grabs all 4-digit years and any ranges
+  function parseYearsFromSection(section) {
+    const yearText = getFieldValue(section, 'Year');
+    if (!yearText) return [];
+
+    const years = new Set();
+
+    // 1) Expand ranges like 2018-2024 (also supports en dash/em dash)
+    const rangeRe = /\b(18|19|20)\d{2}\s*[-–—]\s*(18|19|20)\d{2}\b/g;
+    let m;
+    while ((m = rangeRe.exec(yearText)) !== null) {
+      const start = parseInt(m[0].slice(0, 4), 10);
+      const end = parseInt(m[0].slice(m[0].length - 4), 10);
+      const a = Math.min(start, end);
+      const b = Math.max(start, end);
+      for (let y = a; y <= b; y++) years.add(y);
+    }
+
+    // 2) Add any standalone years mentioned
+    const yearRe = /\b(18|19|20)\d{2}\b/g;
+    while ((m = yearRe.exec(yearText)) !== null) {
+      years.add(parseInt(m[0], 10));
+    }
+
+    return Array.from(years).sort((a, b) => a - b);
+  }
+
+  // ----- Emoji injection for Genre: paragraphs -----
+  function addEmojisToGenreParagraphs() {
+    movieSections.forEach(section => {
+      const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p =>
+        p.textContent.startsWith('Genre:')
+      );
+
+      if (genreP) {
+        const originalText = genreP.textContent.trim();
+        const genresPart = originalText.replace('Genre: ', '').trim();
+        const genreList = genresPart.split(',').map(g => g.trim());
+
+        genreP.innerHTML = 'Genre: ';
+
+        genreList.forEach((genre, index) => {
+          if (index > 0) genreP.appendChild(document.createTextNode(', '));
+
+          genreP.appendChild(document.createTextNode(genre));
+
+          if (genreEmojis[genre]) {
+            genreP.appendChild(document.createTextNode(' '));
+            const emojiSpan = document.createElement('span');
+            emojiSpan.textContent = genreEmojis[genre];
+            emojiSpan.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
+            genreP.appendChild(emojiSpan);
+          }
+        });
+      }
+    });
+  }
+
+  // ----- Collect distinct values -----
+  const genres = new Set();
+  const countries = new Map(); // iso -> { name, flag }
+  const allYears = new Set();
+
+  movieSections.forEach(section => {
+    const titleElement = section.querySelector('h2');
+    if (!titleElement) return;
+
+    const t = titleElement.textContent.trim();
+    if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
+
+    // Genres
+    extractGenresFromSection(section).forEach(g => genres.add(g));
+
+    // Countries from flag
+    const iso = getCountryISOFromSection(section);
+    if (iso) {
+      const flag = titleElement.querySelector('.flag')?.textContent.trim() || '';
+      if (!countries.has(iso)) {
+        countries.set(iso, { name: isoToCountryName(iso), flag });
+      }
+    }
+
+    // Years
+    const ys = parseYearsFromSection(section);
+    ys.forEach(y => allYears.add(y));
+  });
+
+  // ----- Populate dropdowns -----
+
+  // Genre options
+  Array.from(genres).sort().forEach(genre => {
+    const option = document.createElement('option');
+    option.value = genre;
+    option.textContent = genre + (genreEmojis[genre] ? ' ' + genreEmojis[genre] : '');
+    if (genreEmojis[genre]) {
+      option.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
+    }
+    genreDropdown.appendChild(option);
+  });
+
+  // Country options
+  Array.from(countries.entries())
+    .sort((a, b) => a[1].name.localeCompare(b[1].name))
+    .forEach(([iso, info]) => {
+      const option = document.createElement('option');
+      option.value = iso; // filter by ISO
+      option.textContent = info.flag ? `${info.name} ${info.flag}` : info.name;
+      countryDropdown.appendChild(option);
+    });
+
+  // Year options: include BOTH individual years and decade groups
+  function addYearOption(label, value) {
+    const option = document.createElement('option');
+    option.value = value; // "year:2018" or "range:2000-2009"
+    option.textContent = label;
+    yearDropdown.appendChild(option);
+  }
+
+  const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
+  const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
+
+  // Decade groups first (if any years exist)
+  if (yearsSortedAsc.length) {
+    const minYear = yearsSortedAsc[0];
+    const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
+    const startDecade = Math.floor(minYear / 10) * 10;
+    const endDecade = Math.floor(maxYear / 10) * 10;
+
+    for (let d = endDecade; d >= startDecade; d -= 10) {
+    addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
+    }
+  }
+
+  // Then individual years (descending)
+  yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
+
+  // Add emojis to Genre: paragraphs after collecting
+  addEmojisToGenreParagraphs();
+
+    function extractGenresFromSection(section) {
+        const genreP = Array.from(section.querySelectorAll('.series-details p'))
+            .find(p => p.textContent.trim().startsWith('Genre:'));
+        if (!genreP) return [];
+
+        // Use textContent, then remove emoji characters only (do NOT remove words)
+        const raw = genreP.textContent.replace('Genre:', '').trim();
+
+        // Remove common emoji ranges (keeps letters/spaces/punctuation intact)
+        const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
+
+        return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
+    }
 
   // ----- Descriptions / links (your originals) -----
   const genreDescriptions = {
@@ -94,196 +291,6 @@ function initializeDropdown() {
     ]
   };
 
-  function getFieldValue(section, label) {
-    const p = Array.from(section.querySelectorAll('.series-details p'))
-      .find(el => el.textContent.trim().startsWith(label + ':'));
-    if (!p) return '';
-    return p.textContent.replace(label + ':', '').trim();
-  }
-
-  function parseList(value) {
-    return value
-      .split(',')
-      .map(s => s.trim())
-      .filter(Boolean);
-  }
-
-  // Robust genre extraction (works even after emoji injection)
-  function extractGenresFromSection(section) {
-    const genreP = Array.from(section.querySelectorAll('.series-details p'))
-      .find(p => p.textContent.trim().startsWith('Genre:'));
-    if (!genreP) return [];
-
-    const raw = genreP.textContent.replace('Genre:', '').trim();
-    const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
-
-    return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
-  }
-
-  // ----- COUNTRY (flag-only in h2) -----
-  function flagEmojiToISO(flag) {
-    if (!flag) return '';
-    const codePoints = Array.from(flag).map(ch => ch.codePointAt(0));
-    if (codePoints.length !== 2) return '';
-    const A = 0x1F1E6;
-    return String.fromCharCode(codePoints[0] - A + 65) + String.fromCharCode(codePoints[1] - A + 65);
-  }
-
-  function isoToCountryName(iso) {
-    if (!iso) return '';
-    try {
-      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
-      return dn.of(iso) || iso;
-    } catch {
-      return iso;
-    }
-  }
-
-  function getCountryISOFromSection(section) {
-    const h2 = section.querySelector('h2');
-    if (!h2) return '';
-    const flagEl = h2.querySelector('.flag');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    return flagEmojiToISO(flag);
-  }
-
-  // ----- YEAR parsing -----
-  function parseYearsFromSection(section) {
-    const yearText = getFieldValue(section, 'Year');
-    if (!yearText) return [];
-
-    const years = new Set();
-
-    // 1) Expand ranges like 2018-2024 (also supports en dash/em dash)
-    const rangeRe = /\b(18|19|20)\d{2}\s*[-–—]\s*(18|19|20)\d{2}\b/g;
-    let m;
-    while ((m = rangeRe.exec(yearText)) !== null) {
-      const start = parseInt(m[0].slice(0, 4), 10);
-      const end = parseInt(m[0].slice(m[0].length - 4), 10);
-      const a = Math.min(start, end);
-      const b = Math.max(start, end);
-      for (let y = a; y <= b; y++) years.add(y);
-    }
-
-    // 2) Add any standalone years mentioned
-    const yearRe = /\b(18|19|20)\d{2}\b/g;
-    while ((m = yearRe.exec(yearText)) !== null) {
-      years.add(parseInt(m[0], 10));
-    }
-
-    return Array.from(years).sort((a, b) => a - b);
-  }
-
-  // ----- Emoji injection for Genre: paragraphs -----
-  function addEmojisToGenreParagraphs() {
-    movieSections.forEach(section => {
-      const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p =>
-        p.textContent.startsWith('Genre:')
-      );
-
-      if (genreP) {
-        const originalText = genreP.textContent.trim();
-        const genresPart = originalText.replace('Genre: ', '').trim();
-        const genreList = genresPart.split(',').map(g => g.trim());
-
-        genreP.innerHTML = 'Genre: ';
-
-        genreList.forEach((genre, index) => {
-          if (index > 0) genreP.appendChild(document.createTextNode(', '));
-
-          genreP.appendChild(document.createTextNode(genre));
-
-          if (genreEmojis[genre]) {
-            genreP.appendChild(document.createTextNode(' '));
-            const emojiSpan = document.createElement('span');
-            emojiSpan.textContent = genreEmojis[genre];
-            emojiSpan.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
-            genreP.appendChild(emojiSpan);
-          }
-        });
-      }
-    });
-  }
-
-  // ----- Collect distinct values -----
-  const genres = new Set();
-  const countries = new Map(); // iso -> { name, flag }
-  const allYears = new Set();
-
-  movieSections.forEach(section => {
-    const titleElement = section.querySelector('h2');
-    if (!titleElement) return;
-
-    const t = titleElement.textContent.trim();
-    if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
-
-    // Genres (robust)
-    extractGenresFromSection(section).forEach(g => genres.add(g));
-
-    // Countries from flag
-    const iso = getCountryISOFromSection(section);
-    if (iso) {
-      const flag = titleElement.querySelector('.flag')?.textContent.trim() || '';
-      if (!countries.has(iso)) {
-        countries.set(iso, { name: isoToCountryName(iso), flag });
-      }
-    }
-
-    // Years
-    const ys = parseYearsFromSection(section);
-    ys.forEach(y => allYears.add(y));
-  });
-
-  // ----- Populate dropdowns -----
-
-  // Genre options
-  Array.from(genres).sort().forEach(genre => {
-    const option = document.createElement('option');
-    option.value = genre;
-    option.textContent = genre + (genreEmojis[genre] ? ' ' + genreEmojis[genre] : '');
-    if (genreEmojis[genre]) {
-      option.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
-    }
-    genreDropdown.appendChild(option);
-  });
-
-  // Country options
-  Array.from(countries.entries())
-    .sort((a, b) => a[1].name.localeCompare(b[1].name))
-    .forEach(([iso, info]) => {
-      const option = document.createElement('option');
-      option.value = iso;
-      option.textContent = info.flag ? `${info.name} ${info.flag}` : info.name;
-      countryDropdown.appendChild(option);
-    });
-
-  // Year options: decade groups (newest->oldest) + individual years (newest->oldest)
-  function addYearOption(label, value) {
-    const option = document.createElement('option');
-    option.value = value; // "year:2018" or "range:2000-2009"
-    option.textContent = label;
-    yearDropdown.appendChild(option);
-  }
-
-  const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
-  const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
-
-  if (yearsSortedAsc.length) {
-    const minYear = yearsSortedAsc[0];
-    const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
-    const startDecade = Math.floor(minYear / 10) * 10;
-    const endDecade = Math.floor(maxYear / 10) * 10;
-
-    for (let d = endDecade; d >= startDecade; d -= 10) {
-      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
-    }
-  }
-
-  yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
-
-  // Add emojis to Genre: paragraphs after collecting
-  addEmojisToGenreParagraphs();
-
   // ----- Filtering helpers -----
   function matchesYearSelection(movieYears, selectedYearValue) {
     if (!selectedYearValue) return true;
@@ -312,7 +319,7 @@ function initializeDropdown() {
     movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
 
-    // 1) Genre description (top of results panel)
+    // Genre description (unchanged)
     if (selectedGenre && genreDescriptions[selectedGenre]) {
       const descPara = document.createElement('p');
       descPara.innerHTML = genreDescriptions[selectedGenre];
@@ -335,46 +342,6 @@ function initializeDropdown() {
 
       descriptionContainer.appendChild(descPara);
     }
-
-    // 2) Featured genres (always shown at top of results list)
-    const featuredWrap = document.createElement('div');
-    featuredWrap.className = 'featured-genres';
-
-    const featuredTitle = document.createElement('p');
-    featuredTitle.className = 'featured-title';
-    featuredTitle.textContent = 'Featured Genres';
-    featuredWrap.appendChild(featuredTitle);
-
-    const featuredList = document.createElement('div');
-    featuredList.className = 'featured-list';
-
-    Object.keys(genreDescriptions).forEach(g => {
-      const item = document.createElement('button');
-      item.type = 'button';
-      item.className = 'featured-genre';
-      item.textContent = g;
-
-      item.addEventListener('click', () => {
-        genreDropdown.value = g;
-        countryDropdown.value = '';
-        yearDropdown.value = '';
-        filterMovies();
-      });
-
-      featuredList.appendChild(item);
-    });
-
-    featuredWrap.appendChild(featuredList);
-    movieListContainer.appendChild(featuredWrap);
-
-    const divider = document.createElement('hr');
-    divider.className = 'results-divider';
-    movieListContainer.appendChild(divider);
-
-    // 3) Movie results list (normal)
-    const moviesWrap = document.createElement('div');
-    moviesWrap.className = 'movies-results';
-    movieListContainer.appendChild(moviesWrap);
 
     let hasMovies = false;
 
@@ -406,49 +373,48 @@ function initializeDropdown() {
       if (matchesGenre && matchesCountry && matchesYear) {
         const movieItem = document.createElement('p');
         movieItem.textContent = title;
-        moviesWrap.appendChild(movieItem);
+        movieListContainer.appendChild(movieItem);
         hasMovies = true;
       }
     });
 
     if (!hasMovies) {
-      moviesWrap.innerHTML = '<p>No movies found.</p>';
+      movieListContainer.innerHTML = '<p>No movies found.</p>';
     }
   };
 
-  // ----- Dropdown reset behavior (mutually exclusive filters) -----
-  let isResetting = false;
+    let isResetting = false;
 
-  function resetDropdown(dropdown) {
+    function resetDropdown(dropdown) {
     dropdown.value = '';
-  }
+    }
 
-  genreDropdown.addEventListener('change', () => {
+    genreDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(countryDropdown);
     resetDropdown(yearDropdown);
     isResetting = false;
     filterMovies();
-  });
+    });
 
-  countryDropdown.addEventListener('change', () => {
+    countryDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(genreDropdown);
     resetDropdown(yearDropdown);
     isResetting = false;
     filterMovies();
-  });
+    });
 
-  yearDropdown.addEventListener('change', () => {
+    yearDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(genreDropdown);
     resetDropdown(countryDropdown);
     isResetting = false;
     filterMovies();
-  });
+    });
 
   // initial render
   filterMovies();

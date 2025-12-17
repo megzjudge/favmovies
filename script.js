@@ -1,5 +1,3 @@
-// script.js
-
 function initializeDropdown() {
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');

@@ -137,8 +137,7 @@ function initializeDropdown() {
     if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
 
     // Genres
-    const genreText = getFieldValue(section, 'Genre');
-    parseList(genreText).forEach(g => genres.add(g));
+    extractGenresFromSection(section).forEach(g => genres.add(g));
 
     // Countries from flag
     const iso = getCountryISOFromSection(section);
@@ -205,6 +204,20 @@ function initializeDropdown() {
 
   // Add emojis to Genre: paragraphs after collecting
   addEmojisToGenreParagraphs();
+
+    function extractGenresFromSection(section) {
+        const genreP = Array.from(section.querySelectorAll('.series-details p'))
+            .find(p => p.textContent.trim().startsWith('Genre:'));
+        if (!genreP) return [];
+
+        // Use textContent, then remove emoji characters only (do NOT remove words)
+        const raw = genreP.textContent.replace('Genre:', '').trim();
+
+        // Remove common emoji ranges (keeps letters/spaces/punctuation intact)
+        const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
+
+        return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
+    }
 
   // ----- Descriptions / links (your originals) -----
   const genreDescriptions = {
@@ -346,8 +359,7 @@ function initializeDropdown() {
       const title = titleClone.textContent.trim();
 
       // Genre match
-      const genreText = getFieldValue(section, 'Genre');
-      const movieGenres = parseList(genreText).map(g => g.replace(/\s\S+$/, '').trim()); // strips emoji tail
+      const movieGenres = extractGenresFromSection(section);
       const matchesGenre = !selectedGenre || movieGenres.includes(selectedGenre);
 
       // Country match (flag-only)

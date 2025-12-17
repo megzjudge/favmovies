@@ -28,6 +28,18 @@
         </div>
     </section>
     <section>
+        <div class="page">
+            <h2>Filter Movies by Genre</h2>
+            <div class="dropdown-container">
+                <select id="genreDropdown" onchange="filterMovies()">
+                    <option value="">Select a Genre</option>
+                </select>
+            </div>
+            <div id="genreDescription" class="description"></div>
+            <div id="movieList" class="movie-list"></div>
+        </div>
+    </section>
+    <section>
     <div class="page">
         <h2>Venom [Series]<span class="flag">🇺🇸</span></h2>
         <div class="series-details">
@@ -48,6 +60,25 @@
         </div>
     </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>The Ministry of Ungentlemanly Warfare<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2024</p>
+				<p>Genre: Action, War, Spy Thriller</p>
+				<p>Runtime: 122 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/the-ministry-of-ungentlemanly-warfare"><img src="images/justwatch.png" alt="The Ministry of Ungentlemanly Warfare on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt5177120/"><img src="images/imdb.png" alt="The Ministry of Ungentlemanly Warfare on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Ministry_of_Ungentlemanly_Warfare"><img src="images/wikipedia.png" alt="The Ministry of Ungentlemanly Warfare on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=h1S5CAYL3-g"><img src="images/youtube.png" alt="The Ministry of Ungentlemanly Warfare Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_ministry_of_ungentlemanly_warfare.jpg" alt="The Ministry of Ungentlemanly Warfare">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>Oppenheimer<span class="flag">🇺🇸</span></h2>
@@ -181,33 +212,50 @@
             </div>
         </div>
     </section>
-<section>
-  <div class="page">
-    <h2>Alien [Series]<span class="flag">🇺🇸</span></h2>
-    <div class="series-details">
-      <p>Titles: Alien (1979), Aliens (1986), Alien³ (1992), Alien: Resurrection (1997), Alien vs. Predator (2004), Prometheus (2012)</p>
-      <p>Runtimes: 117 min, 137 min, 114 min, 109 min, 101 min, 124 min</p>
-      <p>Genre: Psychological Thriller, Dystopian Sci-Fi, Existential Drama</p>
-    </div>=
-    <div class="link-container">
-      <a href="https://www.imdb.com/find/?q=alien&s=tt"><img src="images/imdb.png" alt="Alien search on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt0078748/"><img src="images/imdb.png" alt="Alien (1979) on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt0090605/"><img src="images/imdb.png" alt="Aliens (1986) on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt0103644/"><img src="images/imdb.png" alt="Alien 3 (1992) on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt0118583/"><img src="images/imdb.png" alt="Alien: Resurrection (1997) on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt0370263/"><img src="images/imdb.png" alt="Alien vs. Predator (2004) on IMDB"></a>
-      <a href="https://www.imdb.com/title/tt1446714/"><img src="images/imdb.png" alt="Prometheus (2012) on IMDB"></a>
-      <a href="https://www.justwatch.com/au/movie/prometheus"><img src="images/justwatch.png" alt="Prometheus (2012) on JustWatch"></a>
-      <a href="https://en.wikipedia.org/wiki/Prometheus_(2012_film)"><img src="images/wikipedia.png" alt="Prometheus (2012) on Wikipedia"></a>
-      <a href="https://www.youtube.com/watch?v=0jH1nIzhTz8"><img src="images/youtube.png" alt="Prometheus (2012) Trailer on YouTube"></a>
-    </div>
+    <section>
+    <div class="page">
+        <h2>Alien [Series]<span class="flag">🇺🇸</span></h2>
+        <div class="series-details">
+        <p>Titles: Alien (1979), Aliens (1986), Alien³ (1992), Alien: Resurrection (1997), Alien vs. Predator (2004), Prometheus (2012)</p>
+        <p>Runtimes: 117 min, 137 min, 114 min, 109 min, 101 min, 124 min</p>
+        <p>Genre: Psychological Thriller, Dystopian Sci-Fi, Existential Drama</p>
+        </div>=
+        <div class="link-container">
+        <a href="https://www.imdb.com/title/tt0078748/"><img src="images/imdb.png" alt="Alien (1979) on IMDB"></a>
+        <a href="https://www.imdb.com/title/tt0090605/"><img src="images/imdb.png" alt="Aliens (1986) on IMDB"></a>
+        <a href="https://www.imdb.com/title/tt0103644/"><img src="images/imdb.png" alt="Alien 3 (1992) on IMDB"></a>
+        <a href="https://www.imdb.com/title/tt0118583/"><img src="images/imdb.png" alt="Alien: Resurrection (1997) on IMDB"></a>
+        <a href="https://www.imdb.com/title/tt0370263/"><img src="images/imdb.png" alt="Alien vs. Predator (2004) on IMDB"></a>
+        <a href="https://www.imdb.com/title/tt1446714/"><img src="images/imdb.png" alt="Prometheus (2012) on IMDB"></a>
+        <a href="https://www.justwatch.com/au/search?q=alien"><img src="images/justwatch.png" alt="Prometheus (2012) on JustWatch"></a>
+        <a href="https://en.wikipedia.org/wiki/Alien_(franchise)"><img src="images/wikipedia.png" alt="Prometheus (2012) on Wikipedia"></a>
+        <a href="https://www.youtube.com/watch?v=jQ5lPt9edzQ"><img src="images/youtube.png" alt="Alien (1979) Trailer on YouTube"></a>
+        </div>
 
-    <div class="series-image">
-      <img src="images/alien.jpg" alt="Alien">
+        <div class="series-image">
+        <img src="images/alien.jpg" alt="Alien">
+        </div>
     </div>
-  </div>
-</section>
-
+    </section>
+	<section>
+		<div class="page">
+			<h2>John Dies at the End<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2012</p>
+				<p>Genre: Dystopian Sci-Fi, Dark Comedy, Magical Realism</p>
+				<p>Runtime: 99 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/john-dies-at-the-end"><img src="images/justwatch.png" alt="John Dies at the End on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt1783732/"><img src="images/imdb.png" alt="John Dies at the End on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/John_Dies_at_the_End_(film)"><img src="images/wikipedia.png" alt="John Dies at the End on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=IfRzXG8p4rk"><img src="images/youtube.png" alt="John Dies at the End Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/john_dies_at_the_end.jpg" alt="John Dies at the End">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>Wanderlust<span class="flag">🇺🇸</span></h2>
@@ -246,6 +294,25 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>Sucker Punch<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2011</p>
+				<p>Genre: Action Fantasy, Psychological Thriller, Dark Adventure</p>
+				<p>Runtime: 110 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/sucker-punch-2011"><img src="images/justwatch.png" alt="Sucker Punch on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0978764/"><img src="images/imdb.png" alt="Sucker Punch on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Sucker_Punch_(2011_film)"><img src="images/wikipedia.png" alt="Sucker Punch on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=AAqJfWQ0Ytw"><img src="images/youtube.png" alt="Sucker Punch Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/sucker_punch.jpg" alt="Sucker Punch">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>Scott Pilgrim vs. the World<span class="flag">🇺🇸</span></h2>
@@ -284,6 +351,45 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>Push<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2009</p>
+				<p>Genre: Sci-Fi Action, Magical Realism, Psychological Thriller</p>
+				<p>Runtime: 111 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/push"><img src="images/justwatch.png" alt="Push on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0465580/"><img src="images/imdb.png" alt="Push on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Push_(2009_film)"><img src="images/wikipedia.png" alt="Push on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=Pl3KNqCEtQ4"><img src="images/youtube.png" alt="Push Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/push_2009.jpg" alt="Push">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Enter the Void<span class="flag">🇫🇷</span></h2>
+			<div class="series-details">
+				<p>Year: 2009</p>
+				<p>Genre: Psychological Drama, Experimental, Surreal</p>
+				<p>Runtime: 161 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/enter-the-void"><img src="images/justwatch.png" alt="Enter the Void on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt1191111/"><img src="images/imdb.png" alt="Enter the Void on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Enter_the_Void"><img src="images/wikipedia.png" alt="Enter the Void on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=JJkPLYmUyzg"><img src="images/youtube.png" alt="Enter the Void Trailer on Youtube"></a>
+                <br><p>Trailer has massive spoilers</p>
+			</div>
+			<div class="series-image">
+				<img src="images/enter_the_void.jpg" alt="Enter the Void">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>Superbad<span class="flag">🇺🇸</span></h2>
@@ -322,6 +428,25 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>Suburban Mayhem<span class="flag">🇦🇺</span></h2>
+			<div class="series-details">
+				<p>Year: 2006</p>
+				<p>Genre: Dark Comedy, Crime, Psychological Thriller</p>
+				<p>Runtime: 95 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/suburban-mayhem"><img src="images/justwatch.png" alt="Suburban Mayhem on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0450506/"><img src="images/imdb.png" alt="Suburban Mayhem on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Suburban_Mayhem"><img src="images/wikipedia.png" alt="Suburban Mayhem on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=_Zab3TRjlxs"><img src="images/youtube.png" alt="Suburban Mayhem Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/suburban_mayhem.jpg" alt="Suburban Mayhem">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>The Illusionist<span class="flag">🇺🇸</span></h2>
@@ -399,6 +524,25 @@
         </div>
     </section>
     <section>
+    <div class="page">
+        <h2>Sin City<span class="flag">🇺🇸</span></h2>
+        <div class="series-details">
+            <p>Year: 2005</p>
+            <p>Genre: Neo-Noir, Crime Thriller, Stylised Action</p>
+            <p>Runtime: 124 min</p>
+        </div>
+        <div class="link-container">
+            <a href="https://www.justwatch.com/au/movie/sin-city"><img src="images/justwatch.png" alt="Sin City on JustWatch"></a>
+            <a href="https://www.imdb.com/title/tt0401792/"><img src="images/imdb.png" alt="Sin City on IMDB"></a>
+            <a href="https://en.wikipedia.org/wiki/Sin_City_(film)"><img src="images/wikipedia.png" alt="Sin City on Wikipedia"></a>
+            <a href="https://www.youtube.com/watch?v=T2Dj6ktPU5c"><img src="images/youtube.png" alt="Sin City Trailer on YouTube"></a>
+        </div>
+        <div class="series-image">
+            <img src="images/sin_city.jpg" alt="Sin City">
+        </div>
+    </div>
+    </section>
+    <section>
         <div class="page">
             <h2>Mr & Mrs Smith<span class="flag">🇺🇸</span></h2>
             <div class="series-details">
@@ -474,6 +618,82 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>The Sin Eater (The Order)<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2003</p>
+				<p>Genre: Magical Realism, Psychological Thriller</p>
+				<p>Runtime: 102 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-sin-eater"><img src="images/justwatch.png" alt="Sin Eater (The Order) on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0304711/"><img src="images/imdb.png" alt="Sin Eater (The Order) on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Order_(2003_film)"><img src="images/wikipedia.png" alt="Sin Eater (The Order) on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=xaaX33DzYQg"><img src="images/youtube.png" alt="Sin Eater (The Order) Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_sin_eater_the_order.jpg" alt="The Sin Eater (The Order)">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Underworld<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2003</p>
+				<p>Genre: Action Horror, Dark Fantasy, Gothic Sci-Fi</p>
+				<p>Runtime: 121 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/underworld"><img src="images/justwatch.png" alt="Underworld on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0320691/"><img src="images/imdb.png" alt="Underworld on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Underworld_(2003_film)"><img src="images/wikipedia.png" alt="Underworld on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=2_IoL7g5Ub8"><img src="images/youtube.png" alt="Underworld Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/underworld.jpg" alt="Underworld">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>The Animatrix<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2003</p>
+				<p>Genre: Animated Sci-Fi, Cyberpunk, Anthology</p>
+				<p>Runtime: 102 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/the-animatrix"><img src="images/justwatch.png" alt="The Animatrix on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0328832/"><img src="images/imdb.png" alt="The Animatrix on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Animatrix"><img src="images/wikipedia.png" alt="The Animatrix on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=94fPVqJqBGA"><img src="images/youtube.png" alt="The Animatrix Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_animatrix.jpg" alt="The Animatrix">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>The League of Extraordinary Gentlemen<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 2003</p>
+				<p>Genre: Magical Realism, High-Stakes Action, Surreal Adventure</p>
+				<p>Runtime: 110 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-league-of-extraordinary-gentlemen"><img src="images/justwatch.png" alt="The League of Extraordinary Gentlemen on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0311429/"><img src="images/imdb.png" alt="The League of Extraordinary Gentlemen on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen_(film)"><img src="images/wikipedia.png" alt="The League of Extraordinary Gentlemen on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=fndHh-SEDe0"><img src="images/youtube.png" alt="The League of Extraordinary Gentlemen Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_league_of_extraordinary_gentlemen.jpg" alt="The League of Extraordinary Gentlemen">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2 class="h2small">Spirit: Stallion of the Cimarron<span class="flag">🇺🇸</span></h2>
@@ -531,6 +751,25 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>Spirited Away<span class="flag">🇯🇵</span></h2>
+			<div class="series-details">
+				<p>Year: 2001</p>
+				<p>Genre: Animated Fantasy, Adventure, Family</p>
+				<p>Runtime: 125 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/spirited-away"><img src="images/justwatch.png" alt="Spirited Away on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0245429/"><img src="images/imdb.png" alt="Spirited Away on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Spirited_Away"><img src="images/wikipedia.png" alt="Spirited Away on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=ByXuk9QqQkk"><img src="images/youtube.png" alt="Spirited Away Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/spirited_away.jpg" alt="Spirited Away">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>Requiem for a Dream<span class="flag">🇺🇸</span></h2>
@@ -623,25 +862,6 @@
             </div>
             <div class="series-image">
                 <img src="images/being_john_malkovich.jpg" alt="Being John Malkovich">
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="page">
-            <h2 class="h2small">Fear and Loathing in Las Vegas<span class="flag">🇺🇸</span></h2>
-            <div class="series-details">
-                <p>Year: 1998</p>
-                <p>Genre: Dark Comedy, Male Camaraderie, Surreal Adventure</p>
-                <p>Runtime: 118 min</p>
-            </div>
-            <div class="link-container">
-                <a href="https://www.justwatch.com/au/movie/fear-and-loathing-in-las-vegas"><img src="images/justwatch.png" alt="Fear and Loathing in Las Vegas on JustWatch"></a>
-                <a href="https://www.imdb.com/title/tt0120669/"><img src="images/imdb.png" alt="Fear and Loathing in Las Vegas on IMDB"></a>
-                <a href="https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)"><img src="images/wikipedia.png" alt="Fear and Loathing in Las Vegas on Wikipedia"></a>
-                <a href="https://www.youtube.com/watch?v=tnvJ5xtZpi0"><img src="images/youtube.png" alt="Fear and Loathing in Las Vegas on Youtube"></a>
-            </div>
-            <div class="series-image">
-                <img src="images/fear_and_loathing_in_las_vegas.jpg" alt="Fear and Loathing in Las Vegas">
             </div>
         </div>
     </section>
@@ -742,6 +962,178 @@
     </section>
     <section>
         <div class="page">
+            <h2 class="h2small">Fear and Loathing in Las Vegas<span class="flag">🇺🇸</span></h2>
+            <div class="series-details">
+                <p>Year: 1998</p>
+                <p>Genre: Dark Comedy, Male Camaraderie, Surreal Adventure</p>
+                <p>Runtime: 118 min</p>
+            </div>
+            <div class="link-container">
+                <a href="https://www.justwatch.com/au/movie/fear-and-loathing-in-las-vegas"><img src="images/justwatch.png" alt="Fear and Loathing in Las Vegas on JustWatch"></a>
+                <a href="https://www.imdb.com/title/tt0120669/"><img src="images/imdb.png" alt="Fear and Loathing in Las Vegas on IMDB"></a>
+                <a href="https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)"><img src="images/wikipedia.png" alt="Fear and Loathing in Las Vegas on Wikipedia"></a>
+                <a href="https://www.youtube.com/watch?v=tnvJ5xtZpi0"><img src="images/youtube.png" alt="Fear and Loathing in Las Vegas on Youtube"></a>
+            </div>
+            <div class="series-image">
+                <img src="images/fear_and_loathing_in_las_vegas.jpg" alt="Fear and Loathing in Las Vegas">
+            </div>
+        </div>
+    </section>
+	<section>
+		<div class="page">
+			<h2>Enemy of the State<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1998</p>
+				<p>Genre: High-Stakes Action, Dystopian Sci-Fi, Psychological Thriller</p>
+				<p>Runtime: 132 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/enemy-of-the-state"><img src="images/justwatch.png" alt="Enemy of the State on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0120660/"><img src="images/imdb.png" alt="Enemy of the State on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Enemy_of_the_State_(film)"><img src="images/wikipedia.png" alt="Enemy of the State on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=MJQ30fPYec8"><img src="images/youtube.png" alt="Enemy of the State on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/enemy_of_the_state.jpg" alt="Enemy of the State">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Hercules<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1997</p>
+				<p>Genre: Animated Adventure, Musical Fantasy, Family Comedy</p>
+				<p>Runtime: 93 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/hercules-1997"><img src="images/justwatch.png" alt="Hercules on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0119282/"><img src="images/imdb.png" alt="Hercules on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Hercules_(1997_film)"><img src="images/wikipedia.png" alt="Hercules on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=RbiM0DJzD3M"><img src="images/youtube.png" alt="Hercules on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/hercules.jpg" alt="Hercules">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Princess Mononoke<span class="flag">🇯🇵</span></h2>
+			<div class="series-details">
+				<p>Year: 1997</p>
+				<p>Genre: Magical Realism, Surreal Adventure, Existential Drama</p>
+				<p>Runtime: 134 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/princess-mononoke"><img src="images/justwatch.png" alt="Princess Mononoke on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0119698/"><img src="images/imdb.png" alt="Princess Mononoke on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Princess_Mononoke"><img src="images/wikipedia.png" alt="Princess Mononoke on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=4OiMOHRDs14"><img src="images/youtube.png" alt="Princess Mononoke Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/princess_mononoke.jpg" alt="Princess Mononoke">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Anastasia<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1997</p>
+				<p>Genre: Animated Musical, Fantasy Adventure, Family</p>
+				<p>Runtime: 94 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/anastasia"><img src="images/justwatch.png" alt="Anastasia on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0118617/"><img src="images/imdb.png" alt="Anastasia on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Anastasia_(1997_film)"><img src="images/wikipedia.png" alt="Anastasia on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=EJn_NORTB3M"><img src="images/youtube.png" alt="Anastasia Trailer on Youtube"></a>
+                <a href="https://www.youtube.com/watch?v=qA7XKmC5QbQ"><img src="images/youtube.png" alt="Anastasia Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/anastasia.jpg" alt="Anastasia">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Batman Forever<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1995</p>
+				<p>Genre: Superhero, Action, Magical Realism</p>
+				<p>Runtime: 121 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/batman-3-batman-forever"><img src="images/justwatch.png" alt="Batman Forever on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0112462/"><img src="images/imdb.png" alt="Batman Forever on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Batman_Forever"><img src="images/wikipedia.png" alt="Batman Forever on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=ROLvjRB4E_Q"><img src="images/youtube.png" alt="Batman Forever Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/batman_forever.jpg" alt="Batman Forever">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Balto<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1995</p>
+				<p>Genre: Animated Adventure, Family, Drama</p>
+				<p>Runtime: 78 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/balto-1"><img src="images/justwatch.png" alt="Balto on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0112453/"><img src="images/imdb.png" alt="Balto on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Balto_(film)"><img src="images/wikipedia.png" alt="Balto on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=HJwvbmRXym4"><img src="images/youtube.png" alt="Balto Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/balto.jpg" alt="Balto">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Ace Ventura: Pet Detective<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1994</p>
+				<p>Genre: Comedy, Slapstick, Detective Parody</p>
+				<p>Runtime: 86 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/ace-ventura-pet-detective"><img src="images/justwatch.png" alt="Ace Ventura: Pet Detective on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0109040/"><img src="images/imdb.png" alt="Ace Ventura: Pet Detective on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Ace_Ventura:_Pet_Detective"><img src="images/wikipedia.png" alt="Ace Ventura: Pet Detective on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=qjBb1CKLpzE"><img src="images/youtube.png" alt="Ace Ventura: Pet Detective Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/ace_ventura_pet_detective.jpg" alt="Ace Ventura: Pet Detective">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>The Little Rascals<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1994</p>
+				<p>Genre: Family Comedy, Slapstick, Children’s Film</p>
+				<p>Runtime: 82 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-little-rascals"><img src="images/justwatch.png" alt="The Little Rascals on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0110366/"><img src="images/imdb.png" alt="The Little Rascals on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Little_Rascals_(1994_film)"><img src="images/wikipedia.png" alt="The Little Rascals on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=Svdb1XXVX_c"><img src="images/youtube.png" alt="The Little Rascals Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_little_rascals.jpg" alt="The Little Rascals">
+			</div>
+		</div>
+	</section>
+    <section>
+        <div class="page">
             <h2>The Silver Brumby<span class="flag">🇦🇺</span></h2>
             <div class="series-details">
                 <p>Year: 1993</p>
@@ -759,6 +1151,63 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>The Beverly Hillbillies<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1993</p>
+				<p>Genre: Comedy, Family</p>
+				<p>Runtime: 91 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-beverly-hillbillies"><img src="images/justwatch.png" alt="The Beverly Hillbillies on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0106400/"><img src="images/imdb.png" alt="The Beverly Hillbillies on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Beverly_Hillbillies_(film)"><img src="images/wikipedia.png" alt="The Beverly Hillbillies on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=Sy0tjb-Gjqw"><img src="images/youtube.png" alt="The Beverly Hillbillies Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_beverly_hillbillies.jpg" alt="The Beverly Hillbillies">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Back to the Future Part II<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1989</p>
+				<p>Genre: Surreal Adventure, Dystopian Sci-Fi</p>
+				<p>Runtime: 108 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/back-to-the-future-2"><img src="images/justwatch.png" alt="Back to the Future Part II on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0096874/"><img src="images/imdb.png" alt="Back to the Future Part II on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II"><img src="images/wikipedia.png" alt="Back to the Future Part II on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=MdENmefJRpw"><img src="images/youtube.png" alt="Back to the Future Part II Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/back_to_the_future_part_ii.jpg" alt="Back to the Future Part II">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>The Land Before Time<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1988</p>
+				<p>Genre: Animated Adventure, Family, Drama</p>
+				<p>Runtime: 69 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-land-before-time"><img src="images/justwatch.png" alt="The Land Before Time on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0095489/"><img src="images/imdb.png" alt="The Land Before Time on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Land_Before_Time_(film)"><img src="images/wikipedia.png" alt="The Land Before Time on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=Hmrx8luoec0"><img src="images/youtube.png" alt="The Land Before Time Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_land_before_time.jpg" alt="The Land Before Time">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>My Little Pony: The Movie<span class="flag">🇺🇸</span></h2>
@@ -854,65 +1303,78 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2 class="h2small">Cheech & Chong Collection<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Titles: Up in Smoke (1978), Cheech & Chong's Nice Dreams (1981), Things Are Tough All Over (1982), Cheech & Chong's The Corsican Brothers (1984)</p>
+				<p>Genre: Stoner Comedy, Sketch Comedy, Surreal Adventure</p>
+				<p>Runtimes: Up in Smoke — 86 min; Nice Dreams — 88 min; Things Are Tough All Over — 90 min; The Corsican Brothers — 88 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/up-in-smoke-1978"><img src="images/justwatch.png" alt="Up in Smoke on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0078446/"><img src="images/imdb.png" alt="Up in Smoke on IMDB"></a>
+
+				<a href="https://www.justwatch.com/au/movie/nice-dreams"><img src="images/justwatch.png" alt="Cheech and Chong's Nice Dreams on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0082163/"><img src="images/imdb.png" alt="Cheech and Chong's Nice Dreams on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Nice_Dreams"><img src="images/wikipedia.png" alt="Cheech and Chong's Nice Dreams on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=yrSBh8le5Hw"><img src="images/youtube.png" alt="Cheech and Chong's Nice Dreams on Youtube"></a>
+
+				<a href="https://www.justwatch.com/us/movie/things-are-tough-all-over"><img src="images/justwatch.png" alt="Things Are Tough All Over on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0084788/"><img src="images/imdb.png" alt="Things Are Tough All Over on IMDB"></a>
+				<a href="https://www.youtube.com/watch?v=eKZjjjjoEIo"><img src="images/youtube.png" alt="Things Are Tough All Over Trailer on Youtube"></a>
+
+				<a href="https://www.justwatch.com/us/movie/cheech-and-chongs-the-corsican-brothers"><img src="images/justwatch.png" alt="Cheech & Chong's The Corsican Brothers on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0087042/"><img src="images/imdb.png" alt="Cheech & Chong's The Corsican Brothers on IMDB"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/nice_dreams.jpg" alt="Cheech and Chong's Nice Dreams">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2 class="h2small">Monty Python Collection<span class="flag">🇬🇧</span></h2>
+			<div class="series-details">
+				<p>Titles: And Now for Something Completely Different (1971), Monty Python and the Holy Grail (1975), Life of Brian (1979)</p>
+				<p>Genre: Absurdist Comedy, Satire, Sketch Comedy</p>
+				<p>Runtimes: And Now for Something Completely Different — 88 min; Monty Python and the Holy Grail — 91 min; Life of Brian — 94 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.imdb.com/title/tt0066765/"><img src="images/imdb.png" alt="And Now for Something Completely Different on IMDB"></a>
+
+				<a href="https://www.justwatch.com/us/movie/monty-python-and-the-holy-grail"><img src="images/justwatch.png" alt="Monty Python and the Holy Grail on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0071853/"><img src="images/imdb.png" alt="Monty Python and the Holy Grail on IMDB"></a>
+
+				<a href="https://www.justwatch.com/au/movie/life-of-brian"><img src="images/justwatch.png" alt="Life of Brian on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0079470/"><img src="images/imdb.png" alt="Life of Brian on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian"><img src="images/wikipedia.png" alt="Life of Brian on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=GeKzBQnAq5I"><img src="images/youtube.png" alt="Life of Brian on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/life_of_brian.jpg" alt="Life of Brian">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
-            <h2 class="h2small">Cheech and Chong's Nice Dreams<span class="flag">🇺🇸</span></h2>
+            <h2>Robin Hood<span class="flag">🇺🇸</span></h2>
             <div class="series-details">
-                <p>Year: 1981</p>
-                <p>Genre: Surreal Adventure, Comedy, Crime</p>
-                <p>Runtime: 88 min</p>
+                <p>Year: 1973</p>
+                <p>Genre: Surreal Adventure, Comedy, Musical</p>
+                <p>Runtime: 83 min</p>
             </div>
             <div class="link-container">
-                <a href="https://www.justwatch.com/au/movie/nice-dreams"><img src="images/justwatch.png" alt="Cheech and Chong's Nice Dreams on JustWatch"></a>
-                <a href="https://www.imdb.com/title/tt0082163/"><img src="images/imdb.png" alt="Cheech and Chong's Nice Dreams on IMDB"></a>
-                <a href="https://en.wikipedia.org/wiki/Nice_Dreams"><img src="images/wikipedia.png" alt="Cheech and Chong's Nice Dreams on Wikipedia"></a>
-                <a href="https://www.youtube.com/watch?v=yrSBh8le5Hw"><img src="images/youtube.png" alt="Cheech and Chong's Nice Dreams on Youtube"></a>
+                <a href="https://www.justwatch.com/au/movie/disneys-robin-hood"><img src="images/justwatch.png" alt="Robin Hood on JustWatch"></a>
+                <a href="https://www.imdb.com/title/tt0070608/"><img src="images/imdb.png" alt="Robin Hood on IMDB"></a>
+                <a href="https://en.wikipedia.org/wiki/Robin_Hood_(1973_film)"><img src="images/wikipedia.png" alt="Robin Hood on Wikipedia"></a>
+                <a href="https://www.youtube.com/watch?v=4ksNO_6XiFw"><img src="images/youtube.png" alt="Robin Hood on Youtube"></a>
             </div>
             <div class="series-image">
-                <img src="images/nice_dreams.jpg" alt="Cheech and Chong's Nice Dreams">
+                <img src="images/robin_hood.jpg" alt="Robin Hood">
             </div>
         </div>
     </section>
-
-
-    <section>
-        <div class="page">
-            <h2>Life of Brian<span class="flag">🇬🇧</span></h2>
-            <div class="series-details">
-                <p>Year: 1979</p>
-                <p>Genre: Surreal Adventure, Dark Comedy, Satire</p>
-                <p>Runtime: 94 min</p>
-            </div>
-            <div class="link-container">
-                <a href="https://www.justwatch.com/au/movie/life-of-brian"><img src="images/justwatch.png" alt="Life of Brian on JustWatch"></a>
-                <a href="https://www.imdb.com/title/tt0079470/"><img src="images/imdb.png" alt="Life of Brian on IMDB"></a>
-                <a href="https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian"><img src="images/wikipedia.png" alt="Life of Brian on Wikipedia"></a>
-                <a href="https://www.youtube.com/watch?v=GeKzBQnAq5I"><img src="images/youtube.png" alt="Life of Brian on Youtube"></a>
-            </div>
-            <div class="series-image">
-                <img src="images/life_of_brian.jpg" alt="Life of Brian">
-            </div>
-        </div>
-    </section>
-<section>
-    <div class="page">
-        <h2>Robin Hood<span class="flag">🇺🇸</span></h2>
-        <div class="series-details">
-            <p>Year: 1973</p>
-            <p>Genre: Surreal Adventure, Comedy, Musical</p>
-            <p>Runtime: 83 min</p>
-        </div>
-        <div class="link-container">
-            <a href="https://www.justwatch.com/au/movie/disneys-robin-hood"><img src="images/justwatch.png" alt="Robin Hood on JustWatch"></a>
-            <a href="https://www.imdb.com/title/tt0070608/"><img src="images/imdb.png" alt="Robin Hood on IMDB"></a>
-            <a href="https://en.wikipedia.org/wiki/Robin_Hood_(1973_film)"><img src="images/wikipedia.png" alt="Robin Hood on Wikipedia"></a>
-            <a href="https://www.youtube.com/watch?v=4ksNO_6XiFw"><img src="images/youtube.png" alt="Robin Hood on Youtube"></a>
-        </div>
-        <div class="series-image">
-            <img src="images/robin_hood.jpg" alt="Robin Hood">
-        </div>
-    </div>
-</section>
     <section>
         <div class="page">
             <h2 class="h2small">And Now for Something Completely Different<span class="flag">🇬🇧</span></h2>
@@ -932,6 +1394,45 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>The Sword in the Stone<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1963</p>
+				<p>Genre: Animated Adventure, Surreal Adventure, Magical Realism</p>
+				<p>Runtime: 79 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/au/movie/the-sword-in-the-stone"><img src="images/justwatch.png" alt="The Sword in the Stone on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0057546/"><img src="images/imdb.png" alt="The Sword in the Stone on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/The_Sword_in_the_Stone_(1963_film)"><img src="images/wikipedia.png" alt="The Sword in the Stone on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=JY_w9Aj7s1o"><img src="images/youtube.png" alt="The Sword in the Stone Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/the_sword_in_the_stone.jpg" alt="The Sword in the Stone">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<h2>Alice in Wonderland<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1951</p>
+				<p>Genre: Animated Fantasy, Musical, Family</p>
+				<p>Runtime: 75 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/alice-in-wonderland-1951"><img src="images/justwatch.png" alt="Alice in Wonderland on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0043274/"><img src="images/imdb.png" alt="Alice in Wonderland on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)"><img src="images/wikipedia.png" alt="Alice in Wonderland on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=vTOYL4-rz1Q"><img src="images/youtube.png" alt="Alice in Wonderland Trailer on Youtube"></a>
+				<a href="https://www.youtube.com/watch?v=c_7Q6dCS-e0"><img src="images/youtube.png" alt="Alice in Wonderland Clip on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/alice_in_wonderland.jpg" alt="Alice in Wonderland">
+			</div>
+		</div>
+	</section>
     <section>
         <div class="page">
             <h2>The Big Sleep<span class="flag">🇺🇸</span></h2>
@@ -951,6 +1452,26 @@
             </div>
         </div>
     </section>
+	<section>
+		<div class="page">
+			<h2>Fantasia<span class="flag">🇺🇸</span></h2>
+			<div class="series-details">
+				<p>Year: 1940</p>
+				<p>Genre: Animated Musical, Fantasy, Experimental Film</p>
+				<p>Runtime: 124 min</p>
+			</div>
+			<div class="link-container">
+				<a href="https://www.justwatch.com/us/movie/fantasia"><img src="images/justwatch.png" alt="Fantasia on JustWatch"></a>
+				<a href="https://www.imdb.com/title/tt0032455/"><img src="images/imdb.png" alt="Fantasia on IMDB"></a>
+				<a href="https://en.wikipedia.org/wiki/Fantasia_(1940_film)"><img src="images/wikipedia.png" alt="Fantasia on Wikipedia"></a>
+				<a href="https://www.youtube.com/watch?v=eD8U083gQmY"><img src="images/youtube.png" alt="Fantasia Trailer on Youtube"></a>
+			</div>
+			<div class="series-image">
+				<img src="images/fantasia.jpg" alt="Fantasia">
+			</div>
+		</div>
+	</section>
+
     <section>
         <div class="page">
             <h2>Correlations<span class="flag"></span></h2>
@@ -973,18 +1494,6 @@
             <div class="series-details">
                 <p>The other main theme is society vs the Self. The collective taking over and trying to destroy the Self through things like removing one's freedom (Spirit, Silver Brumby, V for Vendetta, The Truman Show, 1984, Yellowbeard, etc) or actually fighting the state/authority (Life of Brian, Nice Dreams, etc). Or it falls into fighting in the beyond the Self (the "greater you", usually) to reclaim the Self (Limitless, Inception, Tenet, The Illusionist, Everything Everywhere All at Once, Nine Days, Fear and Loathing in Las Vegas, The Matrix Reloaded, etc) - all these films circulate around the mind conquering reality. The dream, creativity, metaphysical, paranormal breakdown of what is "real" and what is "actionable" even though statistically improbable. Like changing your brain waves to not need physical drugs (limitless), bending the dream REM state into reality (producing more DMT naturally when you are awake), etc etc etc. Encompassing the overall, "what is the Self," and where you fit into the world (Being John Malkovich (what is you), Blade Runner (what is a human), Idiocracy (maybe a new world changes how you see you), Lord of War (being the world's bad guy), Requiem for a Dream (does reality defeat you or not), Oppenheimer (what do you give to the world?), Secret Window (would you know you were slipping), etc). The Lord of War, Fight Club, Oppenheimer, Revolver, Yellowbeard, V for Vendetta, 1984, Spirit, Idiocracy, etc themes of... well even The Truman Show in the end, of learning to be the bad guy to harness one's own power would be the subtle theme. "What is bad".</p>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="page">
-            <h2>Filter Movies by Genre</h2>
-            <div class="dropdown-container">
-                <select id="genreDropdown" onchange="filterMovies()">
-                    <option value="">Select a Genre</option>
-                </select>
-            </div>
-            <div id="genreDescription" class="description"></div>
-            <div id="movieList" class="movie-list"></div>
         </div>
     </section>
     <section>

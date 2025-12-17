@@ -1,3 +1,5 @@
+// script.js
+
 function initializeDropdown() {
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');
@@ -34,18 +36,66 @@ function initializeDropdown() {
       .filter(Boolean);
   }
 
-  function parseYear(section) {
-    // Looks for "Year:" paragraph (recommended), otherwise falls back to first 4-digit year anywhere in details
-    const yearText = getFieldValue(section, 'Year');
-    const m1 = yearText.match(/\b(18|19|20)\d{2}\b/);
-    if (m1) return parseInt(m1[0], 10);
-
-    const detailsText = section.querySelector('.series-details')?.textContent || '';
-    const m2 = detailsText.match(/\b(18|19|20)\d{2}\b/);
-    return m2 ? parseInt(m2[0], 10) : null;
+  // ----- COUNTRY (flag-only in h2) -----
+  function flagEmojiToISO(flag) {
+    if (!flag) return '';
+    const codePoints = Array.from(flag).map(ch => ch.codePointAt(0));
+    if (codePoints.length !== 2) return '';
+    const A = 0x1F1E6;
+    return String.fromCharCode(codePoints[0] - A + 65) + String.fromCharCode(codePoints[1] - A + 65);
   }
 
-  // --- Your existing emoji injection for Genre paragraphs (unchanged logic) ---
+  function isoToCountryName(iso) {
+    if (!iso) return '';
+    try {
+      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
+      return dn.of(iso) || iso;
+    } catch {
+      return iso;
+    }
+  }
+
+  function getCountryISOFromSection(section) {
+    const h2 = section.querySelector('h2');
+    if (!h2) return '';
+    const flagEl = h2.querySelector('.flag');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    return flagEmojiToISO(flag);
+  }
+
+  // ----- YEAR parsing -----
+  // Supports:
+  //  - "Year: 2018"
+  //  - "Year: 2018-2024" => expands to [2018,2019,2020,2021,2022,2023,2024]
+  //  - "Year: 2018, 2020, 2024" => [2018,2020,2024]
+  //  - mixed text; grabs all 4-digit years and any ranges
+  function parseYearsFromSection(section) {
+    const yearText = getFieldValue(section, 'Year');
+    if (!yearText) return [];
+
+    const years = new Set();
+
+    // 1) Expand ranges like 2018-2024 (also supports en dash/em dash)
+    const rangeRe = /\b(18|19|20)\d{2}\s*[-–—]\s*(18|19|20)\d{2}\b/g;
+    let m;
+    while ((m = rangeRe.exec(yearText)) !== null) {
+      const start = parseInt(m[0].slice(0, 4), 10);
+      const end = parseInt(m[0].slice(m[0].length - 4), 10);
+      const a = Math.min(start, end);
+      const b = Math.max(start, end);
+      for (let y = a; y <= b; y++) years.add(y);
+    }
+
+    // 2) Add any standalone years mentioned
+    const yearRe = /\b(18|19|20)\d{2}\b/g;
+    while ((m = yearRe.exec(yearText)) !== null) {
+      years.add(parseInt(m[0], 10));
+    }
+
+    return Array.from(years).sort((a, b) => a - b);
+  }
+
+  // ----- Emoji injection for Genre: paragraphs -----
   function addEmojisToGenreParagraphs() {
     movieSections.forEach(section => {
       const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p =>
@@ -76,10 +126,10 @@ function initializeDropdown() {
     });
   }
 
-  // Collect distinct values
+  // ----- Collect distinct values -----
   const genres = new Set();
-  const countries = new Set();
-  const years = [];
+  const countries = new Map(); // iso -> { name, flag }
+  const allYears = new Set();
 
   movieSections.forEach(section => {
     const titleElement = section.querySelector('h2');
@@ -88,17 +138,27 @@ function initializeDropdown() {
     const t = titleElement.textContent.trim();
     if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
 
+    // Genres
     const genreText = getFieldValue(section, 'Genre');
     parseList(genreText).forEach(g => genres.add(g));
 
-    const countryText = getFieldValue(section, 'Country'); // expects "Country:" paragraph
-    parseList(countryText).forEach(c => countries.add(c));
+    // Countries from flag
+    const iso = getCountryISOFromSection(section);
+    if (iso) {
+      const flag = titleElement.querySelector('.flag')?.textContent.trim() || '';
+      if (!countries.has(iso)) {
+        countries.set(iso, { name: isoToCountryName(iso), flag });
+      }
+    }
 
-    const y = parseYear(section);
-    if (y) years.push(y);
+    // Years
+    const ys = parseYearsFromSection(section);
+    ys.forEach(y => allYears.add(y));
   });
 
-  // Build Genre options
+  // ----- Populate dropdowns -----
+
+  // Genre options
   Array.from(genres).sort().forEach(genre => {
     const option = document.createElement('option');
     option.value = genre;
@@ -109,42 +169,46 @@ function initializeDropdown() {
     genreDropdown.appendChild(option);
   });
 
-  // Build Country options
-  Array.from(countries).sort().forEach(country => {
-    const option = document.createElement('option');
-    option.value = country;
-    option.textContent = country;
-    countryDropdown.appendChild(option);
-  });
+  // Country options
+  Array.from(countries.entries())
+    .sort((a, b) => a[1].name.localeCompare(b[1].name))
+    .forEach(([iso, info]) => {
+      const option = document.createElement('option');
+      option.value = iso; // filter by ISO
+      option.textContent = info.flag ? `${info.name} ${info.flag}` : info.name;
+      countryDropdown.appendChild(option);
+    });
 
-  // Build Year-range options (decades + optional “All time” buckets)
-  const minYear = years.length ? Math.min(...years) : null;
-  const maxYear = years.length ? Math.max(...years) : null;
-
+  // Year options: include BOTH individual years and decade groups
   function addYearOption(label, value) {
     const option = document.createElement('option');
-    option.value = value; // format: "start-end" e.g. "2000-2009"
+    option.value = value; // "year:2018" or "range:2000-2009"
     option.textContent = label;
     yearDropdown.appendChild(option);
   }
 
-  if (minYear && maxYear) {
-    // Decade buckets: 1980s, 1990s, 2000s, 2010s, 2020s ...
+  const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
+  const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
+
+  // Decade groups first (if any years exist)
+  if (yearsSortedAsc.length) {
+    const minYear = yearsSortedAsc[0];
+    const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
     const startDecade = Math.floor(minYear / 10) * 10;
     const endDecade = Math.floor(maxYear / 10) * 10;
 
     for (let d = startDecade; d <= endDecade; d += 10) {
-      const start = d;
-      const end = d + 9;
-      addYearOption(`${d}s (${start}-${end})`, `${start}-${end}`);
+      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
     }
-
-    // Optional: add a “2000s (2000-2010)” style if you specifically want decade inclusive to 2010
-    // addYearOption(`2000s (2000-2010)`, `2000-2010`);
   }
 
+  // Then individual years (descending)
+  yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
+
+  // Add emojis to Genre: paragraphs after collecting
   addEmojisToGenreParagraphs();
 
+  // ----- Descriptions / links (your originals) -----
   const genreDescriptions = {
     'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
     'Existential Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
@@ -158,24 +222,93 @@ function initializeDropdown() {
     'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
   };
 
-  const genreLinks = { /* keep your existing object as-is */ };
+  const genreLinks = {
+    'Male Camaraderie': [
+      { url: 'https://en.wikipedia.org/wiki/Bromantic_comedy', icon: 'wikipedia' },
+      { url: 'https://en.wikipedia.org/wiki/Buddy_film', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/search/title/?keywords=male-camaraderie&explore=keywords&sort=year,desc', icon: 'imdb' },
+      { url: 'https://search.brave.com/search?q=male+camaraderie+films', icon: 'link' }
+    ],
+    'Dark Comedy': [
+      { url: 'https://en.wikipedia.org/wiki/Black_comedy', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/interest/in0000035/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls066399600/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls052772888/?sort=user_rating%2Cdesc', icon: 'imdb' }
+    ],
+    'Psychological Thriller': [
+      { url: 'https://en.wikipedia.org/wiki/Psychological_thriller', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/interest/in0000182/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/search/title/?lists=ls002428615&sort=user_rating,desc', icon: 'imdb' }
+    ],
+    'Existential Drama': [
+      { url: 'https://search.brave.com/search?q=Existential+Drama+genre&summary=1&conversation=d958cbb6d5164758391180', icon: 'link' },
+      { url: 'https://search.brave.com/search?q=Philosophical+Drama+list+of+films&summary=1&conversation=b004dc96feb281c1a8db3f', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls027345204/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.ranker.com/list/list-of-all-existentialism-movies/raul-cortez?pos=63&ref=listed_on', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls033275136/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls070122193/?sort=user_rating%2Cdesc', icon: 'imdb' },
+    ],
+    'Cerebral Crime': [
+      { url: 'https://www.ranker.com/list/best-smart-clever-movies/ranker-film', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls051221092/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://search.brave.com/search?q=Cerebral+Crime+films&summary=1&conversation=9ce824b1246953746acfcb', icon: 'link' }
+    ],
+    'Intelligent Action': [
+      { url: 'https://www.ranker.com/list/best-intelligent-action-movies/elise-trenton', icon: 'link' },
+      { url: 'https://www.listchallenges.com/the-101-best-intelligent-action-movies-ranked', icon: 'link' },
+      { url: 'https://search.brave.com/search?q=High-Stakes+Action+films&summary=1&conversation=52ea844f93ebc1746f4c8c', icon: 'link' }
+    ],
+    'Surreal Adventure': [
+      { url: 'https://www.ranker.com/list/surrealism-movies-and-films/davis-williams?pos=1', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls024295709/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls070823747/?sort=user_rating%2Cdesc', icon: 'imdb' }
+    ],
+    'Magical Realism': [
+      { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' },
+      { url: 'https://www.ranker.com/list/best-movies-with-magical-realism/ben-pearson?pos=65', icon: 'link' }
+    ],
+    'Dystopian Sci-Fi': [
+      { url: 'https://www.imdb.com/interest/in0000160/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls003911192/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Utopian_and_dystopian_fiction', icon: 'wikipedia' },
+      { url: 'https://en.wikipedia.org/wiki/List_of_dystopian_films', icon: 'wikipedia' }
+    ],
+    'Film Noir': [
+      { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
+    ]
+  };
 
-  function inYearRange(year, rangeValue) {
-    if (!rangeValue) return true;
-    if (!year) return false;
-    const [start, end] = rangeValue.split('-').map(n => parseInt(n, 10));
-    return year >= start && year <= end;
+  // ----- Filtering helpers -----
+  function matchesYearSelection(movieYears, selectedYearValue) {
+    if (!selectedYearValue) return true;
+    if (!movieYears || movieYears.length === 0) return false;
+
+    if (selectedYearValue.startsWith('year:')) {
+      const y = parseInt(selectedYearValue.replace('year:', ''), 10);
+      return movieYears.includes(y);
+    }
+
+    if (selectedYearValue.startsWith('range:')) {
+      const range = selectedYearValue.replace('range:', '');
+      const [start, end] = range.split('-').map(n => parseInt(n, 10));
+      return movieYears.some(y => y >= start && y <= end);
+    }
+
+    return true;
   }
 
+  // ----- Main filter -----
   window.filterMovies = function () {
     const selectedGenre = genreDropdown.value;
-    const selectedCountry = countryDropdown.value;
-    const selectedYearRange = yearDropdown.value;
+    const selectedCountryISO = countryDropdown.value;
+    const selectedYearValue = yearDropdown.value;
 
     movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
 
-    // Description stays genre-driven (as you have it)
+    // Genre description (unchanged)
     if (selectedGenre && genreDescriptions[selectedGenre]) {
       const descPara = document.createElement('p');
       descPara.innerHTML = genreDescriptions[selectedGenre];
@@ -208,21 +341,24 @@ function initializeDropdown() {
       const t = titleElement.textContent.trim();
       if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
 
+      // Title (strip flag for display list)
       const titleClone = titleElement.cloneNode(true);
       const flagSpan = titleClone.querySelector('.flag');
       if (flagSpan) flagSpan.remove();
       const title = titleClone.textContent.trim();
 
+      // Genre match
       const genreText = getFieldValue(section, 'Genre');
       const movieGenres = parseList(genreText).map(g => g.replace(/\s\S+$/, '').trim()); // strips emoji tail
-      const countryText = getFieldValue(section, 'Country');
-      const movieCountries = parseList(countryText);
-
-      const year = parseYear(section);
-
       const matchesGenre = !selectedGenre || movieGenres.includes(selectedGenre);
-      const matchesCountry = !selectedCountry || movieCountries.includes(selectedCountry);
-      const matchesYear = inYearRange(year, selectedYearRange);
+
+      // Country match (flag-only)
+      const movieCountryISO = getCountryISOFromSection(section);
+      const matchesCountry = !selectedCountryISO || movieCountryISO === selectedCountryISO;
+
+      // Year match (multi-year inclusive)
+      const movieYears = parseYearsFromSection(section);
+      const matchesYear = matchesYearSelection(movieYears, selectedYearValue);
 
       if (matchesGenre && matchesCountry && matchesYear) {
         const movieItem = document.createElement('p');
@@ -237,6 +373,7 @@ function initializeDropdown() {
     }
   };
 
+  // initial render
   filterMovies();
 }
 

@@ -162,9 +162,8 @@ a:hover {
     color: rgb(74, 144, 226);
 }
 
-/* Dropdown and Movie List */
 .dropdown-container {
-    margin-bottom: 15px; /* Padding under the dropdown before description */
+    margin-bottom: 15px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -254,7 +253,7 @@ a:hover {
 
 .movie-list {
     margin-top: 20px;
-    width: 100%;
+    width: 85%;
     min-height: 0;     /* keep */
     overflow-y: auto;
     scrollbar-width: thin;

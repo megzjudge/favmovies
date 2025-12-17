@@ -195,8 +195,8 @@ function initializeDropdown() {
     const startDecade = Math.floor(minYear / 10) * 10;
     const endDecade = Math.floor(maxYear / 10) * 10;
 
-    for (let d = startDecade; d <= endDecade; d += 10) {
-      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
+    for (let d = endDecade; d >= startDecade; d -= 10) {
+    addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
     }
   }
 
@@ -370,6 +370,39 @@ function initializeDropdown() {
       movieListContainer.innerHTML = '<p>No movies found.</p>';
     }
   };
+
+    let isResetting = false;
+
+    function resetDropdown(dropdown) {
+    dropdown.value = '';
+    }
+
+    genreDropdown.addEventListener('change', () => {
+    if (isResetting) return;
+    isResetting = true;
+    resetDropdown(countryDropdown);
+    resetDropdown(yearDropdown);
+    isResetting = false;
+    filterMovies();
+    });
+
+    countryDropdown.addEventListener('change', () => {
+    if (isResetting) return;
+    isResetting = true;
+    resetDropdown(genreDropdown);
+    resetDropdown(yearDropdown);
+    isResetting = false;
+    filterMovies();
+    });
+
+    yearDropdown.addEventListener('change', () => {
+    if (isResetting) return;
+    isResetting = true;
+    resetDropdown(genreDropdown);
+    resetDropdown(countryDropdown);
+    isResetting = false;
+    filterMovies();
+    });
 
   // initial render
   filterMovies();

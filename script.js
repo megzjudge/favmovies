@@ -20,6 +20,14 @@ function initializeDropdown() {
     'Film Noir': '🐈‍⬛'
   };
 
+  function isNonMovieSection(titleText) {
+    const t = (titleText || '').trim();
+    return (
+      t === 'Filter Movies by Genre' ||
+      t.startsWith('Correlations') // catches Correlations 1/3, 2/3, 3/3, etc
+    );
+  }
+
   function getFieldValue(section, label) {
     const p = Array.from(section.querySelectorAll('.series-details p'))
       .find(el => el.textContent.trim().startsWith(label + ':'));
@@ -151,7 +159,7 @@ function initializeDropdown() {
     if (!titleElement) return;
 
     const t = titleElement.textContent.trim();
-    if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
+    if (isNonMovieSection(t)) return;
 
     // Genres
     extractGenresFromSection(section).forEach(g => genres.add(g));

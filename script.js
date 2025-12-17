@@ -37,10 +37,27 @@ function initializeDropdown() {
   // ----- COUNTRY (flag-only in h2) -----
   function flagEmojiToISO(flag) {
     if (!flag) return '';
-    const codePoints = Array.from(flag).map(ch => ch.codePointAt(0));
-    if (codePoints.length !== 2) return '';
-    const A = 0x1F1E6;
-    return String.fromCharCode(codePoints[0] - A + 65) + String.fromCharCode(codePoints[1] - A + 65);
+
+    const f = flag.trim();
+    const cps = Array.from(f).map(ch => ch.codePointAt(0));
+
+    // UK home nations subdivision flags (England/Scotland/Wales) are "tag sequence" flags.
+    // They begin with BLACK FLAG (U+1F3F4). Treat them as GB so they group under UK.
+    if (cps.length >= 1 && cps[0] === 0x1F3F4) {
+      return 'GB';
+    }
+
+    // Standard country flags are 2 regional indicator symbols
+    if (cps.length === 2) {
+      const A = 0x1F1E6;
+      const isRI1 = cps[0] >= A && cps[0] <= A + 25;
+      const isRI2 = cps[1] >= A && cps[1] <= A + 25;
+      if (isRI1 && isRI2) {
+        return String.fromCharCode(cps[0] - A + 65) + String.fromCharCode(cps[1] - A + 65);
+      }
+    }
+
+    return '';
   }
 
   function isoToCountryName(iso) {

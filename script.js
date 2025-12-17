@@ -68,6 +68,12 @@ function initializeDropdown() {
     return '';
   }
 
+  // Make sure we display a consistent flag for each ISO group (e.g., GB always shows 🇬🇧)
+  function normalizeFlagForISO(iso, rawFlag) {
+    if (iso === 'GB') return '🇬🇧';
+    return (rawFlag || '').trim();
+  }
+
   function isoToCountryName(iso) {
     if (!iso) return '';
     try {
@@ -383,7 +389,7 @@ function initializeDropdown() {
       if (!titleElement) return;
 
       const t = titleElement.textContent.trim();
-      if (t === 'Filter Movies by Genre' || t === 'Correlations') return;
+      if (isNonMovieSection(t)) return;
 
       // Title (strip flag for display list)
       const titleClone = titleElement.cloneNode(true);

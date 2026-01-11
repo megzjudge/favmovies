@@ -7,6 +7,15 @@ function initializeDropdown() {
   const descriptionContainer = document.getElementById('genreDescription');
   const movieSections = document.querySelectorAll('section .page');
 
+  // Force results-panel to always start on a new line, full width
+  const resultsPanel = descriptionContainer.parentElement;
+  resultsPanel.style.clear = 'both';
+  resultsPanel.style.display = 'block';
+  resultsPanel.style.width = '100%';
+  resultsPanel.style.boxSizing = 'border-box';
+  resultsPanel.style.margin = '0';
+  resultsPanel.style.padding = '0';
+
   const genreEmojis = {
     'Male Camaraderie': '🫂',
     'Dark Comedy': '🎭',
@@ -391,7 +400,8 @@ function initializeDropdown() {
       descriptionContainer.style.display = 'block';
       descriptionContainer.style.width = '100%';
       descriptionContainer.style.textAlign = 'left';
-      descriptionContainer.style.margin = '0 auto'; // Centers if parent allows, but keeps left-aligned text
+      descriptionContainer.style.margin = '0';
+      descriptionContainer.style.padding = '0';
 
       descriptionContainer.appendChild(descPara);
     }

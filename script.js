@@ -234,7 +234,7 @@ function initializeDropdown() {
     const endDecade = Math.floor(maxYear / 10) * 10;
 
     for (let d = endDecade; d >= startDecade; d -= 10) {
-    addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
+      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
     }
   }
 
@@ -244,19 +244,19 @@ function initializeDropdown() {
   // Add emojis to Genre: paragraphs after collecting
   addEmojisToGenreParagraphs();
 
-    function extractGenresFromSection(section) {
-        const genreP = Array.from(section.querySelectorAll('.series-details p'))
-            .find(p => p.textContent.trim().startsWith('Genre:'));
-        if (!genreP) return [];
+  function extractGenresFromSection(section) {
+    const genreP = Array.from(section.querySelectorAll('.series-details p'))
+      .find(p => p.textContent.trim().startsWith('Genre:'));
+    if (!genreP) return [];
 
-        // Use textContent, then remove emoji characters only (do NOT remove words)
-        const raw = genreP.textContent.replace('Genre:', '').trim();
+    // Use textContent, then remove emoji characters only (do NOT remove words)
+    const raw = genreP.textContent.replace('Genre:', '').trim();
 
-        // Remove common emoji ranges (keeps letters/spaces/punctuation intact)
-        const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
+    // Remove common emoji ranges (keeps letters/spaces/punctuation intact)
+    const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
 
-        return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
-    }
+    return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
+  }
 
   // ----- Descriptions / links (your originals) -----
   const genreDescriptions = {
@@ -355,14 +355,10 @@ function initializeDropdown() {
     const selectedCountryISO = countryDropdown.value;
     const selectedYearValue = yearDropdown.value;
 
-    // Clear existing results
     movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
 
-    // IMPORTANT: lock description position before adding anything
-    ensureDescriptionAboveResults();
-
-    // Genre description (unchanged)
+    // Genre description (unchanged logic, but with added styles for alignment/flow)
     if (selectedGenre && genreDescriptions[selectedGenre]) {
       const descPara = document.createElement('p');
       descPara.innerHTML = genreDescriptions[selectedGenre];
@@ -382,6 +378,20 @@ function initializeDropdown() {
         });
         descPara.innerHTML += iconsHtml;
       }
+
+      // Force full-width block alignment to integrate into flow without pushing content
+      descPara.style.width = '100%';
+      descPara.style.textAlign = 'left';
+      descPara.style.margin = '0';
+      descPara.style.padding = '0';
+      descPara.style.boxSizing = 'border-box';
+      descPara.style.clear = 'both'; // Clears any floats that might be causing shifts
+
+      // Also apply to container for safety (ensures it's block-level and full-width)
+      descriptionContainer.style.display = 'block';
+      descriptionContainer.style.width = '100%';
+      descriptionContainer.style.textAlign = 'left';
+      descriptionContainer.style.margin = '0 auto'; // Centers if parent allows, but keeps left-aligned text
 
       descriptionContainer.appendChild(descPara);
     }
@@ -421,46 +431,43 @@ function initializeDropdown() {
       }
     });
 
-    // IMPORTANT: do NOT use movieListContainer.innerHTML here (it would delete the description container)
     if (!hasMovies) {
-      const noMovies = document.createElement('p');
-      noMovies.textContent = 'No movies found.';
-      movieListContainer.appendChild(noMovies);
+      movieListContainer.innerHTML = '<p>No movies found.</p>';
     }
   };
 
-    let isResetting = false;
+  let isResetting = false;
 
-    function resetDropdown(dropdown) {
+  function resetDropdown(dropdown) {
     dropdown.value = '';
-    }
+  }
 
-    genreDropdown.addEventListener('change', () => {
+  genreDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(countryDropdown);
     resetDropdown(yearDropdown);
     isResetting = false;
     filterMovies();
-    });
+  });
 
-    countryDropdown.addEventListener('change', () => {
+  countryDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(genreDropdown);
     resetDropdown(yearDropdown);
     isResetting = false;
     filterMovies();
-    });
+  });
 
-    yearDropdown.addEventListener('change', () => {
+  yearDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
     resetDropdown(genreDropdown);
     resetDropdown(countryDropdown);
     isResetting = false;
     filterMovies();
-    });
+  });
 
   // initial render
   filterMovies();

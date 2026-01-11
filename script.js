@@ -355,8 +355,12 @@ function initializeDropdown() {
     const selectedCountryISO = countryDropdown.value;
     const selectedYearValue = yearDropdown.value;
 
+    // Clear existing results
     movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
+
+    // IMPORTANT: lock description position before adding anything
+    ensureDescriptionAboveResults();
 
     // Genre description (unchanged)
     if (selectedGenre && genreDescriptions[selectedGenre]) {
@@ -417,8 +421,11 @@ function initializeDropdown() {
       }
     });
 
+    // IMPORTANT: do NOT use movieListContainer.innerHTML here (it would delete the description container)
     if (!hasMovies) {
-      movieListContainer.innerHTML = '<p>No movies found.</p>';
+      const noMovies = document.createElement('p');
+      noMovies.textContent = 'No movies found.';
+      movieListContainer.appendChild(noMovies);
     }
   };
 

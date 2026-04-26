@@ -33,7 +33,7 @@ function initializeDropdown() {
     const t = (titleText || '').trim();
     return (
       t === 'Filter Movies by Genre' ||
-      t.startsWith('Correlations') // catches Correlations 1/3, 2/3, 3/3, etc
+      t.startsWith('Correlations')
     );
   }
 
@@ -51,20 +51,16 @@ function initializeDropdown() {
       .filter(Boolean);
   }
 
-  // ----- COUNTRY (flag-only in h2) -----
   function flagEmojiToISO(flag) {
     if (!flag) return '';
 
     const f = flag.trim();
     const cps = Array.from(f).map(ch => ch.codePointAt(0));
 
-    // UK home nations subdivision flags (England/Scotland/Wales) are "tag sequence" flags.
-    // They begin with BLACK FLAG (U+1F3F4). Treat them as GB so they group under UK.
     if (cps.length >= 1 && cps[0] === 0x1F3F4) {
       return 'GB';
     }
 
-    // Standard country flags are 2 regional indicator symbols
     if (cps.length === 2) {
       const A = 0x1F1E6;
       const isRI1 = cps[0] >= A && cps[0] <= A + 25;
@@ -77,7 +73,6 @@ function initializeDropdown() {
     return '';
   }
 
-  // Make sure we display a consistent flag for each ISO group (e.g., GB always shows 🇬🇧)
   function normalizeFlagForISO(iso, rawFlag) {
     if (iso === 'GB') return '🇬🇧';
     return (rawFlag || '').trim();
@@ -101,19 +96,12 @@ function initializeDropdown() {
     return flagEmojiToISO(flag);
   }
 
-  // ----- YEAR parsing -----
-  // Supports:
-  //  - "Year: 2018"
-  //  - "Year: 2018-2024" => expands to [2018,2019,2020,2021,2022,2023,2024]
-  //  - "Year: 2018, 2020, 2024" => [2018,2020,2024]
-  //  - mixed text; grabs all 4-digit years and any ranges
   function parseYearsFromSection(section) {
     const yearText = getFieldValue(section, 'Year');
     if (!yearText) return [];
 
     const years = new Set();
 
-    // 1) Expand ranges like 2018-2024 (also supports en dash/em dash)
     const rangeRe = /\b(18|19|20)\d{2}\s*[-–—]\s*(18|19|20)\d{2}\b/g;
     let m;
     while ((m = rangeRe.exec(yearText)) !== null) {
@@ -124,7 +112,6 @@ function initializeDropdown() {
       for (let y = a; y <= b; y++) years.add(y);
     }
 
-    // 2) Add any standalone years mentioned
     const yearRe = /\b(18|19|20)\d{2}\b/g;
     while ((m = yearRe.exec(yearText)) !== null) {
       years.add(parseInt(m[0], 10));
@@ -133,7 +120,17 @@ function initializeDropdown() {
     return Array.from(years).sort((a, b) => a - b);
   }
 
-  // ----- Emoji injection for Genre: paragraphs -----
+  function extractGenresFromSection(section) {
+    const genreP = Array.from(section.querySelectorAll('.series-details p'))
+      .find(p => p.textContent.trim().startsWith('Genre:'));
+    if (!genreP) return [];
+
+    const raw = genreP.textContent.replace('Genre:', '').trim();
+    const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
+
+    return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
+  }
+
   function addEmojisToGenreParagraphs() {
     movieSections.forEach(section => {
       const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p =>
@@ -164,9 +161,8 @@ function initializeDropdown() {
     });
   }
 
-  // ----- Collect distinct values -----
   const genres = new Set();
-  const countries = new Map(); // iso -> { name, flag }
+  const countries = new Map();
   const allYears = new Set();
 
   movieSections.forEach(section => {
@@ -176,10 +172,8 @@ function initializeDropdown() {
     const t = titleElement.textContent.trim();
     if (isNonMovieSection(t)) return;
 
-    // Genres
     extractGenresFromSection(section).forEach(g => genres.add(g));
 
-    // Countries from flag
     const iso = getCountryISOFromSection(section);
     if (iso) {
       const rawFlag = titleElement.querySelector('.flag')?.textContent.trim() || '';
@@ -188,7 +182,6 @@ function initializeDropdown() {
       if (!countries.has(iso)) {
         countries.set(iso, { name: isoToCountryName(iso), flag });
       } else {
-        // If we already have it, still ensure GB shows 🇬🇧
         const existing = countries.get(iso);
         if (iso === 'GB' && existing.flag !== '🇬🇧') {
           countries.set(iso, { ...existing, flag: '🇬🇧' });
@@ -196,14 +189,10 @@ function initializeDropdown() {
       }
     }
 
-    // Years
     const ys = parseYearsFromSection(section);
     ys.forEach(y => allYears.add(y));
   });
 
-  // ----- Populate dropdowns -----
-
-  // Genre options
   Array.from(genres).sort().forEach(genre => {
     const option = document.createElement('option');
     option.value = genre;
@@ -214,20 +203,18 @@ function initializeDropdown() {
     genreDropdown.appendChild(option);
   });
 
-  // Country options
   Array.from(countries.entries())
     .sort((a, b) => a[1].name.localeCompare(b[1].name))
     .forEach(([iso, info]) => {
       const option = document.createElement('option');
-      option.value = iso; // filter by ISO
+      option.value = iso;
       option.textContent = info.flag ? `${info.name} ${info.flag}` : info.name;
       countryDropdown.appendChild(option);
     });
 
-  // Year options: include BOTH individual years and decade groups
   function addYearOption(label, value) {
     const option = document.createElement('option');
-    option.value = value; // "year:2018" or "range:2000-2009"
+    option.value = value;
     option.textContent = label;
     yearDropdown.appendChild(option);
   }
@@ -235,7 +222,6 @@ function initializeDropdown() {
   const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
   const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
 
-  // Decade groups first (if any years exist)
   if (yearsSortedAsc.length) {
     const minYear = yearsSortedAsc[0];
     const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
@@ -247,27 +233,10 @@ function initializeDropdown() {
     }
   }
 
-  // Then individual years (descending)
   yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
 
-  // Add emojis to Genre: paragraphs after collecting
   addEmojisToGenreParagraphs();
 
-  function extractGenresFromSection(section) {
-    const genreP = Array.from(section.querySelectorAll('.series-details p'))
-      .find(p => p.textContent.trim().startsWith('Genre:'));
-    if (!genreP) return [];
-
-    // Use textContent, then remove emoji characters only (do NOT remove words)
-    const raw = genreP.textContent.replace('Genre:', '').trim();
-
-    // Remove common emoji ranges (keeps letters/spaces/punctuation intact)
-    const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
-
-    return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
-  }
-
-  // ----- Descriptions / links (your originals) -----
   const genreDescriptions = {
     'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
     'Existential Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
@@ -339,7 +308,6 @@ function initializeDropdown() {
     ]
   };
 
-  // ----- Filtering helpers -----
   function matchesYearSelection(movieYears, selectedYearValue) {
     if (!selectedYearValue) return true;
     if (!movieYears || movieYears.length === 0) return false;
@@ -358,7 +326,6 @@ function initializeDropdown() {
     return true;
   }
 
-  // ----- Main filter -----
   window.filterMovies = function () {
     const selectedGenre = genreDropdown.value;
     const selectedCountryISO = countryDropdown.value;
@@ -367,7 +334,11 @@ function initializeDropdown() {
     movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
 
-    // Genre description (unchanged logic, but with added styles for alignment/flow)
+    // Nothing selected = show nothing
+    if (!selectedGenre && !selectedCountryISO && !selectedYearValue) {
+      return;
+    }
+
     if (selectedGenre && genreDescriptions[selectedGenre]) {
       const descPara = document.createElement('p');
       descPara.innerHTML = genreDescriptions[selectedGenre];
@@ -388,15 +359,13 @@ function initializeDropdown() {
         descPara.innerHTML += iconsHtml;
       }
 
-      // Force full-width block alignment to integrate into flow without pushing content
       descPara.style.width = '100%';
       descPara.style.textAlign = 'left';
       descPara.style.margin = '0';
       descPara.style.padding = '0';
       descPara.style.boxSizing = 'border-box';
-      descPara.style.clear = 'both'; // Clears any floats that might be causing shifts
+      descPara.style.clear = 'both';
 
-      // Also apply to container for safety (ensures it's block-level and full-width)
       descriptionContainer.style.display = 'block';
       descriptionContainer.style.width = '100%';
       descriptionContainer.style.textAlign = 'left';
@@ -415,21 +384,17 @@ function initializeDropdown() {
       const t = titleElement.textContent.trim();
       if (isNonMovieSection(t)) return;
 
-      // Title (strip flag for display list)
       const titleClone = titleElement.cloneNode(true);
       const flagSpan = titleClone.querySelector('.flag');
       if (flagSpan) flagSpan.remove();
       const title = titleClone.textContent.trim();
 
-      // Genre match
       const movieGenres = extractGenresFromSection(section);
       const matchesGenre = !selectedGenre || movieGenres.includes(selectedGenre);
 
-      // Country match (flag-only)
       const movieCountryISO = getCountryISOFromSection(section);
       const matchesCountry = !selectedCountryISO || movieCountryISO === selectedCountryISO;
 
-      // Year match (multi-year inclusive)
       const movieYears = parseYearsFromSection(section);
       const matchesYear = matchesYearSelection(movieYears, selectedYearValue);
 
@@ -479,8 +444,9 @@ function initializeDropdown() {
     filterMovies();
   });
 
-  // initial render
-  filterMovies();
+  // Initial state: show nothing until a dropdown is selected
+  movieListContainer.innerHTML = '';
+  descriptionContainer.innerHTML = '';
 }
 
 document.addEventListener('DOMContentLoaded', initializeDropdown);

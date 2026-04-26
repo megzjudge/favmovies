@@ -244,39 +244,38 @@ a:hover {
 }
 
 .results-panel {
-  width: 100%;
-  max-width: 700px;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: 60vh;
+    overflow-y: auto;
+    margin: 0 auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+}
+
+.results-panel::-webkit-scrollbar {
+    width: 8px;
+}
+
+.results-panel::-webkit-scrollbar-track {
+    background: rgb(10, 54, 107);
+    box-shadow: inset 1px 1px 5px black;
+}
+
+.results-panel::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgb(74, 144, 226), rgb(10, 54, 107));
+    border-radius: 10px;
+}
+
+.results-panel::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(0deg, rgb(100, 160, 240), rgb(30, 95, 139));
 }
 
 .movie-list {
     margin: 20px auto 0;
     width: 85%;
+    overflow: visible;
     min-height: 0;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
-    flex: 1 1 auto;
-}
-
-.movie-list::-webkit-scrollbar {
-    width: 8px;
-}
-
-.movie-list::-webkit-scrollbar-track {
-    background: rgb(10, 54, 107);
-    box-shadow: inset 1px 1px 5px black;
-}
-
-.movie-list::-webkit-scrollbar-thumb {
-    background: linear-gradient(0deg, rgb(74, 144, 226), rgb(10, 54, 107));
-    border-radius: 10px;
-}
-
-.movie-list::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(0deg, rgb(100, 160, 240), rgb(30, 95, 139));
 }
 
 .movie-list p {

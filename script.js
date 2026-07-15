@@ -1,20 +1,11 @@
-function initializeDropdown() {
+function initializeMovies() {
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');
   const yearDropdown = document.getElementById('yearDropdown');
-
-  const movieListContainer = document.getElementById('movieList');
   const descriptionContainer = document.getElementById('genreDescription');
-  const movieSections = document.querySelectorAll('section .page');
-
-  // Force results-panel to always start on a new line, full width
-  const resultsPanel = descriptionContainer.parentElement;
-  resultsPanel.style.clear = 'both';
-  resultsPanel.style.display = 'block';
-  resultsPanel.style.width = '100%';
-  resultsPanel.style.boxSizing = 'border-box';
-  resultsPanel.style.margin = '0';
-  resultsPanel.style.padding = '0';
+  const resultCount = document.getElementById('resultCount');
+  const noResults = document.getElementById('noResults');
+  const cards = Array.from(document.querySelectorAll('.movie-card'));
 
   const genreEmojis = {
     'Male Camaraderie': '🫂',
@@ -28,214 +19,6 @@ function initializeDropdown() {
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛'
   };
-
-  function isNonMovieSection(titleText) {
-    const t = (titleText || '').trim();
-    return (
-      t === 'Filter Movies by Genre' ||
-      t.startsWith('Correlations')
-    );
-  }
-
-  function getFieldValue(section, label) {
-    const p = Array.from(section.querySelectorAll('.series-details p'))
-      .find(el => el.textContent.trim().startsWith(label + ':'));
-    if (!p) return '';
-    return p.textContent.replace(label + ':', '').trim();
-  }
-
-  function parseList(value) {
-    return value
-      .split(',')
-      .map(s => s.trim())
-      .filter(Boolean);
-  }
-
-  function flagEmojiToISO(flag) {
-    if (!flag) return '';
-
-    const f = flag.trim();
-    const cps = Array.from(f).map(ch => ch.codePointAt(0));
-
-    if (cps.length >= 1 && cps[0] === 0x1F3F4) {
-      return 'GB';
-    }
-
-    if (cps.length === 2) {
-      const A = 0x1F1E6;
-      const isRI1 = cps[0] >= A && cps[0] <= A + 25;
-      const isRI2 = cps[1] >= A && cps[1] <= A + 25;
-      if (isRI1 && isRI2) {
-        return String.fromCharCode(cps[0] - A + 65) + String.fromCharCode(cps[1] - A + 65);
-      }
-    }
-
-    return '';
-  }
-
-  function normalizeFlagForISO(iso, rawFlag) {
-    if (iso === 'GB') return '🇬🇧';
-    return (rawFlag || '').trim();
-  }
-
-  function isoToCountryName(iso) {
-    if (!iso) return '';
-    try {
-      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
-      return dn.of(iso) || iso;
-    } catch {
-      return iso;
-    }
-  }
-
-  function getCountryISOFromSection(section) {
-    const h2 = section.querySelector('h2');
-    if (!h2) return '';
-    const flagEl = h2.querySelector('.flag');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    return flagEmojiToISO(flag);
-  }
-
-  function parseYearsFromSection(section) {
-    const yearText = getFieldValue(section, 'Year');
-    if (!yearText) return [];
-
-    const years = new Set();
-
-    const rangeRe = /\b(18|19|20)\d{2}\s*[-–—]\s*(18|19|20)\d{2}\b/g;
-    let m;
-    while ((m = rangeRe.exec(yearText)) !== null) {
-      const start = parseInt(m[0].slice(0, 4), 10);
-      const end = parseInt(m[0].slice(m[0].length - 4), 10);
-      const a = Math.min(start, end);
-      const b = Math.max(start, end);
-      for (let y = a; y <= b; y++) years.add(y);
-    }
-
-    const yearRe = /\b(18|19|20)\d{2}\b/g;
-    while ((m = yearRe.exec(yearText)) !== null) {
-      years.add(parseInt(m[0], 10));
-    }
-
-    return Array.from(years).sort((a, b) => a - b);
-  }
-
-  function extractGenresFromSection(section) {
-    const genreP = Array.from(section.querySelectorAll('.series-details p'))
-      .find(p => p.textContent.trim().startsWith('Genre:'));
-    if (!genreP) return [];
-
-    const raw = genreP.textContent.replace('Genre:', '').trim();
-    const noEmoji = raw.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').trim();
-
-    return noEmoji.split(',').map(s => s.trim()).filter(Boolean);
-  }
-
-  function addEmojisToGenreParagraphs() {
-    movieSections.forEach(section => {
-      const genreP = Array.from(section.querySelectorAll('.series-details p')).find(p =>
-        p.textContent.startsWith('Genre:')
-      );
-
-      if (genreP) {
-        const originalText = genreP.textContent.trim();
-        const genresPart = originalText.replace('Genre: ', '').trim();
-        const genreList = genresPart.split(',').map(g => g.trim());
-
-        genreP.innerHTML = 'Genre: ';
-
-        genreList.forEach((genre, index) => {
-          if (index > 0) genreP.appendChild(document.createTextNode(', '));
-
-          genreP.appendChild(document.createTextNode(genre));
-
-          if (genreEmojis[genre]) {
-            genreP.appendChild(document.createTextNode(' '));
-            const emojiSpan = document.createElement('span');
-            emojiSpan.textContent = genreEmojis[genre];
-            emojiSpan.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
-            genreP.appendChild(emojiSpan);
-          }
-        });
-      }
-    });
-  }
-
-  const genres = new Set();
-  const countries = new Map();
-  const allYears = new Set();
-
-  movieSections.forEach(section => {
-    const titleElement = section.querySelector('h2');
-    if (!titleElement) return;
-
-    const t = titleElement.textContent.trim();
-    if (isNonMovieSection(t)) return;
-
-    extractGenresFromSection(section).forEach(g => genres.add(g));
-
-    const iso = getCountryISOFromSection(section);
-    if (iso) {
-      const rawFlag = titleElement.querySelector('.flag')?.textContent.trim() || '';
-      const flag = normalizeFlagForISO(iso, rawFlag);
-
-      if (!countries.has(iso)) {
-        countries.set(iso, { name: isoToCountryName(iso), flag });
-      } else {
-        const existing = countries.get(iso);
-        if (iso === 'GB' && existing.flag !== '🇬🇧') {
-          countries.set(iso, { ...existing, flag: '🇬🇧' });
-        }
-      }
-    }
-
-    const ys = parseYearsFromSection(section);
-    ys.forEach(y => allYears.add(y));
-  });
-
-  Array.from(genres).sort().forEach(genre => {
-    const option = document.createElement('option');
-    option.value = genre;
-    option.textContent = genre + (genreEmojis[genre] ? ' ' + genreEmojis[genre] : '');
-    if (genreEmojis[genre]) {
-      option.style.textShadow = '2px 2px 5px rgba(255, 255, 255, 0.7)';
-    }
-    genreDropdown.appendChild(option);
-  });
-
-  Array.from(countries.entries())
-    .sort((a, b) => a[1].name.localeCompare(b[1].name))
-    .forEach(([iso, info]) => {
-      const option = document.createElement('option');
-      option.value = iso;
-      option.textContent = info.flag ? `${info.name} ${info.flag}` : info.name;
-      countryDropdown.appendChild(option);
-    });
-
-  function addYearOption(label, value) {
-    const option = document.createElement('option');
-    option.value = value;
-    option.textContent = label;
-    yearDropdown.appendChild(option);
-  }
-
-  const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
-  const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
-
-  if (yearsSortedAsc.length) {
-    const minYear = yearsSortedAsc[0];
-    const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
-    const startDecade = Math.floor(minYear / 10) * 10;
-    const endDecade = Math.floor(maxYear / 10) * 10;
-
-    for (let d = endDecade; d >= startDecade; d -= 10) {
-      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
-    }
-  }
-
-  yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
-
-  addEmojisToGenreParagraphs();
 
   const genreDescriptions = {
     'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
@@ -308,111 +91,140 @@ function initializeDropdown() {
     ]
   };
 
-  function matchesYearSelection(movieYears, selectedYearValue) {
-    if (!selectedYearValue) return true;
-    if (!movieYears || movieYears.length === 0) return false;
+  function isoToCountryName(iso) {
+    if (!iso) return '';
+    try {
+      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
+      return dn.of(iso) || iso;
+    } catch {
+      return iso;
+    }
+  }
 
+  // ---- Populate dropdowns from each card's data attributes ----
+  const genres = new Set();
+  const countries = new Map(); // iso -> flag
+  const allYears = new Set();
+
+  cards.forEach(card => {
+    (card.dataset.genres || '').split('|').filter(Boolean).forEach(g => genres.add(g));
+    const iso = card.dataset.country;
+    if (iso) {
+      const flag = card.querySelector('.movie-card-caption .flag');
+      if (!countries.has(iso)) countries.set(iso, flag ? flag.textContent.trim() : '');
+    }
+    (card.dataset.years || '').split('|').filter(Boolean).forEach(y => allYears.add(parseInt(y, 10)));
+  });
+
+  Array.from(genres).sort().forEach(genre => {
+    const option = document.createElement('option');
+    option.value = genre;
+    option.textContent = genre + (genreEmojis[genre] ? ' ' + genreEmojis[genre] : '');
+    genreDropdown.appendChild(option);
+  });
+
+  Array.from(countries.entries())
+    .sort((a, b) => isoToCountryName(a[0]).localeCompare(isoToCountryName(b[0])))
+    .forEach(([iso, flag]) => {
+      const option = document.createElement('option');
+      option.value = iso;
+      const name = isoToCountryName(iso);
+      option.textContent = flag ? `${name} ${flag}` : name;
+      countryDropdown.appendChild(option);
+    });
+
+  function addYearOption(label, value) {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = label;
+    yearDropdown.appendChild(option);
+  }
+
+  const yearsSortedAsc = Array.from(allYears).sort((a, b) => a - b);
+  const yearsSortedDesc = Array.from(allYears).sort((a, b) => b - a);
+
+  if (yearsSortedAsc.length) {
+    const minYear = yearsSortedAsc[0];
+    const maxYear = yearsSortedAsc[yearsSortedAsc.length - 1];
+    const startDecade = Math.floor(minYear / 10) * 10;
+    const endDecade = Math.floor(maxYear / 10) * 10;
+    for (let d = endDecade; d >= startDecade; d -= 10) {
+      addYearOption(`${d}s (${d}-${d + 9})`, `range:${d}-${d + 9}`);
+    }
+  }
+  yearsSortedDesc.forEach(y => addYearOption(String(y), `year:${y}`));
+
+  function matchesYearSelection(cardYears, selectedYearValue) {
+    if (!selectedYearValue) return true;
+    if (!cardYears.length) return false;
     if (selectedYearValue.startsWith('year:')) {
       const y = parseInt(selectedYearValue.replace('year:', ''), 10);
-      return movieYears.includes(y);
+      return cardYears.includes(y);
     }
-
     if (selectedYearValue.startsWith('range:')) {
-      const range = selectedYearValue.replace('range:', '');
-      const [start, end] = range.split('-').map(n => parseInt(n, 10));
-      return movieYears.some(y => y >= start && y <= end);
+      const [start, end] = selectedYearValue.replace('range:', '').split('-').map(n => parseInt(n, 10));
+      return cardYears.some(y => y >= start && y <= end);
     }
-
     return true;
   }
 
-  window.filterMovies = function () {
+  // ---- Filtering: single active criterion at a time (picking one resets
+  // the other two) — same interaction model as before. Unlike before, this
+  // now shows/hides the real grid cards in place instead of writing a
+  // separate plain-text list; with nothing selected, the full grid shows
+  // (browsing everything is the point of the grid), filters just narrow it.
+  function filterMovies() {
     const selectedGenre = genreDropdown.value;
     const selectedCountryISO = countryDropdown.value;
     const selectedYearValue = yearDropdown.value;
 
-    movieListContainer.innerHTML = '';
     descriptionContainer.innerHTML = '';
-
-    // Nothing selected = show nothing
-    if (!selectedGenre && !selectedCountryISO && !selectedYearValue) {
-      return;
-    }
 
     if (selectedGenre && genreDescriptions[selectedGenre]) {
       const descPara = document.createElement('p');
       descPara.innerHTML = genreDescriptions[selectedGenre];
-
       if (genreLinks[selectedGenre] && genreLinks[selectedGenre].length > 0) {
         let iconsHtml = ' ';
         genreLinks[selectedGenre].forEach(link => {
           let iconHtml = '';
           if (link.icon === 'imdb') {
-            iconHtml = `<a href="${link.url}" target="_blank"><img src="/images/imdb.png" alt="IMDB" style="width:1.2em;height:1.2em;vertical-align:middle;margin:0 2px;"></a>`;
+            iconHtml = `<a href="${link.url}" target="_blank" rel="noopener"><img src="images/imdb.png" alt="IMDB"></a>`;
           } else if (link.icon === 'wikipedia') {
-            iconHtml = `<a href="${link.url}" target="_blank"><img src="/images/wikipedia.png" alt="Wikipedia" style="width:1.2em;height:1.2em;vertical-align:middle;margin:0 2px;"></a>`;
+            iconHtml = `<a href="${link.url}" target="_blank" rel="noopener"><img src="images/wikipedia.png" alt="Wikipedia"></a>`;
           } else {
-            iconHtml = `<a href="${link.url}" target="_blank" style="margin:0 2px;">🔗</a>`;
+            iconHtml = `<a href="${link.url}" target="_blank" rel="noopener">🔗</a>`;
           }
           iconsHtml += iconHtml;
         });
         descPara.innerHTML += iconsHtml;
       }
-
-      descPara.style.width = '100%';
-      descPara.style.textAlign = 'left';
-      descPara.style.margin = '0';
-      descPara.style.padding = '0';
-      descPara.style.boxSizing = 'border-box';
-      descPara.style.clear = 'both';
-
-      descriptionContainer.style.display = 'block';
-      descriptionContainer.style.width = '100%';
-      descriptionContainer.style.textAlign = 'left';
-      descriptionContainer.style.margin = '0';
-      descriptionContainer.style.padding = '0';
-
       descriptionContainer.appendChild(descPara);
     }
 
-    let hasMovies = false;
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const cardGenres = (card.dataset.genres || '').split('|').filter(Boolean);
+      const matchesGenre = !selectedGenre || cardGenres.includes(selectedGenre);
 
-    movieSections.forEach(section => {
-      const titleElement = section.querySelector('h2');
-      if (!titleElement) return;
+      const matchesCountry = !selectedCountryISO || card.dataset.country === selectedCountryISO;
 
-      const t = titleElement.textContent.trim();
-      if (isNonMovieSection(t)) return;
+      const cardYears = (card.dataset.years || '').split('|').filter(Boolean).map(y => parseInt(y, 10));
+      const matchesYear = matchesYearSelection(cardYears, selectedYearValue);
 
-      const titleClone = titleElement.cloneNode(true);
-      const flagSpan = titleClone.querySelector('.flag');
-      if (flagSpan) flagSpan.remove();
-      const title = titleClone.textContent.trim();
-
-      const movieGenres = extractGenresFromSection(section);
-      const matchesGenre = !selectedGenre || movieGenres.includes(selectedGenre);
-
-      const movieCountryISO = getCountryISOFromSection(section);
-      const matchesCountry = !selectedCountryISO || movieCountryISO === selectedCountryISO;
-
-      const movieYears = parseYearsFromSection(section);
-      const matchesYear = matchesYearSelection(movieYears, selectedYearValue);
-
-      if (matchesGenre && matchesCountry && matchesYear) {
-        const movieItem = document.createElement('p');
-        movieItem.textContent = title;
-        movieListContainer.appendChild(movieItem);
-        hasMovies = true;
-      }
+      const visible = matchesGenre && matchesCountry && matchesYear;
+      card.classList.toggle('hidden', !visible);
+      if (visible) visibleCount++;
     });
 
-    if (!hasMovies) {
-      movieListContainer.innerHTML = '<p>No movies found.</p>';
+    noResults.hidden = visibleCount !== 0;
+    if (!selectedGenre && !selectedCountryISO && !selectedYearValue) {
+      resultCount.textContent = `${cards.length} movies & series`;
+    } else {
+      resultCount.textContent = `${visibleCount} of ${cards.length} shown`;
     }
-  };
+  }
 
   let isResetting = false;
-
   function resetDropdown(dropdown) {
     dropdown.value = '';
   }
@@ -444,9 +256,32 @@ function initializeDropdown() {
     filterMovies();
   });
 
-  // Initial state: show nothing until a dropdown is selected
-  movieListContainer.innerHTML = '';
-  descriptionContainer.innerHTML = '';
+  filterMovies();
+
+  // ---- Flip-card interaction ----
+  // Cards are role="button" + tabindex (not a real <button>) because the
+  // back face contains real <a> links, and a <button> can't legally contain
+  // interactive content. Clicks on those links are left alone (not
+  // intercepted) so they navigate normally; only clicks/keypresses on the
+  // card itself toggle the flip.
+  function toggleFlip(card) {
+    const flipped = card.classList.toggle('is-flipped');
+    card.setAttribute('aria-pressed', flipped ? 'true' : 'false');
+  }
+
+  cards.forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
+      toggleFlip(card);
+    });
+    card.addEventListener('keydown', e => {
+      if (e.target !== card) return;
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault();
+        toggleFlip(card);
+      }
+    });
+  });
 }
 
-document.addEventListener('DOMContentLoaded', initializeDropdown);
+document.addEventListener('DOMContentLoaded', initializeMovies);

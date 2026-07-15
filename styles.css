@@ -123,18 +123,15 @@ html, body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    /* Fluid size (not a fixed 3.5rem) plus nowrap on desktop so the title
+       shrinks to fit rather than wrapping to two lines; mobile still wraps
+       if it genuinely needs to, since there's no room to shrink further. */
+    font-size: clamp(1.8rem, 4.4vw, 3.5rem);
     font-family: 'Rosehot', cursive, sans-serif;
     line-height: 1.3;
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-.intro-sub {
-    font-size: calc(14px + 0.390625vw);
-    color: rgb(180, 195, 215);
-    margin-top: 6px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    white-space: nowrap;
 }
 
 /* Filter bar — collapsible panel toggled by the Filters tab; [hidden]
@@ -257,18 +254,26 @@ a:hover {
 
 .view-panel.active {
     display: block;
+    /* Fills exactly .app-content's available height. The movie grid still
+       naturally overflows past this and scrolls at the .app-content level
+       (nothing here stops that), but it gives Correlations a real height
+       to fit itself into instead of just growing the page. */
+    height: 100%;
 }
 
-/* Movie grid — fixed column count (not auto-fill) so cards are larger and
-   the back face has room to fit its content; 6 columns lands on ~3 visible
-   rows in the content area on a typical desktop viewport before scrolling. */
+/* Movie grid — card width comes from --card-w, set by script.js to whatever
+   size makes exactly 3 rows fill the content area's height on desktop (so
+   the first screenful never needs scrolling); column count is then just
+   whatever naturally fits that width via auto-fill, not a hardcoded guess.
+   Falls back to a fixed 170px if JS hasn't run yet (first paint). */
 .grid-section {
     margin-bottom: 20px;
 }
 
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fill, var(--card-w, 170px));
+    justify-content: center;
     gap: 18px;
 }
 
@@ -278,6 +283,13 @@ a:hover {
     cursor: pointer;
     border-radius: 15px;
     outline: none;
+    /* Only the ~20 on-screen cards get laid out/painted at a time instead
+       of all 78 — this is what was causing the lag when the grid panel
+       reappears after Correlations. contain-intrinsic-size gives the
+       browser a size estimate for off-screen cards before it's measured
+       them, so scrollbar/layout doesn't jump around as you scroll. */
+    content-visibility: auto;
+    contain-intrinsic-size: 170px 255px;
 }
 
 .movie-card:focus-visible .movie-card-inner {
@@ -313,6 +325,7 @@ a:hover {
 
 .movie-card-front {
     display: flex;
+    position: relative;
 }
 
 .movie-card-front img {
@@ -322,28 +335,25 @@ a:hover {
     display: block;
 }
 
-.movie-card-caption {
+/* Front is now a clean poster — no title/flag overlay, just this flip
+   affordance in the corner (title lives on the back, where there's room). */
+.movie-card-flip-hint {
     position: absolute;
-    left: 0; right: 0; bottom: 0;
+    right: 8px;
+    bottom: 8px;
+    width: 2em;
+    height: 2em;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 6px;
-    padding: 10px 10px 8px;
-    background: linear-gradient(0deg, rgba(0, 8, 20, 0.9) 0%, rgba(0, 8, 20, 0.55) 60%, transparent 100%);
-}
-
-.movie-card-title-text {
-    font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(15px + 0.390625vw);
-    line-height: 1.15;
-    color: rgb(230, 236, 245);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-}
-
-.movie-card-caption .flag {
+    align-items: center;
+    justify-content: center;
     font-size: calc(14px + 0.390625vw);
-    flex-shrink: 0;
+    line-height: 1;
+    color: rgb(230, 236, 245);
+    background: rgba(0, 8, 20, 0.65);
+    border: 1px solid rgba(230, 236, 245, 0.5);
+    border-radius: 50%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
 }
 
 .movie-card-back {
@@ -355,6 +365,23 @@ a:hover {
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+}
+
+.movie-card-back h3 {
+    font-family: 'Rosehot', cursive, sans-serif;
+    font-size: calc(16px + 0.45vw);
+    line-height: 1.15;
+    color: rgb(100, 160, 240);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.movie-card-back h3 .flag {
+    font-size: 0.85em;
 }
 
 .movie-card-details {
@@ -388,26 +415,35 @@ a:hover {
 }
 
 /* Correlations essay — two visually distinct subareas (theme cards) rather
-   than one long undifferentiated block of paragraphs. */
+   than one long undifferentiated block of paragraphs. Sized to fit the
+   content area's height on desktop rather than scrolling the whole page;
+   each subarea scrolls internally as a fallback if its own text is too
+   long to fit at a given window height. */
 .correlations {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .correlations h2 {
     font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(38px + 0.390625vw);
+    font-size: calc(28px + 0.390625vw);
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    flex: 0 0 auto;
 }
 
 .correlations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    flex: 1 1 auto;
+    min-height: 0;
 }
 
 .correlations-subarea {
@@ -416,6 +452,10 @@ a:hover {
     border-radius: 15px;
     padding: 22px 24px;
     box-shadow: 0 4px 8px rgba(74, 144, 226, 0.5), 0 0 15px rgba(74, 144, 226, 0.3);
+    min-height: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
 }
 
 .correlations-subarea h3 {
@@ -466,7 +506,8 @@ a:hover {
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: clamp(1.5rem, 7vw, 2.5rem);
+        white-space: normal;
     }
 
     .movie-grid {
@@ -474,8 +515,8 @@ a:hover {
         gap: 12px;
     }
 
-    .movie-card-title-text {
-        font-size: calc(12px + 0.390625vw);
+    .movie-card-back h3 {
+        font-size: calc(13px + 0.4vw);
     }
 
     .movie-card-details p {

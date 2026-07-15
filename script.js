@@ -6,6 +6,8 @@ function initializeMovies() {
   const resultCount = document.getElementById('resultCount');
   const noResults = document.getElementById('noResults');
   const cards = Array.from(document.querySelectorAll('.movie-card'));
+  const appContent = document.querySelector('.app-content');
+  const movieGrid = document.getElementById('movieGrid');
 
   const filtersTab = document.getElementById('filtersTab');
   const correlationsTab = document.getElementById('correlationsTab');
@@ -116,7 +118,7 @@ function initializeMovies() {
     (card.dataset.genres || '').split('|').filter(Boolean).forEach(g => genres.add(g));
     const iso = card.dataset.country;
     if (iso) {
-      const flag = card.querySelector('.movie-card-caption .flag');
+      const flag = card.querySelector('.movie-card-back .flag');
       if (!countries.has(iso)) countries.set(iso, flag ? flag.textContent.trim() : '');
     }
     (card.dataset.years || '').split('|').filter(Boolean).forEach(y => allYears.add(parseInt(y, 10)));
@@ -264,6 +266,37 @@ function initializeMovies() {
 
   filterMovies();
 
+  // ---- Grid sizing: on desktop, compute a card width that makes exactly
+  // 3 rows fill the content area's height, so the first screenful of
+  // movies never needs scrolling — column count is then whatever fits that
+  // width naturally (auto-fill in the CSS), not a hardcoded guess. Only
+  // runs above the mobile breakpoint; below it the CSS media queries take
+  // over with their own fixed column counts and this is a no-op.
+  function fitMovieGrid() {
+    if (window.innerWidth <= 768) return;
+    if (!moviesPanel.classList.contains('active')) return;
+
+    const contentStyle = getComputedStyle(appContent);
+    const availableHeight = appContent.clientHeight
+      - parseFloat(contentStyle.paddingTop)
+      - parseFloat(contentStyle.paddingBottom)
+      - (resultCount ? resultCount.offsetHeight : 0);
+
+    const gridStyle = getComputedStyle(movieGrid);
+    const rowGap = parseFloat(gridStyle.rowGap) || 18;
+    const rows = 3;
+    let cardHeight = (availableHeight - rowGap * (rows - 1)) / rows;
+    if (!isFinite(cardHeight) || cardHeight < 120) cardHeight = 120;
+    const cardWidth = cardHeight / 1.5; // aspect-ratio 2/3 (w:h) => h = 1.5w
+    movieGrid.style.setProperty('--card-w', cardWidth + 'px');
+  }
+
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitMovieGrid, 150);
+  });
+
   // ---- View tabs: Filters (collapsible panel) / Correlations (swaps the
   // grid out for the essay) — independent controls, not a linked tab
   // group: Filters just opens/closes its dropdown panel without touching
@@ -281,7 +314,11 @@ function initializeMovies() {
     moviesPanel.classList.toggle('active', !showing);
     correlationsTab.setAttribute('aria-pressed', String(showing));
     correlationsTab.classList.toggle('active', showing);
-    if (showing) setFiltersOpen(false);
+    if (showing) {
+      setFiltersOpen(false);
+    } else {
+      fitMovieGrid();
+    }
   }
 
   filtersTab.addEventListener('click', () => {
@@ -291,6 +328,8 @@ function initializeMovies() {
   correlationsTab.addEventListener('click', () => {
     setCorrelationsShowing(!correlationsPanel.classList.contains('active'));
   });
+
+  fitMovieGrid();
 
   // ---- Flip-card interaction ----
   // Cards are role="button" + tabindex (not a real <button>) because the

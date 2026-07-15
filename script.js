@@ -332,10 +332,10 @@ function initializeMovies() {
     subareas.forEach(area => {
       area.style.fontSize = '';
       let guard = 0;
-      while (area.scrollHeight > area.clientHeight + 1 && guard < 60) {
+      while (area.scrollHeight > area.clientHeight + 1 && guard < 120) {
         const current = parseFloat(getComputedStyle(area).fontSize);
         const next = current - 0.5;
-        if (next < 9) break;
+        if (next < 6) break;
         area.style.fontSize = next + 'px';
         guard++;
       }

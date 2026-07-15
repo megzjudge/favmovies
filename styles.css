@@ -4,14 +4,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: calc(16px + 0.390625vw);
-    color: rgb(220, 220, 220);
 }
 
+/* font-size/color live here, not on `*` — `*` directly matches every
+   element including nested inline ones (spans, links inside a paragraph),
+   and a direct match always wins over inheriting from a parent regardless
+   of specificity. That was silently overriding any element that didn't
+   have its own explicit font-size rule (e.g. .detail-value spans render
+   at this size instead of their parent <p>'s smaller one, and the <a>
+   links inside the correlations text have the same problem). Setting it
+   here instead lets it inherit down normally, the way font-size should. */
 html, body {
     height: 100dvh;
     overflow: hidden;
     background: rgb(10, 54, 107);
+    font-size: calc(16px + 0.390625vw);
+    color: rgb(220, 220, 220);
 }
 
 /* Only .app-content scrolls now (locked header, independently-scrolling
@@ -378,6 +386,16 @@ a:hover {
     line-height: 1.35;
     margin-bottom: 5px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* The page-wide `* { font-size: ... }` reset directly targets every
+   element, including this span, and since nothing was overriding it here
+   it was winning over inheriting the parent <p>'s smaller size — that's
+   why values were rendering much bigger than their labels, and since this
+   rule genuinely never existed until now, no italic was ever applied either. */
+.detail-value {
+    font-size: inherit;
+    font-style: italic;
 }
 
 .movie-card-links {

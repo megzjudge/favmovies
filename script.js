@@ -3,7 +3,6 @@ function initializeMovies() {
   const countryDropdown = document.getElementById('countryDropdown');
   const yearDropdown = document.getElementById('yearDropdown');
   const descriptionContainer = document.getElementById('genreDescription');
-  const resultCount = document.getElementById('resultCount');
   const noResults = document.getElementById('noResults');
   const cards = Array.from(document.querySelectorAll('.movie-card'));
   const appContent = document.querySelector('.app-content');
@@ -225,11 +224,6 @@ function initializeMovies() {
     });
 
     noResults.hidden = visibleCount !== 0;
-    if (!selectedGenre && !selectedCountryISO && !selectedYearValue) {
-      resultCount.textContent = `${cards.length} movies & series`;
-    } else {
-      resultCount.textContent = `${visibleCount} of ${cards.length} shown`;
-    }
   }
 
   let isResetting = false;
@@ -276,18 +270,30 @@ function initializeMovies() {
     if (window.innerWidth <= 768) return;
     if (!moviesPanel.classList.contains('active')) return;
 
+    const cols = 6, rows = 3;
     const contentStyle = getComputedStyle(appContent);
     const availableHeight = appContent.clientHeight
       - parseFloat(contentStyle.paddingTop)
-      - parseFloat(contentStyle.paddingBottom)
-      - (resultCount ? resultCount.offsetHeight : 0);
+      - parseFloat(contentStyle.paddingBottom);
+    const availableWidth = appContent.clientWidth
+      - parseFloat(contentStyle.paddingLeft)
+      - parseFloat(contentStyle.paddingRight);
 
     const gridStyle = getComputedStyle(movieGrid);
     const rowGap = parseFloat(gridStyle.rowGap) || 18;
-    const rows = 3;
-    let cardHeight = (availableHeight - rowGap * (rows - 1)) / rows;
-    if (!isFinite(cardHeight) || cardHeight < 120) cardHeight = 120;
-    const cardWidth = cardHeight / 1.5; // aspect-ratio 2/3 (w:h) => h = 1.5w
+    const colGap = parseFloat(gridStyle.columnGap) || 18;
+
+    // A fixed 6x3 grid has two independent constraints — 6 columns must fit
+    // the available width, and 3 rows must fit the available height. Since
+    // cards are locked to a 2:3 aspect ratio, satisfying both at once means
+    // taking whichever constraint is more restrictive (the smaller of the
+    // two candidate widths), not just picking one dimension and hoping.
+    const widthPerCol = (availableWidth - colGap * (cols - 1)) / cols;
+    let heightPerRow = (availableHeight - rowGap * (rows - 1)) / rows;
+    if (!isFinite(heightPerRow) || heightPerRow < 100) heightPerRow = 100;
+    const widthFromHeight = heightPerRow / 1.5; // aspect-ratio 2/3 (w:h) => h = 1.5w
+
+    const cardWidth = Math.max(100, Math.min(widthPerCol, widthFromHeight));
     movieGrid.style.setProperty('--card-w', cardWidth + 'px');
   }
 

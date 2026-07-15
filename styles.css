@@ -244,11 +244,6 @@ a:hover {
 
 .view-panel.active {
     display: block;
-    /* Fills exactly .app-content's available height. The movie grid still
-       naturally overflows past this and scrolls at the .app-content level
-       (nothing here stops that), but it gives Correlations a real height
-       to fit itself into instead of just growing the page. */
-    height: 100%;
 }
 
 /* Movie grid — fixed 6 columns, card width comes from --card-w (set by
@@ -413,8 +408,16 @@ a:hover {
     margin: 0 auto;
     padding-top: 8px;
     height: 100%;
-    display: flex;
     flex-direction: column;
+}
+
+/* Higher specificity than the base .view-panel { display:none } rule
+   (two classes vs one), so this correctly wins only when .active is
+   present — a plain "display:flex" on .correlations itself would tie with
+   .view-panel on specificity and win by source order regardless of
+   .active, which was the actual bug (panel visible even when not active). */
+.correlations.active {
+    display: flex;
 }
 
 .correlations h2 {
@@ -423,6 +426,15 @@ a:hover {
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
+    margin-bottom: 8px;
+    flex: 0 0 auto;
+}
+
+.correlations-intro {
+    text-align: center;
+    font-size: calc(14px + 0.35vw);
+    color: rgb(200, 213, 230);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
     margin-bottom: 16px;
     flex: 0 0 auto;
 }
@@ -469,13 +481,14 @@ a:hover {
 /* Footer */
 .footer {
     text-align: center;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 .footer p {
-    font-size: calc(13px + 0.390625vw);
+    font-size: calc(11px + 0.3vw);
+    color: rgb(160, 178, 202);
     line-height: 1.4;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* Responsive Design */

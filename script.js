@@ -7,6 +7,12 @@ function initializeMovies() {
   const noResults = document.getElementById('noResults');
   const cards = Array.from(document.querySelectorAll('.movie-card'));
 
+  const filtersTab = document.getElementById('filtersTab');
+  const correlationsTab = document.getElementById('correlationsTab');
+  const filterPanel = document.getElementById('filterPanel');
+  const moviesPanel = document.querySelector('[data-view-panel="movies"]');
+  const correlationsPanel = document.querySelector('[data-view-panel="correlations"]');
+
   const genreEmojis = {
     'Male Camaraderie': '🫂',
     'Dark Comedy': '🎭',
@@ -257,6 +263,34 @@ function initializeMovies() {
   });
 
   filterMovies();
+
+  // ---- View tabs: Filters (collapsible panel) / Correlations (swaps the
+  // grid out for the essay) — independent controls, not a linked tab
+  // group: Filters just opens/closes its dropdown panel without touching
+  // which content view is showing; Correlations swaps the content view and,
+  // since filters only apply to the movie grid, closes the filter panel
+  // when switching away from it. ----
+  function setFiltersOpen(open) {
+    filterPanel.hidden = !open;
+    filtersTab.setAttribute('aria-expanded', String(open));
+    filtersTab.classList.toggle('active', open);
+  }
+
+  function setCorrelationsShowing(showing) {
+    correlationsPanel.classList.toggle('active', showing);
+    moviesPanel.classList.toggle('active', !showing);
+    correlationsTab.setAttribute('aria-pressed', String(showing));
+    correlationsTab.classList.toggle('active', showing);
+    if (showing) setFiltersOpen(false);
+  }
+
+  filtersTab.addEventListener('click', () => {
+    setFiltersOpen(filterPanel.hidden);
+  });
+
+  correlationsTab.addEventListener('click', () => {
+    setCorrelationsShowing(!correlationsPanel.classList.contains('active'));
+  });
 
   // ---- Flip-card interaction ----
   // Cards are role="button" + tabindex (not a real <button>) because the

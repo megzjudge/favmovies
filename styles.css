@@ -8,31 +8,38 @@
     color: rgb(220, 220, 220);
 }
 
-html {
+html, body {
+    height: 100dvh;
+    overflow: hidden;
     background: rgb(10, 54, 107);
+}
+
+/* Only .app-content scrolls now (locked header, independently-scrolling
+   content) — scrollbar styling moves there instead of html. */
+.app-content {
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
 }
 
-html::-webkit-scrollbar {
+.app-content::-webkit-scrollbar {
     width: 10px;
 }
 
-html::-webkit-scrollbar-track {
+.app-content::-webkit-scrollbar-track {
     background: rgb(10, 54, 107);
     box-shadow: inset 1px 1px 5px black;
 }
 
-html::-webkit-scrollbar-thumb {
+.app-content::-webkit-scrollbar-thumb {
     background: linear-gradient(0deg, rgb(74, 144, 226), rgb(10, 54, 107));
     border-radius: 10px;
 }
 
-html::-webkit-scrollbar-thumb:hover {
+.app-content::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(0deg, rgb(100, 160, 240), rgb(30, 95, 139));
 }
 
-html::-webkit-scrollbar-thumb:active {
+.app-content::-webkit-scrollbar-thumb:active {
     background: linear-gradient(0deg, rgb(10, 54, 107), rgb(0, 30, 80));
 }
 
@@ -52,16 +59,67 @@ html::-webkit-scrollbar-thumb:active {
     overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
 }
 
-main {
+/* App shell: locked header (sized to its own content) + independently
+   scrolling content area filling the rest of the viewport. */
+.app-shell {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+.app-header {
+    flex: 0 0 auto;
     max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 40px 20px 60px;
+    padding: 28px 20px 0;
+}
+
+.app-content {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 60px;
 }
 
 /* Intro */
 .intro {
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 6px;
+}
+
+/* View tabs (Filters / Correlations) */
+.view-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+.view-tab {
+    background: rgb(10, 54, 107);
+    border: 2px solid rgb(74, 144, 226);
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: calc(13px + 0.35vw);
+    color: rgb(220, 220, 220);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.view-tab:hover {
+    background: rgb(30, 95, 139);
+}
+
+.view-tab.active,
+.view-tab[aria-expanded="true"] {
+    background: rgb(74, 144, 226);
+    color: rgb(8, 22, 40);
+    text-shadow: none;
 }
 
 h1 {
@@ -79,9 +137,11 @@ h1 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Filter bar */
+/* Filter bar — collapsible panel toggled by the Filters tab; [hidden]
+   handles the display:none natively, no extra rule needed. */
 .filter-bar {
-    margin-bottom: 28px;
+    padding: 16px 0 4px;
+    border-top: 1px solid rgba(74, 144, 226, 0.3);
 }
 
 .dropdown-container {
@@ -189,14 +249,26 @@ a:hover {
     font-size: calc(14px + 0.390625vw);
 }
 
-/* Movie grid */
+/* View panels — only one of Movies / Correlations shows at a time inside
+   the scrolling .app-content, toggled by the tab buttons. */
+.view-panel {
+    display: none;
+}
+
+.view-panel.active {
+    display: block;
+}
+
+/* Movie grid — fixed column count (not auto-fill) so cards are larger and
+   the back face has room to fit its content; 6 columns lands on ~3 visible
+   rows in the content area on a typical desktop viewport before scrolling. */
 .grid-section {
     margin-bottom: 20px;
 }
 
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(6, 1fr);
     gap: 18px;
 }
 
@@ -285,25 +357,9 @@ a:hover {
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
 }
 
-.movie-card-back h3 {
-    font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(20px + 0.5vw);
-    line-height: 1.15;
-    color: rgb(100, 160, 240);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    margin-bottom: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 6px;
-}
-
-.movie-card-back h3.h2small {
-    font-size: calc(15px + 0.5vw);
-}
-
 .movie-card-details {
     flex: 1 0 auto;
+    margin-top: 2px;
 }
 
 .movie-card-details p {
@@ -331,12 +387,12 @@ a:hover {
     display: none;
 }
 
-/* Correlations essay */
+/* Correlations essay — two visually distinct subareas (theme cards) rather
+   than one long undifferentiated block of paragraphs. */
 .correlations {
-    max-width: 820px;
-    margin: 60px auto 0;
-    padding-top: 32px;
-    border-top: 1px solid rgba(74, 144, 226, 0.35);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 8px;
 }
 
 .correlations h2 {
@@ -345,14 +401,40 @@ a:hover {
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
 }
 
-.correlations-body p {
-    font-size: calc(13px + 0.390625vw);
+.correlations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.correlations-subarea {
+    background: radial-gradient(circle at top, rgb(30, 85, 150) 0%, rgb(10, 54, 107) 100%);
+    border: 2px solid rgb(74, 144, 226);
+    border-radius: 15px;
+    padding: 22px 24px;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.5), 0 0 15px rgba(74, 144, 226, 0.3);
+}
+
+.correlations-subarea h3 {
+    font-family: 'Rosehot', cursive, sans-serif;
+    font-size: calc(19px + 0.45vw);
+    color: rgb(100, 160, 240);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 12px;
+}
+
+.correlations-subarea p {
+    font-size: calc(13px + 0.35vw);
     line-height: 1.55;
     margin-bottom: 16px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.correlations-subarea p:last-child {
+    margin-bottom: 0;
 }
 
 /* Footer */
@@ -368,9 +450,19 @@ a:hover {
 }
 
 /* Responsive Design */
+@media (max-width: 1000px) {
+    .movie-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
-    main {
-        padding: 28px 14px 44px;
+    .app-header {
+        padding: 20px 14px 0;
+    }
+
+    .app-content {
+        padding: 16px 14px 44px;
     }
 
     h1 {
@@ -378,20 +470,12 @@ a:hover {
     }
 
     .movie-grid {
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 12px;
     }
 
     .movie-card-title-text {
         font-size: calc(12px + 0.390625vw);
-    }
-
-    .movie-card-back h3 {
-        font-size: calc(16px + 0.5vw);
-    }
-
-    .movie-card-back h3.h2small {
-        font-size: calc(13px + 0.5vw);
     }
 
     .movie-card-details p {
@@ -403,11 +487,21 @@ a:hover {
         height: 22px;
     }
 
+    .correlations-grid {
+        grid-template-columns: 1fr;
+    }
+
     #genreDropdown,
     #countryDropdown,
     #yearDropdown {
         width: 100%;
         max-width: 180px;
         font-size: calc(12px + 0.390625vw);
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

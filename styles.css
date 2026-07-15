@@ -152,10 +152,10 @@ h1 {
     background: rgb(10, 54, 107);
     border: 2px solid rgb(74, 144, 226);
     border-radius: 8px;
-    padding: 8px;
+    padding: 8px 12px;
     font-size: calc(14px + 0.390625vw);
     color: rgb(220, 220, 220);
-    width: 200px;
+    width: 240px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);

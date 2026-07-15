@@ -300,7 +300,10 @@ function initializeMovies() {
   let resizeTimer = null;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(fitMovieGrid, 150);
+    resizeTimer = setTimeout(() => {
+      fitMovieGrid();
+      fitCorrelationsText();
+    }, 150);
   });
 
   // ---- View tabs: Filters (collapsible panel) / Correlations (swaps the
@@ -315,6 +318,30 @@ function initializeMovies() {
     filtersTab.classList.toggle('active', open);
   }
 
+  // Shrinks each subarea's own font-size (its h3/p sizes are in em, so they
+  // scale down together) until its content actually fits without needing
+  // to scroll — a fixed font-size can't guarantee this since the "Society
+  // vs. the Self" paragraph is long enough to overflow at normal reading
+  // size on plenty of real desktop window heights. Resets to the CSS
+  // default first so growing the window back doesn't leave text stuck
+  // small from an earlier, shorter measurement.
+  function fitCorrelationsText() {
+    if (!correlationsPanel.classList.contains('active')) return;
+    if (window.innerWidth <= 768) return; // mobile: natural scroll is fine
+    const subareas = correlationsPanel.querySelectorAll('.correlations-subarea');
+    subareas.forEach(area => {
+      area.style.fontSize = '';
+      let guard = 0;
+      while (area.scrollHeight > area.clientHeight + 1 && guard < 60) {
+        const current = parseFloat(getComputedStyle(area).fontSize);
+        const next = current - 0.5;
+        if (next < 9) break;
+        area.style.fontSize = next + 'px';
+        guard++;
+      }
+    });
+  }
+
   function setCorrelationsShowing(showing) {
     correlationsPanel.classList.toggle('active', showing);
     moviesPanel.classList.toggle('active', !showing);
@@ -322,6 +349,7 @@ function initializeMovies() {
     correlationsTab.classList.toggle('active', showing);
     if (showing) {
       setFiltersOpen(false);
+      fitCorrelationsText();
     } else {
       fitMovieGrid();
     }

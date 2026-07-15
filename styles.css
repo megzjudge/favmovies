@@ -82,7 +82,7 @@ html, body {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 20px 20px 110px;
+    padding: 20px 20px 60px;
 }
 
 /* Intro */
@@ -457,20 +457,25 @@ a:hover {
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+    /* Base size in px (not vw-based) — script.js shrinks this directly via
+       inline style until the text fits with zero scroll on desktop; the
+       heading/paragraph sizes below are relative (em) so they scale down
+       together with it rather than needing their own separate shrink logic. */
+    font-size: calc(13px + 0.35vw);
 }
 
 .correlations-subarea h3 {
     font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(19px + 0.45vw);
+    font-size: 1.4em;
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    margin-bottom: 12px;
+    margin-bottom: 0.6em;
 }
 
 .correlations-subarea p {
-    font-size: calc(13px + 0.35vw);
-    line-height: 1.55;
-    margin-bottom: 16px;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 0.8em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 

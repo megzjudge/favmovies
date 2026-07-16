@@ -1,6 +1,6 @@
 # Favourite Movies
 
-Megan Judge's personal list of favourite films and series — a static site with no build step, no framework, and no backend.
+Personal list of favourite films and series — a static site with no build step, no framework, and no backend.
 
 ## What it is
 

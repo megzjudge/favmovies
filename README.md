@@ -25,14 +25,6 @@ The page is a fixed-height app shell: a locked header (title, view tabs, filter 
 - **Movies view**: the grid is sized in JS to fit a clean 6×3 screenful without scrolling on desktop — column/row size is computed from whichever is more restrictive, the available width ÷ 6 or the available height ÷ 3, so the grid works at any window size rather than assuming one.
 - **Correlations view**: sized to fit the content area's height on desktop with zero scrolling — each of the two theme boxes shrinks its own font size (in JS) until its text actually fits, since the essay is long enough to overflow at normal reading size on plenty of real window heights.
 
-## Running locally
-
-No server required — just open `index.html` directly, or serve the folder with any static file server, e.g.:
-
-```
-python3 -m http.server
-```
-
 ## License
 
 MIT — see [LICENSE](LICENSE).

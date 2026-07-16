@@ -438,16 +438,6 @@ a:hover {
     display: flex;
 }
 
-.correlations h2 {
-    font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(28px + 0.390625vw);
-    color: rgb(100, 160, 240);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    text-align: center;
-    margin-bottom: 8px;
-    flex: 0 0 auto;
-}
-
 .correlations-intro {
     text-align: center;
     font-size: calc(14px + 0.35vw);
@@ -460,6 +450,13 @@ a:hover {
 .correlations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* Without this, the implicit row sizes to its content's natural height
+       (the "Society vs. the Self" box at full font-size) regardless of the
+       flex:1/min-height:0 below — that constrains the *container*, not the
+       grid track inside it. minmax(0, 1fr) makes the row actually bounded
+       by the available space, so .correlations-subarea's clientHeight is
+       what script.js's shrink-to-fit measures against is real. */
+    grid-template-rows: minmax(0, 1fr);
     gap: 24px;
     flex: 1 1 auto;
     min-height: 0;

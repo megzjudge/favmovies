@@ -1,4 +1,53 @@
-function initializeMovies() {
+// Movie data lives in movies.json, not hardcoded in index.html — this
+// builds the exact same markup/classes/data-attributes the rest of this
+// file (filtering, flip cards, grid sizing) already expects, so nothing
+// else below had to change to support the JSON-driven render.
+function escapeHtml(str) {
+  return String(str == null ? '' : str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function buildCardHtml(movie) {
+  const genresAttr = movie.genres.join('|');
+  const yearsAttr = movie.years.join('|');
+  const flagHtml = movie.flag ? ` <span class="flag">${escapeHtml(movie.flag)}</span>` : '';
+  const detailsHtml = movie.detailLines.map(d => {
+    if (!d.label) return `<p>${escapeHtml(d.value)}</p>`;
+    const valueHtml = d.italic
+      ? `<span class="detail-value">${escapeHtml(d.value)}</span>`
+      : escapeHtml(d.value);
+    return `<p>${escapeHtml(d.label)}: ${valueHtml}</p>`;
+  }).join('');
+  const linksHtml = movie.links.map(l =>
+    `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener"><img src="${escapeHtml(l.icon)}" alt="${escapeHtml(l.alt)}" loading="lazy"></a>`
+  ).join('');
+
+  return `<article class="movie-card" tabindex="0" role="button" aria-pressed="false" aria-label="Show details for ${escapeHtml(movie.title)}"
+    data-genres="${escapeHtml(genresAttr)}" data-country="${escapeHtml(movie.country)}" data-years="${escapeHtml(yearsAttr)}">
+    <div class="movie-card-inner">
+      <div class="movie-card-face movie-card-front">
+        <img src="${escapeHtml(movie.image)}" alt="${escapeHtml(movie.imageAlt)}" loading="lazy">
+        <span class="movie-card-flip-hint" aria-hidden="true">&#8635;</span>
+      </div>
+      <div class="movie-card-face movie-card-back">
+        <h3>${escapeHtml(movie.title)}${flagHtml}</h3>
+        <div class="movie-card-details">${detailsHtml}</div>
+        <div class="movie-card-links">${linksHtml}</div>
+      </div>
+    </div>
+  </article>`;
+}
+
+async function renderMovieCards() {
+  const movieGrid = document.getElementById('movieGrid');
+  const res = await fetch('movies.json');
+  const movies = await res.json();
+  movieGrid.innerHTML = movies.map(buildCardHtml).join('');
+}
+
+async function initializeMovies() {
+  await renderMovieCards();
+
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');
   const yearDropdown = document.getElementById('yearDropdown');

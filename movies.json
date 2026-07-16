@@ -1,0 +1,4374 @@
+[
+  {
+    "title": "Knives Out [series]",
+    "flag": "",
+    "country": "",
+    "years": [
+      2019,
+      2022,
+      2025
+    ],
+    "genres": [
+      "Cerebral Crime",
+      "Existential Drama",
+      "Dark Comedy"
+    ],
+    "image": "images/knives_out.jpg",
+    "imageAlt": "Venom: The Last Dance",
+    "detailLines": [
+      {
+        "label": "Titles",
+        "value": "Knives Out, Glass Onion: A Knives Out Mystery, Wake Up Dead Man: A Knives Out Mystery",
+        "italic": false
+      },
+      {
+        "label": "Years",
+        "value": "2019, 2022, 2025",
+        "italic": true
+      },
+      {
+        "label": "Runtimes",
+        "value": "130 min, 139 min, 144 min",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Cerebral Crime, Existential Drama, Dark Comedy",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.imdb.com/title/tt8946378/",
+        "icon": "images/imdb.png",
+        "alt": "Knives Out (2019) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt11564570/",
+        "icon": "images/imdb.png",
+        "alt": "Glass Onion (2022) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt14364480/",
+        "icon": "images/imdb.png",
+        "alt": "Wake Up Dead Man (2025) on IMDB"
+      },
+      {
+        "url": "https://www.justwatch.com/au/search?q=knives%20out",
+        "icon": "images/justwatch.png",
+        "alt": "Knives Out on JustWatch"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Knives_Out_(film_series)",
+        "icon": "images/wikipedia.png",
+        "alt": "Knives Out on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
+        "icon": "images/youtube.png",
+        "alt": "Knives Out (2019) Trailer on YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Venom [series]",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2018,
+      2021,
+      2024
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Magical Realism",
+      "Surreal Adventure"
+    ],
+    "image": "images/venom.jpg",
+    "imageAlt": "Venom: The Last Dance",
+    "detailLines": [
+      {
+        "label": "Years",
+        "value": "2018, 2021, 2024",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Magical Realism, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "112 mins, 97 min, 109 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/venom-3-2024",
+        "icon": "images/justwatch.png",
+        "alt": "Venom: The Last Dance on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1270797/",
+        "icon": "images/imdb.png",
+        "alt": "Venom on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt7097896/",
+        "icon": "images/imdb.png",
+        "alt": "Venom:  on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt16366836/",
+        "icon": "images/imdb.png",
+        "alt": "Venom: The Last Dance on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sony%27s_Spider-Man_Universe#Films",
+        "icon": "images/wikipedia.png",
+        "alt": "Venom: The Last Dance on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=__2bjWbetsA",
+        "icon": "images/youtube.png",
+        "alt": "Venom: The Last Dance Trailer on YouTube"
+      }
+    ]
+  },
+  {
+    "title": "The Ministry of Ungentlemanly Warfare",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2024
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Cerebral Crime",
+      "War"
+    ],
+    "image": "images/the_ministry_of_ungentlemanly_warfare.jpg",
+    "imageAlt": "The Ministry of Ungentlemanly Warfare",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2024",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Cerebral Crime, War",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "122 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/the-ministry-of-ungentlemanly-warfare",
+        "icon": "images/justwatch.png",
+        "alt": "The Ministry of Ungentlemanly Warfare on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt5177120/",
+        "icon": "images/imdb.png",
+        "alt": "The Ministry of Ungentlemanly Warfare on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Ministry_of_Ungentlemanly_Warfare",
+        "icon": "images/wikipedia.png",
+        "alt": "The Ministry of Ungentlemanly Warfare on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=h1S5CAYL3-g",
+        "icon": "images/youtube.png",
+        "alt": "The Ministry of Ungentlemanly Warfare Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Oppenheimer",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2023
+    ],
+    "genres": [
+      "Existential Drama",
+      "Epic"
+    ],
+    "image": "images/oppenheimer.jpg",
+    "imageAlt": "Oppenheimer",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2023",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Epic",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "180 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/oppenheimer",
+        "icon": "images/justwatch.png",
+        "alt": "Oppenheimer on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt15398776/",
+        "icon": "images/imdb.png",
+        "alt": "Oppenheimer on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Oppenheimer on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=bK6ldnjE3Y0",
+        "icon": "images/youtube.png",
+        "alt": "Oppenheimer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2022
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Surreal Adventure",
+      "Magical Realism"
+    ],
+    "image": "images/everything_everywhere_all_at_once.jpg",
+    "imageAlt": "Everything Everywhere All at Once",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2022",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Surreal Adventure, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "139 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/everything-everywhere-all-at-once",
+        "icon": "images/justwatch.png",
+        "alt": "Everything Everywhere All at Once on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt6710474/",
+        "icon": "images/imdb.png",
+        "alt": "Everything Everywhere All at Once on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once",
+        "icon": "images/wikipedia.png",
+        "alt": "Everything Everywhere All at Once on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wxN1T1uxQ2g",
+        "icon": "images/youtube.png",
+        "alt": "Everything Everywhere All at Once on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Nine Days",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2020
+    ],
+    "genres": [
+      "Existential Drama",
+      "Dystopian Sci-Fi",
+      "Magical Realism"
+    ],
+    "image": "images/nine_days.jpg",
+    "imageAlt": "Nine Days",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2020",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Dystopian Sci-Fi, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "124 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/nine-days",
+        "icon": "images/justwatch.png",
+        "alt": "Nine Days on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt10451852/",
+        "icon": "images/imdb.png",
+        "alt": "Nine Days on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nine_Days_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Nine Days on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=A73FnWETvr8",
+        "icon": "images/youtube.png",
+        "alt": "Nine Days on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Tenet",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2020
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Dystopian Sci-Fi",
+      "Surreal Adventure"
+    ],
+    "image": "images/tenet.jpg",
+    "imageAlt": "Tenet",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2020",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Dystopian Sci-Fi, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "150 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/tenet",
+        "icon": "images/justwatch.png",
+        "alt": "Tenet on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt6723592/",
+        "icon": "images/imdb.png",
+        "alt": "Tenet on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tenet_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Tenet on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LdOM0x0XDMo",
+        "icon": "images/youtube.png",
+        "alt": "Tenet on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Gentlemen",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      2019
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Dark Comedy",
+      "Cerebral Crime"
+    ],
+    "image": "images/the_gentlemen.jpg",
+    "imageAlt": "The Gentlemen",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2019",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Dark Comedy, Cerebral Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "113 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-gentlemen",
+        "icon": "images/justwatch.png",
+        "alt": "The Gentlemen on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt8367814/",
+        "icon": "images/imdb.png",
+        "alt": "The Gentlemen on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Gentlemen_(2019_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Gentlemen on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=2B0RpUGss2c",
+        "icon": "images/youtube.png",
+        "alt": "The Gentlemen on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Red Sparrow",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2018
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Psychological Thriller",
+      "Cerebral Crime"
+    ],
+    "image": "images/red_sparrow.jpg",
+    "imageAlt": "Red Sparrow",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2018",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Psychological Thriller, Cerebral Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "140 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/red-sparrow",
+        "icon": "images/justwatch.png",
+        "alt": "Red Sparrow on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt2873282/",
+        "icon": "images/imdb.png",
+        "alt": "Red Sparrow on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_Sparrow",
+        "icon": "images/wikipedia.png",
+        "alt": "Red Sparrow on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=PmUL6wMpMWw",
+        "icon": "images/youtube.png",
+        "alt": "Red Sparrow on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Man from U.N.C.L.E.",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2015
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Male Camaraderie",
+      "Dark Comedy"
+    ],
+    "image": "images/the_man_from_u_n_c_l_e.jpg",
+    "imageAlt": "The Man from U.N.C.L.E.",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2015",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Male Camaraderie, Dark Comedy",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "116 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-man-from-u-n-c-l-e",
+        "icon": "images/justwatch.png",
+        "alt": "The Man from U.N.C.L.E. on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1638355/",
+        "icon": "images/imdb.png",
+        "alt": "The Man from U.N.C.L.E. on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Man_from_U.N.C.L.E._(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Man from U.N.C.L.E. on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4K4Iv_N9Nno",
+        "icon": "images/youtube.png",
+        "alt": "The Man from U.N.C.L.E. on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Alien [series]",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1979,
+      1986,
+      1992,
+      1997,
+      2004,
+      2012
+    ],
+    "genres": [
+      "Psychological Thriller",
+      "Dystopian Sci-Fi",
+      "Existential Drama"
+    ],
+    "image": "images/alien.jpg",
+    "imageAlt": "Alien",
+    "detailLines": [
+      {
+        "label": "Titles",
+        "value": "Alien, Aliens, Alien³, Alien vs. Predator, Prometheus",
+        "italic": false
+      },
+      {
+        "label": "Years",
+        "value": "1979, 1986, 1992, 1997, 2004, 2012",
+        "italic": true
+      },
+      {
+        "label": "Runtimes",
+        "value": "117 min, 137 min, 114 min, 109 min, 101 min, 124 min",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Psychological Thriller, Dystopian Sci-Fi, Existential Drama",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.imdb.com/title/tt0078748/",
+        "icon": "images/imdb.png",
+        "alt": "Alien (1979) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0090605/",
+        "icon": "images/imdb.png",
+        "alt": "Aliens (1986) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0103644/",
+        "icon": "images/imdb.png",
+        "alt": "Alien 3 (1992) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0118583/",
+        "icon": "images/imdb.png",
+        "alt": "Alien: Resurrection (1997) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0370263/",
+        "icon": "images/imdb.png",
+        "alt": "Alien vs. Predator (2004) on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1446714/",
+        "icon": "images/imdb.png",
+        "alt": "Prometheus (2012) on IMDB"
+      },
+      {
+        "url": "https://www.justwatch.com/au/search?q=alien",
+        "icon": "images/justwatch.png",
+        "alt": "Prometheus (2012) on JustWatch"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alien_(franchise)",
+        "icon": "images/wikipedia.png",
+        "alt": "Prometheus (2012) on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jQ5lPt9edzQ",
+        "icon": "images/youtube.png",
+        "alt": "Alien (1979) Trailer on YouTube"
+      }
+    ]
+  },
+  {
+    "title": "John Dies at the End",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2012
+    ],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Dark Comedy",
+      "Magical Realism"
+    ],
+    "image": "images/john_dies_at_the_end.jpg",
+    "imageAlt": "John Dies at the End",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2012",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dystopian Sci-Fi, Dark Comedy, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "99 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/john-dies-at-the-end",
+        "icon": "images/justwatch.png",
+        "alt": "John Dies at the End on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1783732/",
+        "icon": "images/imdb.png",
+        "alt": "John Dies at the End on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Dies_at_the_End_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "John Dies at the End on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=IfRzXG8p4rk",
+        "icon": "images/youtube.png",
+        "alt": "John Dies at the End Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Wanderlust",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2012
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Comedy",
+      "Romance",
+      "Existential Drama"
+    ],
+    "image": "images/wanderlust.jpg",
+    "imageAlt": "Wanderlust",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2012",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Comedy, Romance, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "98 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/wanderlust",
+        "icon": "images/justwatch.png",
+        "alt": "Wanderlust on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1655460/",
+        "icon": "images/imdb.png",
+        "alt": "Wanderlust on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wanderlust_(2012_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Wanderlust on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Oz7xMY1AbbI",
+        "icon": "images/youtube.png",
+        "alt": "Wanderlust on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Limitless",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2011
+    ],
+    "genres": [
+      "Psychological Thriller",
+      "Intelligent Action"
+    ],
+    "image": "images/limitless.jpg",
+    "imageAlt": "Limitless",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2011",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Psychological Thriller, Intelligent Action",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "105 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/limitless",
+        "icon": "images/justwatch.png",
+        "alt": "Limitless on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1219289/",
+        "icon": "images/imdb.png",
+        "alt": "Limitless on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Limitless_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Limitless on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4TLppsfzQH8",
+        "icon": "images/youtube.png",
+        "alt": "Limitless on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Sucker Punch",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2011
+    ],
+    "genres": [
+      "Magical Realism",
+      "Psychological Thriller",
+      "Surreal Adventure"
+    ],
+    "image": "images/sucker_punch.jpg",
+    "imageAlt": "Sucker Punch",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2011",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Magical Realism, Psychological Thriller, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "110 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/sucker-punch-2011",
+        "icon": "images/justwatch.png",
+        "alt": "Sucker Punch on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0978764/",
+        "icon": "images/imdb.png",
+        "alt": "Sucker Punch on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sucker_Punch_(2011_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Sucker Punch on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AAqJfWQ0Ytw",
+        "icon": "images/youtube.png",
+        "alt": "Sucker Punch Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Scott Pilgrim vs. the World",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2010
+    ],
+    "genres": [
+      "Action",
+      "Magical Realism",
+      "Romance"
+    ],
+    "image": "images/scott_pilgrim.jpg",
+    "imageAlt": "Scott Pilgrim vs. the World",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2010",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Action, Magical Realism, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "112 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/scott-pilgrims-precious-little-life",
+        "icon": "images/justwatch.png",
+        "alt": "Scott Pilgrim vs. the World on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0446029/",
+        "icon": "images/imdb.png",
+        "alt": "Scott Pilgrim vs. the World on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World",
+        "icon": "images/wikipedia.png",
+        "alt": "Scott Pilgrim vs. the World on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7wd5KEaOtm4",
+        "icon": "images/youtube.png",
+        "alt": "Scott Pilgrim vs. the World on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Inception",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2010
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Dystopian Sci-Fi",
+      "Psychological Thriller"
+    ],
+    "image": "images/inception.jpg",
+    "imageAlt": "Inception",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2010",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Dystopian Sci-Fi, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "148 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/origine",
+        "icon": "images/justwatch.png",
+        "alt": "Inception on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1375666/",
+        "icon": "images/imdb.png",
+        "alt": "Inception on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Inception",
+        "icon": "images/wikipedia.png",
+        "alt": "Inception on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "icon": "images/youtube.png",
+        "alt": "Inception on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Push",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2009
+    ],
+    "genres": [
+      "Sci-Fi Action",
+      "Magical Realism",
+      "Psychological Thriller"
+    ],
+    "image": "images/push.jpg",
+    "imageAlt": "Push",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2009",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Sci-Fi Action, Magical Realism, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "111 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/push",
+        "icon": "images/justwatch.png",
+        "alt": "Push on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0465580/",
+        "icon": "images/imdb.png",
+        "alt": "Push on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Push_(2009_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Push on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Pl3KNqCEtQ4",
+        "icon": "images/youtube.png",
+        "alt": "Push Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Enter the Void",
+    "flag": "🇫🇷",
+    "country": "FR",
+    "years": [
+      2009
+    ],
+    "genres": [
+      "Psychological Drama",
+      "Experimental",
+      "Surreal"
+    ],
+    "image": "images/enter_the_void.jpg",
+    "imageAlt": "Enter the Void",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2009",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Psychological Drama, Experimental, Surreal",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "161 min",
+        "italic": true
+      },
+      {
+        "label": null,
+        "value": "Trailer has massive spoilers",
+        "italic": false
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/enter-the-void",
+        "icon": "images/justwatch.png",
+        "alt": "Enter the Void on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt1191111/",
+        "icon": "images/imdb.png",
+        "alt": "Enter the Void on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Enter_the_Void",
+        "icon": "images/wikipedia.png",
+        "alt": "Enter the Void on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=JJkPLYmUyzg",
+        "icon": "images/youtube.png",
+        "alt": "Enter the Void Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Superbad",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2007
+    ],
+    "genres": [
+      "Comedy",
+      "Male Camaraderie",
+      "Romance"
+    ],
+    "image": "images/superbad.jpg",
+    "imageAlt": "Superbad",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2007",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Comedy, Male Camaraderie, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "113 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/superbad",
+        "icon": "images/justwatch.png",
+        "alt": "Superbad on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0829482/",
+        "icon": "images/imdb.png",
+        "alt": "Superbad on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Superbad",
+        "icon": "images/wikipedia.png",
+        "alt": "Superbad on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LvKvus3vCEY",
+        "icon": "images/youtube.png",
+        "alt": "Superbad on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Idiocracy",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2006
+    ],
+    "genres": [
+      "Existential Drama",
+      "Dark Comedy",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/idiocracy.jpg",
+    "imageAlt": "Idiocracy",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2006",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Dark Comedy, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "84 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/idiocracy",
+        "icon": "images/justwatch.png",
+        "alt": "Idiocracy on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0387808/",
+        "icon": "images/imdb.png",
+        "alt": "Idiocracy on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Idiocracy",
+        "icon": "images/wikipedia.png",
+        "alt": "Idiocracy on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6lai9QhBibk",
+        "icon": "images/youtube.png",
+        "alt": "Idiocracy on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Suburban Mayhem",
+    "flag": "🇦🇺",
+    "country": "AU",
+    "years": [
+      2006
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Crime",
+      "Psychological Thriller"
+    ],
+    "image": "images/suburban_mayhem.jpg",
+    "imageAlt": "Suburban Mayhem",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2006",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Crime, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "95 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/suburban-mayhem",
+        "icon": "images/justwatch.png",
+        "alt": "Suburban Mayhem on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0450506/",
+        "icon": "images/imdb.png",
+        "alt": "Suburban Mayhem on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Suburban_Mayhem",
+        "icon": "images/wikipedia.png",
+        "alt": "Suburban Mayhem on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_Zab3TRjlxs",
+        "icon": "images/youtube.png",
+        "alt": "Suburban Mayhem Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Illusionist",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2006
+    ],
+    "genres": [
+      "Mystery",
+      "Romance"
+    ],
+    "image": "images/the_illusionist.jpg",
+    "imageAlt": "The Illusionist",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2006",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Mystery, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "110 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-illusionist-2006",
+        "icon": "images/justwatch.png",
+        "alt": "The Illusionist on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0443543/",
+        "icon": "images/imdb.png",
+        "alt": "The Illusionist on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Illusionist_(2006_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Illusionist on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QngdF-55AGc",
+        "icon": "images/youtube.png",
+        "alt": "The Illusionist on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Revolver",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "Existential Drama",
+      "Cerebral Crime",
+      "Intelligent Action"
+    ],
+    "image": "images/revolver.jpg",
+    "imageAlt": "Revolver",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Cerebral Crime, Intelligent Action",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "111 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/revolver",
+        "icon": "images/justwatch.png",
+        "alt": "Revolver on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0365686/",
+        "icon": "images/imdb.png",
+        "alt": "Revolver on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Revolver_(2005_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Revolver on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=DNXtExBM-KM",
+        "icon": "images/youtube.png",
+        "alt": "Revolver on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "V for Vendetta",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "Existential Drama",
+      "Psychological Thriller",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/v_for_vendetta.jpg",
+    "imageAlt": "V for Vendetta",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Psychological Thriller, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "132 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/v-for-vendetta",
+        "icon": "images/justwatch.png",
+        "alt": "V for Vendetta on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0434409/",
+        "icon": "images/imdb.png",
+        "alt": "V for Vendetta on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/V_for_Vendetta_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "V for Vendetta on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+        "icon": "images/youtube.png",
+        "alt": "V for Vendetta on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Lord of War",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "High-Stakes Action",
+      "Cerebral Crime",
+      "Existential Drama"
+    ],
+    "image": "images/lord_of_war.jpg",
+    "imageAlt": "Lord of War",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "High-Stakes Action, Cerebral Crime, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "122 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/lord-of-war",
+        "icon": "images/justwatch.png",
+        "alt": "Lord of War on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0399295/",
+        "icon": "images/imdb.png",
+        "alt": "Lord of War on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lord_of_War",
+        "icon": "images/wikipedia.png",
+        "alt": "Lord of War on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AXgyoER0aRc",
+        "icon": "images/youtube.png",
+        "alt": "Lord of War on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Sin City",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "Neo-Noir",
+      "Crime Thriller",
+      "Stylised Action"
+    ],
+    "image": "images/sin_city.jpg",
+    "imageAlt": "Sin City",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Neo-Noir, Crime Thriller, Stylised Action",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "124 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/sin-city",
+        "icon": "images/justwatch.png",
+        "alt": "Sin City on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0401792/",
+        "icon": "images/imdb.png",
+        "alt": "Sin City on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sin_City_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Sin City on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=T2Dj6ktPU5c",
+        "icon": "images/youtube.png",
+        "alt": "Sin City Trailer on YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Mr & Mrs Smith",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "High-Stakes Action",
+      "Romance"
+    ],
+    "image": "images/mr_and_mrs_smith.jpg",
+    "imageAlt": "Mr & Mrs Smith",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "High-Stakes Action, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "120 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/mr-and-mrs-smith",
+        "icon": "images/justwatch.png",
+        "alt": "Mr & Mrs Smith on JustWatch"
+      },
+      {
+        "url": "hhttps://www.imdb.com/title/tt0356910/",
+        "icon": "images/imdb.png",
+        "alt": "Mr & Mrs Smith on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mr._%26_Mrs._Smith_(2005_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Mr & Mrs Smith on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=CZ0B22z22pI",
+        "icon": "images/youtube.png",
+        "alt": "Mr & Mrs Smith on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Constantine",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2005
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Existential Drama",
+      "Psychological Thriller"
+    ],
+    "image": "images/constantine.jpg",
+    "imageAlt": "Constantine",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2005",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Existential Drama, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "121 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/constantine",
+        "icon": "images/justwatch.png",
+        "alt": "Constantine on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0360486/",
+        "icon": "images/imdb.png",
+        "alt": "Constantine on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Constantine_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Constantineon Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=819JCbGfZpg",
+        "icon": "images/youtube.png",
+        "alt": "Constantine on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Secret Window",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2004
+    ],
+    "genres": [
+      "Mystery",
+      "Psychological Thriller",
+      "Cerebral Crime"
+    ],
+    "image": "images/secret_window.jpg",
+    "imageAlt": "Secret Window",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2004",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Mystery, Psychological Thriller, Cerebral Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "96 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/secret-window",
+        "icon": "images/justwatch.png",
+        "alt": "Secret Window on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0363988/",
+        "icon": "images/imdb.png",
+        "alt": "Secret Window on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Secret_Window",
+        "icon": "images/wikipedia.png",
+        "alt": "Secret Window on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=IfZiVFZEJes",
+        "icon": "images/youtube.png",
+        "alt": "Secret Window on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Dogville",
+    "flag": "🇩🇰",
+    "country": "DK",
+    "years": [
+      2003
+    ],
+    "genres": [
+      "Existential Drama",
+      "Psychological Thriller"
+    ],
+    "image": "images/dogville.jpg",
+    "imageAlt": "Dogville",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "178 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/dogville",
+        "icon": "images/justwatch.png",
+        "alt": "Dogville on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0276919/",
+        "icon": "images/imdb.png",
+        "alt": "Dogville on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dogville",
+        "icon": "images/wikipedia.png",
+        "alt": "Dogville on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ZD1vi5lE-tk",
+        "icon": "images/youtube.png",
+        "alt": "Dogville on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Sin Eater (The Order)",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2003
+    ],
+    "genres": [
+      "Magical Realism",
+      "Psychological Thriller"
+    ],
+    "image": "images/the_sin_eater_the_order.jpg",
+    "imageAlt": "The Sin Eater (The Order)",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Magical Realism, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "102 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-sin-eater",
+        "icon": "images/justwatch.png",
+        "alt": "Sin Eater (The Order) on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0304711/",
+        "icon": "images/imdb.png",
+        "alt": "Sin Eater (The Order) on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Order_(2003_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Sin Eater (The Order) on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=xaaX33DzYQg",
+        "icon": "images/youtube.png",
+        "alt": "Sin Eater (The Order) Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Underworld",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2003
+    ],
+    "genres": [
+      "Action",
+      "Dark Fantasy",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/underworld.jpg",
+    "imageAlt": "Underworld",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Action, Dark Fantasy, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "121 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/underworld",
+        "icon": "images/justwatch.png",
+        "alt": "Underworld on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0320691/",
+        "icon": "images/imdb.png",
+        "alt": "Underworld on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Underworld_(2003_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Underworld on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=2_IoL7g5Ub8",
+        "icon": "images/youtube.png",
+        "alt": "Underworld Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Animatrix",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2003
+    ],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Surreal Adventure",
+      "Existential Drama"
+    ],
+    "image": "images/the_animatrix.jpg",
+    "imageAlt": "The Animatrix",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dystopian Sci-Fi, Surreal Adventure, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "102 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/the-animatrix",
+        "icon": "images/justwatch.png",
+        "alt": "The Animatrix on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0328832/",
+        "icon": "images/imdb.png",
+        "alt": "The Animatrix on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Animatrix",
+        "icon": "images/wikipedia.png",
+        "alt": "The Animatrix on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=94fPVqJqBGA",
+        "icon": "images/youtube.png",
+        "alt": "The Animatrix Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The League of Extraordinary Gentlemen",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2003
+    ],
+    "genres": [
+      "Magical Realism",
+      "High-Stakes Action",
+      "Surreal Adventure"
+    ],
+    "image": "images/the_league_of_extraordinary_gentlemen.jpg",
+    "imageAlt": "The League of Extraordinary Gentlemen",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Magical Realism, High-Stakes Action, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "110 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-league-of-extraordinary-gentlemen",
+        "icon": "images/justwatch.png",
+        "alt": "The League of Extraordinary Gentlemen on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0311429/",
+        "icon": "images/imdb.png",
+        "alt": "The League of Extraordinary Gentlemen on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The League of Extraordinary Gentlemen on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fndHh-SEDe0",
+        "icon": "images/youtube.png",
+        "alt": "The League of Extraordinary Gentlemen Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Spirit: Stallion of the Cimarron",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2002
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "image": "images/spirit_stallion_of_the_cimarron.jpg",
+    "imageAlt": "Spirit: Stallion of the Cimarron",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2002",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "83 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/spirit-stallion-of-the-cimarron",
+        "icon": "images/justwatch.png",
+        "alt": "Spirit: Stallion of the Cimarron on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0166813/",
+        "icon": "images/imdb.png",
+        "alt": "Spirit: Stallion of the Cimarron on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Spirit:_Stallion_of_the_Cimarron",
+        "icon": "images/wikipedia.png",
+        "alt": "Spirit: Stallion of the Cimarron on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=knB0IaYTgAw",
+        "icon": "images/youtube.png",
+        "alt": "Spirit: Stallion of the Cimarron on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Sorority Boys",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2002
+    ],
+    "genres": [
+      "Male Camaraderie",
+      "Comedy",
+      "Romance"
+    ],
+    "image": "images/sorority_boys.jpg",
+    "imageAlt": "Sorority Boys",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2002",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Male Camaraderie, Comedy, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "124 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/sorority-boys",
+        "icon": "images/justwatch.png",
+        "alt": "Sorority Boys on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0279781/",
+        "icon": "images/imdb.png",
+        "alt": "Sorority Boys on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sorority_Boys",
+        "icon": "images/wikipedia.png",
+        "alt": "Sorority Boys on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=iwPMG7-ALXk",
+        "icon": "images/youtube.png",
+        "alt": "Sorority Boys on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "xXx",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2002
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Romance",
+      "Adventure"
+    ],
+    "image": "images/xXx.jpg",
+    "imageAlt": "xXx",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2002",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Romance, Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "124 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/triple-x",
+        "icon": "images/justwatch.png",
+        "alt": "xXx on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0295701/",
+        "icon": "images/imdb.png",
+        "alt": "xXx on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/XXX_(2002_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "xXx on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NgPdDDzVhkA",
+        "icon": "images/youtube.png",
+        "alt": "xXx on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Super Troopers",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2001
+    ],
+    "genres": [
+      "Comedy",
+      "Male Camaraderie",
+      "Crime"
+    ],
+    "image": "images/super_troopers.jpg",
+    "imageAlt": "Super Troopers",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2001",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Comedy, Male Camaraderie, Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "100 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/super-troopers-die-superbullen",
+        "icon": "images/justwatch.png",
+        "alt": "Super Troopers on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0247745/",
+        "icon": "images/imdb.png",
+        "alt": "Super Troopers on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Super_Troopers",
+        "icon": "images/wikipedia.png",
+        "alt": "Super Troopers on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EV6wkUIMrl8",
+        "icon": "images/youtube.png",
+        "alt": "Super Troopers on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Jay and Silent Bob Strike Back",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2001
+    ],
+    "genres": [
+      "Comedy",
+      "Male Camaraderie",
+      "Satire"
+    ],
+    "image": "images/jay_and_silent_bob_strike_back.jpg",
+    "imageAlt": "Jay and Silent Bob Strike Back",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2001",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Comedy, Male Camaraderie, Satire",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "144 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/jay-and-silent-bob-strike-back",
+        "icon": "images/justwatch.png",
+        "alt": "Jay and Silent Bob Strike Back on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0261392/",
+        "icon": "images/imdb.png",
+        "alt": "Jay and Silent Bob Strike Back on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jay_and_Silent_Bob_Strike_Back",
+        "icon": "images/wikipedia.png",
+        "alt": "Jay and Silent Bob Strike Back on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HjDSFna_LXQ",
+        "icon": "images/youtube.png",
+        "alt": "Jay and Silent Bob Strike Back on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Spirited Away",
+    "flag": "🇯🇵",
+    "country": "JP",
+    "years": [
+      2001
+    ],
+    "genres": [
+      "Animated Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "image": "images/spirited_away.jpg",
+    "imageAlt": "Spirited Away",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2001",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Fantasy, Adventure, Family",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "125 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/spirited-away",
+        "icon": "images/justwatch.png",
+        "alt": "Spirited Away on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0245429/",
+        "icon": "images/imdb.png",
+        "alt": "Spirited Away on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Spirited_Away",
+        "icon": "images/wikipedia.png",
+        "alt": "Spirited Away on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+        "icon": "images/youtube.png",
+        "alt": "Spirited Away Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Requiem for a Dream",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2000
+    ],
+    "genres": [
+      "Crime",
+      "Existential Drama"
+    ],
+    "image": "images/requiem_for_a_dream.jpg",
+    "imageAlt": "Requiem for a Dream",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2000",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Crime, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "102 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/requiem-for-a-dream",
+        "icon": "images/justwatch.png",
+        "alt": "Requiem for a Dream on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0180093/",
+        "icon": "images/imdb.png",
+        "alt": "Requiem for a Dream on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream",
+        "icon": "images/wikipedia.png",
+        "alt": "Requiem for a Dream on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QBwzN4v1vA0",
+        "icon": "images/youtube.png",
+        "alt": "Requiem for a Dream on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Snatch",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      2000
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Male Camaraderie",
+      "Dark Comedy"
+    ],
+    "image": "images/snatch.jpg",
+    "imageAlt": "Snatch",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2000",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Male Camaraderie, Dark Comedy",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "102 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/snatch",
+        "icon": "images/justwatch.png",
+        "alt": "Snatch on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0208092/",
+        "icon": "images/imdb.png",
+        "alt": "Snatch on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Snatch_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Snatch on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9Jar2XkBboo",
+        "icon": "images/youtube.png",
+        "alt": "Snatch on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Malena",
+    "flag": "🇮🇹",
+    "country": "IT",
+    "years": [
+      2000
+    ],
+    "genres": [
+      "Existential Drama",
+      "Romance"
+    ],
+    "image": "images/malena.jpg",
+    "imageAlt": "Malèna",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2000",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "98 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/malena",
+        "icon": "images/justwatch.png",
+        "alt": "Malèna on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0213847/",
+        "icon": "images/imdb.png",
+        "alt": "Malèna on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mal%C3%A8na_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Malèna on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=5Dd6bDz6pB8",
+        "icon": "images/youtube.png",
+        "alt": "Malèna on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999
+    ],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Male Camaraderie",
+      "Psychological Thriller"
+    ],
+    "image": "images/fight_club.jpg",
+    "imageAlt": "Fight Club",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dystopian Sci-Fi, Male Camaraderie, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "139 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/fight-club",
+        "icon": "images/justwatch.png",
+        "alt": "Fight Club on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0137523/",
+        "icon": "images/imdb.png",
+        "alt": "Fight Club on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fight_Club",
+        "icon": "images/wikipedia.png",
+        "alt": "Fight Club on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BdJKm16Co6M",
+        "icon": "images/youtube.png",
+        "alt": "Fight Club on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Matrix [series]",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999,
+      2003
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Dystopian Sci-Fi",
+      "Magical Realism"
+    ],
+    "image": "images/the_matrix_reloaded.jpg",
+    "imageAlt": "The Matrix Reloaded",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999, 2003, 2003",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Dystopian Sci-Fi, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "138 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/search?q=the%20matrix",
+        "icon": "images/justwatch.png",
+        "alt": "The Matrix Reloaded on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0133093/",
+        "icon": "images/imdb.png",
+        "alt": "The Matrix on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0234215/",
+        "icon": "images/imdb.png",
+        "alt": "The Matrix Reloaded on IMDB"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0242653/",
+        "icon": "images/imdb.png",
+        "alt": "The Matrix Revolutions on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Matrix_(franchise)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Matrix Reloaded on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=kYzz0FSgpSU",
+        "icon": "images/youtube.png",
+        "alt": "The Matrix Reloaded on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Being John Malkovich",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Existential Drama",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/being_john_malkovich.jpg",
+    "imageAlt": "Being John Malkovich",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Existential Drama, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "113 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/being-john-malkovich",
+        "icon": "images/justwatch.png",
+        "alt": "Being John Malkovich on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120601/",
+        "icon": "images/imdb.png",
+        "alt": "Being John Malkovich on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Being_John_Malkovich",
+        "icon": "images/wikipedia.png",
+        "alt": "Being John Malkovich on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LEtlqumjXLw",
+        "icon": "images/youtube.png",
+        "alt": "Being John Malkovich on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "American Beauty",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999
+    ],
+    "genres": [
+      "Existential Drama"
+    ],
+    "image": "images/american_beauty.jpg",
+    "imageAlt": "American Beauty",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "122 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/american-beauty",
+        "icon": "images/justwatch.png",
+        "alt": "American Beauty on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0169547/",
+        "icon": "images/imdb.png",
+        "alt": "American Beauty on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/American_Beauty_(1999_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "American Beauty on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Ly7rq5EsTC8",
+        "icon": "images/youtube.png",
+        "alt": "American Beauty on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Cruel Intentions",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999
+    ],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "image": "images/cruel_intentions.jpg",
+    "imageAlt": "Cruel Intentions",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Drama, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "97 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/cruel-intentions",
+        "icon": "images/justwatch.png",
+        "alt": "Cruel Intentions on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0139134/",
+        "icon": "images/imdb.png",
+        "alt": "Cruel Intentions on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cruel_Intentions",
+        "icon": "images/wikipedia.png",
+        "alt": "Cruel Intentions on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UzlKsS-IhEo",
+        "icon": "images/youtube.png",
+        "alt": "Cruel Intentions on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Mummy",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1999
+    ],
+    "genres": [
+      "High-Stakes Action",
+      "Adventure",
+      "Horror"
+    ],
+    "image": "images/the_mummy.jpg",
+    "imageAlt": "The Mummy",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1999",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "High-Stakes Action, Adventure, Horror",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "125 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-mummy",
+        "icon": "images/justwatch.png",
+        "alt": "The Mummy on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120616/",
+        "icon": "images/imdb.png",
+        "alt": "The Mummy on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Mummy_(1999_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Mummy on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ZsDqiSP9aaQ",
+        "icon": "images/youtube.png",
+        "alt": "The Mummy on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Truman Show",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1998
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Existential Drama",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/the_truman_show.jpg",
+    "imageAlt": "The Truman Show",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1998",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Existential Drama, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "103 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-truman-show",
+        "icon": "images/justwatch.png",
+        "alt": "The Truman Show on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120382/",
+        "icon": "images/imdb.png",
+        "alt": "The Truman Show on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Truman_Show",
+        "icon": "images/wikipedia.png",
+        "alt": "The Truman Show on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=dlnmQbPGuls",
+        "icon": "images/youtube.png",
+        "alt": "The Truman Show on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      1998
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Male Camaraderie",
+      "Cerebral Crime"
+    ],
+    "image": "images/lock_stock_and_two_smoking_barrels.jpg",
+    "imageAlt": "Lock, Stock and Two Smoking Barrels",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1998",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Male Camaraderie, Cerebral Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "107 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/lock-stock-and-two-smoking-barrels",
+        "icon": "images/justwatch.png",
+        "alt": "Lock, Stock and Two Smoking Barrels on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120735/",
+        "icon": "images/imdb.png",
+        "alt": "Lock, Stock and Two Smoking Barrels on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lock,_Stock_and_Two_Smoking_Barrels",
+        "icon": "images/wikipedia.png",
+        "alt": "Lock, Stock and Two Smoking Barrels on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EP8uyxGUWaM",
+        "icon": "images/youtube.png",
+        "alt": "Lock, Stock and Two Smoking Barrels on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Fear and Loathing in Las Vegas",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1998
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Male Camaraderie",
+      "Surreal Adventure"
+    ],
+    "image": "images/fear_and_loathing_in_las_vegas.jpg",
+    "imageAlt": "Fear and Loathing in Las Vegas",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1998",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Male Camaraderie, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "118 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/fear-and-loathing-in-las-vegas",
+        "icon": "images/justwatch.png",
+        "alt": "Fear and Loathing in Las Vegas on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120669/",
+        "icon": "images/imdb.png",
+        "alt": "Fear and Loathing in Las Vegas on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Fear and Loathing in Las Vegas on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=tnvJ5xtZpi0",
+        "icon": "images/youtube.png",
+        "alt": "Fear and Loathing in Las Vegas on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Enemy of the State",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1998
+    ],
+    "genres": [
+      "High-Stakes Action",
+      "Dystopian Sci-Fi",
+      "Psychological Thriller"
+    ],
+    "image": "images/enemy_of_the_state.jpg",
+    "imageAlt": "Enemy of the State",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1998",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "High-Stakes Action, Dystopian Sci-Fi, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "132 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/enemy-of-the-state",
+        "icon": "images/justwatch.png",
+        "alt": "Enemy of the State on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120660/",
+        "icon": "images/imdb.png",
+        "alt": "Enemy of the State on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Enemy_of_the_State_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Enemy of the State on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MJQ30fPYec8",
+        "icon": "images/youtube.png",
+        "alt": "Enemy of the State on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Lion King II: Simba's Pride",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1998
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Musical Drama",
+      "Romance"
+    ],
+    "image": "images/the_lion_king_2.jpg",
+    "imageAlt": "The Lion King II: Simba&#x27;s Pride",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1998",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Musical Drama, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "81 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-lion-king-2-simbas-pride",
+        "icon": "images/justwatch.png",
+        "alt": "The Lion King II: Simba&#x27;s Pride on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0120131/",
+        "icon": "images/imdb.png",
+        "alt": "The Lion King II: Simba&#x27;s Pride on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Lion_King_II%3A_Simba%27s_Pride",
+        "icon": "images/wikipedia.png",
+        "alt": "The Lion King II: Simba&#x27;s Pride on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=14o1TKwZVR4",
+        "icon": "images/youtube.png",
+        "alt": "The Lion King II: Simba&#x27;s Pride Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Hercules",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1997
+    ],
+    "genres": [
+      "Animated Adventure",
+      "Musical Fantasy",
+      "Family Comedy"
+    ],
+    "image": "images/hercules.jpg",
+    "imageAlt": "Hercules",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1997",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Adventure, Musical Fantasy, Family Comedy",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "93 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/hercules-1997",
+        "icon": "images/justwatch.png",
+        "alt": "Hercules on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0119282/",
+        "icon": "images/imdb.png",
+        "alt": "Hercules on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hercules_(1997_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Hercules on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RbiM0DJzD3M",
+        "icon": "images/youtube.png",
+        "alt": "Hercules on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Princess Mononoke",
+    "flag": "🇯🇵",
+    "country": "JP",
+    "years": [
+      1997
+    ],
+    "genres": [
+      "Magical Realism",
+      "Surreal Adventure",
+      "Existential Drama"
+    ],
+    "image": "images/princess_mononoke.jpg",
+    "imageAlt": "Princess Mononoke",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1997",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Magical Realism, Surreal Adventure, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "134 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/princess-mononoke",
+        "icon": "images/justwatch.png",
+        "alt": "Princess Mononoke on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0119698/",
+        "icon": "images/imdb.png",
+        "alt": "Princess Mononoke on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Princess_Mononoke",
+        "icon": "images/wikipedia.png",
+        "alt": "Princess Mononoke on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4OiMOHRDs14",
+        "icon": "images/youtube.png",
+        "alt": "Princess Mononoke Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Anastasia",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1997
+    ],
+    "genres": [
+      "Animated Musical",
+      "Surreal Adventure",
+      "Family"
+    ],
+    "image": "images/anastasia.jpg",
+    "imageAlt": "Anastasia",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1997",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Musical, Surreal Adventure, Family",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "94 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/anastasia",
+        "icon": "images/justwatch.png",
+        "alt": "Anastasia on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0118617/",
+        "icon": "images/imdb.png",
+        "alt": "Anastasia on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Anastasia_(1997_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Anastasia on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EJn_NORTB3M",
+        "icon": "images/youtube.png",
+        "alt": "Anastasia Trailer on Youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qA7XKmC5QbQ",
+        "icon": "images/youtube.png",
+        "alt": "Anastasia Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Batman Forever",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1995
+    ],
+    "genres": [
+      "Cerebral Crime",
+      "Action",
+      "Magical Realism"
+    ],
+    "image": "images/batman_forever.jpg",
+    "imageAlt": "Batman Forever",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1995",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Cerebral Crime, Action, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "121 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/batman-3-batman-forever",
+        "icon": "images/justwatch.png",
+        "alt": "Batman Forever on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0112462/",
+        "icon": "images/imdb.png",
+        "alt": "Batman Forever on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Batman_Forever",
+        "icon": "images/wikipedia.png",
+        "alt": "Batman Forever on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ROLvjRB4E_Q",
+        "icon": "images/youtube.png",
+        "alt": "Batman Forever Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Balto",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1995
+    ],
+    "genres": [
+      "Animated Adventure",
+      "Family",
+      "Existential Drama"
+    ],
+    "image": "images/balto.jpg",
+    "imageAlt": "Balto",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1995",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Adventure, Family, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "78 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/balto-1",
+        "icon": "images/justwatch.png",
+        "alt": "Balto on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0112453/",
+        "icon": "images/imdb.png",
+        "alt": "Balto on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Balto_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Balto on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HJwvbmRXym4",
+        "icon": "images/youtube.png",
+        "alt": "Balto Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Ace Ventura: Pet Detective",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1994
+    ],
+    "genres": [
+      "Comedy",
+      "Cerebral Crime",
+      "Detective Parody"
+    ],
+    "image": "images/ace_ventura_pet_detective.jpg",
+    "imageAlt": "Ace Ventura: Pet Detective",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1994",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Comedy, Cerebral Crime, Detective Parody",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "86 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/ace-ventura-pet-detective",
+        "icon": "images/justwatch.png",
+        "alt": "Ace Ventura: Pet Detective on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0109040/",
+        "icon": "images/imdb.png",
+        "alt": "Ace Ventura: Pet Detective on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ace_Ventura:_Pet_Detective",
+        "icon": "images/wikipedia.png",
+        "alt": "Ace Ventura: Pet Detective on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qjBb1CKLpzE",
+        "icon": "images/youtube.png",
+        "alt": "Ace Ventura: Pet Detective Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Little Rascals",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1994
+    ],
+    "genres": [
+      "Family Comedy",
+      "Slapstick",
+      "Male Camaraderie"
+    ],
+    "image": "images/the_little_rascals.jpg",
+    "imageAlt": "The Little Rascals",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1994",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Family Comedy, Slapstick, Male Camaraderie",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "82 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-little-rascals",
+        "icon": "images/justwatch.png",
+        "alt": "The Little Rascals on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0110366/",
+        "icon": "images/imdb.png",
+        "alt": "The Little Rascals on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Little_Rascals_(1994_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Little Rascals on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Svdb1XXVX_c",
+        "icon": "images/youtube.png",
+        "alt": "The Little Rascals Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Silver Brumby",
+    "flag": "🇦🇺",
+    "country": "AU",
+    "years": [
+      1993
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Drama"
+    ],
+    "image": "images/the_silver_brumby.jpg",
+    "imageAlt": "The Silver Brumby",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1993",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "93 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-silver-stallion",
+        "icon": "images/justwatch.png",
+        "alt": "The Silver Brumby on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0108137/",
+        "icon": "images/imdb.png",
+        "alt": "The Silver Brumby on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Silver_Brumby_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Silver Brumby on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3583MxuX3Fk",
+        "icon": "images/youtube.png",
+        "alt": "The Silver Brumby on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Beverly Hillbillies",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1993
+    ],
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "image": "images/the_beverly_hillbillies.jpg",
+    "imageAlt": "The Beverly Hillbillies",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1993",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Comedy, Family",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "91 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-beverly-hillbillies",
+        "icon": "images/justwatch.png",
+        "alt": "The Beverly Hillbillies on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0106400/",
+        "icon": "images/imdb.png",
+        "alt": "The Beverly Hillbillies on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Beverly_Hillbillies_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Beverly Hillbillies on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Sy0tjb-Gjqw",
+        "icon": "images/youtube.png",
+        "alt": "The Beverly Hillbillies Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Back to the Future Part II",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1989
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Dystopian Sci-Fi"
+    ],
+    "image": "images/back_to_the_future_part_ii.jpg",
+    "imageAlt": "Back to the Future Part II",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1989",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Dystopian Sci-Fi",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "108 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/back-to-the-future-2",
+        "icon": "images/justwatch.png",
+        "alt": "Back to the Future Part II on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0096874/",
+        "icon": "images/imdb.png",
+        "alt": "Back to the Future Part II on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II",
+        "icon": "images/wikipedia.png",
+        "alt": "Back to the Future Part II on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MdENmefJRpw",
+        "icon": "images/youtube.png",
+        "alt": "Back to the Future Part II Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Land Before Time",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1988
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Family",
+      "Drama"
+    ],
+    "image": "images/the_land_before_time.jpg",
+    "imageAlt": "The Land Before Time",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1988",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Family, Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "69 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-land-before-time",
+        "icon": "images/justwatch.png",
+        "alt": "The Land Before Time on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0095489/",
+        "icon": "images/imdb.png",
+        "alt": "The Land Before Time on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Land_Before_Time_(film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Land Before Time on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Hmrx8luoec0",
+        "icon": "images/youtube.png",
+        "alt": "The Land Before Time Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "My Little Pony: The Movie",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1986
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Fantasy",
+      "Musical"
+    ],
+    "image": "images/my_little_pony.jpg",
+    "imageAlt": "My Little Pony: The Movie",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1986",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Fantasy, Musical",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "87 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/my-little-pony-the-movie",
+        "icon": "images/justwatch.png",
+        "alt": "My Little Pony: The Movie on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0091584/",
+        "icon": "images/imdb.png",
+        "alt": "My Little Pony: The Movie on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/My_Little_Pony:_The_Movie_(1986_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "My Little Pony: The Movie on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=slfi4BWY6-4",
+        "icon": "images/youtube.png",
+        "alt": "My Little Pony: The Movie on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "1984",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      1984
+    ],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Existential Drama",
+      "Psychological Thriller"
+    ],
+    "image": "images/1984.jpg",
+    "imageAlt": "1984",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1984",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dystopian Sci-Fi, Existential Drama, Psychological Thriller",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "113 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/1984",
+        "icon": "images/justwatch.png",
+        "alt": "1984 on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0087803/",
+        "icon": "images/imdb.png",
+        "alt": "1984 on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four_(1984_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "1984 on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=T8BA7adK6XA",
+        "icon": "images/youtube.png",
+        "alt": "1984 on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Yellowbeard",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      1983
+    ],
+    "genres": [
+      "Dark Comedy",
+      "Adventure",
+      "Male Camaraderie"
+    ],
+    "image": "images/yellowbeard.jpg",
+    "imageAlt": "Yellowbeard",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1983",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dark Comedy, Adventure, Male Camaraderie",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "96 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/yellowbeard",
+        "icon": "images/justwatch.png",
+        "alt": "Yellowbeard on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0086618/",
+        "icon": "images/imdb.png",
+        "alt": "Yellowbeard on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellowbeard",
+        "icon": "images/wikipedia.png",
+        "alt": "Yellowbeard on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3RC69keaDGo",
+        "icon": "images/youtube.png",
+        "alt": "Yellowbeard on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Blade Runner",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1982
+    ],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Psychological Thriller",
+      "Existential Drama"
+    ],
+    "image": "images/blade_runner.jpg",
+    "imageAlt": "Blade Runner",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1982",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Dystopian Sci-Fi, Psychological Thriller, Existential Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "117 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/blade-runner",
+        "icon": "images/justwatch.png",
+        "alt": "Blade Runner on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0083658/",
+        "icon": "images/imdb.png",
+        "alt": "Blade Runner on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Blade_Runner",
+        "icon": "images/wikipedia.png",
+        "alt": "Blade Runner on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eogpIG53Cis",
+        "icon": "images/youtube.png",
+        "alt": "Blade Runner on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Grease 2",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1982
+    ],
+    "genres": [
+      "Musical",
+      "Male Camaraderie",
+      "Romance"
+    ],
+    "image": "images/grease_2.jpg",
+    "imageAlt": "Grease 2",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1982",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Musical, Male Camaraderie, Romance",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "114 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/grease-2",
+        "icon": "images/justwatch.png",
+        "alt": "Grease 2 on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0084021/",
+        "icon": "images/imdb.png",
+        "alt": "Grease 2 on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Grease_2",
+        "icon": "images/wikipedia.png",
+        "alt": "Grease 2 on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=WQTUEj-TqLo",
+        "icon": "images/youtube.png",
+        "alt": "Grease 2 on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Cheech & Chong [series]",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1978,
+      1981,
+      1982,
+      1984
+    ],
+    "genres": [
+      "Stoner Comedy",
+      "Sketch Comedy",
+      "Surreal Adventure"
+    ],
+    "image": "images/nice_dreams.jpg",
+    "imageAlt": "Cheech and Chong&#x27;s Nice Dreams",
+    "detailLines": [
+      {
+        "label": null,
+        "value": "Up in Smoke, Cheech & Chong's Nice Dreams, Things Are Tough All Over, Cheech & Chong's The Corsican Brothers",
+        "italic": false
+      },
+      {
+        "label": "Year",
+        "value": "1978, 1981, 1982, 1984",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Stoner Comedy, Sketch Comedy, Surreal Adventure",
+        "italic": true
+      },
+      {
+        "label": "Runtimes",
+        "value": "86 min, 88 min, 90 min, 88 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/up-in-smoke-1978",
+        "icon": "images/justwatch.png",
+        "alt": "Up in Smoke on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0078446/",
+        "icon": "images/imdb.png",
+        "alt": "Up in Smoke on IMDB"
+      },
+      {
+        "url": "https://www.justwatch.com/au/movie/nice-dreams",
+        "icon": "images/justwatch.png",
+        "alt": "Cheech and Chong&#x27;s Nice Dreams on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0082163/",
+        "icon": "images/imdb.png",
+        "alt": "Cheech and Chong&#x27;s Nice Dreams on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nice_Dreams",
+        "icon": "images/wikipedia.png",
+        "alt": "Cheech and Chong&#x27;s Nice Dreams on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=yrSBh8le5Hw",
+        "icon": "images/youtube.png",
+        "alt": "Cheech and Chong&#x27;s Nice Dreams on Youtube"
+      },
+      {
+        "url": "https://www.justwatch.com/us/movie/things-are-tough-all-over",
+        "icon": "images/justwatch.png",
+        "alt": "Things Are Tough All Over on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0084788/",
+        "icon": "images/imdb.png",
+        "alt": "Things Are Tough All Over on IMDB"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eKZjjjjoEIo",
+        "icon": "images/youtube.png",
+        "alt": "Things Are Tough All Over Trailer on Youtube"
+      },
+      {
+        "url": "https://www.justwatch.com/us/movie/cheech-and-chongs-the-corsican-brothers",
+        "icon": "images/justwatch.png",
+        "alt": "Cheech & Chong&#x27;s The Corsican Brothers on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0087042/",
+        "icon": "images/imdb.png",
+        "alt": "Cheech & Chong&#x27;s The Corsican Brothers on IMDB"
+      }
+    ]
+  },
+  {
+    "title": "Monty Python [series]",
+    "flag": "🇬🇧",
+    "country": "GB",
+    "years": [
+      1971,
+      1975,
+      1979
+    ],
+    "genres": [
+      "Absurdist Comedy",
+      "Satire",
+      "Sketch Comedy"
+    ],
+    "image": "images/life_of_brian.jpg",
+    "imageAlt": "Life of Brian",
+    "detailLines": [
+      {
+        "label": null,
+        "value": "And Now for Something Completely Different, Monty Python and the Holy Grail, Life of Brian",
+        "italic": false
+      },
+      {
+        "label": "Year",
+        "value": "1971, 1975, 1979",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Absurdist Comedy, Satire, Sketch Comedy",
+        "italic": true
+      },
+      {
+        "label": "Runtimes",
+        "value": "88 min, 91 min, 94 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.imdb.com/title/tt0066765/",
+        "icon": "images/imdb.png",
+        "alt": "And Now for Something Completely Different on IMDB"
+      },
+      {
+        "url": "https://www.justwatch.com/us/movie/monty-python-and-the-holy-grail",
+        "icon": "images/justwatch.png",
+        "alt": "Monty Python and the Holy Grail on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0071853/",
+        "icon": "images/imdb.png",
+        "alt": "Monty Python and the Holy Grail on IMDB"
+      },
+      {
+        "url": "https://www.justwatch.com/au/movie/life-of-brian",
+        "icon": "images/justwatch.png",
+        "alt": "Life of Brian on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0079470/",
+        "icon": "images/imdb.png",
+        "alt": "Life of Brian on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian",
+        "icon": "images/wikipedia.png",
+        "alt": "Life of Brian on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=GeKzBQnAq5I",
+        "icon": "images/youtube.png",
+        "alt": "Life of Brian on Youtube"
+      },
+      {
+        "url": "https://www.justwatch.com/au/movie/monty-python-and-now-for-something-completely-different",
+        "icon": "images/justwatch.png",
+        "alt": "And Now for Something Completely Different on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0066765/",
+        "icon": "images/imdb.png",
+        "alt": "And Now for Something Completely Different on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/And_Now_for_Something_Completely_Different",
+        "icon": "images/wikipedia.png",
+        "alt": "And Now for Something Completely Different on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=dlCbFu5dpc8",
+        "icon": "images/youtube.png",
+        "alt": "And Now for Something Completely Different on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Robin Hood",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1973
+    ],
+    "genres": [
+      "Surreal Adventure",
+      "Comedy",
+      "Musical"
+    ],
+    "image": "images/robin_hood.jpg",
+    "imageAlt": "Robin Hood",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1973",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Surreal Adventure, Comedy, Musical",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "83 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/disneys-robin-hood",
+        "icon": "images/justwatch.png",
+        "alt": "Robin Hood on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0070608/",
+        "icon": "images/imdb.png",
+        "alt": "Robin Hood on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robin_Hood_(1973_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Robin Hood on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4ksNO_6XiFw",
+        "icon": "images/youtube.png",
+        "alt": "Robin Hood on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Sword in the Stone",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1963
+    ],
+    "genres": [
+      "Animated Adventure",
+      "Surreal Adventure",
+      "Magical Realism"
+    ],
+    "image": "images/the_sword_in_the_stone.jpg",
+    "imageAlt": "The Sword in the Stone",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1963",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Adventure, Surreal Adventure, Magical Realism",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "79 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-sword-in-the-stone",
+        "icon": "images/justwatch.png",
+        "alt": "The Sword in the Stone on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0057546/",
+        "icon": "images/imdb.png",
+        "alt": "The Sword in the Stone on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Sword_in_the_Stone_(1963_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Sword in the Stone on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=JY_w9Aj7s1o",
+        "icon": "images/youtube.png",
+        "alt": "The Sword in the Stone Trailer on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Alice in Wonderland",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1951
+    ],
+    "genres": [
+      "Animated Fantasy",
+      "Musical",
+      "Family"
+    ],
+    "image": "images/alice_in_wonderland.jpg",
+    "imageAlt": "Alice in Wonderland",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1951",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Fantasy, Musical, Family",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "75 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/alice-in-wonderland-1951",
+        "icon": "images/justwatch.png",
+        "alt": "Alice in Wonderland on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0043274/",
+        "icon": "images/imdb.png",
+        "alt": "Alice in Wonderland on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Alice in Wonderland on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vTOYL4-rz1Q",
+        "icon": "images/youtube.png",
+        "alt": "Alice in Wonderland Trailer on Youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=c_7Q6dCS-e0",
+        "icon": "images/youtube.png",
+        "alt": "Alice in Wonderland Clip on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "The Big Sleep",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1946
+    ],
+    "genres": [
+      "Film Noir",
+      "Mystery",
+      "Cerebral Crime"
+    ],
+    "image": "images/the_big_sleep.jpg",
+    "imageAlt": "The Big Sleep",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1946",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Film Noir, Mystery, Cerebral Crime",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "114 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/au/movie/the-big-sleep",
+        "icon": "images/justwatch.png",
+        "alt": "The Big Sleep on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0038355/",
+        "icon": "images/imdb.png",
+        "alt": "The Big Sleep on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Big_Sleep_(1946_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Big Sleep on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=n-K49CUaeto",
+        "icon": "images/youtube.png",
+        "alt": "The Big Sleep on Youtube"
+      }
+    ]
+  },
+  {
+    "title": "Fantasia",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      1940
+    ],
+    "genres": [
+      "Animated Musical",
+      "Fantasy",
+      "Experimental Film"
+    ],
+    "image": "images/fantasia.jpg",
+    "imageAlt": "Fantasia",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "1940",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Animated Musical, Fantasy, Experimental Film",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "124 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/fantasia",
+        "icon": "images/justwatch.png",
+        "alt": "Fantasia on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0032455/",
+        "icon": "images/imdb.png",
+        "alt": "Fantasia on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fantasia_(1940_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "Fantasia on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eD8U083gQmY",
+        "icon": "images/youtube.png",
+        "alt": "Fantasia Trailer on Youtube"
+      }
+    ]
+  }
+]

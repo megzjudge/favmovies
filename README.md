@@ -10,9 +10,10 @@ Personal list of favourite films and series — a static site with no build step
 
 Plain HTML/CSS/JS — no dependencies, no package.json, no build tooling. Open `index.html` in a browser and it works.
 
-- `index.html` — page structure + all 78 card entries
+- `index.html` — page shell only; the movie grid is rendered into an empty container at runtime
+- `movies.json` — the 78 movie/series entries (title, year(s), genre(s), country, runtime(s), poster, links) — edit this to add/change a movie, not the HTML
 - `styles.css` — layout, theming, the flip-card animation
-- `script.js` — filter logic, view-tab switching, and the grid/correlations auto-fit sizing described below
+- `script.js` — fetches `movies.json` and renders the cards, then does filter logic, view-tab switching, and the grid/correlations auto-fit sizing described below
 - `images/` — posters + link icons
 - `fonts/` — Rosehot (titles), via [dafont.com](https://www.dafont.com/rosehot.font)
 

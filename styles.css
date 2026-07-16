@@ -522,6 +522,13 @@ a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Movie titles mentioned in the essay — italic + smaller so they read as
+   "a title being referenced" rather than blending into the prose. */
+.movie-mention {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
 .correlations-subarea p:last-child {
     margin-bottom: 0;
 }

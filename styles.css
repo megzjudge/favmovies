@@ -90,7 +90,7 @@ html, body {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 20px 20px 60px;
+    padding: 20px 8px 60px 20px;
 }
 
 /* Correlations content is already sized (via script.js) to fit within this
@@ -159,12 +159,13 @@ html, body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: clamp(2.25rem, 7vw, 4.25rem);
     font-family: 'Rosehot', cursive, sans-serif;
     line-height: 1.3;
     color: rgb(100, 160, 240);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    white-space: nowrap;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.85), 0 0 20px rgba(0, 0, 0, 0.5);
+    text-wrap: balance;
+    margin: 0 auto;
 }
 
 /* Filter bar — collapsible panel toggled by the Filters tab; [hidden]
@@ -389,7 +390,7 @@ a:hover {
 
 .movie-card-back h3 {
     font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(16px + 0.45vw);
+    font-size: calc(19px + 0.55vw);
     line-height: 1.15;
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -558,13 +559,12 @@ a:hover {
         padding: 20px 14px 0;
     }
 
-    .app-content {
-        padding: 16px 14px 44px;
+    h1 {
+        max-width: 20ch;
     }
 
-    h1 {
-        font-size: clamp(1.5rem, 7vw, 2.5rem);
-        white-space: normal;
+    .app-content {
+        padding: 16px 14px 44px;
     }
 
     .movie-grid {
@@ -573,7 +573,7 @@ a:hover {
     }
 
     .movie-card-back h3 {
-        font-size: calc(13px + 0.4vw);
+        font-size: calc(16px + 0.45vw);
     }
 
     .movie-card-details p {

@@ -347,6 +347,7 @@ function initializeMovies() {
     moviesPanel.classList.toggle('active', !showing);
     correlationsTab.setAttribute('aria-pressed', String(showing));
     correlationsTab.classList.toggle('active', showing);
+    appContent.classList.toggle('correlations-showing', showing);
     if (showing) {
       setFiltersOpen(false);
       fitCorrelationsText();

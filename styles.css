@@ -93,6 +93,14 @@ html, body {
     padding: 20px 20px 60px;
 }
 
+/* Correlations content is already sized (via script.js) to fit within this
+   box — any remaining overflow at that point is a stray sub-pixel amount
+   from the flex/grid math, not a real inability to read the content, so
+   the outer scrollbar it triggers gets suppressed rather than shown. */
+.app-content.correlations-showing {
+    overflow-y: hidden;
+}
+
 /* Intro */
 .intro {
     text-align: center;

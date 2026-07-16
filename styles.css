@@ -132,7 +132,7 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 16px 0;
+    margin: 16px 0 32px;
 }
 
 .view-tab {

@@ -2,8 +2,6 @@
 
 Megan Judge's personal list of favourite films and series — a static site with no build step, no framework, and no backend.
 
-**Live:** https://movies.jdge.cc
-
 ## What it is
 
 78 movies and series, each shown as a poster card in a responsive grid. Click a card to flip it (front: poster; back: year(s), genre, runtime, and links out to IMDB / JustWatch / Wikipedia / YouTube). Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.

@@ -4,11 +4,13 @@ Personal list of favourite films — a static site with no build step, no framew
 
 ## What it is
 
-Movies, each shown as a poster card in a responsive grid. Click a card to flip it (front: poster; back: year(s), genre, runtime, and links out to IMDB / JustWatch / Wikipedia / YouTube). Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.
+Movies, each shown as a poster card in a responsive grid.<br>
+Click a card to flip it (front: poster; back: year(s), genre, runtime, and links out to IMDB / JustWatch / Wikipedia / YouTube).<br>
+Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.
 
 ## Stack
 
-Plain HTML/CSS/JS — no dependencies, no package.json, no build tooling. Open `index.html` in a browser and it works.
+Plain HTML/CSS/JS — no dependencies, no package.json, no build tooling.
 
 - `index.html` — page shell only; the movie grid is rendered into an empty container at runtime
 - `movies.json` — the movie entries (title, year(s), genre(s), country, runtime(s), poster, links) — edit this to add/change a movie, not the HTML

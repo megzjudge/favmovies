@@ -30,14 +30,15 @@ The page is a fixed-height app shell: a locked header (title, view tabs, filter 
 - Scrollbars are palette-styled, not left as browser default.
 - The flip-hint icon (⟲) replaced a title/flag overlay on the card front — small and low-opacity so it doesn't compete with the poster; title/flag live on the back where there's room.
 - Year/Runtime/Genre values are italicised (labels aren't), to separate field from value without extra punctuation.
-- The footer lives *inside* the scrollable area, not pinned — a fixed footer would eat into the height math the grid/Correlations both rely on to fit without scrolling.
+- The footer lives *inside* the scrollable area, not pinned — a fixed footer would sit permanently over the last row of posters or the essay text, cluttering exactly the content it's supposed to stay out of the way of. Letting it scroll away keeps both views reading as one clean screenful.
 
 ## How it works (script.js)
 
 - **Flip cards**: a `.is-flipped` class toggle drives a CSS 3D transform; works via click or Enter/Space. Links on the back face aren't intercepted, so they navigate normally instead of re-flipping the card.
-- **Grid sizing is computed, not guessed**: `fitMovieGrid()` measures available width/height and takes whichever is more restrictive (width ÷ 6 columns vs. height ÷ 3 rows, via the card's 2:3 aspect ratio) to guarantee a full 6×3 screenful fits on desktop at any window size.
+- **Grid sizing is computed, not guessed**: `fitMovieGrid()` measures available width/height of the screen and takes whichever is more restrictive (width ÷ 6 columns vs. height ÷ 3 rows, via the card's 2:3 aspect ratio) to guarantee a full 6×3 screenful fits on desktop at any window size.
 - **Filtering** toggles a `.hidden` class on non-matching cards from `data-genres`/`data-country`/`data-years` attributes — no re-render. Picking one dropdown resets the other two (single-criterion, by design).
 - **Filters/Correlations sit behind a button** rather than staying open, because the grid's fit math treats the header as one fixed-height block — a permanently-open panel would shrink or destabilise that space and undermine the fit-without-scrolling goal.
+- **Images lazy-load** (native `loading="lazy"`, not custom JS) — with 78 posters plus link icons on the page, only the ones actually near the viewport get fetched up front.
 - **Correlations text** uses the same measure-then-adjust approach: `fitCorrelationsText()` shrinks each box's own font-size until it fits with no scrolling.
 
 ## License

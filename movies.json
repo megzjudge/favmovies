@@ -19,7 +19,7 @@
       {
         "label": "Titles",
         "value": "Knives Out, Glass Onion: A Knives Out Mystery, Wake Up Dead Man: A Knives Out Mystery",
-        "italic": false
+        "italic": true
       },
       {
         "label": "Years",
@@ -88,6 +88,11 @@
     "imageAlt": "Venom: The Last Dance",
     "detailLines": [
       {
+        "label": "Titles",
+        "value": "Venom, Venom: Let There Be Carnage, Venom: The Last Dance",
+        "italic": true
+      },
+      {
         "label": "Years",
         "value": "2018, 2021, 2024",
         "italic": true
@@ -117,7 +122,7 @@
       {
         "url": "https://www.imdb.com/title/tt7097896/",
         "icon": "images/imdb.png",
-        "alt": "Venom:  on IMDB"
+        "alt": "Venom: Let There Be Carnage on IMDB"
       },
       {
         "url": "https://www.imdb.com/title/tt16366836/",
@@ -590,7 +595,7 @@
       {
         "label": "Titles",
         "value": "Alien, Aliens, Alien³, Alien vs. Predator, Prometheus",
-        "italic": false
+        "italic": true
       },
       {
         "label": "Years",

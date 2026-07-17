@@ -1,3 +1,4 @@
+/* Global Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +6,24 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* font-size/color live here, not on `*` — `*` directly matches every
+   element including nested inline ones (spans, links inside a paragraph),
+   and a direct match always wins over inheriting from a parent regardless
+   of specificity. That was silently overriding any element that didn't
+   have its own explicit font-size rule (e.g. .detail-value spans render
+   at this size instead of their parent <p>'s smaller one, and the <a>
+   links inside the correlations text have the same problem). Setting it
+   here instead lets it inherit down normally, the way font-size should. */
 html, body {
     height: 100dvh;
     overflow: hidden;
     background: rgb(10, 54, 107);
+    font-size: calc(16px + 0.390625vw);
     color: rgb(220, 220, 220);
 }
 
+/* Only .app-content scrolls now (locked header, independently-scrolling
+   content) — scrollbar styling moves there instead of html. */
 .app-content {
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
@@ -39,6 +51,8 @@ html, body {
     background: linear-gradient(0deg, rgb(10, 54, 107), rgb(0, 30, 80));
 }
 
+/* Font Definitions https://www.dafont.com/rosehot.font */
+
 @font-face {
     font-family: 'Rosehot';
     src: url('fonts/Rosehot.ttf') format('truetype');
@@ -47,11 +61,14 @@ html, body {
     font-display: swap;
 }
 
+/* Visually hidden but still readable by screen readers */
 .sr-only {
     position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
     overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
 }
 
+/* App shell: locked header (sized to its own content) + independently
+   scrolling content area filling the rest of the viewport. */
 .app-shell {
     display: flex;
     flex-direction: column;
@@ -76,6 +93,18 @@ html, body {
     padding: 20px 8px 60px 20px;
 }
 
+/* Correlations content is already sized (via script.js) to fit within this
+   box — any remaining overflow at that point is a stray sub-pixel amount
+   from the flex/grid math, not a real inability to read the content, so
+   the outer scrollbar it triggers gets suppressed rather than shown.
+   Turning .app-content itself into a flex column here (only while this
+   class is present) is what actually makes room for the footer below
+   .correlations's height:100% claim — without it, the footer was getting
+   squeezed into whatever sliver was left, or clipped outright now that
+   overflow can't reveal it via scroll. .correlations gets flex:1/min-height:0
+   here to do the real sizing instead of its own height:100%, and the
+   footer gets flex:0 0 auto so it keeps its natural size/spacing, matching
+   how it looks on the movies view. */
 .app-content.correlations-showing {
     overflow-y: hidden;
     display: flex;
@@ -92,11 +121,13 @@ html, body {
     flex: 0 0 auto;
 }
 
+/* Intro */
 .intro {
     text-align: center;
     margin-bottom: 6px;
 }
 
+/* View tabs (Filters / Correlations) */
 .view-tabs {
     display: flex;
     justify-content: center;
@@ -139,6 +170,8 @@ h1 {
     margin: 0 auto;
 }
 
+/* Filter bar — collapsible panel toggled by the Filters tab; [hidden]
+   handles the display:none natively, no extra rule needed. */
 .filter-bar {
     padding: 16px 0 4px;
 }
@@ -232,6 +265,8 @@ a:hover {
     color: rgb(74, 144, 226);
 }
 
+/* Empty state */
+
 .empty-state {
     text-align: center;
     padding: 40px 0;
@@ -239,6 +274,8 @@ a:hover {
     font-size: calc(14px + 0.390625vw);
 }
 
+/* View panels — only one of Movies / Correlations shows at a time inside
+   the scrolling .app-content, toggled by the tab buttons. */
 .view-panel {
     display: none;
 }
@@ -247,6 +284,10 @@ a:hover {
     display: block;
 }
 
+/* Movie grid — fixed 6 columns, card width comes from --card-w (set by
+   script.js to whichever is smaller: width-for-6-columns or
+   height-for-3-rows), so a full 6x3 screenful fits without scrolling on
+   desktop. Falls back to a fixed 170px if JS hasn't run yet (first paint). */
 .grid-section {
     margin-bottom: 20px;
 }
@@ -264,6 +305,11 @@ a:hover {
     cursor: pointer;
     border-radius: 15px;
     outline: none;
+    /* Only the ~20 on-screen cards get laid out/painted at a time instead
+       of all 78 — this is what was causing the lag when the grid panel
+       reappears after Correlations. contain-intrinsic-size gives the
+       browser a size estimate for off-screen cards before it's measured
+       them, so scrollbar/layout doesn't jump around as you scroll. */
     content-visibility: auto;
     contain-intrinsic-size: 170px 255px;
 }
@@ -311,6 +357,8 @@ a:hover {
     display: block;
 }
 
+/* Front is now a clean poster — no title/flag overlay, just this flip
+   affordance in the corner (title lives on the back, where there's room). */
 .movie-card-flip-hint {
     position: absolute;
     right: 6px;
@@ -370,6 +418,11 @@ a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
+/* The page-wide `* { font-size: ... }` reset directly targets every
+   element, including this span, and since nothing was overriding it here
+   it was winning over inheriting the parent <p>'s smaller size — that's
+   why values were rendering much bigger than their labels, and since this
+   rule genuinely never existed until now, no italic was ever applied either. */
 .detail-value {
     font-size: inherit;
     font-style: italic;
@@ -393,6 +446,11 @@ a:hover {
     display: none;
 }
 
+/* Correlations essay — two visually distinct subareas (theme cards) rather
+   than one long undifferentiated block of paragraphs. Sized to fit the
+   content area's height on desktop rather than scrolling the whole page;
+   each subarea scrolls internally as a fallback if its own text is too
+   long to fit at a given window height. */
 .correlations {
     max-width: 1200px;
     margin: 0 auto;
@@ -401,6 +459,11 @@ a:hover {
     flex-direction: column;
 }
 
+/* Higher specificity than the base .view-panel { display:none } rule
+   (two classes vs one), so this correctly wins only when .active is
+   present — a plain "display:flex" on .correlations itself would tie with
+   .view-panel on specificity and win by source order regardless of
+   .active, which was the actual bug (panel visible even when not active). */
 .correlations.active {
     display: flex;
 }
@@ -417,6 +480,12 @@ a:hover {
 .correlations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* Without this, the implicit row sizes to its content's natural height
+       (the "Society vs. the Self" box at full font-size) regardless of the
+       flex:1/min-height:0 below — that constrains the *container*, not the
+       grid track inside it. minmax(0, 1fr) makes the row actually bounded
+       by the available space, so .correlations-subarea's clientHeight is
+       what script.js's shrink-to-fit measures against is real. */
     grid-template-rows: minmax(0, 1fr);
     gap: 24px;
     flex: 1 1 auto;
@@ -433,6 +502,10 @@ a:hover {
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(74, 144, 226) rgb(10, 54, 107);
+    /* Base size in px (not vw-based) — script.js shrinks this directly via
+       inline style until the text fits with zero scroll on desktop; the
+       heading/paragraph sizes below are relative (em) so they scale down
+       together with it rather than needing their own separate shrink logic. */
     font-size: calc(13px + 0.35vw);
 }
 
@@ -451,6 +524,8 @@ a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Movie titles mentioned in the essay — italic + smaller so they read as
+   "a title being referenced" rather than blending into the prose. */
 .movie-mention {
     font-style: italic;
     font-size: 0.9em;
@@ -460,6 +535,7 @@ a:hover {
     margin-bottom: 0;
 }
 
+/* Footer */
 .footer {
     text-align: center;
     margin-top: 32px;
@@ -472,6 +548,7 @@ a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Responsive Design */
 @media (max-width: 1000px) {
     .movie-grid {
         grid-template-columns: repeat(4, 1fr);

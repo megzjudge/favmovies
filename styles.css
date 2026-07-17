@@ -343,7 +343,7 @@ a:hover {
 
 .movie-card-back h3 {
     font-family: 'Rosehot', cursive, sans-serif;
-    font-size: calc(19px + 0.55vw);
+    font-size: clamp(16px, 19px + 0.55vw, 26px);
     line-height: 1.15;
     color: rgb(100, 160, 240);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);

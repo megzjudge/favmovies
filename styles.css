@@ -165,6 +165,7 @@ h1 {
     color: rgb(100, 160, 240);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.85), 0 0 20px rgba(0, 0, 0, 0.5);
     text-wrap: balance;
+    white-space: nowrap;
     margin: 0 auto;
 }
 
@@ -561,6 +562,7 @@ a:hover {
 
     h1 {
         font-size: clamp(2rem, 6.5vw, 3.75rem);
+        white-space: normal;
         max-width: 20ch;
     }
 

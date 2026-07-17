@@ -18,7 +18,6 @@ html, body {
     height: 100dvh;
     overflow: hidden;
     background: rgb(10, 54, 107);
-    font-size: calc(16px + 0.390625vw);
     color: rgb(220, 220, 220);
 }
 

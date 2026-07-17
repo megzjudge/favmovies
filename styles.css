@@ -80,7 +80,7 @@ html, body {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 28px 20px 0;
+    padding: 28px 8px 0 20px;
 }
 
 .app-content {
@@ -173,7 +173,6 @@ h1 {
    handles the display:none natively, no extra rule needed. */
 .filter-bar {
     padding: 16px 0 4px;
-    border-top: 1px solid rgba(74, 144, 226, 0.3);
 }
 
 .dropdown-container {
@@ -590,6 +589,12 @@ a:hover {
 
     .correlations-grid {
         grid-template-columns: 1fr;
+        grid-template-rows: none;
+        gap: 20px;
+    }
+
+    .correlations-subarea {
+        overflow-y: visible;
     }
 
     #genreDropdown,

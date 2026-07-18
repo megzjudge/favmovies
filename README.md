@@ -4,9 +4,9 @@ Personal list of favourite films — a static site, plain HTML/CSS/JS — no dep
 
 ## What it is
 
-* Movies, each shown as a poster card in a responsive grid.
-* Click a card to flip it (front: poster; back: year(s), genre, runtime, and links out to IMDB / JustWatch / Wikipedia / YouTube).
-* Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.
+- Movies, each shown as a poster card in a responsive grid.
+- Click a card to flip it (front: poster; back: year(s), genre, runtime, and links out to IMDB / JustWatch / Wikipedia / YouTube).
+- Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.
 
 ## Stack
 

@@ -1,6 +1,6 @@
 # Favourite Movies
 
-Personal list of favourite films — a static site with no build step, no framework, and no backend.
+Personal list of favourite films — a static site, plain HTML/CSS/JS — no dependencies.
 
 ## What it is
 
@@ -9,8 +9,6 @@ Click a card to flip it (front: poster; back: year(s), genre, runtime, and links
 Filter the grid by genre, country, or year via the **Filters** panel, or switch to the **Correlations** tab for a short essay on the recurring themes across the list.
 
 ## Stack
-
-Plain HTML/CSS/JS — no dependencies, no package.json, no build tooling.
 
 - `index.html` — page shell only; the movie grid is rendered into an empty container at runtime
 - `movies.json` — the movie entries (title, year(s), genre(s), country, runtime(s), poster, links) — edit this to add/change a movie, not the HTML

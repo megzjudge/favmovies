@@ -4375,5 +4375,59 @@
         "alt": "Fantasia Trailer on Youtube"
       }
     ]
+  },
+  {
+    "title": "The Accountant",
+    "flag": "🇺🇸",
+    "country": "US",
+    "years": [
+      2016
+    ],
+    "genres": [
+      "Intelligent Action",
+      "Crime Thriller",
+      "Psychological Drama"
+    ],
+    "image": "images/the_accountant.jpg",
+    "imageAlt": "The Accountant",
+    "detailLines": [
+      {
+        "label": "Year",
+        "value": "2016",
+        "italic": true
+      },
+      {
+        "label": "Genre",
+        "value": "Intelligent Action, Crime Thriller, Psychological Drama",
+        "italic": true
+      },
+      {
+        "label": "Runtime",
+        "value": "128 min",
+        "italic": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.justwatch.com/us/movie/the-accountant-2016",
+        "icon": "images/justwatch.png",
+        "alt": "The Accountant on JustWatch"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt2140479/",
+        "icon": "images/imdb.png",
+        "alt": "The Accountant on IMDB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Accountant_(2016_film)",
+        "icon": "images/wikipedia.png",
+        "alt": "The Accountant on Wikipedia"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0KHOVlEpMyY",
+        "icon": "images/youtube.png",
+        "alt": "The Accountant Trailer on Youtube"
+      }
+    ]
   }
 ]

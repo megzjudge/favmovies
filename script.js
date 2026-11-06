@@ -97,7 +97,6 @@ async function renderMovieCards() {
       'grid-section compact-grid-section';
 
     compactSection.innerHTML = `
-      <h2 class="compact-section-title">More Movies</h2>
       <div id="compactMovieGrid" class="compact-movie-grid"></div>
     `;
 

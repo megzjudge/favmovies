@@ -4381,11 +4381,6 @@
         }
       ]
     },
-Of course — properly formatted and indented, matching your existing JSON style:
-
-json
-
-```json
     {
       "title": "The Sound of Music",
       "flag": "🇺🇸",

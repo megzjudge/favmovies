@@ -96,10 +96,11 @@ async function renderMovieCards() {
     compactSection.className =
       'grid-section compact-grid-section';
 
-    compactSection.innerHTML = `
-      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
-      <div id="compactMovieGrid" class="compact-movie-grid"></div>
-    `;
+compactSection.innerHTML = `
+  <h2 class="compact-section-title">Movies Impacting Childhood</h2>
+  <p class="compact-section-subtitle">Unless already in the section above.</p>
+  <div id="compactMovieGrid" class="compact-movie-grid"></div>
+`;
 
     const mainSection = movieGrid.closest('.grid-section');
 

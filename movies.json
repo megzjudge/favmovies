@@ -3,8 +3,8 @@
   "movies": [
     {
       "title": "Knives Out [series]",
-      "flag": "",
-      "country": "",
+      "flag": "🇺🇸",
+      "country": "US",
       "years": [
         2019,
         2022,
@@ -16,7 +16,7 @@
         "Dark Comedy"
       ],
       "image": "images/knives_out.jpg",
-      "imageAlt": "Venom: The Last Dance",
+      "imageAlt": "Knives Out film series",
       "detailLines": [
         {
           "label": "Titles",

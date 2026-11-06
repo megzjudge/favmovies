@@ -485,9 +485,10 @@ a:hover {
 
 .compact-section-subtitle {
     text-align: center;
-    font-size: calc(12px + 0.3vw);
+    font-size: calc(10px + 0.2vw);
     color: rgb(180, 195, 215);
-    margin: -12px 0 20px;
+    margin: -12px 0 0;
+    padding-bottom: 24px;
     font-style: italic;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }

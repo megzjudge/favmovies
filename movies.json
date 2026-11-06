@@ -2067,6 +2067,76 @@
       ]
     },
     {
+      "title": "Queen of the Damned",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Drama",
+        "Music"
+      ],
+      "image": "images/queen_of_the_damned.jpg",
+      "imageAlt": "Queen of the Damned (2002)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Horror, Fantasy, Drama, Music",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "101 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Michael Rymer",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Aaliyah, Stuart Townsend, Marguerite Moreau, Vincent Pérez, Lena Olin",
+          "italic": true
+        },
+        {
+          "label": "Music",
+          "value": "Jonathan Davis (Korn), Richard Gibbs",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/queen-of-the-damned",
+          "icon": "images/justwatch.png",
+          "alt": "Queen of the Damned on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0238546/",
+          "icon": "images/imdb.png",
+          "alt": "Queen of the Damned on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Queen_of_the_Damned_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Queen of the Damned on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Queen+of+the+Damned+2002+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Queen of the Damned Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Sorority Boys",
       "flag": "🇺🇸",
       "country": "US",
@@ -3099,6 +3169,69 @@
       ]
     },
     {
+      "title": "BASEketball",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Comedy",
+        "Sport"
+      ],
+      "image": "images/baseketball.jpg",
+      "imageAlt": "BASEketball (1998)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Sport",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "103 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "David Zucker",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Trey Parker, Matt Stone, Dian Bachar, Yasmine Bleeth, Jenny McCarthy",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/baseketball",
+          "icon": "images/justwatch.png",
+          "alt": "BASEketball on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0131857/",
+          "icon": "images/imdb.png",
+          "alt": "BASEketball on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/BASEketball",
+          "icon": "images/wikipedia.png",
+          "alt": "BASEketball on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=BASEketball+1998+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "BASEketball Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Hercules",
       "flag": "🇺🇸",
       "country": "US",
@@ -3428,6 +3561,71 @@
       ]
     },
     {
+      "title": "The Mask",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Action",
+        "Crime"
+      ],
+      "image": "images/the_mask.jpg",
+      "imageAlt": "The Mask (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Fantasy, Action, Crime",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "101 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Chuck Russell",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Jim Carrey, Cameron Diaz, Peter Riegert, Peter Greene, Amy Yasbeck",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-mask",
+          "icon": "images/justwatch.png",
+          "alt": "The Mask on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0110475/",
+          "icon": "images/imdb.png",
+          "alt": "The Mask on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mask_(1994_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Mask on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Mask+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Mask Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Super Mario Bros.",
       "flag": "🇺🇸",
       "country": "US",
@@ -3480,6 +3678,60 @@
           "url": "https://www.youtube.com/results?search_query=Super+Mario+Bros+1993+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Super Mario Bros. Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Groundhog Day",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "image": "images/groundhog_day.jpg",
+      "imageAlt": "Groundhog Day (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Fantasy, Romance",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "101 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/groundhog-day",
+          "icon": "images/justwatch.png",
+          "alt": "Groundhog Day on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0107048/",
+          "icon": "images/imdb.png",
+          "alt": "Groundhog Day on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Groundhog_Day_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Groundhog Day on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Groundhog+Day+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Groundhog Day Trailer on YouTube"
         }
       ]
     },
@@ -4384,6 +4636,133 @@
 
   "compactMovies": [
     {
+      "title": "Clerks II",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2006
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "image": "images/clerks_2.jpg",
+      "imageAlt": "Clerks II (2006)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2006",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "97 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Kevin Smith",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Brian O'Halloran, Jeff Anderson, Rosario Dawson, Jason Mewes, Kevin Smith, Trevor Fehrman",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/clerks-ii",
+          "icon": "images/justwatch.png",
+          "alt": "Clerks II on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0424345/",
+          "icon": "images/imdb.png",
+          "alt": "Clerks II on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Clerks_II",
+          "icon": "images/wikipedia.png",
+          "alt": "Clerks II on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Clerks+II+2006+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Clerks II Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "EuroTrip",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2004
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Teen"
+      ],
+      "image": "images/eurotrip.jpg",
+      "imageAlt": "EuroTrip (2004)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2004",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure, Teen",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "92 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Jeff Schaffer",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Scott Mechlowicz, Jacob Pitts, Michelle Trachtenberg, Travis Wester, Kristin Kreuk, Vinnie Jones, Matt Damon",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/eurotrip",
+          "icon": "images/justwatch.png",
+          "alt": "EuroTrip on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt035 элем/",
+          "icon": "images/imdb.png",
+          "alt": "EuroTrip on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/EuroTrip",
+          "icon": "images/wikipedia.png",
+          "alt": "EuroTrip on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=EuroTrip+2004+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "EuroTrip Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Freddy vs. Jason",
       "flag": "🇺🇸",
       "country": "US",
@@ -4434,6 +4813,689 @@
           "url": "https://www.youtube.com/results?search_query=Freddy+vs+Jason+2003+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Freddy vs. Jason Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Ocean's Eleven",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Comedy",
+        "Heist"
+      ],
+      "image": "images/oceans_eleven.jpg",
+      "imageAlt": "Ocean's Eleven (2001)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2001",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Crime, Thriller, Comedy, Heist",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "116 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Steven Soderbergh",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "George Clooney, Brad Pitt, Matt Damon, Julia Roberts, Andy Garcia, Don Cheadle, Bernie Mac",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/oceans-eleven",
+          "icon": "images/justwatch.png",
+          "alt": "Ocean's Eleven on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0240772/",
+          "icon": "images/imdb.png",
+          "alt": "Ocean's Eleven on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ocean%27s_Eleven",
+          "icon": "images/wikipedia.png",
+          "alt": "Ocean's Eleven on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Ocean%27s+Eleven+2001+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Ocean's Eleven Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Bedazzled",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "image": "images/bedazzled.jpg",
+      "imageAlt": "Bedazzled (2000)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Fantasy, Romance",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "93 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/bedazzled",
+          "icon": "images/justwatch.png",
+          "alt": "Bedazzled on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0230030/",
+          "icon": "images/imdb.png",
+          "alt": "Bedazzled on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bedazzled_(2000_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Bedazzled on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Bedazzled+2000+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Bedazzled Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Star Wars: Episode II – Attack of the Clones",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "image": "images/star_wars_episode_2.jpg",
+      "imageAlt": "Star Wars: Episode II – Attack of the Clones (2002)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Adventure, Fantasy, Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "142 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "George Lucas",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/star-wars-episode-ii-attack-of-the-clones",
+          "icon": "images/justwatch.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0121765/",
+          "icon": "images/imdb.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_%E2%80%93_Attack_of_the_Clones",
+          "icon": "images/wikipedia.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM",
+          "icon": "images/youtube.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones Official Trailer"
+        }
+      ]
+    },
+    {
+      "title": "Donnie Darko",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Mystery",
+        "Psychological Thriller",
+        "Sci-Fi",
+        "Drama"
+      ],
+      "image": "images/donnie_darko.jpg",
+      "imageAlt": "Donnie Darko (2001)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2001",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Mystery, Psychological Thriller, Sci-Fi, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "113 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Richard Kelly",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Jake Gyllenhaal, Jena Malone, Maggie Gyllenhaal, Patrick Swayze",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/donnie-darko",
+          "icon": "images/justwatch.png",
+          "alt": "Donnie Darko on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0246578/",
+          "icon": "images/imdb.png",
+          "alt": "Donnie Darko on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Donnie_Darko",
+          "icon": "images/wikipedia.png",
+          "alt": "Donnie Darko on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Donnie+Darko+2001+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Donnie Darko Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Star Wars: Episode I – The Phantom Menace",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "image": "images/star_wars_episode_1.jpg",
+      "imageAlt": "Star Wars: Episode I – The Phantom Menace (1999)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Adventure, Fantasy, Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "136 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "George Lucas",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/star-wars-episode-i-the-phantom-menace",
+          "icon": "images/justwatch.png",
+          "alt": "Star Wars: Episode I – The Phantom Menace on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120915/",
+          "icon": "images/imdb.png",
+          "alt": "Star Wars: Episode I – The Phantom Menace on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace",
+          "icon": "images/wikipedia.png",
+          "alt": "Star Wars: Episode I – The Phantom Menace on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+          "icon": "images/youtube.png",
+          "alt": "Star Wars: Episode I – The Phantom Menace Official Trailer"
+        }
+      ]
+    },
+    {
+      "title": "Austin Powers: The Spy Who Shagged Me",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Action",
+        "Parody"
+      ],
+      "image": "images/austin_powers_the_spy_who_shagged_me.jpg",
+      "imageAlt": "Austin Powers: The Spy Who Shagged Me (1999)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure, Action, Parody",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "95 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/austin-powers-the-spy-who-shagged-me",
+          "icon": "images/justwatch.png",
+          "alt": "Austin Powers: The Spy Who Shagged Me on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0145660/",
+          "icon": "images/imdb.png",
+          "alt": "Austin Powers: The Spy Who Shagged Me on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Austin_Powers:_The_Spy_Who_Shagged_Me",
+          "icon": "images/wikipedia.png",
+          "alt": "Austin Powers: The Spy Who Shagged Me on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Austin+Powers+The+Spy+Who+Shagged+Me+1999+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Austin Powers: The Spy Who Shagged Me Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "10 Things I Hate About You",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama",
+        "Teen"
+      ],
+      "image": "images/10_things_i_hate_about_you.jpg",
+      "imageAlt": "10 Things I Hate About You (1999)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Romance, Drama, Teen",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "97 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Gil Junger",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Heath Ledger, Julia Stiles, Joseph Gordon-Levitt, Larisa Oleynik, David Krumholtz",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/10-things-i-hate-about-you",
+          "icon": "images/justwatch.png",
+          "alt": "10 Things I Hate About You on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0147800/",
+          "icon": "images/imdb.png",
+          "alt": "10 Things I Hate About You on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/10_Things_I_Hate_About_You",
+          "icon": "images/wikipedia.png",
+          "alt": "10 Things I Hate About You on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=10+Things+I+Hate+About+You+1999+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "10 Things I Hate About You Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "American Pie",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Teen"
+      ],
+      "image": "images/american_pie.jpg",
+      "imageAlt": "American Pie (1999)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Romance, Teen",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "95 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Paul Weitz, Chris Weitz",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Jason Biggs, Alyson Hannigan, Seann William Scott, Chris Klein, Thomas Ian Nicholas, Eddie Kaye Thomas, Tara Reid, Mena Suvari",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/american-pie",
+          "icon": "images/justwatch.png",
+          "alt": "American Pie on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0163651/",
+          "icon": "images/imdb.png",
+          "alt": "American Pie on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Pie_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "American Pie on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=American+Pie+1999+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "American Pie Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Blade",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi",
+        "Superhero"
+      ],
+      "image": "images/blade.jpg",
+      "imageAlt": "Blade (1998)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Horror, Sci-Fi, Superhero",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "120 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Stephen Norrington",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Wesley Snipes, Stephen Dorff, Kris Kristofferson",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/blade",
+          "icon": "images/justwatch.png",
+          "alt": "Blade on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120611/",
+          "icon": "images/imdb.png",
+          "alt": "Blade on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Blade_(1998_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Blade on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Blade+1998+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Blade Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Practical Magic",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Fantasy",
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "image": "images/practical_magic.jpg",
+      "imageAlt": "Practical Magic (1998)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Fantasy, Romance, Comedy, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Griffin Dunne",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Sandra Bullock, Nicole Kidman, Stockard Channing, Dianne Wiest, Aidan Quinn, Goran Višnjić",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/practical-magic",
+          "icon": "images/justwatch.png",
+          "alt": "Practical Magic on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120791/",
+          "icon": "images/imdb.png",
+          "alt": "Practical Magic on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Practical_Magic",
+          "icon": "images/wikipedia.png",
+          "alt": "Practical Magic on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Practical+Magic+1998+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Practical Magic Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Austin Powers: International Man of Mystery",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1997
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Action",
+        "Parody"
+      ],
+      "image": "images/austin_powers.jpg",
+      "imageAlt": "Austin Powers: International Man of Mystery (1997)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1997",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure, Action, Parody",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "89 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/austin-powers-international-man-of-mystery",
+          "icon": "images/justwatch.png",
+          "alt": "Austin Powers on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0118655/",
+          "icon": "images/imdb.png",
+          "alt": "Austin Powers on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Austin_Powers:_International_Man_of_Mystery",
+          "icon": "images/wikipedia.png",
+          "alt": "Austin Powers on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Austin+Powers+International+Man+of+Mystery+1997+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Austin Powers Trailer on YouTube"
         }
       ]
     },
@@ -4492,6 +5554,70 @@
       ]
     },
     {
+      "title": "Matilda",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "image": "images/matilda.jpg",
+      "imageAlt": "Matilda (1996)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "98 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Danny DeVito",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Mara Wilson, Danny DeVito, Rhea Perlman, Embeth Davidtz, Pam Ferris",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/matilda",
+          "icon": "images/justwatch.png",
+          "alt": "Matilda on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0117008/",
+          "icon": "images/imdb.png",
+          "alt": "Matilda on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Matilda_(1996_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Matilda on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Matilda+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Matilda Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Happy Gilmore",
       "flag": "🇺🇸",
       "country": "US",
@@ -4541,6 +5667,60 @@
           "url": "https://www.youtube.com/results?search_query=Happy+Gilmore+1996+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Happy Gilmore Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Dunston Checks In",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/dunston_checks_in.jpg",
+      "imageAlt": "Dunston Checks In (1996)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "88 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/dunston-checks-in",
+          "icon": "images/justwatch.png",
+          "alt": "Dunston Checks In on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0116165/",
+          "icon": "images/imdb.png",
+          "alt": "Dunston Checks In on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dunston_Checks_In",
+          "icon": "images/wikipedia.png",
+          "alt": "Dunston Checks In on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Dunston+Checks+In+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Dunston Checks In Trailer on YouTube"
         }
       ]
     },
@@ -4599,6 +5779,189 @@
       ]
     },
     {
+      "title": "Ace Ventura: When Nature Calls",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Mystery"
+      ],
+      "image": "images/ace_ventura_when_nature_calls.jpg",
+      "imageAlt": "Ace Ventura: When Nature Calls (1995)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure, Mystery",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "90 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Steve Oedekerk",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Jim Carrey, Ian McNeice, Simon Callow, Maynard Eziashi, Sophie Okonedo",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/ace-ventura-when-nature-calls",
+          "icon": "images/justwatch.png",
+          "alt": "Ace Ventura: When Nature Calls on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0112281/",
+          "icon": "images/imdb.png",
+          "alt": "Ace Ventura: When Nature Calls on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ace_Ventura:_When_Nature_Calls",
+          "icon": "images/wikipedia.png",
+          "alt": "Ace Ventura: When Nature Calls on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Ace+Ventura+When+Nature+Calls+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Ace Ventura: When Nature Calls Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Babe",
+      "flag": "🇦🇺",
+      "country": "AU",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family",
+        "Fantasy"
+      ],
+      "image": "images/babe.jpg",
+      "imageAlt": "Babe (1995)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Drama, Family, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "91 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/babe",
+          "icon": "images/justwatch.png",
+          "alt": "Babe on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0112431/",
+          "icon": "images/imdb.png",
+          "alt": "Babe on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Babe_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Babe on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Babe+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Babe Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Casper",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "image": "images/casper.jpg",
+      "imageAlt": "Casper (1995)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "100 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Brad Silberling",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Christina Ricci, Bill Pullman, Cathy Moriarty, Eric Idle, Amy Brenneman",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/casper",
+          "icon": "images/justwatch.png",
+          "alt": "Casper on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0112642/",
+          "icon": "images/imdb.png",
+          "alt": "Casper on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Casper_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Casper on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Casper+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Casper Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Dumb and Dumber",
       "flag": "🇺🇸",
       "country": "US",
@@ -4648,6 +6011,201 @@
           "url": "https://www.youtube.com/results?search_query=Dumb+and+Dumber+1994+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Dumb and Dumber Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Interview with the Vampire",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Gothic"
+      ],
+      "image": "images/interview_with_a_vampire.jpg",
+      "imageAlt": "Interview with the Vampire (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Drama, Fantasy, Horror, Gothic",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "123 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Neil Jordan",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Tom Cruise, Brad Pitt, Kirsten Dunst, Antonio Banderas, Christian Slater",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/interview-with-the-vampire",
+          "icon": "images/justwatch.png",
+          "alt": "Interview with the Vampire on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0110148/",
+          "icon": "images/imdb.png",
+          "alt": "Interview with the Vampire on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Interview_with_the_Vampire_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Interview with the Vampire on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Interview+with+the+Vampire+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Interview with the Vampire Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Crow",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Fantasy",
+        "Thriller"
+      ],
+      "image": "images/the_crow.jpg",
+      "imageAlt": "The Crow (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Crime, Fantasy, Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "102 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Alex Proyas",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Brandon Lee, Ernie Hudson, Michael Wincott, Rochelle Davis",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-crow",
+          "icon": "images/justwatch.png",
+          "alt": "The Crow on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0109506/",
+          "icon": "images/imdb.png",
+          "alt": "The Crow on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Crow_(1994_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Crow on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Crow+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Crow Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Forrest Gump",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy",
+        "War"
+      ],
+      "image": "images/forrest_gump.jpg",
+      "imageAlt": "Forrest Gump (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Drama, Romance, Comedy, War",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "142 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Robert Zemeckis",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Tom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson, Sally Field",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/forrest-gump",
+          "icon": "images/justwatch.png",
+          "alt": "Forrest Gump on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0109830/",
+          "icon": "images/imdb.png",
+          "alt": "Forrest Gump on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Forrest_Gump",
+          "icon": "images/wikipedia.png",
+          "alt": "Forrest Gump on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Forrest+Gump+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Forrest Gump Trailer on YouTube"
         }
       ]
     },
@@ -4702,6 +6260,124 @@
           "url": "https://www.youtube.com/watch?v=Svdb1XXVX_c",
           "icon": "images/youtube.png",
           "alt": "The Little Rascals Trailer on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Richie Rich",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/richie_rich.jpg",
+      "imageAlt": "Richie Rich (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "95 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/richie-rich",
+          "icon": "images/justwatch.png",
+          "alt": "Richie Rich on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0110989/",
+          "icon": "images/imdb.png",
+          "alt": "Richie Rich on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Richie_Rich_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Richie Rich on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Richie+Rich+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Richie Rich Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Adventures of Priscilla, Queen of the Desert",
+      "flag": "🇦🇺",
+      "country": "AU",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Adventure",
+        "LGBTQ+"
+      ],
+      "image": "images/priscilla_queen_of_the_desert.jpg",
+      "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Drama, Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Stephan Elliott",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Terence Stamp, Hugo Weaving, Guy Pearce",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-adventures-of-priscilla-queen-of-the-desert",
+          "icon": "images/justwatch.png",
+          "alt": "The Adventures of Priscilla on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0109045/",
+          "icon": "images/imdb.png",
+          "alt": "The Adventures of Priscilla on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Priscilla,_Queen_of_the_Desert",
+          "icon": "images/wikipedia.png",
+          "alt": "The Adventures of Priscilla, Queen of the Desert on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Adventures+of+Priscilla+Queen+of+the+Desert+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Adventures of Priscilla Trailer on YouTube"
         }
       ]
     },
@@ -4866,6 +6542,187 @@
           "url": "https://www.youtube.com/results?search_query=Cool+Runnings+1993+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Cool Runnings Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Robin Hood: Men in Tights",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Parody"
+      ],
+      "image": "images/robin_hood_men_in_tights.jpg",
+      "imageAlt": "Robin Hood: Men in Tights (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure, Parody",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/robin-hood-men-in-tights",
+          "icon": "images/justwatch.png",
+          "alt": "Robin Hood: Men in Tights on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0107977/",
+          "icon": "images/imdb.png",
+          "alt": "Robin Hood: Men in Tights on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Robin_Hood:_Men_in_Tights",
+          "icon": "images/wikipedia.png",
+          "alt": "Robin Hood: Men in Tights on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Robin+Hood+Men+in+Tights+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Robin Hood: Men in Tights Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Beethoven",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1992
+      ],
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/beethoven.jpg",
+      "imageAlt": "Beethoven (1992)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1992",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "87 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Brian Levant",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Charles Grodin, Bonnie Hunt, Dean Jones, Nicholle Tom, Christopher Castile, Sarah Rose Karr",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/beethoven",
+          "icon": "images/justwatch.png",
+          "alt": "Beethoven on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0103786/",
+          "icon": "images/imdb.png",
+          "alt": "Beethoven on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Beethoven_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Beethoven on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Beethoven+1992+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Beethoven Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Addams Family",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1991
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "image": "images/the_addams_family.jpg",
+      "imageAlt": "The Addams Family (1991)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1991",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Fantasy, Horror",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "99 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Barry Sonnenfeld",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Anjelica Huston, Raul Julia, Christopher Lloyd, Christina Ricci",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-addams-family",
+          "icon": "images/justwatch.png",
+          "alt": "The Addams Family on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0101272/",
+          "icon": "images/imdb.png",
+          "alt": "The Addams Family on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Addams_Family_(1991_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Addams Family on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Addams+Family+1991+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Addams Family Trailer on YouTube"
         }
       ]
     },

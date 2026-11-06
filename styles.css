@@ -478,9 +478,9 @@ a:hover {
    ========================================== */
 
 .compact-grid-section {
-    margin-top: 38px;
-    padding-top: 24px;
-    border-top: 2px solid rgba(74, 144, 226, 0.5);
+    margin-top: 20px;
+    padding-top: 0;
+    border-top: none;
 }
 
 .compact-section-title {

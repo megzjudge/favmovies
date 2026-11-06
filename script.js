@@ -97,6 +97,7 @@ async function renderMovieCards() {
       'grid-section compact-grid-section';
 
     compactSection.innerHTML = `
+      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
       <div id="compactMovieGrid" class="compact-movie-grid"></div>
     `;
 

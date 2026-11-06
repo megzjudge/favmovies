@@ -2229,6 +2229,60 @@
       ]
     },
     {
+      "title": "Super Troopers",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Comedy",
+        "Male Camaraderie",
+        "Crime"
+      ],
+      "image": "images/super_troopers.jpg",
+      "imageAlt": "Super Troopers",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2001",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Male Camaraderie, Crime",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "100 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/super-troopers-die-superbullen",
+          "icon": "images/justwatch.png",
+          "alt": "Super Troopers on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0247745/",
+          "icon": "images/imdb.png",
+          "alt": "Super Troopers on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Super_Troopers",
+          "icon": "images/wikipedia.png",
+          "alt": "Super Troopers on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EV6wkUIMrl8",
+          "icon": "images/youtube.png",
+          "alt": "Super Troopers on Youtube"
+        }
+      ]
+    },
+    {
       "title": "Spirited Away",
       "flag": "🇯🇵",
       "country": "JP",
@@ -3373,7 +3427,59 @@
         }
       ]
     },
-
+    {
+      "title": "The Beverly Hillbillies",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/the_beverly_hillbillies.jpg",
+      "imageAlt": "The Beverly Hillbillies",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "91 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-beverly-hillbillies",
+          "icon": "images/justwatch.png",
+          "alt": "The Beverly Hillbillies on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0106400/",
+          "icon": "images/imdb.png",
+          "alt": "The Beverly Hillbillies on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Beverly_Hillbillies_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Beverly Hillbillies on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Sy0tjb-Gjqw",
+          "icon": "images/youtube.png",
+          "alt": "The Beverly Hillbillies Trailer on Youtube"
+        }
+      ]
+    },
     {
       "title": "The Silver Brumby",
       "flag": "🇦🇺",
@@ -3427,8 +3533,59 @@
         }
       ]
     },
-
-
+    {
+      "title": "Back to the Future Part II",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1989
+      ],
+      "genres": [
+        "Surreal Adventure",
+        "Dystopian Sci-Fi"
+      ],
+      "image": "images/back_to_the_future_part_ii.jpg",
+      "imageAlt": "Back to the Future Part II",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1989",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Surreal Adventure, Dystopian Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "108 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/back-to-the-future-2",
+          "icon": "images/justwatch.png",
+          "alt": "Back to the Future Part II on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0096874/",
+          "icon": "images/imdb.png",
+          "alt": "Back to the Future Part II on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II",
+          "icon": "images/wikipedia.png",
+          "alt": "Back to the Future Part II on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MdENmefJRpw",
+          "icon": "images/youtube.png",
+          "alt": "Back to the Future Part II Trailer on Youtube"
+        }
+      ]
+    },
     {
       "title": "The Land Before Time",
       "flag": "🇺🇸",
@@ -4171,56 +4328,56 @@
 
   "compactMovies": [
     {
-      "title": "Super Troopers",
+      "title": "The Little Rascals",
       "flag": "🇺🇸",
       "country": "US",
       "years": [
-        2001
+        1994
       ],
       "genres": [
-        "Comedy",
-        "Male Camaraderie",
-        "Crime"
+        "Family Comedy",
+        "Slapstick",
+        "Male Camaraderie"
       ],
-      "image": "images/super_troopers.jpg",
-      "imageAlt": "Super Troopers",
+      "image": "images/the_little_rascals.jpg",
+      "imageAlt": "The Little Rascals",
       "detailLines": [
         {
           "label": "Year",
-          "value": "2001",
+          "value": "1994",
           "italic": true
         },
         {
           "label": "Genre",
-          "value": "Comedy, Male Camaraderie, Crime",
+          "value": "Family Comedy, Slapstick, Male Camaraderie",
           "italic": true
         },
         {
           "label": "Runtime",
-          "value": "100 min",
+          "value": "82 min",
           "italic": true
         }
       ],
       "links": [
         {
-          "url": "https://www.justwatch.com/au/movie/super-troopers-die-superbullen",
+          "url": "https://www.justwatch.com/au/movie/the-little-rascals",
           "icon": "images/justwatch.png",
-          "alt": "Super Troopers on JustWatch"
+          "alt": "The Little Rascals on JustWatch"
         },
         {
-          "url": "https://www.imdb.com/title/tt0247745/",
+          "url": "https://www.imdb.com/title/tt0110366/",
           "icon": "images/imdb.png",
-          "alt": "Super Troopers on IMDB"
+          "alt": "The Little Rascals on IMDB"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Super_Troopers",
+          "url": "https://en.wikipedia.org/wiki/The_Little_Rascals_(1994_film)",
           "icon": "images/wikipedia.png",
-          "alt": "Super Troopers on Wikipedia"
+          "alt": "The Little Rascals on Wikipedia"
         },
         {
-          "url": "https://www.youtube.com/watch?v=EV6wkUIMrl8",
+          "url": "https://www.youtube.com/watch?v=Svdb1XXVX_c",
           "icon": "images/youtube.png",
-          "alt": "Super Troopers on Youtube"
+          "alt": "The Little Rascals Trailer on Youtube"
         }
       ]
     },
@@ -4275,166 +4432,6 @@
           "url": "https://www.youtube.com/watch?v=JY_w9Aj7s1o",
           "icon": "images/youtube.png",
           "alt": "The Sword in the Stone Trailer on Youtube"
-        }
-      ]
-    },
-    {
-      "title": "The Beverly Hillbillies",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        1993
-      ],
-      "genres": [
-        "Comedy",
-        "Family"
-      ],
-      "image": "images/the_beverly_hillbillies.jpg",
-      "imageAlt": "The Beverly Hillbillies",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Comedy, Family",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "91 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/the-beverly-hillbillies",
-          "icon": "images/justwatch.png",
-          "alt": "The Beverly Hillbillies on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0106400/",
-          "icon": "images/imdb.png",
-          "alt": "The Beverly Hillbillies on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/The_Beverly_Hillbillies_(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "The Beverly Hillbillies on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=Sy0tjb-Gjqw",
-          "icon": "images/youtube.png",
-          "alt": "The Beverly Hillbillies Trailer on Youtube"
-        }
-      ]
-    },
-      {
-      "title": "Back to the Future Part II",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        1989
-      ],
-      "genres": [
-        "Surreal Adventure",
-        "Dystopian Sci-Fi"
-      ],
-      "image": "images/back_to_the_future_part_ii.jpg",
-      "imageAlt": "Back to the Future Part II",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1989",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Surreal Adventure, Dystopian Sci-Fi",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "108 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/back-to-the-future-2",
-          "icon": "images/justwatch.png",
-          "alt": "Back to the Future Part II on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0096874/",
-          "icon": "images/imdb.png",
-          "alt": "Back to the Future Part II on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II",
-          "icon": "images/wikipedia.png",
-          "alt": "Back to the Future Part II on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=MdENmefJRpw",
-          "icon": "images/youtube.png",
-          "alt": "Back to the Future Part II Trailer on Youtube"
-        }
-      ]
-    },  
-    {
-      "title": "The Little Rascals",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        1994
-      ],
-      "genres": [
-        "Family Comedy",
-        "Slapstick",
-        "Male Camaraderie"
-      ],
-      "image": "images/the_little_rascals.jpg",
-      "imageAlt": "The Little Rascals",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Family Comedy, Slapstick, Male Camaraderie",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "82 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/the-little-rascals",
-          "icon": "images/justwatch.png",
-          "alt": "The Little Rascals on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0110366/",
-          "icon": "images/imdb.png",
-          "alt": "The Little Rascals on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/The_Little_Rascals_(1994_film)",
-          "icon": "images/wikipedia.png",
-          "alt": "The Little Rascals on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=Svdb1XXVX_c",
-          "icon": "images/youtube.png",
-          "alt": "The Little Rascals Trailer on Youtube"
         }
       ]
     }

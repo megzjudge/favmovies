@@ -4381,6 +4381,66 @@
         }
       ]
     },
+Of course — properly formatted and indented, matching your existing JSON style:
+
+json
+
+```json
+    {
+      "title": "The Sound of Music",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1965
+      ],
+      "genres": [
+        "Musical",
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "image": "images/the_sound_of_music.jpg",
+      "imageAlt": "The Sound of Music",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1965",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Musical, Drama, Family, Romance",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "174 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-sound-of-music",
+          "icon": "images/justwatch.png",
+          "alt": "The Sound of Music on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0059742/",
+          "icon": "images/imdb.png",
+          "alt": "The Sound of Music on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Sound of Music on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Sound+of+Music+1965+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Sound of Music Trailer on YouTube"
+        }
+      ]
+    },
     {
       "title": "The Sword in the Stone",
       "flag": "🇺🇸",

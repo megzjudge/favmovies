@@ -1747,6 +1747,71 @@
       ]
     },
     {
+      "title": "Alien vs. Predator",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2004
+      ],
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Horror",
+        "Adventure"
+      ],
+      "image": "images/alien_vs_predator.jpg",
+      "imageAlt": "Alien vs. Predator (2004)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2004",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Sci-Fi, Action, Horror, Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "101 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Paul W. S. Anderson",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Sanaa Lathan, Raoul Bova, Lance Henriksen, Ewen Bremner, Colin Salmon, Tommy Flanagan",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/alien-vs-predator",
+          "icon": "images/justwatch.png",
+          "alt": "Alien vs. Predator on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0370263/",
+          "icon": "images/imdb.png",
+          "alt": "Alien vs. Predator on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AVP:_Alien_vs._Predator",
+          "icon": "images/wikipedia.png",
+          "alt": "Alien vs. Predator on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Alien+vs+Predator+2004+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Alien vs. Predator Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Dogville",
       "flag": "🇩🇰",
       "country": "DK",
@@ -2563,6 +2628,76 @@
           "url": "https://www.youtube.com/watch?v=5Dd6bDz6pB8",
           "icon": "images/youtube.png",
           "alt": "Malèna on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Titan A.E.",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Animation",
+        "Sci-Fi",
+        "Adventure",
+        "Action"
+      ],
+      "image": "images/titan_ae.jpg",
+      "imageAlt": "Titan A.E. (2000)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animation, Sci-Fi, Adventure, Action",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "94 min",
+          "italic": true
+        },
+        {
+          "label": "Directors",
+          "value": "Don Bluth, Gary Goldman",
+          "italic": true
+        },
+        {
+          "label": "Voices",
+          "value": "Matt Damon, Drew Barrymore, Bill Pullman, John Leguizamo, Nathan Lane, Janeane Garofalo, Ron Perlman, Tone Loc",
+          "italic": true
+        },
+        {
+          "label": "Music",
+          "value": "Graeme Revell",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/titan-a-e",
+          "icon": "images/justwatch.png",
+          "alt": "Titan A.E. on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120913/",
+          "icon": "images/imdb.png",
+          "alt": "Titan A.E. on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Titan_A.E.",
+          "icon": "images/wikipedia.png",
+          "alt": "Titan A.E. on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Titan+AE+2000+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Titan A.E. Trailer on YouTube"
         }
       ]
     },
@@ -3622,6 +3757,71 @@
           "url": "https://www.youtube.com/results?search_query=The+Mask+1994+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Mask Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Stargate",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Action",
+        "Fantasy"
+      ],
+      "image": "images/stargate.jpg",
+      "imageAlt": "Stargate (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Sci-Fi, Adventure, Action, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "121 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Roland Emmerich",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Kurt Russell, James Spader, Jaye Davidson, Viveca Lindfors, Alexis Cruz, Mili Avital, Erick Avari",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/stargate",
+          "icon": "images/justwatch.png",
+          "alt": "Stargate on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0111282/",
+          "icon": "images/imdb.png",
+          "alt": "Stargate on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stargate_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Stargate on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Stargate+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Stargate Trailer on YouTube"
         }
       ]
     },
@@ -5001,6 +5201,71 @@
       ]
     },
     {
+      "title": "Catch Me If You Can",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Drama",
+        "Biography"
+      ],
+      "image": "images/catch_me_if_you_can.jpg",
+      "imageAlt": "Catch Me If You Can (2002)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Crime, Comedy, Drama, Biography",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "141 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Steven Spielberg",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Amy Adams, Martin Sheen, Nathalie Baye, James Brolin",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/catch-me-if-you-can",
+          "icon": "images/justwatch.png",
+          "alt": "Catch Me If You Can on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0264464/",
+          "icon": "images/imdb.png",
+          "alt": "Catch Me If You Can on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Catch_Me_If_You_Can",
+          "icon": "images/wikipedia.png",
+          "alt": "Catch Me If You Can on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Catch+Me+If+You+Can+2002+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Catch Me If You Can Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Donnie Darko",
       "flag": "🇺🇸",
       "country": "US",
@@ -5445,6 +5710,75 @@
       ]
     },
     {
+      "title": "Doctor Dolittle",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "image": "images/doctor_dolittle.jpg",
+      "imageAlt": "Doctor Dolittle (1998)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "85 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Betty Thomas",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Eddie Murphy, Ossie Davis, Oliver Platt, Peter Boyle, Richard Schiff, Kristen Wilson, Jeffrey Tambor",
+          "italic": true
+        },
+        {
+          "label": "Animal Voices",
+          "value": "Norm Macdonald, Chris Rock, Albert Brooks, Gilbert Gottfried, Jenna Elfman",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/doctor-dolittle",
+          "icon": "images/justwatch.png",
+          "alt": "Doctor Dolittle on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0118998/",
+          "icon": "images/imdb.png",
+          "alt": "Doctor Dolittle on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dr._Dolittle_(1998_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Doctor Dolittle on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Doctor+Dolittle+1998+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Doctor Dolittle Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Austin Powers: International Man of Mystery",
       "flag": "🇺🇸",
       "country": "US",
@@ -5550,6 +5884,71 @@
           "url": "https://www.youtube.com/results?search_query=Flubber+1997+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Flubber Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Craft",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Teen"
+      ],
+      "image": "images/the_craft.jpg",
+      "imageAlt": "The Craft (1996)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Horror, Fantasy, Thriller, Teen",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "101 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Andrew Fleming",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Robin Tunney, Fairuza Balk, Neve Campbell, Rachel True, Skeet Ulrich, Christine Taylor",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-craft",
+          "icon": "images/justwatch.png",
+          "alt": "The Craft on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0115963/",
+          "icon": "images/imdb.png",
+          "alt": "The Craft on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Craft_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Craft on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Craft+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Craft Trailer on YouTube"
         }
       ]
     },
@@ -6600,6 +6999,141 @@
       ]
     },
     {
+      "title": "Aladdin",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1992
+      ],
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Musical"
+      ],
+      "image": "images/aladdin.jpg",
+      "imageAlt": "Aladdin (1992)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1992",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animation, Adventure, Comedy, Fantasy, Musical",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "90 min",
+          "italic": true
+        },
+        {
+          "label": "Directors",
+          "value": "Ron Clements, John Musker",
+          "italic": true
+        },
+        {
+          "label": "Voices",
+          "value": "Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman, Gilbert Gottfried, Frank Welker",
+          "italic": true
+        },
+        {
+          "label": "Music",
+          "value": "Alan Menken, Howard Ashman, Tim Rice",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/aladdin",
+          "icon": "images/justwatch.png",
+          "alt": "Aladdin on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0103639/",
+          "icon": "images/imdb.png",
+          "alt": "Aladdin on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Aladdin on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Aladdin+1992+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Aladdin Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Sister Act",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1992
+      ],
+      "genres": [
+        "Comedy",
+        "Music",
+        "Crime"
+      ],
+      "image": "images/sister_act.jpg",
+      "imageAlt": "Sister Act (1992)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1992",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Music, Crime",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "100 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Emile Ardolino",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Whoopi Goldberg, Maggie Smith, Kathy Najimy, Wendy Makkena, Mary Wickes, Harvey Keitel",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/sister-act",
+          "icon": "images/justwatch.png",
+          "alt": "Sister Act on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0105417/",
+          "icon": "images/imdb.png",
+          "alt": "Sister Act on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sister_Act",
+          "icon": "images/wikipedia.png",
+          "alt": "Sister Act on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Sister+Act+1992+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Sister Act Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Beethoven",
       "flag": "🇺🇸",
       "country": "US",
@@ -6723,6 +7257,200 @@
           "url": "https://www.youtube.com/results?search_query=The+Addams+Family+1991+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Addams Family Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Kindergarten Cop",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1990
+      ],
+      "genres": [
+        "Comedy",
+        "Action",
+        "Crime",
+        "Family"
+      ],
+      "image": "images/kindergarten_cop.jpg",
+      "imageAlt": "Kindergarten Cop (1990)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1990",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Action, Crime, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "111 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Ivan Reitman",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Arnold Schwarzenegger, Penelope Ann Miller, Pamela Reed, Linda Hunt, Richard Tyson, Carroll Baker",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/kindergarten-cop",
+          "icon": "images/justwatch.png",
+          "alt": "Kindergarten Cop on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0099938/",
+          "icon": "images/imdb.png",
+          "alt": "Kindergarten Cop on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kindergarten_Cop",
+          "icon": "images/wikipedia.png",
+          "alt": "Kindergarten Cop on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Kindergarten+Cop+1990+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Kindergarten Cop Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Karate Kid",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1984
+      ],
+      "genres": [
+        "Drama",
+        "Action",
+        "Sport",
+        "Coming-of-Age"
+      ],
+      "image": "images/the_karate_kid.jpg",
+      "imageAlt": "The Karate Kid (1984)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1984",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Drama, Action, Sport, Coming-of-Age",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "126 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "John G. Avildsen",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Ralph Macchio, Pat Morita, Elisabeth Shue, William Zabka, Martin Kove, Randee Heller",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-karate-kid",
+          "icon": "images/justwatch.png",
+          "alt": "The Karate Kid on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0087538/",
+          "icon": "images/imdb.png",
+          "alt": "The Karate Kid on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Karate_Kid",
+          "icon": "images/wikipedia.png",
+          "alt": "The Karate Kid on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Karate+Kid+1984+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Karate Kid Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Terminator",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1984
+      ],
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Thriller"
+      ],
+      "image": "images/the_terminator.jpg",
+      "imageAlt": "The Terminator (1984)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1984",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Sci-Fi, Action, Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "107 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "James Cameron",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Arnold Schwarzenegger, Linda Hamilton, Michael Biehn, Paul Winfield, Lance Henriksen, Earl Boen",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-terminator",
+          "icon": "images/justwatch.png",
+          "alt": "The Terminator on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0088247/",
+          "icon": "images/imdb.png",
+          "alt": "The Terminator on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Terminator",
+          "icon": "images/wikipedia.png",
+          "alt": "The Terminator on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Terminator+1984+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Terminator Trailer on YouTube"
         }
       ]
     },

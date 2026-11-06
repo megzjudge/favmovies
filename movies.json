@@ -3428,6 +3428,62 @@
       ]
     },
     {
+      "title": "Super Mario Bros.",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "image": "images/super_mario_bros.jpg",
+      "imageAlt": "Super Mario Bros. (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Comedy, Family, Fantasy, Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/super-mario-bros",
+          "icon": "images/justwatch.png",
+          "alt": "Super Mario Bros. on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0108255/",
+          "icon": "images/imdb.png",
+          "alt": "Super Mario Bros. on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros._(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Super Mario Bros. on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Super+Mario+Bros+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Super Mario Bros. Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "The Beverly Hillbillies",
       "flag": "🇺🇸",
       "country": "US",
@@ -4328,6 +4384,274 @@
 
   "compactMovies": [
     {
+      "title": "Freddy vs. Jason",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2003
+      ],
+      "genres": [
+        "Horror",
+        "Slasher",
+        "Thriller"
+      ],
+      "image": "images/freddy_vs_jason.jpg",
+      "imageAlt": "Freddy vs. Jason (2003)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2003",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Horror, Slasher, Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "97 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/freddy-vs-jason",
+          "icon": "images/justwatch.png",
+          "alt": "Freddy vs. Jason on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0329101/",
+          "icon": "images/imdb.png",
+          "alt": "Freddy vs. Jason on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Freddy_vs._Jason",
+          "icon": "images/wikipedia.png",
+          "alt": "Freddy vs. Jason on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Freddy+vs+Jason+2003+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Freddy vs. Jason Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Flubber",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1997
+      ],
+      "genres": [
+        "Comedy",
+        "Family",
+        "Sci-Fi"
+      ],
+      "image": "images/flubber.jpg",
+      "imageAlt": "Flubber (1997)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1997",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Family, Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "93 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/flubber",
+          "icon": "images/justwatch.png",
+          "alt": "Flubber on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0119137/",
+          "icon": "images/imdb.png",
+          "alt": "Flubber on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Flubber_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Flubber on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Flubber+1997+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Flubber Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Happy Gilmore",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Comedy",
+        "Sport"
+      ],
+      "image": "images/happy_gilmore.jpg",
+      "imageAlt": "Happy Gilmore (1996)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Sport",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "92 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/happy-gilmore",
+          "icon": "images/justwatch.png",
+          "alt": "Happy Gilmore on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0116483/",
+          "icon": "images/imdb.png",
+          "alt": "Happy Gilmore on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Happy_Gilmore",
+          "icon": "images/wikipedia.png",
+          "alt": "Happy Gilmore on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Happy+Gilmore+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Happy Gilmore Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Jumanji",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "image": "images/jumanji.jpg",
+      "imageAlt": "Jumanji (1995)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Fantasy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/jumanji",
+          "icon": "images/justwatch.png",
+          "alt": "Jumanji on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0113497/",
+          "icon": "images/imdb.png",
+          "alt": "Jumanji on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jumanji_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Jumanji on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Jumanji+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Jumanji Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Dumb and Dumber",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "image": "images/dumb_and_dumber.jpg",
+      "imageAlt": "Dumb and Dumber (1994)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1994",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "107 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/dumb-and-dumber",
+          "icon": "images/justwatch.png",
+          "alt": "Dumb and Dumber on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0109686/",
+          "icon": "images/imdb.png",
+          "alt": "Dumb and Dumber on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dumb_and_Dumber",
+          "icon": "images/wikipedia.png",
+          "alt": "Dumb and Dumber on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Dumb+and+Dumber+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Dumb and Dumber Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "The Little Rascals",
       "flag": "🇺🇸",
       "country": "US",
@@ -4378,6 +4702,170 @@
           "url": "https://www.youtube.com/watch?v=Svdb1XXVX_c",
           "icon": "images/youtube.png",
           "alt": "The Little Rascals Trailer on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Homeward Bound: The Incredible Journey",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "image": "images/homeward_bound.jpg",
+      "imageAlt": "Homeward Bound: The Incredible Journey (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Comedy, Drama, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "84 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/homeward-bound-the-incredible-journey",
+          "icon": "images/justwatch.png",
+          "alt": "Homeward Bound on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0107131/",
+          "icon": "images/imdb.png",
+          "alt": "Homeward Bound on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Homeward_Bound:_The_Incredible_Journey",
+          "icon": "images/wikipedia.png",
+          "alt": "Homeward Bound on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Homeward+Bound+The+Incredible+Journey+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Homeward Bound Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Free Willy",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "image": "images/free_willy.jpg",
+      "imageAlt": "Free Willy (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Drama, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "112 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/free-willy",
+          "icon": "images/justwatch.png",
+          "alt": "Free Willy on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0106965/",
+          "icon": "images/imdb.png",
+          "alt": "Free Willy on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Free_Willy",
+          "icon": "images/wikipedia.png",
+          "alt": "Free Willy on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Free+Willy+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Free Willy Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Cool Runnings",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family",
+        "Sport"
+      ],
+      "image": "images/cool_runnings.jpg",
+      "imageAlt": "Cool Runnings (1993)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1993",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Drama, Family, Sport",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "98 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/cool-runnings",
+          "icon": "images/justwatch.png",
+          "alt": "Cool Runnings on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0106611/",
+          "icon": "images/imdb.png",
+          "alt": "Cool Runnings on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cool_Runnings",
+          "icon": "images/wikipedia.png",
+          "alt": "Cool Runnings on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Cool+Runnings+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Cool Runnings Trailer on YouTube"
         }
       ]
     },

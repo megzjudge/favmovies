@@ -4943,6 +4943,62 @@
   ],
 
   "compactMovies": [
+
+    {
+      "title": "The Sheep Detectives",
+      "flag": "🇬🇧",
+      "country": "GB",
+      "years": [
+        2026
+      ],
+      "genres": [
+        "Mystery",
+        "Comedy",
+        "Family",
+        "Crime"
+      ],
+      "image": "images/the_sheep_detectives.jpg",
+      "imageAlt": "The Sheep Detectives",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2026",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Mystery, Comedy, Family, Crime",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "109 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/the-sheep-detectives",
+          "icon": "images/justwatch.png",
+          "alt": "The Sheep Detectives on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt32565993/",
+          "icon": "images/imdb.png",
+          "alt": "The Sheep Detectives on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Sheep_Detectives",
+          "icon": "images/wikipedia.png",
+          "alt": "The Sheep Detectives on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Sheep+Detectives+2026+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Sheep Detectives Trailer on YouTube"
+        }
+      ]
+    },
     {
       "title": "Clerks II",
       "flag": "🇺🇸",

@@ -5915,6 +5915,60 @@
       ]
     },
     {
+      "title": "Mulan",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Musical"
+      ],
+      "image": "images/mulan.jpg",
+      "imageAlt": "Mulan",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animation, Adventure, Musical",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "88 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/mulan",
+          "icon": "images/justwatch.png",
+          "alt": "Mulan on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120762/",
+          "icon": "images/imdb.png",
+          "alt": "Mulan on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Mulan on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Mulan+1998+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Mulan Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Practical Magic",
       "flag": "🇺🇸",
       "country": "US",

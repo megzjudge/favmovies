@@ -5117,6 +5117,60 @@
       ]
     },
     {
+      "title": "50 First Dates",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2004
+      ],
+      "genres": [
+        "Romantic Comedy",
+        "Comedy",
+        "Romance"
+      ],
+      "image": "images/50_first_dates.jpg",
+      "imageAlt": "50 First Dates",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2004",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Romantic Comedy, Comedy, Romance",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "99 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/50-first-dates",
+          "icon": "images/justwatch.png",
+          "alt": "50 First Dates on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0343660/",
+          "icon": "images/imdb.png",
+          "alt": "50 First Dates on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/50_First_Dates",
+          "icon": "images/wikipedia.png",
+          "alt": "50 First Dates on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=50+First+Dates+2004+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "50 First Dates Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "EuroTrip",
       "flag": "🇺🇸",
       "country": "US",
@@ -5231,6 +5285,254 @@
           "url": "https://www.youtube.com/results?search_query=Freddy+vs+Jason+2003+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Freddy vs. Jason Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Star Wars: Episode II – Attack of the Clones",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "image": "images/star_wars_episode_2.jpg",
+      "imageAlt": "Star Wars: Episode II – Attack of the Clones (2002)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Adventure, Fantasy, Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "142 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "George Lucas",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/star-wars-episode-ii-attack-of-the-clones",
+          "icon": "images/justwatch.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0121765/",
+          "icon": "images/imdb.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_%E2%80%93_Attack_of_the_Clones",
+          "icon": "images/wikipedia.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM",
+          "icon": "images/youtube.png",
+          "alt": "Star Wars: Episode II – Attack of the Clones Official Trailer"
+        }
+      ]
+    },
+    {
+      "title": "The Hot Chick",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy"
+      ],
+      "image": "images/the_hot_chick.jpg",
+      "imageAlt": "The Hot Chick",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Fantasy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "104 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/the-hot-chick",
+          "icon": "images/justwatch.png",
+          "alt": "The Hot Chick on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0302640/",
+          "icon": "images/imdb.png",
+          "alt": "The Hot Chick on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Hot_Chick",
+          "icon": "images/wikipedia.png",
+          "alt": "The Hot Chick on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Hot+Chick+2002+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Hot Chick Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Catch Me If You Can",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2002
+      ],
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Drama",
+        "Biography"
+      ],
+      "image": "images/catch_me_if_you_can.jpg",
+      "imageAlt": "Catch Me If You Can (2002)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2002",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Crime, Comedy, Drama, Biography",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "141 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Steven Spielberg",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Amy Adams, Martin Sheen, Nathalie Baye, James Brolin",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/catch-me-if-you-can",
+          "icon": "images/justwatch.png",
+          "alt": "Catch Me If You Can on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0264464/",
+          "icon": "images/imdb.png",
+          "alt": "Catch Me If You Can on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Catch_Me_If_You_Can",
+          "icon": "images/wikipedia.png",
+          "alt": "Catch Me If You Can on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Catch+Me+If+You+Can+2002+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Catch Me If You Can Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Donnie Darko",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Mystery",
+        "Psychological Thriller",
+        "Sci-Fi",
+        "Drama"
+      ],
+      "image": "images/donnie_darko.jpg",
+      "imageAlt": "Donnie Darko (2001)",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2001",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Mystery, Psychological Thriller, Sci-Fi, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "113 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Richard Kelly",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Jake Gyllenhaal, Jena Malone, Maggie Gyllenhaal, Patrick Swayze",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/donnie-darko",
+          "icon": "images/justwatch.png",
+          "alt": "Donnie Darko on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0246578/",
+          "icon": "images/imdb.png",
+          "alt": "Donnie Darko on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Donnie_Darko",
+          "icon": "images/wikipedia.png",
+          "alt": "Donnie Darko on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Donnie+Darko+2001+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Donnie Darko Trailer on YouTube"
         }
       ]
     },
@@ -5458,201 +5760,6 @@
           "url": "https://www.youtube.com/results?search_query=Bedazzled+2000+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Bedazzled Trailer on YouTube"
-        }
-      ]
-    },
-    {
-      "title": "Star Wars: Episode II – Attack of the Clones",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2002
-      ],
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "image": "images/star_wars_episode_2.jpg",
-      "imageAlt": "Star Wars: Episode II – Attack of the Clones (2002)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Action, Adventure, Fantasy, Sci-Fi",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "142 min",
-          "italic": true
-        },
-        {
-          "label": "Director",
-          "value": "George Lucas",
-          "italic": true
-        },
-        {
-          "label": "Starring",
-          "value": "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/star-wars-episode-ii-attack-of-the-clones",
-          "icon": "images/justwatch.png",
-          "alt": "Star Wars: Episode II – Attack of the Clones on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0121765/",
-          "icon": "images/imdb.png",
-          "alt": "Star Wars: Episode II – Attack of the Clones on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_%E2%80%93_Attack_of_the_Clones",
-          "icon": "images/wikipedia.png",
-          "alt": "Star Wars: Episode II – Attack of the Clones on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM",
-          "icon": "images/youtube.png",
-          "alt": "Star Wars: Episode II – Attack of the Clones Official Trailer"
-        }
-      ]
-    },
-    {
-      "title": "Catch Me If You Can",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2002
-      ],
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Drama",
-        "Biography"
-      ],
-      "image": "images/catch_me_if_you_can.jpg",
-      "imageAlt": "Catch Me If You Can (2002)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Crime, Comedy, Drama, Biography",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "141 min",
-          "italic": true
-        },
-        {
-          "label": "Director",
-          "value": "Steven Spielberg",
-          "italic": true
-        },
-        {
-          "label": "Starring",
-          "value": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Amy Adams, Martin Sheen, Nathalie Baye, James Brolin",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/catch-me-if-you-can",
-          "icon": "images/justwatch.png",
-          "alt": "Catch Me If You Can on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0264464/",
-          "icon": "images/imdb.png",
-          "alt": "Catch Me If You Can on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Catch_Me_If_You_Can",
-          "icon": "images/wikipedia.png",
-          "alt": "Catch Me If You Can on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=Catch+Me+If+You+Can+2002+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "Catch Me If You Can Trailer on YouTube"
-        }
-      ]
-    },
-    {
-      "title": "Donnie Darko",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2001
-      ],
-      "genres": [
-        "Mystery",
-        "Psychological Thriller",
-        "Sci-Fi",
-        "Drama"
-      ],
-      "image": "images/donnie_darko.jpg",
-      "imageAlt": "Donnie Darko (2001)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Mystery, Psychological Thriller, Sci-Fi, Drama",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        },
-        {
-          "label": "Director",
-          "value": "Richard Kelly",
-          "italic": true
-        },
-        {
-          "label": "Starring",
-          "value": "Jake Gyllenhaal, Jena Malone, Maggie Gyllenhaal, Patrick Swayze",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/donnie-darko",
-          "icon": "images/justwatch.png",
-          "alt": "Donnie Darko on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0246578/",
-          "icon": "images/imdb.png",
-          "alt": "Donnie Darko on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Donnie_Darko",
-          "icon": "images/wikipedia.png",
-          "alt": "Donnie Darko on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=Donnie+Darko+2001+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "Donnie Darko Trailer on YouTube"
         }
       ]
     },

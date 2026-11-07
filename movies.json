@@ -5190,6 +5190,114 @@
       ]
     },
     {
+      "title": "What Women Want",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Romantic Comedy",
+        "Fantasy",
+        "Comedy"
+      ],
+      "image": "images/what_women_want.jpg",
+      "imageAlt": "What Women Want",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Romantic Comedy, Fantasy, Comedy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "127 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/what-women-want",
+          "icon": "images/justwatch.png",
+          "alt": "What Women Want on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt020ાન3811/",
+          "icon": "images/imdb.png",
+          "alt": "What Women Want on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/What_Women_Want",
+          "icon": "images/wikipedia.png",
+          "alt": "What Women Want on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=What+Women+Want+2000+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "What Women Want Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Miss Congeniality",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "image": "images/miss_congeniality.jpg",
+      "imageAlt": "Miss Congeniality",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Crime, Action",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "109 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/miss-congeniality",
+          "icon": "images/justwatch.png",
+          "alt": "Miss Congeniality on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0212346/",
+          "icon": "images/imdb.png",
+          "alt": "Miss Congeniality on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Miss_Congeniality",
+          "icon": "images/wikipedia.png",
+          "alt": "Miss Congeniality on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Miss+Congeniality+2000+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Miss Congeniality Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Bedazzled",
       "flag": "🇺🇸",
       "country": "US",

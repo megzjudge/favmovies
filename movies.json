@@ -2633,6 +2633,60 @@
       ]
     },
     {
+      "title": "Dude, Where's My Car?",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Comedy",
+        "Science Fiction",
+        "Cult Classic"
+      ],
+      "image": "images/dude_wheres_my_car.jpg",
+      "imageAlt": "Dude, Where's My Car?",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Science Fiction, Cult Classic",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "83 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/dude-wheres-my-car",
+          "icon": "images/justwatch.png",
+          "alt": "Dude, Where's My Car? on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0242423/",
+          "icon": "images/imdb.png",
+          "alt": "Dude, Where's My Car? on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dude,_Where%27s_My_Car%3F",
+          "icon": "images/wikipedia.png",
+          "alt": "Dude, Where's My Car? on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Dude+Wheres+My+Car+2000+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Dude, Where's My Car? Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Malena",
       "flag": "🇮🇹",
       "country": "IT",

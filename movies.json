@@ -1812,6 +1812,60 @@
       ]
     },
     {
+      "title": "The Chronicles of Riddick",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2004
+      ],
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "image": "images/the_chronicles_of_riddick.jpg",
+      "imageAlt": "The Chronicles of Riddick",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2004",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Science Fiction, Action, Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "119 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/the-chronicles-of-riddick",
+          "icon": "images/justwatch.png",
+          "alt": "The Chronicles of Riddick on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0296572/",
+          "icon": "images/imdb.png",
+          "alt": "The Chronicles of Riddick on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Chronicles_of_Riddick",
+          "icon": "images/wikipedia.png",
+          "alt": "The Chronicles of Riddick on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f5X8aVxVsv0",
+          "icon": "images/youtube.png",
+          "alt": "The Chronicles of Riddick Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Dogville",
       "flag": "🇩🇰",
       "country": "DK",

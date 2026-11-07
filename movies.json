@@ -5007,6 +5007,60 @@
       ]
     },
     {
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2005
+      ],
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Family"
+      ],
+      "image": "images/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe.jpg",
+      "imageAlt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2005",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Fantasy, Adventure, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "143 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe",
+          "icon": "images/justwatch.png",
+          "alt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0363771/",
+          "icon": "images/imdb.png",
+          "alt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe",
+          "icon": "images/wikipedia.png",
+          "alt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Chronicles+of+Narnia+The+Lion+the+Witch+and+the+Wardrobe+2005+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "EuroTrip",
       "flag": "🇺🇸",
       "country": "US",
@@ -5054,7 +5108,7 @@
           "alt": "EuroTrip on JustWatch"
         },
         {
-          "url": "https://www.imdb.com/title/tt035 элем/",
+          "url": "https://www.imdb.com/title/tt0356150/",
           "icon": "images/imdb.png",
           "alt": "EuroTrip on IMDb"
         },

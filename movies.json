@@ -5710,6 +5710,60 @@
       ]
     },
     {
+      "title": "Scary Movie",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Slasher"
+      ],
+      "image": "images/scary_movie.jpg",
+      "imageAlt": "Scary Movie",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Horror, Slasher",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "88 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/scary-movie",
+          "icon": "images/justwatch.png",
+          "alt": "Scary Movie on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0175142/",
+          "icon": "images/imdb.png",
+          "alt": "Scary Movie on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Scary_Movie",
+          "icon": "images/wikipedia.png",
+          "alt": "Scary Movie on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Scary+Movie+2000+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Scary Movie Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Bedazzled",
       "flag": "🇺🇸",
       "country": "US",

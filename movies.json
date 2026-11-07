@@ -6394,6 +6394,60 @@
       ]
     },
     {
+      "title": "101 Dalmatians",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/101_dalmatians.jpg",
+      "imageAlt": "101 Dalmatians",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Adventure, Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "103 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/101-dalmatians",
+          "icon": "images/justwatch.png",
+          "alt": "101 Dalmatians on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0115433/",
+          "icon": "images/imdb.png",
+          "alt": "101 Dalmatians on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/101_Dalmatians_(1996_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "101 Dalmatians on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=101+Dalmatians+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "101 Dalmatians Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Jumanji",
       "flag": "🇺🇸",
       "country": "US",
@@ -7404,6 +7458,60 @@
       ]
     },
     {
+      "title": "3 Ninjas",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1992
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Family"
+      ],
+      "image": "images/3_ninjas.jpg",
+      "imageAlt": "3 Ninjas",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1992",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Action, Comedy, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "96 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/3-ninjas",
+          "icon": "images/justwatch.png",
+          "alt": "3 Ninjas on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0103596/",
+          "icon": "images/imdb.png",
+          "alt": "3 Ninjas on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/3_Ninjas",
+          "icon": "images/wikipedia.png",
+          "alt": "3 Ninjas on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=3+Ninjas+1992+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "3 Ninjas Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Beethoven",
       "flag": "🇺🇸",
       "country": "US",
@@ -7596,71 +7704,6 @@
       ]
     },
     {
-      "title": "The Karate Kid",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        1984
-      ],
-      "genres": [
-        "Drama",
-        "Action",
-        "Sport",
-        "Coming-of-Age"
-      ],
-      "image": "images/the_karate_kid.jpg",
-      "imageAlt": "The Karate Kid (1984)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1984",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Drama, Action, Sport, Coming-of-Age",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "126 min",
-          "italic": true
-        },
-        {
-          "label": "Director",
-          "value": "John G. Avildsen",
-          "italic": true
-        },
-        {
-          "label": "Starring",
-          "value": "Ralph Macchio, Pat Morita, Elisabeth Shue, William Zabka, Martin Kove, Randee Heller",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/the-karate-kid",
-          "icon": "images/justwatch.png",
-          "alt": "The Karate Kid on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0087538/",
-          "icon": "images/imdb.png",
-          "alt": "The Karate Kid on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/The_Karate_Kid",
-          "icon": "images/wikipedia.png",
-          "alt": "The Karate Kid on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=The+Karate+Kid+1984+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "The Karate Kid Trailer on YouTube"
-        }
-      ]
-    },
-    {
       "title": "The Terminator",
       "flag": "🇺🇸",
       "country": "US",
@@ -7721,6 +7764,60 @@
           "url": "https://www.youtube.com/results?search_query=The+Terminator+1984+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Terminator Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Rocky Horror Picture Show",
+      "flag": "🇬🇧",
+      "country": "GB",
+      "years": [
+        1975
+      ],
+      "genres": [
+        "Musical",
+        "Comedy",
+        "Horror"
+      ],
+      "image": "images/the_rocky_horror_picture_show.jpg",
+      "imageAlt": "The Rocky Horror Picture Show",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1975",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Musical, Comedy, Horror",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "100 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/the-rocky-horror-picture-show",
+          "icon": "images/justwatch.png",
+          "alt": "The Rocky Horror Picture Show on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0073629/",
+          "icon": "images/imdb.png",
+          "alt": "The Rocky Horror Picture Show on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Rocky_Horror_Picture_Show",
+          "icon": "images/wikipedia.png",
+          "alt": "The Rocky Horror Picture Show on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Rocky+Horror+Picture+Show+1975+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Rocky Horror Picture Show Trailer on YouTube"
         }
       ]
     },

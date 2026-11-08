@@ -251,12 +251,6 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* Hide filter controls when scrolling through movies */
-#filtersTab.scroll-hidden,
-#filterPanel.scroll-hidden {
-  display: none !important;
-}
-
 .movie-grid {
     display: grid;
     grid-template-columns: repeat(6, var(--card-w, 170px));
@@ -573,6 +567,12 @@ a:hover {
     font-size: 9px;
     right: 4px;
     bottom: 4px;
+}
+
+/* Hide filter controls when scrolling through movies */
+#filtersTab.scroll-hidden,
+#filterPanel.scroll-hidden {
+  display: none !important;
 }
 
 /* Tablet */

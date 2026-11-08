@@ -341,7 +341,7 @@ async function initializeMovies() {
     const cardRect = firstCard.getBoundingClientRect();
   
     const scrolledPastFirstCard =
-      cardRect.bottom <= contentRect.top + 10;
+      appContent.scrollTop > 50;
   
     if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
   

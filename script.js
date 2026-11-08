@@ -357,11 +357,18 @@ async function initializeMovies() {
     }
   }
   
-  appContent.addEventListener(
-    'scroll',
-    updateFilterVisibility,
-    { passive: true }
-  );
+  let scrollTicking = false;
+  
+  appContent.addEventListener('scroll', () => {
+    if (scrollTicking) return;
+  
+    scrollTicking = true;
+  
+    requestAnimationFrame(() => {
+      updateFilterVisibility();
+      scrollTicking = false;
+    });
+  }, { passive: true });
 
 updateFilterVisibility();
 

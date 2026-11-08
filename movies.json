@@ -6121,56 +6121,66 @@
       ]
     },
     {
-      "title": "Pokémon the Movie 2000",
+      "title": "Pokémon: The First Movie",
       "flag": "🇯🇵",
       "country": "JP",
       "years": [
-        1999
+        1998
       ],
       "genres": [
-        "Animated Adventure",
-        "Fantasy",
-        "Action"
+        "Adventure",
+        "Animation",
+        "Fantasy"
       ],
-      "image": "images/pokemon_the_movie_2000.jpg",
-      "imageAlt": "Pokémon the Movie 2000",
+      "image": "images/pokemon_the_first_movie.jpg",
+      "imageAlt": "Pokémon: The First Movie (1998)",
       "detailLines": [
         {
           "label": "Year",
-          "value": "1999",
+          "value": "1998",
           "italic": true
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Fantasy, Action",
+          "value": "Action, Adventure, Animation, Fantasy, Science-Fiction, Kids & Family",
           "italic": true
         },
         {
           "label": "Runtime",
-          "value": "99 min",
+          "value": "96 min",
+          "italic": true
+        },
+        {
+          "label": "Director",
+          "value": "Kunihiko Yuyama",
+          "italic": true
+        },
+        {
+          "label": "Starring",
+          "value": "Rica Matsumoto, Ikue Otani, Mayumi Izuka, Yuji Ueda, Megumi Hayashibara",
           "italic": true
         }
       ],
       "links": [
         {
-          "url": "https://www.justwatch.com/us/movie/pokemon-the-movie-2000",
+          "url": "https://www.justwatch.com/au/movie/pokemon-the-first-movie-mewtwo-strikes-back",
           "icon": "images/justwatch.png",
-          "alt": "Pokémon the Movie 2000 on JustWatch"
+          "alt": "Pokémon: The First Movie on JustWatch"
         },
         {
-          "url": "https://www.imdb.com/title/tt0210234/",
+          "url": "https://www.imdb.com/title/tt0190641/",
           "icon": "images/imdb.png",
-          "alt": "Pokémon the Movie 2000 on IMDb"
+          "alt": "Pokémon: The First Movie on IMDb"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie",
           "icon": "images/wikipedia.png",
-          "alt": "Pokémon the Movie 2000 on Wikipedia"
+          "alt": "Pokémon: The First Movie on Wikipedia"
         },
         {
-          "url": "https://www.imdb.com/video/vi433439513/?playlistId=tt0210234",
+          "url": "https://www.youtube.com/results?search_query=Pokemon+The+First+Movie+1998+official+trailer",
           "icon": "images/youtube.png",
-          "alt": "POkemon Movie Trailed on IMDB"
+          "alt": "Pokémon: The First Movie Trailer on YouTube"
         }
       ]
     },

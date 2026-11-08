@@ -151,7 +151,20 @@ async function initializeMovies() {
 
   const appContent = document.querySelector('.app-content');
   const movieGrid = document.getElementById('movieGrid');
-  
+
+  const filtersTab = document.getElementById('filtersTab');
+  const correlationsTab = document.getElementById('correlationsTab');
+
+  const filterPanel = document.getElementById('filterPanel');
+
+  const moviesPanel = document.querySelector(
+    '[data-view-panel="movies"]'
+  );
+
+  const correlationsPanel = document.querySelector(
+    '[data-view-panel="correlations"]'
+  );
+
   // ==========================================
   // AUTO-HIDE FILTERS ON SCROLL
   // ==========================================
@@ -188,20 +201,6 @@ async function initializeMovies() {
   
   // Set correct initial visibility
   updateFilterVisibility();
-
-  const filtersTab = document.getElementById('filtersTab');
-  const correlationsTab = document.getElementById('correlationsTab');
-
-  const filterPanel = document.getElementById('filterPanel');
-
-  const moviesPanel = document.querySelector(
-    '[data-view-panel="movies"]'
-  );
-
-  const correlationsPanel = document.querySelector(
-    '[data-view-panel="correlations"]'
-  );
-
 
   // ==========================================
   // GENRE EMOJIS

@@ -815,6 +815,14 @@ updateFilterVisibility();
       'correlations-showing',
       showing
     );
+
+    const featuredSection = document.getElementById(
+      'featuredMovieSection'
+    );
+    
+    if (featuredSection) {
+      featuredSection.hidden = showing;
+    }
   
     // Hide the compact movie section on correlations page
     const compactSection = document.getElementById(
@@ -844,9 +852,7 @@ updateFilterVisibility();
     );
   });
 
-
   fitMovieGrid();
-
 
   // ==========================================
   // FLIP-CARD INTERACTION

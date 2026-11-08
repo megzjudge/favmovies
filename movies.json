@@ -1,5 +1,276 @@
-
 {
+  "featuredMovies": [
+    {
+      "title": "Revolver",
+      "flag": "🇬🇧",
+      "country": "GB",
+      "years": [
+        2005
+      ],
+      "genres": [
+        "Existential Drama",
+        "Cerebral Crime",
+        "Intelligent Action"
+      ],
+      "image": "images/revolver.jpg",
+      "imageAlt": "Revolver",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2005",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Existential Drama, Cerebral Crime, Intelligent Action",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "111 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/revolver",
+          "icon": "images/justwatch.png",
+          "alt": "Revolver on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0365686/",
+          "icon": "images/imdb.png",
+          "alt": "Revolver on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Revolver_(2005_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Revolver on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DNXtExBM-KM",
+          "icon": "images/youtube.png",
+          "alt": "Revolver on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "V for Vendetta",
+      "flag": "🇬🇧",
+      "country": "GB",
+      "years": [
+        2005
+      ],
+      "genres": [
+        "Existential Drama",
+        "Psychological Thriller",
+        "Dystopian Sci-Fi"
+      ],
+      "image": "images/v_for_vendetta.jpg",
+      "imageAlt": "V for Vendetta",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2005",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Existential Drama, Psychological Thriller, Dystopian Sci-Fi",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "132 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/v-for-vendetta",
+          "icon": "images/justwatch.png",
+          "alt": "V for Vendetta on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0434409/",
+          "icon": "images/imdb.png",
+          "alt": "V for Vendetta on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/V_for_Vendetta_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "V for Vendetta on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+          "icon": "images/youtube.png",
+          "alt": "V for Vendetta on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Inception",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2010
+      ],
+      "genres": [
+        "Intelligent Action",
+        "Dystopian Sci-Fi",
+        "Psychological Thriller"
+      ],
+      "image": "images/inception.jpg",
+      "imageAlt": "Inception",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2010",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Intelligent Action, Dystopian Sci-Fi, Psychological Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "148 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/origine",
+          "icon": "images/justwatch.png",
+          "alt": "Inception on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt1375666/",
+          "icon": "images/imdb.png",
+          "alt": "Inception on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inception",
+          "icon": "images/wikipedia.png",
+          "alt": "Inception on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+          "icon": "images/youtube.png",
+          "alt": "Inception on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Limitless",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2011
+      ],
+      "genres": [
+        "Psychological Thriller",
+        "Intelligent Action"
+      ],
+      "image": "images/limitless.jpg",
+      "imageAlt": "Limitless",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2011",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Psychological Thriller, Intelligent Action",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "105 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/limitless",
+          "icon": "images/justwatch.png",
+          "alt": "Limitless on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt1219289/",
+          "icon": "images/imdb.png",
+          "alt": "Limitless on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Limitless_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Limitless on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4TLppsfzQH8",
+          "icon": "images/youtube.png",
+          "alt": "Limitless on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Tenet",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2020
+      ],
+      "genres": [
+        "Intelligent Action",
+        "Dystopian Sci-Fi",
+        "Surreal Adventure"
+      ],
+      "image": "images/tenet.jpg",
+      "imageAlt": "Tenet",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2020",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Intelligent Action, Dystopian Sci-Fi, Surreal Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "150 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/tenet",
+          "icon": "images/justwatch.png",
+          "alt": "Tenet on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt6723592/",
+          "icon": "images/imdb.png",
+          "alt": "Tenet on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tenet_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Tenet on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LdOM0x0XDMo",
+          "icon": "images/youtube.png",
+          "alt": "Tenet on Youtube"
+        }
+      ]
+    }
+  ],
+
   "movies": [
     {
       "title": "Knives Out [series]",
@@ -355,60 +626,6 @@
           "url": "https://www.youtube.com/watch?v=A73FnWETvr8",
           "icon": "images/youtube.png",
           "alt": "Nine Days on Youtube"
-        }
-      ]
-    },
-    {
-      "title": "Tenet",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2020
-      ],
-      "genres": [
-        "Intelligent Action",
-        "Dystopian Sci-Fi",
-        "Surreal Adventure"
-      ],
-      "image": "images/tenet.jpg",
-      "imageAlt": "Tenet",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2020",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Intelligent Action, Dystopian Sci-Fi, Surreal Adventure",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "150 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/tenet",
-          "icon": "images/justwatch.png",
-          "alt": "Tenet on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt6723592/",
-          "icon": "images/imdb.png",
-          "alt": "Tenet on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Tenet_(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "Tenet on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=LdOM0x0XDMo",
-          "icon": "images/youtube.png",
-          "alt": "Tenet on Youtube"
         }
       ]
     },
@@ -827,59 +1044,6 @@
       ]
     },
     {
-      "title": "Limitless",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2011
-      ],
-      "genres": [
-        "Psychological Thriller",
-        "Intelligent Action"
-      ],
-      "image": "images/limitless.jpg",
-      "imageAlt": "Limitless",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2011",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Psychological Thriller, Intelligent Action",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "105 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/limitless",
-          "icon": "images/justwatch.png",
-          "alt": "Limitless on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt1219289/",
-          "icon": "images/imdb.png",
-          "alt": "Limitless on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Limitless_(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "Limitless on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=4TLppsfzQH8",
-          "icon": "images/youtube.png",
-          "alt": "Limitless on Youtube"
-        }
-      ]
-    },
-    {
       "title": "Sucker Punch",
       "flag": "🇺🇸",
       "country": "US",
@@ -984,60 +1148,6 @@
           "url": "https://www.youtube.com/watch?v=7wd5KEaOtm4",
           "icon": "images/youtube.png",
           "alt": "Scott Pilgrim vs. the World on Youtube"
-        }
-      ]
-    },
-    {
-      "title": "Inception",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        2010
-      ],
-      "genres": [
-        "Intelligent Action",
-        "Dystopian Sci-Fi",
-        "Psychological Thriller"
-      ],
-      "image": "images/inception.jpg",
-      "imageAlt": "Inception",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2010",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Intelligent Action, Dystopian Sci-Fi, Psychological Thriller",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "148 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/origine",
-          "icon": "images/justwatch.png",
-          "alt": "Inception on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt1375666/",
-          "icon": "images/imdb.png",
-          "alt": "Inception on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Inception",
-          "icon": "images/wikipedia.png",
-          "alt": "Inception on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-          "icon": "images/youtube.png",
-          "alt": "Inception on Youtube"
         }
       ]
     },
@@ -1366,114 +1476,6 @@
           "url": "https://www.youtube.com/watch?v=QngdF-55AGc",
           "icon": "images/youtube.png",
           "alt": "The Illusionist on Youtube"
-        }
-      ]
-    },
-    {
-      "title": "Revolver",
-      "flag": "🇬🇧",
-      "country": "GB",
-      "years": [
-        2005
-      ],
-      "genres": [
-        "Existential Drama",
-        "Cerebral Crime",
-        "Intelligent Action"
-      ],
-      "image": "images/revolver.jpg",
-      "imageAlt": "Revolver",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Existential Drama, Cerebral Crime, Intelligent Action",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "111 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/revolver",
-          "icon": "images/justwatch.png",
-          "alt": "Revolver on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0365686/",
-          "icon": "images/imdb.png",
-          "alt": "Revolver on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Revolver_(2005_film)",
-          "icon": "images/wikipedia.png",
-          "alt": "Revolver on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=DNXtExBM-KM",
-          "icon": "images/youtube.png",
-          "alt": "Revolver on Youtube"
-        }
-      ]
-    },
-    {
-      "title": "V for Vendetta",
-      "flag": "🇬🇧",
-      "country": "GB",
-      "years": [
-        2005
-      ],
-      "genres": [
-        "Existential Drama",
-        "Psychological Thriller",
-        "Dystopian Sci-Fi"
-      ],
-      "image": "images/v_for_vendetta.jpg",
-      "imageAlt": "V for Vendetta",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Existential Drama, Psychological Thriller, Dystopian Sci-Fi",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "132 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/v-for-vendetta",
-          "icon": "images/justwatch.png",
-          "alt": "V for Vendetta on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0434409/",
-          "icon": "images/imdb.png",
-          "alt": "V for Vendetta on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/V_for_Vendetta_(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "V for Vendetta on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=lSA7mAHolAw",
-          "icon": "images/youtube.png",
-          "alt": "V for Vendetta on Youtube"
         }
       ]
     },

@@ -6123,6 +6123,116 @@
       ]
     },
     {
+      "title": "South Park: Bigger, Longer & Uncut",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Satirical Comedy",
+        "Dystopian Sci-Fi",
+        "Political Satire",
+        "Dark Comedy"
+      ],
+      "image": "images/south_park_bigger_longer_uncut.jpg",
+      "imageAlt": "South Park: Bigger, Longer & Uncut",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Satirical Comedy, Dystopian Sci-Fi, Political Satire, Dark Comedy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "81 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/south-park-bigger-longer-and-uncut",
+          "icon": "images/justwatch.png",
+          "alt": "South Park: Bigger, Longer & Uncut on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0158983/",
+          "icon": "images/imdb.png",
+          "alt": "South Park: Bigger, Longer & Uncut on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Park:_Bigger,_Longer_%26_Uncut",
+          "icon": "images/wikipedia.png",
+          "alt": "South Park: Bigger, Longer & Uncut on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=South+Park+Bigger+Longer+Uncut+trailer",
+          "icon": "images/youtube.png",
+          "alt": "South Park: Bigger, Longer & Uncut on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "The Mask of Zorro",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1998
+      ],
+      "genres": [
+        "Swashbuckling Adventure",
+        "Action",
+        "Romance",
+        "Historical Adventure"
+      ],
+      "image": "images/the_mask_of_zorro.jpg",
+      "imageAlt": "The Mask of Zorro",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1998",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Swashbuckling Adventure, Action, Romance, Historical Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "136 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-mask-of-zorro",
+          "icon": "images/justwatch.png",
+          "alt": "The Mask of Zorro on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0120746/",
+          "icon": "images/imdb.png",
+          "alt": "The Mask of Zorro on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mask_of_Zorro",
+          "icon": "images/wikipedia.png",
+          "alt": "The Mask of Zorro on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Mask+of+Zorro+1998+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Mask of Zorro on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Pokémon: The First Movie",
       "flag": "🇯🇵",
       "country": "JP",
@@ -6785,6 +6895,61 @@
       ]
     },
     {
+      "title": "Space Jam",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1996
+      ],
+      "genres": [
+        "Sports Comedy",
+        "Science Fiction",
+        "Animation",
+        "Family Adventure"
+      ],
+      "image": "images/space_jam.jpg",
+      "imageAlt": "Space Jam",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1996",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Sports Comedy, Science Fiction, Animation, Family Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "88 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/space-jam",
+          "icon": "images/justwatch.png",
+          "alt": "Space Jam on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0117705/",
+          "icon": "images/imdb.png",
+          "alt": "Space Jam on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Space_Jam",
+          "icon": "images/wikipedia.png",
+          "alt": "Space Jam on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Space+Jam+1996+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Space Jam on YouTube"
+        }
+      ]
+    },
+    {
       "title": "101 Dalmatians",
       "flag": "🇺🇸",
       "country": "US",
@@ -6835,6 +7000,116 @@
           "url": "https://www.youtube.com/results?search_query=101+Dalmatians+1996+official+trailer",
           "icon": "images/youtube.png",
           "alt": "101 Dalmatians Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Billy Madison",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Comedy",
+        "Slapstick Comedy",
+        "Coming-of-Age",
+        "Satirical Comedy"
+      ],
+      "image": "images/billy_madison.jpg",
+      "imageAlt": "Billy Madison",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Slapstick Comedy, Coming-of-Age, Satirical Comedy",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "89 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/billy-madison",
+          "icon": "images/justwatch.png",
+          "alt": "Billy Madison on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0112508/",
+          "icon": "images/imdb.png",
+          "alt": "Billy Madison on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Billy_Madison",
+          "icon": "images/wikipedia.png",
+          "alt": "Billy Madison on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Billy+Madison+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Billy Madison on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Pocahontas",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Animated Musical",
+        "Historical Romance",
+        "Adventure",
+        "Drama"
+      ],
+      "image": "images/pocahontas.jpg",
+      "imageAlt": "Pocahontas",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1995",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animated Musical, Historical Romance, Adventure, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "81 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/pocahontas",
+          "icon": "images/justwatch.png",
+          "alt": "Pocahontas on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0114148/",
+          "icon": "images/imdb.png",
+          "alt": "Pocahontas on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pocahontas_(1995_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Pocahontas on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Pocahontas+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Pocahontas on YouTube"
         }
       ]
     },

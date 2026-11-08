@@ -569,11 +569,6 @@ a:hover {
     bottom: 4px;
 }
 
-.scroll-disabled {
-  pointer-events: none;
-  opacity: 0.5;
-}
-
 /* Tablet */
 
 @media (max-width: 1000px) {

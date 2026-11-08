@@ -251,6 +251,12 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* Hide filter controls when scrolling through movies */
+#filtersTab.scroll-hidden,
+#filterPanel.scroll-hidden {
+  display: none !important;
+}
+
 .movie-grid {
     display: grid;
     grid-template-columns: repeat(6, var(--card-w, 170px));

@@ -333,7 +333,7 @@ async function initializeMovies() {
   let filtersWereClosedByScroll = false;
   
   function updateFilterVisibility() {
-    const firstCard = movieGrid.querySelector('.movie-card');
+    const firstCard = document.querySelector( '#featuredMovieGrid .movie-card') || movieGrid.querySelector('.movie-card');
   
     if (!firstCard) return;
   

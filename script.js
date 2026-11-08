@@ -1,3 +1,38 @@
+  // ==========================================
+  // RENDER FEATURED MOVIE COLLECTION
+  // ==========================================
+  
+  let featuredSection = document.getElementById(
+    'featuredMovieSection'
+  );
+  
+  if (!featuredSection) {
+    featuredSection = document.createElement('section');
+  
+    featuredSection.id = 'featuredMovieSection';
+    featuredSection.className =
+      'grid-section featured-grid-section';
+  
+    featuredSection.innerHTML = `
+      <h2 class="featured-section-title">Featured Movies</h2>
+      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
+    `;
+  
+    movieGrid.insertAdjacentElement(
+      'beforebegin',
+      featuredSection
+    );
+  }
+  
+  const featuredGrid = document.getElementById(
+    'featuredMovieGrid'
+  );
+  
+  featuredGrid.innerHTML = featuredMovies
+    .map(movie => buildCardHtml(movie))
+    .join('');
+  
+  featuredSection.hidden = featuredMovies.length === 0;
 
 // ==========================================
 // MOVIE DATA AND CARD RENDERING
@@ -331,42 +366,6 @@ async function initializeMovies() {
   );
 
 updateFilterVisibility();
-
-  // ==========================================
-  // RENDER FEATURED MOVIE COLLECTION
-  // ==========================================
-  
-  let featuredSection = document.getElementById(
-    'featuredMovieSection'
-  );
-  
-  if (!featuredSection) {
-    featuredSection = document.createElement('section');
-  
-    featuredSection.id = 'featuredMovieSection';
-    featuredSection.className =
-      'grid-section featured-grid-section';
-  
-    featuredSection.innerHTML = `
-      <h2 class="featured-section-title">Featured Movies</h2>
-      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
-    `;
-  
-    movieGrid.insertAdjacentElement(
-      'beforebegin',
-      featuredSection
-    );
-  }
-  
-  const featuredGrid = document.getElementById(
-    'featuredMovieGrid'
-  );
-  
-  featuredGrid.innerHTML = featuredMovies
-    .map(movie => buildCardHtml(movie))
-    .join('');
-  
-  featuredSection.hidden = featuredMovies.length === 0;
 
 // ==========================================
 // COUNTRY NAME CONVERSION

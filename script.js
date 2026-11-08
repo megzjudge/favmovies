@@ -13,26 +13,66 @@ async function renderMovieCards() {
 
   const data = await res.json();
 
-  // Support both the original array format and
-  // the new separated movies/compactMovies format.
   const featuredMovies = Array.isArray(data)
     ? []
     : (data.featuredMovies || []);
-  
+
   const movies = Array.isArray(data)
     ? data
     : (data.movies || []);
-  
+
   const compactMovies = Array.isArray(data)
     ? []
     : (data.compactMovies || []);
 
-  // Render the main movie collection.
+  // ==========================================
+  // RENDER FEATURED MOVIE COLLECTION
+  // ==========================================
+
+  let featuredSection = document.getElementById(
+    'featuredMovieSection'
+  );
+
+  if (!featuredSection) {
+    featuredSection = document.createElement('section');
+
+    featuredSection.id = 'featuredMovieSection';
+    featuredSection.className =
+      'grid-section featured-grid-section';
+
+    featuredSection.innerHTML = `
+      <h2 class="featured-section-title">Featured Movies</h2>
+      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
+    `;
+
+    movieGrid.insertAdjacentElement(
+      'beforebegin',
+      featuredSection
+    );
+  }
+
+  const featuredGrid = document.getElementById(
+    'featuredMovieGrid'
+  );
+
+  featuredGrid.innerHTML = featuredMovies
+    .map(movie => buildCardHtml(movie))
+    .join('');
+
+  featuredSection.hidden = featuredMovies.length === 0;
+
+  // ==========================================
+  // RENDER MAIN MOVIE COLLECTION
+  // ==========================================
+
   movieGrid.innerHTML = movies
     .map(movie => buildCardHtml(movie))
     .join('');
 
-  // Create the compact subsection.
+  // ==========================================
+  // EXISTING COMPACT MOVIE SECTION
+  // ==========================================
+
   let compactSection = document.getElementById(
     'compactMovieSection'
   );
@@ -65,7 +105,6 @@ async function renderMovieCards() {
     }
   }
 
-  // Render the compact movie collection.
   const compactGrid = document.getElementById(
     'compactMovieGrid'
   );
@@ -75,96 +114,6 @@ async function renderMovieCards() {
     .join('');
 
   compactSection.hidden = compactMovies.length === 0;
-}
-
-  // ==========================================
-  // RENDER FEATURED MOVIE COLLECTION
-  // ==========================================
-  
-  let featuredSection = document.getElementById(
-    'featuredMovieSection'
-  );
-  
-  if (!featuredSection) {
-    featuredSection = document.createElement('section');
-  
-    featuredSection.id = 'featuredMovieSection';
-    featuredSection.className =
-      'grid-section featured-grid-section';
-  
-    featuredSection.innerHTML = `
-      <h2 class="featured-section-title">Featured Movies</h2>
-      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
-    `;
-  
-    movieGrid.insertAdjacentElement(
-      'beforebegin',
-      featuredSection
-    );
-  }
-  
-  const featuredGrid = document.getElementById(
-    'featuredMovieGrid'
-  );
-  
-  featuredGrid.innerHTML = featuredMovies
-    .map(movie => buildCardHtml(movie))
-    .join('');
-  
-  featuredSection.hidden = featuredMovies.length === 0;
-
-// ==========================================
-// MOVIE DATA AND CARD RENDERING
-// ==========================================
-
-function escapeHtml(str) {
-  return String(str == null ? '' : str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-function buildCardHtml(movie, compact = false) {
-  const genresAttr = movie.genres.join('|');
-  const yearsAttr = movie.years.join('|');
-
-  const flagHtml = movie.flag
-    ? ` <span class="flag">${escapeHtml(movie.flag)}</span>`
-    : '';
-
-  const detailsHtml = movie.detailLines.map(d => {
-    if (!d.label) return `<p>${escapeHtml(d.value)}</p>`;
-
-    const valueHtml = d.italic
-      ? `<span class="detail-value">${escapeHtml(d.value)}</span>`
-      : escapeHtml(d.value);
-
-    return `<p>${escapeHtml(d.label)}: ${valueHtml}</p>`;
-  }).join('');
-
-  const linksHtml = movie.links.map(l =>
-    `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener"><img src="${escapeHtml(l.icon)}" alt="${escapeHtml(l.alt)}" loading="lazy"></a>`
-  ).join('');
-
-  const cardClass = compact
-    ? 'movie-card compact-movie-card'
-    : 'movie-card';
-
-  return `<article class="${cardClass}" tabindex="0" role="button" aria-pressed="false" aria-label="Show details for ${escapeHtml(movie.title)}"
-    data-genres="${escapeHtml(genresAttr)}" data-country="${escapeHtml(movie.country)}" data-years="${escapeHtml(yearsAttr)}">
-    <div class="movie-card-inner">
-      <div class="movie-card-face movie-card-front">
-        <img src="${escapeHtml(movie.image)}" alt="${escapeHtml(movie.imageAlt)}" loading="lazy">
-        <span class="movie-card-flip-hint" aria-hidden="true">&#8635;</span>
-      </div>
-      <div class="movie-card-face movie-card-back">
-        <h3>${escapeHtml(movie.title)}${flagHtml}</h3>
-        <div class="movie-card-details">${detailsHtml}</div>
-        <div class="movie-card-links">${linksHtml}</div>
-      </div>
-    </div>
-  </article>`;
 }
 
 // ==========================================

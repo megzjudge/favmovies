@@ -725,6 +725,12 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+
+    .featured-movie-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
     .movie-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -732,11 +738,6 @@ a:hover {
     .compact-movie-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 9px;
-    }
-
-    .featured-movie-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
     }
 
     .compact-movie-card .movie-card-back {
@@ -755,5 +756,4 @@ a:hover {
         width: 15px;
         height: 15px;
     }
-    
 }

@@ -55,6 +55,60 @@
       ]
     },
     {
+      "title": "Fight Club",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Dystopian Sci-Fi",
+        "Male Camaraderie",
+        "Psychological Thriller"
+      ],
+      "image": "images/fight_club.jpg",
+      "imageAlt": "Fight Club",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Dystopian Sci-Fi, Male Camaraderie, Psychological Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "139 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/fight-club",
+          "icon": "images/justwatch.png",
+          "alt": "Fight Club on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0137523/",
+          "icon": "images/imdb.png",
+          "alt": "Fight Club on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fight_Club",
+          "icon": "images/wikipedia.png",
+          "alt": "Fight Club on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BdJKm16Co6M",
+          "icon": "images/youtube.png",
+          "alt": "Fight Club on Youtube"
+        }
+      ]
+    },
+    {
       "title": "V for Vendetta",
       "flag": "🇬🇧",
       "country": "GB",
@@ -2862,60 +2916,6 @@
           "url": "https://www.youtube.com/results?search_query=Titan+AE+2000+official+trailer",
           "icon": "images/youtube.png",
           "alt": "Titan A.E. Trailer on YouTube"
-        }
-      ]
-    },
-    {
-      "title": "Fight Club",
-      "flag": "🇺🇸",
-      "country": "US",
-      "years": [
-        1999
-      ],
-      "genres": [
-        "Dystopian Sci-Fi",
-        "Male Camaraderie",
-        "Psychological Thriller"
-      ],
-      "image": "images/fight_club.jpg",
-      "imageAlt": "Fight Club",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Dystopian Sci-Fi, Male Camaraderie, Psychological Thriller",
-          "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "139 min",
-          "italic": true
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/fight-club",
-          "icon": "images/justwatch.png",
-          "alt": "Fight Club on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0137523/",
-          "icon": "images/imdb.png",
-          "alt": "Fight Club on IMDB"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Fight_Club",
-          "icon": "images/wikipedia.png",
-          "alt": "Fight Club on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=BdJKm16Co6M",
-          "icon": "images/youtube.png",
-          "alt": "Fight Club on Youtube"
         }
       ]
     },

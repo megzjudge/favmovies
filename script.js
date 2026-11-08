@@ -753,40 +753,49 @@ async function initializeMovies() {
   // Open filters by default
   setFiltersOpen(true);
 
-  function setCorrelationsShowing(showing) {
-    correlationsPanel.classList.toggle(
-      'active',
-      showing
-    );
 
-    moviesPanel.classList.toggle(
-      'active',
-      !showing
-    );
+function setCorrelationsShowing(showing) {
+  correlationsPanel.classList.toggle(
+    'active',
+    showing
+  );
 
-    correlationsTab.setAttribute(
-      'aria-pressed',
-      String(showing)
-    );
+  moviesPanel.classList.toggle(
+    'active',
+    !showing
+  );
 
-    correlationsTab.classList.toggle(
-      'active',
-      showing
-    );
+  correlationsTab.setAttribute(
+    'aria-pressed',
+    String(showing)
+  );
 
-    appContent.classList.toggle(
-      'correlations-showing',
-      showing
-    );
+  correlationsTab.classList.toggle(
+    'active',
+    showing
+  );
 
-    if (showing) {
-      setFiltersOpen(false);
-      fitCorrelationsText();
-    } else {
-      fitMovieGrid();
-    }
+  appContent.classList.toggle(
+    'correlations-showing',
+    showing
+  );
+
+  // Hide the compact movie section on correlations page
+  const compactSection = document.getElementById(
+    'compactMovieSection'
+  );
+
+  if (compactSection) {
+    compactSection.hidden = showing;
   }
 
+  if (showing) {
+    setFiltersOpen(false);
+    fitCorrelationsText();
+  } else {
+    fitMovieGrid();
+  }
+}
 
   filtersTab.addEventListener('click', () => {
     setFiltersOpen(filterPanel.hidden);

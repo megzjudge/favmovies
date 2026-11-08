@@ -112,6 +112,8 @@ async function renderMovieCards() {
   
   featuredSection.hidden = featuredMovies.length === 0;
 
+}
+
 // ==========================================
 // MOVIE DATA AND CARD RENDERING
 // ==========================================

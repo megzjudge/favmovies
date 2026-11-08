@@ -626,7 +626,7 @@ a:hover {
     }
     
     .featured-movie-grid .movie-card-details p {
-        font-size: clamp(18px, 1.1vw, 30px);
+        font-size: clamp(16px, 1.1vw, 30px);
     }
     
     .featured-movie-grid .movie-card-links img {

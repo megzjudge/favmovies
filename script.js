@@ -71,10 +71,14 @@ async function renderMovieCards() {
 
   // Support both the original array format and
   // the new separated movies/compactMovies format.
+  const featuredMovies = Array.isArray(data)
+    ? []
+    : (data.featuredMovies || []);
+  
   const movies = Array.isArray(data)
     ? data
     : (data.movies || []);
-
+  
   const compactMovies = Array.isArray(data)
     ? []
     : (data.compactMovies || []);
@@ -329,6 +333,42 @@ async function initializeMovies() {
   );
 
 updateFilterVisibility();
+
+  // ==========================================
+  // RENDER FEATURED MOVIE COLLECTION
+  // ==========================================
+  
+  let featuredSection = document.getElementById(
+    'featuredMovieSection'
+  );
+  
+  if (!featuredSection) {
+    featuredSection = document.createElement('section');
+  
+    featuredSection.id = 'featuredMovieSection';
+    featuredSection.className =
+      'grid-section featured-grid-section';
+  
+    featuredSection.innerHTML = `
+      <h2 class="featured-section-title">Featured Movies</h2>
+      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
+    `;
+  
+    movieGrid.insertAdjacentElement(
+      'beforebegin',
+      featuredSection
+    );
+  }
+  
+  const featuredGrid = document.getElementById(
+    'featuredMovieGrid'
+  );
+  
+  featuredGrid.innerHTML = featuredMovies
+    .map(movie => buildCardHtml(movie))
+    .join('');
+  
+  featuredSection.hidden = featuredMovies.length === 0;
 
 // ==========================================
 // COUNTRY NAME CONVERSION

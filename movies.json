@@ -5703,6 +5703,61 @@
       ]
     },
     {
+      "title": "Monsters, Inc.",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Animated Comedy",
+        "Family",
+        "Fantasy",
+        "Adventure"
+      ],
+      "image": "images/monsters_inc.jpg",
+      "imageAlt": "Monsters, Inc.",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2001",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animated Comedy, Family, Fantasy, Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "92 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/monsters-inc",
+          "icon": "images/justwatch.png",
+          "alt": "Monsters, Inc. on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0198781/",
+          "icon": "images/imdb.png",
+          "alt": "Monsters, Inc. on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monsters,_Inc.",
+          "icon": "images/wikipedia.png",
+          "alt": "Monsters, Inc. on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Monsters+Inc+2001+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Monsters, Inc. on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Ocean's Eleven",
       "flag": "🇺🇸",
       "country": "US",
@@ -8540,6 +8595,61 @@
           "url": "https://www.youtube.com/results?search_query=The+Terminator+1984+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Terminator Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Grease",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1978
+      ],
+      "genres": [
+        "Musical",
+        "Romantic Comedy",
+        "Teen Romance",
+        "Coming-of-Age"
+      ],
+      "image": "images/grease.jpg",
+      "imageAlt": "Grease",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1978",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Musical, Romantic Comedy, Teen Romance, Coming-of-Age",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "110 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/grease",
+          "icon": "images/justwatch.png",
+          "alt": "Grease on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0077631/",
+          "icon": "images/imdb.png",
+          "alt": "Grease on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Grease_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Grease on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Grease+1978+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Grease on YouTube"
         }
       ]
     },

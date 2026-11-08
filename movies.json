@@ -2708,7 +2708,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Science Fiction, Family",
+          "value": "Male Camaraderie, Animated, Adventure",
           "italic": true
         },
         {
@@ -2732,6 +2732,11 @@
           "url": "https://en.wikipedia.org/wiki/Digimon:_The_Movie",
           "icon": "images/wikipedia.png",
           "alt": "Digimon: The Movie on Wikipedia"
+        },
+        {
+          "url": "https://www.imdb.com/video/vi432341785/?playlistId=tt0259974",
+          "icon": "images/youtube.png",
+          "alt": "Digimon the Movie Trailer on IMDB"
         }
       ]
     },
@@ -6161,6 +6166,11 @@
           "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000",
           "icon": "images/wikipedia.png",
           "alt": "Pokémon the Movie 2000 on Wikipedia"
+        },
+        {
+          "url": "https://www.imdb.com/video/vi433439513/?playlistId=tt0210234",
+          "icon": "images/youtube.png",
+          "alt": "POkemon Movie Trailed on IMDB"
         }
       ]
     },

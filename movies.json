@@ -2687,6 +2687,55 @@
       ]
     },
     {
+      "title": "Digimon: The Movie",
+      "flag": "🇯🇵",
+      "country": "JP",
+      "years": [
+        2000
+      ],
+      "genres": [
+        "Animated Adventure",
+        "Science Fiction",
+        "Family"
+      ],
+      "image": "images/digimon_the_movie.jpg",
+      "imageAlt": "Digimon: The Movie",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2000",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animated Adventure, Science Fiction, Family",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "82 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/digimon-the-movie",
+          "icon": "images/justwatch.png",
+          "alt": "Digimon: The Movie on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0259974/",
+          "icon": "images/imdb.png",
+          "alt": "Digimon: The Movie on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Digimon:_The_Movie",
+          "icon": "images/wikipedia.png",
+          "alt": "Digimon: The Movie on Wikipedia"
+        }
+      ]
+    },
+    {
       "title": "Malena",
       "flag": "🇮🇹",
       "country": "IT",
@@ -6063,6 +6112,55 @@
           "url": "https://www.youtube.com/results?search_query=American+Pie+1999+official+trailer",
           "icon": "images/youtube.png",
           "alt": "American Pie Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Pokémon the Movie 2000",
+      "flag": "🇯🇵",
+      "country": "JP",
+      "years": [
+        1999
+      ],
+      "genres": [
+        "Animated Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "image": "images/pokemon_the_movie_2000.jpg",
+      "imageAlt": "Pokémon the Movie 2000",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1999",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Animated Adventure, Fantasy, Action",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "99 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/us/movie/pokemon-the-movie-2000",
+          "icon": "images/justwatch.png",
+          "alt": "Pokémon the Movie 2000 on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0210234/",
+          "icon": "images/imdb.png",
+          "alt": "Pokémon the Movie 2000 on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000",
+          "icon": "images/wikipedia.png",
+          "alt": "Pokémon the Movie 2000 on Wikipedia"
         }
       ]
     },

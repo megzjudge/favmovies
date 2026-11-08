@@ -166,8 +166,10 @@ async function initializeMovies() {
   );
 
   // ==========================================
-  // AUTO-HIDE FILTERS ON SCROLL
+  // AUTO-CLOSE FILTERS ON SCROLL
   // ==========================================
+  
+  let filtersWereClosedByScroll = false;
   
   function updateFilterVisibility() {
     const firstCard = movieGrid.querySelector('.movie-card');
@@ -180,15 +182,15 @@ async function initializeMovies() {
     const scrolledPastFirstCard =
       cardRect.bottom <= contentRect.top + 10;
   
-    filtersTab.classList.toggle(
-      'scroll-disabled',
-      scrolledPastFirstCard
-    );
+    if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
+      // Close filters using existing toggle logic
+      filtersTab.click();
+      filtersWereClosedByScroll = true;
+    }
   
-    filterPanel.classList.toggle(
-      'scroll-disabled',
-      scrolledPastFirstCard
-    );
+    if (!scrolledPastFirstCard) {
+      filtersWereClosedByScroll = false;
+    }
   }
   
   appContent.addEventListener(

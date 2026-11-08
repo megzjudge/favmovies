@@ -394,16 +394,16 @@ a:hover {
 }
 
 .featured-movie-grid .movie-card-back h3 {
-    font-size: clamp(20px, 2vw, 30px);
+    font-size: clamp(20px, 2vw, 45px);
 }
 
 .featured-movie-grid .movie-card-details p {
-    font-size: clamp(12px, 1.1vw, 17px);
+    font-size: clamp(12px, 1.1vw, 20px);
 }
 
 .featured-movie-grid .movie-card-links img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .correlations {

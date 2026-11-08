@@ -45,8 +45,6 @@ async function renderMovieCards() {
       'grid-section compact-grid-section';
 
     compactSection.innerHTML = `
-      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
-      <p class="compact-section-subtitle">Unless already in the section above.</p>
       <div id="compactMovieGrid" class="compact-movie-grid"></div>
     `;
 
@@ -92,7 +90,6 @@ async function renderMovieCards() {
       'grid-section featured-grid-section';
   
     featuredSection.innerHTML = `
-      <h2 class="featured-section-title">Featured Movies</h2>
       <div id="featuredMovieGrid" class="featured-movie-grid"></div>
     `;
   

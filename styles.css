@@ -253,7 +253,7 @@ a:hover {
 
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(6, var(--card-w, 175px));
+    grid-template-columns: repeat(6, var(--card-w, 185px));
     justify-content: center;
     gap: 18px;
 }

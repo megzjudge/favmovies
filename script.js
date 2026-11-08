@@ -1,3 +1,82 @@
+// ==========================================
+// JSON RENDERING
+// ==========================================
+
+async function renderMovieCards() {
+  const movieGrid = document.getElementById('movieGrid');
+
+  const res = await fetch('movies.json');
+
+  if (!res.ok) {
+    throw new Error('Unable to load movies.json');
+  }
+
+  const data = await res.json();
+
+  // Support both the original array format and
+  // the new separated movies/compactMovies format.
+  const featuredMovies = Array.isArray(data)
+    ? []
+    : (data.featuredMovies || []);
+  
+  const movies = Array.isArray(data)
+    ? data
+    : (data.movies || []);
+  
+  const compactMovies = Array.isArray(data)
+    ? []
+    : (data.compactMovies || []);
+
+  // Render the main movie collection.
+  movieGrid.innerHTML = movies
+    .map(movie => buildCardHtml(movie))
+    .join('');
+
+  // Create the compact subsection.
+  let compactSection = document.getElementById(
+    'compactMovieSection'
+  );
+
+  if (!compactSection) {
+    compactSection = document.createElement('section');
+
+    compactSection.id = 'compactMovieSection';
+    compactSection.className =
+      'grid-section compact-grid-section';
+
+    compactSection.innerHTML = `
+      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
+      <p class="compact-section-subtitle">Unless already in the section above.</p>
+      <div id="compactMovieGrid" class="compact-movie-grid"></div>
+    `;
+
+    const mainSection = movieGrid.closest('.grid-section');
+
+    if (mainSection) {
+      mainSection.insertAdjacentElement(
+        'afterend',
+        compactSection
+      );
+    } else {
+      movieGrid.insertAdjacentElement(
+        'afterend',
+        compactSection
+      );
+    }
+  }
+
+  // Render the compact movie collection.
+  const compactGrid = document.getElementById(
+    'compactMovieGrid'
+  );
+
+  compactGrid.innerHTML = compactMovies
+    .map(movie => buildCardHtml(movie, true))
+    .join('');
+
+  compactSection.hidden = compactMovies.length === 0;
+}
+
   // ==========================================
   // RENDER FEATURED MOVIE COLLECTION
   // ==========================================
@@ -86,85 +165,6 @@ function buildCardHtml(movie, compact = false) {
       </div>
     </div>
   </article>`;
-}
-
-// ==========================================
-// JSON RENDERING
-// ==========================================
-
-async function renderMovieCards() {
-  const movieGrid = document.getElementById('movieGrid');
-
-  const res = await fetch('movies.json');
-
-  if (!res.ok) {
-    throw new Error('Unable to load movies.json');
-  }
-
-  const data = await res.json();
-
-  // Support both the original array format and
-  // the new separated movies/compactMovies format.
-  const featuredMovies = Array.isArray(data)
-    ? []
-    : (data.featuredMovies || []);
-  
-  const movies = Array.isArray(data)
-    ? data
-    : (data.movies || []);
-  
-  const compactMovies = Array.isArray(data)
-    ? []
-    : (data.compactMovies || []);
-
-  // Render the main movie collection.
-  movieGrid.innerHTML = movies
-    .map(movie => buildCardHtml(movie))
-    .join('');
-
-  // Create the compact subsection.
-  let compactSection = document.getElementById(
-    'compactMovieSection'
-  );
-
-  if (!compactSection) {
-    compactSection = document.createElement('section');
-
-    compactSection.id = 'compactMovieSection';
-    compactSection.className =
-      'grid-section compact-grid-section';
-
-    compactSection.innerHTML = `
-      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
-      <p class="compact-section-subtitle">Unless already in the section above.</p>
-      <div id="compactMovieGrid" class="compact-movie-grid"></div>
-    `;
-
-    const mainSection = movieGrid.closest('.grid-section');
-
-    if (mainSection) {
-      mainSection.insertAdjacentElement(
-        'afterend',
-        compactSection
-      );
-    } else {
-      movieGrid.insertAdjacentElement(
-        'afterend',
-        compactSection
-      );
-    }
-  }
-
-  // Render the compact movie collection.
-  const compactGrid = document.getElementById(
-    'compactMovieGrid'
-  );
-
-  compactGrid.innerHTML = compactMovies
-    .map(movie => buildCardHtml(movie, true))
-    .join('');
-
-  compactSection.hidden = compactMovies.length === 0;
 }
 
 // ==========================================
@@ -903,7 +903,6 @@ updateFilterVisibility();
       flipped ? 'true' : 'false'
     );
   }
-
 
   // Both main and compact cards receive
   // the same click and keyboard interactions.

@@ -132,6 +132,41 @@ async function renderMovieCards() {
   compactSection.hidden = compactMovies.length === 0;
 }
 
+// ==========================================
+// INITIALIZATION
+// ==========================================
+
+async function initializeMovies() {
+  await renderMovieCards();
+
+  const genreDropdown = document.getElementById('genreDropdown');
+  const countryDropdown = document.getElementById('countryDropdown');
+  const yearDropdown = document.getElementById('yearDropdown');
+
+  const descriptionContainer = document.getElementById('genreDescription');
+  const noResults = document.getElementById('noResults');
+
+  // Includes BOTH main and compact movie cards.
+  const cards = Array.from(
+    document.querySelectorAll('.movie-card')
+  );
+
+  const appContent = document.querySelector('.app-content');
+  const movieGrid = document.getElementById('movieGrid');
+
+  const filtersTab = document.getElementById('filtersTab');
+  const correlationsTab = document.getElementById('correlationsTab');
+
+  const filterPanel = document.getElementById('filterPanel');
+
+  const moviesPanel = document.querySelector(
+    '[data-view-panel="movies"]'
+  );
+
+  const correlationsPanel = document.querySelector(
+    '[data-view-panel="correlations"]'
+  );
+
   // ==========================================
   // RENDER FEATURED MOVIE COLLECTION
   // ==========================================
@@ -167,41 +202,6 @@ async function renderMovieCards() {
     .join('');
   
   featuredSection.hidden = featuredMovies.length === 0;
-
-// ==========================================
-// INITIALIZATION
-// ==========================================
-
-async function initializeMovies() {
-  await renderMovieCards();
-
-  const genreDropdown = document.getElementById('genreDropdown');
-  const countryDropdown = document.getElementById('countryDropdown');
-  const yearDropdown = document.getElementById('yearDropdown');
-
-  const descriptionContainer = document.getElementById('genreDescription');
-  const noResults = document.getElementById('noResults');
-
-  // Includes BOTH main and compact movie cards.
-  const cards = Array.from(
-    document.querySelectorAll('.movie-card')
-  );
-
-  const appContent = document.querySelector('.app-content');
-  const movieGrid = document.getElementById('movieGrid');
-
-  const filtersTab = document.getElementById('filtersTab');
-  const correlationsTab = document.getElementById('correlationsTab');
-
-  const filterPanel = document.getElementById('filterPanel');
-
-  const moviesPanel = document.querySelector(
-    '[data-view-panel="movies"]'
-  );
-
-  const correlationsPanel = document.querySelector(
-    '[data-view-panel="correlations"]'
-  );
 
   // ==========================================
   // GENRE EMOJIS

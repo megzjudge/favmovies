@@ -151,6 +151,43 @@ async function initializeMovies() {
 
   const appContent = document.querySelector('.app-content');
   const movieGrid = document.getElementById('movieGrid');
+  
+  // ==========================================
+  // AUTO-HIDE FILTERS ON SCROLL
+  // ==========================================
+  
+  function updateFilterVisibility() {
+    const firstCard = movieGrid.querySelector('.movie-card');
+  
+    if (!firstCard) return;
+  
+    const contentRect = appContent.getBoundingClientRect();
+    const cardRect = firstCard.getBoundingClientRect();
+  
+    // Hide filters once the first movie card
+    // has scrolled out of view.
+    const scrolledPastFirstCard =
+      cardRect.bottom <= contentRect.top + 10;
+  
+    filtersTab.classList.toggle(
+      'scroll-hidden',
+      scrolledPastFirstCard
+    );
+  
+    filterPanel.classList.toggle(
+      'scroll-hidden',
+      scrolledPastFirstCard
+    );
+  }
+  
+  appContent.addEventListener(
+    'scroll',
+    updateFilterVisibility,
+    { passive: true }
+  );
+  
+  // Set correct initial visibility
+  updateFilterVisibility();
 
   const filtersTab = document.getElementById('filtersTab');
   const correlationsTab = document.getElementById('correlationsTab');

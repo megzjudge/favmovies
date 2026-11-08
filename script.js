@@ -177,18 +177,16 @@ async function initializeMovies() {
     const contentRect = appContent.getBoundingClientRect();
     const cardRect = firstCard.getBoundingClientRect();
   
-    // Hide filters once the first movie card
-    // has scrolled out of view.
     const scrolledPastFirstCard =
       cardRect.bottom <= contentRect.top + 10;
   
     filtersTab.classList.toggle(
-      'scroll-hidden',
+      'scroll-disabled',
       scrolledPastFirstCard
     );
   
     filterPanel.classList.toggle(
-      'scroll-hidden',
+      'scroll-disabled',
       scrolledPastFirstCard
     );
   }
@@ -199,7 +197,6 @@ async function initializeMovies() {
     { passive: true }
   );
   
-  // Set correct initial visibility
   updateFilterVisibility();
 
   // ==========================================

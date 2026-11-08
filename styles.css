@@ -569,10 +569,9 @@ a:hover {
     bottom: 4px;
 }
 
-/* Hide filter controls when scrolling through movies */
-#filtersTab.scroll-hidden,
-#filterPanel.scroll-hidden {
-  display: none !important;
+.scroll-disabled {
+  pointer-events: none;
+  opacity: 0.5;
 }
 
 /* Tablet */

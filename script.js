@@ -166,42 +166,6 @@ async function initializeMovies() {
   );
 
   // ==========================================
-  // AUTO-CLOSE FILTERS ON SCROLL
-  // ==========================================
-  
-  let filtersWereClosedByScroll = false;
-  
-  function updateFilterVisibility() {
-    const firstCard = movieGrid.querySelector('.movie-card');
-  
-    if (!firstCard) return;
-  
-    const contentRect = appContent.getBoundingClientRect();
-    const cardRect = firstCard.getBoundingClientRect();
-  
-    const scrolledPastFirstCard =
-      cardRect.bottom <= contentRect.top + 10;
-  
-    if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
-      // Close filters using existing toggle logic
-      filtersTab.click();
-      filtersWereClosedByScroll = true;
-    }
-  
-    if (!scrolledPastFirstCard) {
-      filtersWereClosedByScroll = false;
-    }
-  }
-  
-  appContent.addEventListener(
-    'scroll',
-    updateFilterVisibility,
-    { passive: true }
-  );
-  
-  updateFilterVisibility();
-
-  // ==========================================
   // GENRE EMOJIS
   // ==========================================
 
@@ -327,6 +291,44 @@ async function initializeMovies() {
     ]
   };
 
+  // ==========================================
+  // AUTO-CLOSE FILTERS ON SCROLL
+  // ==========================================
+
+  let filtersWereClosedByScroll = false;
+  
+  function updateFilterVisibility() {
+    const firstCard = movieGrid.querySelector('.movie-card');
+  
+    if (!firstCard) return;
+  
+    const contentRect = appContent.getBoundingClientRect();
+    const cardRect = firstCard.getBoundingClientRect();
+  
+    const scrolledPastFirstCard =
+      cardRect.bottom <= contentRect.top + 10;
+  
+    if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
+  
+      if (!filterPanel.hidden) {
+        setFiltersOpen(false);
+      }
+  
+      filtersWereClosedByScroll = true;
+    }
+  
+    if (!scrolledPastFirstCard) {
+      filtersWereClosedByScroll = false;
+    }
+  }
+  
+  appContent.addEventListener(
+    'scroll',
+    updateFilterVisibility,
+    { passive: true }
+  );
+
+updateFilterVisibility();
 
 // ==========================================
 // COUNTRY NAME CONVERSION

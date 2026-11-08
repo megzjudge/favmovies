@@ -750,6 +750,8 @@ async function initializeMovies() {
     filtersTab.classList.toggle('active', open);
   }
 
+  // Open filters by default
+  setFiltersOpen(true);
 
   function setCorrelationsShowing(showing) {
     correlationsPanel.classList.toggle(

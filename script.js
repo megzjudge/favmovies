@@ -53,7 +53,6 @@ function buildCardHtml(movie, compact = false) {
   </article>`;
 }
 
-
 // ==========================================
 // JSON RENDERING
 // ==========================================
@@ -100,11 +99,11 @@ async function renderMovieCards() {
     compactSection.className =
       'grid-section compact-grid-section';
 
-compactSection.innerHTML = `
-  <h2 class="compact-section-title">Movies Impacting Childhood</h2>
-  <p class="compact-section-subtitle">Unless already in the section above.</p>
-  <div id="compactMovieGrid" class="compact-movie-grid"></div>
-`;
+    compactSection.innerHTML = `
+      <h2 class="compact-section-title">Movies Impacting Childhood</h2>
+      <p class="compact-section-subtitle">Unless already in the section above.</p>
+      <div id="compactMovieGrid" class="compact-movie-grid"></div>
+    `;
 
     const mainSection = movieGrid.closest('.grid-section');
 
@@ -133,6 +132,41 @@ compactSection.innerHTML = `
   compactSection.hidden = compactMovies.length === 0;
 }
 
+  // ==========================================
+  // RENDER FEATURED MOVIE COLLECTION
+  // ==========================================
+  
+  let featuredSection = document.getElementById(
+    'featuredMovieSection'
+  );
+  
+  if (!featuredSection) {
+    featuredSection = document.createElement('section');
+  
+    featuredSection.id = 'featuredMovieSection';
+    featuredSection.className =
+      'grid-section featured-grid-section';
+  
+    featuredSection.innerHTML = `
+      <h2 class="featured-section-title">Featured Movies</h2>
+      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
+    `;
+  
+    movieGrid.insertAdjacentElement(
+      'beforebegin',
+      featuredSection
+    );
+  }
+  
+  const featuredGrid = document.getElementById(
+    'featuredMovieGrid'
+  );
+  
+  featuredGrid.innerHTML = featuredMovies
+    .map(movie => buildCardHtml(movie))
+    .join('');
+  
+  featuredSection.hidden = featuredMovies.length === 0;
 
 // ==========================================
 // INITIALIZATION
@@ -333,42 +367,6 @@ async function initializeMovies() {
   );
 
 updateFilterVisibility();
-
-  // ==========================================
-  // RENDER FEATURED MOVIE COLLECTION
-  // ==========================================
-  
-  let featuredSection = document.getElementById(
-    'featuredMovieSection'
-  );
-  
-  if (!featuredSection) {
-    featuredSection = document.createElement('section');
-  
-    featuredSection.id = 'featuredMovieSection';
-    featuredSection.className =
-      'grid-section featured-grid-section';
-  
-    featuredSection.innerHTML = `
-      <h2 class="featured-section-title">Featured Movies</h2>
-      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
-    `;
-  
-    movieGrid.insertAdjacentElement(
-      'beforebegin',
-      featuredSection
-    );
-  }
-  
-  const featuredGrid = document.getElementById(
-    'featuredMovieGrid'
-  );
-  
-  featuredGrid.innerHTML = featuredMovies
-    .map(movie => buildCardHtml(movie))
-    .join('');
-  
-  featuredSection.hidden = featuredMovies.length === 0;
 
 // ==========================================
 // COUNTRY NAME CONVERSION

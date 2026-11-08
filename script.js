@@ -70,7 +70,7 @@ async function renderMovieCards() {
     .join('');
 
   // ==========================================
-  // EXISTING COMPACT MOVIE SECTION
+  // RENDER COMPACT MOVIE SECTION
   // ==========================================
 
   let compactSection = document.getElementById(

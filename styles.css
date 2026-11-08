@@ -711,8 +711,8 @@ a:hover {
     }
 
     .featured-movie-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 12px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 16px;
     }
 
     #genreDropdown,

@@ -792,6 +792,61 @@
       ]
     },
     {
+      "title": "Blade Runner 2049",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2017
+      ],
+      "genres": [
+        "Neo-Noir Sci-Fi",
+        "Cyberpunk",
+        "Dystopian Sci-Fi",
+        "Mystery Thriller"
+      ],
+      "image": "images/blade_runner_2049.jpg",
+      "imageAlt": "Blade Runner 2049",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2017",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Neo-Noir Sci-Fi, Cyberpunk, Dystopian Sci-Fi, Mystery Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "164 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/blade-runner-2049",
+          "icon": "images/justwatch.png",
+          "alt": "Blade Runner 2049 on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt1856101/",
+          "icon": "images/imdb.png",
+          "alt": "Blade Runner 2049 on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Blade_Runner_2049",
+          "icon": "images/wikipedia.png",
+          "alt": "Blade Runner 2049 on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Blade+Runner+2049+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Blade Runner 2049 on YouTube"
+        }
+      ]
+    },
+    {
       "title": "The Accountant",
       "flag": "🇺🇸",
       "country": "US",
@@ -1533,6 +1588,61 @@
         }
       ]
     },
+    {
+      "title": "The Departed",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2006
+      ],
+      "genres": [
+        "Crime Thriller",
+        "Gangster",
+        "Neo-Noir",
+        "Police Thriller"
+      ],
+      "image": "images/the_departed.jpg",
+      "imageAlt": "The Departed",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2006",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Crime Thriller, Gangster, Neo-Noir, Police Thriller",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "151 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-departed",
+          "icon": "images/justwatch.png",
+          "alt": "The Departed on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0407887/",
+          "icon": "images/imdb.png",
+          "alt": "The Departed on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Departed",
+          "icon": "images/wikipedia.png",
+          "alt": "The Departed on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Departed+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Departed on YouTube"
+        }
+      ]
+    },  
     {
       "title": "Lord of War",
       "flag": "🇺🇸",

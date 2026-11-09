@@ -1216,7 +1216,7 @@
       "genres": [
         "High-Stakes Action",
         "Magical Realism",
-        "Romance"
+        "Grumpy x Sunshine"
       ],
       "image": "images/scott_pilgrim.jpg",
       "imageAlt": "Scott Pilgrim vs. the World",
@@ -1228,7 +1228,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Magical Realism, Romance",
+          "value": "High-Stakes Action, Magical Realism, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -2360,7 +2360,8 @@
         2002
       ],
       "genres": [
-        "Rebellion Adventure"
+        "Rebellion Adventure",
+        "Grumpy x Sunshine"
       ],
       "image": "images/spirit_stallion_of_the_cimarron.jpg",
       "imageAlt": "Spirit: Stallion of the Cimarron",
@@ -2372,7 +2373,7 @@
         },
         {
           "label": "Genre",
-          "value": "Rebellion Adventure",
+          "value": "Rebellion Adventure, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -2414,8 +2415,7 @@
       "genres": [
         "Existential Drama",
         "Magical Realism",
-        "Horror",
-        "Fantasy"
+        "Horror"
       ],
       "image": "images/queen_of_the_damned.jpg",
       "imageAlt": "Queen of the Damned (2002)",
@@ -2427,7 +2427,7 @@
         },
         {
           "label": "Genre",
-          "value": "Existential Drama, Magical Realism, Horror, Fantasy",
+          "value": "Existential Drama, Magical Realism, Horror",
           "italic": true
         },
         {
@@ -3021,9 +3021,9 @@
         2000
       ],
       "genres": [
-        "Animation",
-        "Surreal Adventure",
-        "High-Stakes Action"
+        "Rebellion Adventure",
+        "High-Stakes Action",
+        "Grumpy x Sunshine"
       ],
       "image": "images/titan_ae.jpg",
       "imageAlt": "Titan A.E. (2000)",
@@ -3035,7 +3035,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Surreal Adventure, High-Stakes Action",
+          "value": "High-Stakes Action, Rebellion Adventure, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -3587,7 +3587,7 @@
       "genres": [
         "Rebellion Adventure",
         "Grumpy x Sunshine",
-        "Romance"
+        "Animated"
       ],
       "image": "images/the_lion_king_2.jpg",
       "imageAlt": "The Lion King II: Simba&#x27;s Pride",
@@ -3599,7 +3599,7 @@
         },
         {
           "label": "Genre",
-          "value": "Rebellion Adventure, Grumpy x Sunshine",
+          "value": "Rebellion Adventure, Grumpy x Sunshine, Animated",
           "italic": true
         },
         {
@@ -3705,7 +3705,7 @@
       "genres": [
         "Animated",
         "Surreal Adventure",
-        "Fantasy"
+        "Grumpy x Sunshine"
       ],
       "image": "images/hercules.jpg",
       "imageAlt": "Hercules",
@@ -3717,7 +3717,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Surreal Adventure, Fantasy",
+          "value": "Animated Adventure, Surreal Adventure, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -3758,6 +3758,7 @@
       ],
       "genres": [
         "Magical Realism",
+        "Grumpy x Sunshine",
         "Rebellion Adventure",
         "Existential Drama"
       ],
@@ -3771,7 +3772,7 @@
         },
         {
           "label": "Genre",
-          "value": "Magical Realism, Rebellion Adventure, Existential Drama",
+          "value": "Magical Realism, Grumpy x Sunshine, Rebellion Adventure, Existential Drama",
           "italic": true
         },
         {
@@ -3811,8 +3812,8 @@
         1997
       ],
       "genres": [
+        "Grumpy x Sunshine",
         "Animated",
-        "Magical Realism",
         "Surreal Adventure"
       ],
       "image": "images/anastasia.jpg",
@@ -3825,7 +3826,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Musical, Surreal Adventure",
+          "value": "Grumpy x Sunshine, Animated, Surreal Adventure",
           "italic": true
         },
         {
@@ -4698,7 +4699,7 @@
       "genres": [
         "Musical",
         "Male Camaraderie",
-        "Romance"
+        "Grumpy x Sunshine"
       ],
       "image": "images/grease_2.jpg",
       "imageAlt": "Grease 2",
@@ -4710,7 +4711,7 @@
         },
         {
           "label": "Genre",
-          "value": "Musical, Male Camaraderie, Romance",
+          "value": "Musical, Male Camaraderie, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -5057,7 +5058,7 @@
       ],
       "genres": [
         "Film Noir",
-        "Mystery",
+        "Grumpy x Sunshine",
         "Cerebral Crime"
       ],
       "image": "images/the_big_sleep.jpg",
@@ -5070,7 +5071,7 @@
         },
         {
           "label": "Genre",
-          "value": "Film Noir, Mystery, Cerebral Crime",
+          "value": "Film Noir, Grumpy x Sunshine, Cerebral Crime",
           "italic": true
         },
         {
@@ -5393,7 +5394,7 @@
       ],
       "genres": [
         "Comedy",
-        "Romance"
+        "Grumpy x Sunshine"
       ],
       "image": "images/50_first_dates.jpg",
       "imageAlt": "50 First Dates",
@@ -5405,7 +5406,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Romance",
+          "value": "Comedy, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -5929,7 +5930,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Romance",
+        "Grumpy x Sunshine",
         "Comedy"
       ],
       "image": "images/what_women_want.jpg",
@@ -5942,7 +5943,7 @@
         },
         {
           "label": "Genre",
-          "value": "Magical Realism, Romance, Comedy",
+          "value": "Magical Realism, Grumpy x Sunshine, Comedy",
           "italic": true
         },
         {
@@ -6265,8 +6266,7 @@
       "genres": [
         "Comedy",
         "Grumpy x Sunshine",
-        "Drama",
-        "Teen"
+        "Drama"
       ],
       "image": "images/10_things_i_hate_about_you.jpg",
       "imageAlt": "10 Things I Hate About You (1999)",
@@ -6278,7 +6278,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Grumpy x Sunshine, Drama, Teen",
+          "value": "Comedy, Grumpy x Sunshine, Drama",
           "italic": true
         },
         {
@@ -6630,7 +6630,7 @@
       "genres": [
         "Animation",
         "Rebellion Adventure",
-        "Musical"
+        "Grumpy x Sunshine"
       ],
       "image": "images/mulan.jpg",
       "imageAlt": "Mulan",
@@ -6642,7 +6642,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Rebellion Adventure, Musical",
+          "value": "Animation, Rebellion Adventure, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -8295,8 +8295,8 @@
         1992
       ],
       "genres": [
-        "Animation",
         "Adventure",
+        "Grumpy x Sunshine",
         "Picaresque"
       ],
       "image": "images/aladdin.jpg",
@@ -8309,7 +8309,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Adventure, Picaresque, Musical",
+          "value": "Animation, Adventure, Picaresque, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -8857,7 +8857,7 @@
         },
         {
           "label": "Genre",
-          "value": "Musical, Drama, Romance",
+          "value": "Musical, Drama, Grumpy x Sunshine",
           "italic": true
         },
         {

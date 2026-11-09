@@ -1543,9 +1543,8 @@
         2006
       ],
       "genres": [
-        "War Drama",
-        "Political Thriller",
-        "Epic Adventure"
+        "High-Stakes Action",
+        "Existential Drama"
       ],
       "image": "images/blood-diamond.jpg",
       "imageAlt": "Blood Diamond",
@@ -1557,7 +1556,7 @@
         },
         {
           "label": "Genre",
-          "value": "War Drama, Political Thriller, Epic Adventure",
+          "value": "High-Stakes Action, Existential Drama",
           "italic": true
         },
         {

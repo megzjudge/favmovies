@@ -362,13 +362,16 @@ async function initializeMovies() {
         setFiltersOpen(false);
       }
   
+      descriptionContainer.hidden = true;
+  
       filtersWereClosedByScroll = true;
     }
   
     if (!scrolledPastFirstCard) {
       filtersWereClosedByScroll = false;
+      descriptionContainer.hidden = false;
     }
-  }   
+  }     
   
   let scrollTicking = false;
   

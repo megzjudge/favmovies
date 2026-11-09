@@ -117,8 +117,8 @@
       ],
       "genres": [
         "Existential Drama",
-        "Psychological Thriller",
-        "Dystopian Sci-Fi"
+        "Dystopian Sci-Fi",
+        "Psychological Thriller"
       ],
       "image": "images/v_for_vendetta.jpg",
       "imageAlt": "V for Vendetta",
@@ -130,7 +130,7 @@
         },
         {
           "label": "Genre",
-          "value": "Existential Drama, Psychological Thriller, Dystopian Sci-Fi",
+          "value": "Existential Drama, Dystopian Sci-Fi, Psychological Thriller",
           "italic": true
         },
         {
@@ -170,9 +170,9 @@
         2010
       ],
       "genres": [
+        "Psychological Thriller",
         "Intelligent Action",
-        "Dystopian Sci-Fi",
-        "Psychological Thriller"
+        "Cerebral Crime"
       ],
       "image": "images/inception.jpg",
       "imageAlt": "Inception",
@@ -225,7 +225,8 @@
       ],
       "genres": [
         "Psychological Thriller",
-        "Intelligent Action"
+        "Intelligent Action",
+        "Cerebral Crime"
       ],
       "image": "images/limitless.jpg",
       "imageAlt": "Limitless",
@@ -277,9 +278,9 @@
         2020
       ],
       "genres": [
+        "Psychological Thriller",
         "Intelligent Action",
-        "Dystopian Sci-Fi",
-        "Surreal Adventure"
+        "Cerebral Crime"
       ],
       "image": "images/tenet.jpg",
       "imageAlt": "Tenet",

@@ -118,7 +118,7 @@
       "genres": [
         "Existential Drama",
         "Dystopian Sci-Fi",
-        "Psychological Thriller"
+        "Rebellion Adventure"
       ],
       "image": "images/v_for_vendetta.jpg",
       "imageAlt": "V for Vendetta",
@@ -130,7 +130,7 @@
         },
         {
           "label": "Genre",
-          "value": "Existential Drama, Dystopian Sci-Fi, Psychological Thriller",
+          "value": "Existential Drama, Dystopian Sci-Fi, Rebellion Adventure",
           "italic": true
         },
         {
@@ -2307,7 +2307,7 @@
         2002
       ],
       "genres": [
-        "Adventure"
+        "Rebellion Adventure"
       ],
       "image": "images/spirit_stallion_of_the_cimarron.jpg",
       "imageAlt": "Spirit: Stallion of the Cimarron",
@@ -2319,7 +2319,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure",
+          "value": "Rebellion Adventure",
           "italic": true
         },
         {
@@ -4535,7 +4535,7 @@
       ],
       "genres": [
         "Dark Comedy",
-        "Adventure",
+        "Rebellion Adventure",
         "Male Camaraderie"
       ],
       "image": "images/yellowbeard.jpg",
@@ -4548,7 +4548,7 @@
         },
         {
           "label": "Genre",
-          "value": "Dark Comedy, Adventure, Male Camaraderie",
+          "value": "Dark Comedy, Rebellion Adventure, Male Camaraderie",
           "italic": true
         },
         {
@@ -6394,7 +6394,7 @@
         1998
       ],
       "genres": [
-        "Adventure",
+        "Rebellion Adventure",
         "Action",
         "Romance"
       ],
@@ -6408,7 +6408,7 @@
         },
         {
           "label": "Genre",
-          "value": "Swashbuckling Adventure, Action, Romance, Historical Adventure",
+          "value": "Rebellion Adventure, Swashbuckling, Action, Romance",
           "italic": true
         },
         {
@@ -6577,7 +6577,7 @@
       ],
       "genres": [
         "Animation",
-        "Adventure",
+        "Rebellion Adventure",
         "Musical"
       ],
       "image": "images/mulan.jpg",
@@ -6590,7 +6590,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Adventure, Musical",
+          "value": "Animation, Rebellion Adventure, Musical",
           "italic": true
         },
         {
@@ -7322,10 +7322,9 @@
         1995
       ],
       "genres": [
+        "Rebellion Adventure",
         "Magical Realism",
-        "Animated Musical",
-        "Adventure",
-        "Drama"
+        "Animated"
       ],
       "image": "images/pocahontas.jpg",
       "imageAlt": "Pocahontas",
@@ -7337,7 +7336,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Musical, Historical Romance, Adventure, Drama",
+          "value": "Rebellion Adventure, Animated, Magical Realism",
           "italic": true
         },
         {
@@ -7965,9 +7964,9 @@
         1994
       ],
       "genres": [
+        "Rebellion Adventure",
         "Comedy",
-        "Drama",
-        "Adventure"
+        "Drama"
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
       "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
@@ -7979,7 +7978,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Drama, Adventure",
+          "value": "Rebellion Adventure, Drama",
           "italic": true
         },
         {

@@ -7320,9 +7320,7 @@
         1995
       ],
       "genres": [
-        "Comedy",
-        "Coming-of-Age",
-        "Satirical Comedy"
+        "Comedy"
       ],
       "image": "images/billy_madison.jpg",
       "imageAlt": "Billy Madison",
@@ -7334,7 +7332,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Slapstick Comedy, Coming-of-Age, Satirical Comedy",
+          "value": "Comedy",
           "italic": true
         },
         {

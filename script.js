@@ -118,6 +118,7 @@
     ],
 
     'Grumpy x Sunshine': [
+      { url: 'https://www.youtube.com/watch?v=Zv-QbPapZkw', icon: 'youtube' },
       { url: 'https://collider.com/best-romance-movies-grumpy-sunshine-ranked/', icon: 'link' },
       { url: 'https://lissag7.medium.com/my-favorite-grumpy-sunshine-romances-7811eeee3602', icon: 'link' },
       { url: 'http://archive.today/2026.03.29-210042/https://www.canberratimes.com.au/story/9014307/author-natalie-murrays-top-five-grumpy-sunshine-romance-movies/', icon: 'link' },

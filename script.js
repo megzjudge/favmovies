@@ -13,8 +13,8 @@
     'Surreal Adventure': '👣',
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',
-    'Film Noir': '🐈‍⬛'
-    'Grumpy x Sunshine': 
+    'Film Noir': '🐈‍⬛',
+    'Grumpy x Sunshine': '🐝'
     
   };
 

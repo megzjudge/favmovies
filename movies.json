@@ -6351,10 +6351,9 @@
         1998
       ],
       "genres": [
-        "Swashbuckling Adventure",
+        "Adventure",
         "Action",
-        "Romance",
-        "Historical Adventure"
+        "Romance"
       ],
       "image": "images/the_mask_of_zorro.jpg",
       "imageAlt": "The Mask of Zorro",
@@ -6472,8 +6471,7 @@
       "genres": [
         "Action",
         "Horror",
-        "Sci-Fi",
-        "Superhero"
+        "Sci-Fi"
       ],
       "image": "images/blade.jpg",
       "imageAlt": "Blade (1998)",
@@ -7068,10 +7066,9 @@
         1996
       ],
       "genres": [
-        "Sports Comedy",
+        "Comedy",
         "Science Fiction",
-        "Animation",
-        "Family Adventure"
+        "Animation"
       ],
       "image": "images/space_jam.jpg",
       "imageAlt": "Space Jam",
@@ -7232,7 +7229,6 @@
       ],
       "genres": [
         "Animated Musical",
-        "Historical Romance",
         "Adventure",
         "Drama"
       ],

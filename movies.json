@@ -5116,9 +5116,8 @@
       ],
       "genres": [
         "Magical Realism",
-        "Mystery",
         "Comedy",
-        "Crime"
+        "Cerebral Crime"
       ],
       "image": "images/the_sheep_detectives.jpg",
       "imageAlt": "The Sheep Detectives",
@@ -5130,7 +5129,7 @@
         },
         {
           "label": "Genre",
-          "value": "Mystery, Comedy, Crime",
+          "value": "Magical Realism, Comedy, Cerebral Crime",
           "italic": true
         },
         {
@@ -5881,7 +5880,7 @@
       "genres": [
         "Comedy",
         "Crime",
-        "Action"
+        "High-Stakes Action"
       ],
       "image": "images/miss_congeniality.jpg",
       "imageAlt": "Miss Congeniality",
@@ -8213,8 +8212,7 @@
       ],
       "genres": [
         "Comedy",
-        "Music",
-        "Crime"
+        "Music"
       ],
       "image": "images/sister_act.jpg",
       "imageAlt": "Sister Act (1992)",

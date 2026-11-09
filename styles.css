@@ -160,7 +160,7 @@ h1 {
     padding: 8px 12px;
     font-size: calc(14px + 0.390625vw);
     color: rgb(220, 220, 220);
-    width: fit-content;
+    width: 280px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);

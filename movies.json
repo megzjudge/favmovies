@@ -800,10 +800,9 @@
         2017
       ],
       "genres": [
-        "Neo-Noir Sci-Fi",
-        "Cyberpunk",
+        "Neo-Noir",
         "Dystopian Sci-Fi",
-        "Mystery Thriller"
+        "Psychological Thriller"
       ],
       "image": "images/blade_runner_2049.jpg",
       "imageAlt": "Blade Runner 2049",
@@ -1215,7 +1214,7 @@
         2010
       ],
       "genres": [
-        "Action",
+        "High-Stakes Action",
         "Magical Realism",
         "Romance"
       ],
@@ -1324,8 +1323,8 @@
       ],
       "genres": [
         "Psychological Drama",
-        "Experimental",
-        "Surreal"
+        "Magical Realism",
+        "Surreal Adventure"
       ],
       "image": "images/enter_the_void.jpg",
       "imageAlt": "Enter the Void",
@@ -1544,6 +1543,7 @@
         2006
       ],
       "genres": [
+        "Psychological Thriller"
         "Mystery",
         "Romance"
       ],
@@ -1597,10 +1597,9 @@
         2006
       ],
       "genres": [
-        "Crime Thriller",
-        "Gangster",
-        "Neo-Noir",
-        "Police Thriller"
+        "Cerebral Crime",
+        "Psychological Thriller",
+        "High-Stakes Action"
       ],
       "image": "images/the_departed.jpg",
       "imageAlt": "The Departed",
@@ -1706,7 +1705,7 @@
         2005
       ],
       "genres": [
-        "Neo-Noir",
+        "Film Noir",
         "Crime Thriller",
         "Stylised Action"
       ],
@@ -2147,7 +2146,7 @@
       ],
       "genres": [
         "Action",
-        "Dark Fantasy",
+        "Magical Realism",
         "Dystopian Sci-Fi"
       ],
       "image": "images/underworld.jpg",
@@ -2360,6 +2359,7 @@
         2002
       ],
       "genres": [
+        "Magical Realism",
         "Horror",
         "Fantasy",
         "Drama",
@@ -3263,8 +3263,8 @@
       ],
       "genres": [
         "High-Stakes Action",
-        "Adventure",
-        "Horror"
+        "Magical Realism",
+        "Surreal Adventure"
       ],
       "image": "images/the_mummy.jpg",
       "imageAlt": "The Mummy",
@@ -3757,6 +3757,7 @@
       ],
       "genres": [
         "Animated",
+        "Magical Realism",
         "Surreal Adventure"
       ],
       "image": "images/anastasia.jpg",
@@ -3974,6 +3975,7 @@
         1994
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy",
         "Action",
@@ -4159,6 +4161,7 @@
         1993
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy",
         "Romance"
@@ -5111,6 +5114,7 @@
         2026
       ],
       "genres": [
+        "Magical Realism",
         "Mystery",
         "Comedy",
         "Crime"
@@ -5399,6 +5403,7 @@
         2003
       ],
       "genres": [
+        "Magical Realism",
         "Horror",
         "Slasher",
         "Thriller"
@@ -5518,6 +5523,7 @@
         2002
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy"
       ],
@@ -5820,6 +5826,7 @@
         2000
       ],
       "genres": [
+        "Magical Realism",
         "Romantic Comedy",
         "Fantasy",
         "Comedy"
@@ -6457,9 +6464,9 @@
         1998
       ],
       "genres": [
+        "Magical Realism",
         "Action",
-        "Horror",
-        "Sci-Fi"
+        "Horror"
       ],
       "image": "images/blade.jpg",
       "imageAlt": "Blade (1998)",
@@ -6577,7 +6584,7 @@
       "genres": [
         "Fantasy",
         "Romance",
-        "Comedy",
+        "Magical Realism",
         "Drama"
       ],
       "image": "images/practical_magic.jpg",
@@ -6640,6 +6647,7 @@
         1998
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy"
       ],
@@ -6763,6 +6771,7 @@
         1997
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Sci-Fi"
       ],
@@ -6816,10 +6825,10 @@
         1996
       ],
       "genres": [
+        "Magical Realism",
         "Horror",
         "Fantasy",
-        "Thriller",
-        "Teen"
+        "Thriller"
       ],
       "image": "images/the_craft.jpg",
       "imageAlt": "The Craft (1996)",
@@ -6881,6 +6890,7 @@
         1996
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy"
       ],
@@ -7051,7 +7061,7 @@
       ],
       "genres": [
         "Comedy",
-        "Science Fiction",
+        "Magical Realism",
         "Animation"
       ],
       "image": "images/space_jam.jpg",
@@ -7211,6 +7221,7 @@
         1995
       ],
       "genres": [
+        "Magical Realism",
         "Animated Musical",
         "Adventure",
         "Drama"
@@ -7265,7 +7276,8 @@
         1995
       ],
       "genres": [
-        "Adventure",
+        "Surreal Adventure",
+        "Magical Realism",
         "Fantasy"
       ],
       "image": "images/jumanji.jpg",
@@ -7436,6 +7448,7 @@
         1995
       ],
       "genres": [
+        "Magical Realism",
         "Comedy",
         "Fantasy"
       ],
@@ -7553,7 +7566,7 @@
       ],
       "genres": [
         "Existential Drama",
-        "Drama",
+        "Magical Realism",
         "Fantasy"
       ],
       "image": "images/interview_with_a_vampire.jpg",
@@ -7616,9 +7629,9 @@
         1994
       ],
       "genres": [
+        "Magical Realism",
         "Action",
         "Crime",
-        "Fantasy",
         "Thriller"
       ],
       "image": "images/the_crow.jpg",
@@ -8132,9 +8145,7 @@
       "genres": [
         "Animation",
         "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Musical"
+        "Fantasy"
       ],
       "image": "images/aladdin.jpg",
       "imageAlt": "Aladdin (1992)",
@@ -8585,7 +8596,7 @@
         },
         {
           "label": "Genre",
-          "value": "Musical, Romantic Comedy, Teen Romance, Coming-of-Age",
+          "value": "Musical, Romantic Comedy, Romance",
           "italic": true
         },
         {
@@ -8733,9 +8744,9 @@
         1963
       ],
       "genres": [
-        "Animated Adventure",
         "Surreal Adventure",
-        "Magical Realism"
+        "Magical Realism",
+        "Animated",
       ],
       "image": "images/the_sword_in_the_stone.jpg",
       "imageAlt": "The Sword in the Stone",
@@ -8747,7 +8758,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Surreal Adventure, Magical Realism",
+          "value": "Surreal Adventure, Magical Realism, Animated",
           "italic": true
         },
         {

@@ -8245,7 +8245,7 @@
       "genres": [
         "Animation",
         "Adventure",
-        "Fantasy"
+        "Picaresque"
       ],
       "image": "images/aladdin.jpg",
       "imageAlt": "Aladdin (1992)",
@@ -8257,7 +8257,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Adventure, Comedy, Fantasy, Musical",
+          "value": "Animation, Adventure, Picaresque, Musical",
           "italic": true
         },
         {

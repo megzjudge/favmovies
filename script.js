@@ -81,6 +81,13 @@
       { url: 'https://search.brave.com/search?q=High-Stakes+Action+films&summary=1&conversation=52ea844f93ebc1746f4c8c', icon: 'link' }
     ],
 
+    'High-Stakes Action': [
+      { url: 'https://shebudgets.com/lifestyle/entertainment/high-stakes-action-movies-where-one-hero-does-it-all/', icon: 'link' },
+      { url: 'https://www.flyingwrestler.com/2017/01/what-are-the-stakes/', icon: 'link' },
+      { url: 'https://theactionelite.com/how-high-stakes-scenes-define-great-action-movies/', icon: 'link' },
+      { url: 'https://www.theupcoming.co.uk/2025/04/08/the-best-films-set-in-the-world-of-high-stakes-entertainment/', icon: 'link' }
+    ],
+
     'Surreal Adventure': [
       { url: 'https://www.ranker.com/list/surrealism-movies-and-films/davis-williams?pos=1', icon: 'link' },
       { url: 'https://www.imdb.com/list/ls024295709/?sort=user_rating%2Cdesc', icon: 'imdb' },

@@ -7178,7 +7178,6 @@
       ],
       "genres": [
         "Comedy",
-        "Slapstick Comedy",
         "Coming-of-Age",
         "Satirical Comedy"
       ],
@@ -7577,10 +7576,9 @@
         1994
       ],
       "genres": [
+        "Existential Drama",
         "Drama",
-        "Fantasy",
-        "Horror",
-        "Gothic"
+        "Fantasy"
       ],
       "image": "images/interview_with_a_vampire.jpg",
       "imageAlt": "Interview with the Vampire (1994)",
@@ -7773,7 +7771,6 @@
       ],
       "genres": [
         "Family Comedy",
-        "Slapstick",
         "Male Camaraderie"
       ],
       "image": "images/the_little_rascals.jpg",
@@ -7881,8 +7878,7 @@
       "genres": [
         "Comedy",
         "Drama",
-        "Adventure",
-        "LGBTQ+"
+        "Adventure"
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
       "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
@@ -8608,9 +8604,7 @@
       ],
       "genres": [
         "Musical",
-        "Romantic Comedy",
-        "Teen Romance",
-        "Coming-of-Age"
+        "Romantic Comedy"
       ],
       "image": "images/grease.jpg",
       "imageAlt": "Grease",

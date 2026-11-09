@@ -5761,9 +5761,8 @@
       ],
       "genres": [
         "Crime",
-        "Thriller",
-        "Comedy",
-        "Heist"
+        "Male Camaraderie",
+        "Comedy"
       ],
       "image": "images/oceans_eleven.jpg",
       "imageAlt": "Ocean's Eleven (2001)",
@@ -5775,7 +5774,7 @@
         },
         {
           "label": "Genre",
-          "value": "Crime, Thriller, Comedy, Heist",
+          "value": "Crime, Male Camaraderie, Thriller, Comedy",
           "italic": true
         },
         {
@@ -6229,7 +6228,7 @@
       "genres": [
         "Comedy",
         "Romance",
-        "Teen"
+        "Male Camaraderie"
       ],
       "image": "images/american_pie.jpg",
       "imageAlt": "American Pie (1999)",
@@ -6241,7 +6240,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Romance, Teen",
+          "value": "Comedy, Romance, Male Camaraderie",
           "italic": true
         },
         {
@@ -7511,6 +7510,7 @@
         1994
       ],
       "genres": [
+        "Male Camaraderie",
         "Comedy",
         "Adventure"
       ],
@@ -7524,7 +7524,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Adventure",
+          "value": "Male Camaraderie, Comedy, Adventure",
           "italic": true
         },
         {
@@ -7771,7 +7771,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Slapstick, Male Camaraderie",
+          "value": "Male Camaraderie, Comedy",
           "italic": true
         },
         {
@@ -8276,7 +8276,8 @@
         1992
       ],
       "genres": [
-        "Action",
+        "Male Camaraderie",
+        "High-Stakes Action",
         "Comedy"
       ],
       "image": "images/3_ninjas.jpg",
@@ -8289,7 +8290,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Comedy",
+          "value": "Male Camaraderie, High-Stakes Action, Comedy",
           "italic": true
         },
         {

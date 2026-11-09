@@ -7627,9 +7627,8 @@
       ],
       "genres": [
         "Magical Realism",
-        "Action",
-        "Crime",
-        "Thriller"
+        "High-Stakes Action",
+        "Psychological Thriller"
       ],
       "image": "images/the_crow.jpg",
       "imageAlt": "The Crow (1994)",
@@ -7641,7 +7640,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Crime, Fantasy, Thriller",
+          "value": "Magical Realism, High-Stakes Action, Psychological Thriller",
           "italic": true
         },
         {

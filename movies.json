@@ -6813,6 +6813,60 @@
       ]
     },
     {
+      "title": "As Good as It Gets",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        1997
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Grumpy x Sunshine"
+      ],
+      "image": "images/as_good_as_it_gets.jpg",
+      "imageAlt": "As Good as It Gets",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "1997",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Drama, Grumpy x Sunshine",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "139 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/as-good-as-it-gets",
+          "icon": "images/justwatch.png",
+          "alt": "As Good as It Gets on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0119822/",
+          "icon": "images/imdb.png",
+          "alt": "As Good as It Gets on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets",
+          "icon": "images/wikipedia.png",
+          "alt": "As Good as It Gets on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=As+Good+as+It+Gets+1997+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "As Good as It Gets Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Flubber",
       "flag": "🇺🇸",
       "country": "US",

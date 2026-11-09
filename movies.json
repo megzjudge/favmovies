@@ -2645,9 +2645,9 @@
         2001
       ],
       "genres": [
-        "Animated Fantasy",
-        "Adventure",
-        "Family"
+        "Animated",
+        "Fantasy",
+        "Adventure"
       ],
       "image": "images/spirited_away.jpg",
       "imageAlt": "Spirited Away",
@@ -2659,7 +2659,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Fantasy, Adventure, Family",
+          "value": "Animated Fantasy, Adventure",
           "italic": true
         },
         {
@@ -2861,8 +2861,7 @@
       ],
       "genres": [
         "Animated Adventure",
-        "Science Fiction",
-        "Family"
+        "Science Fiction"
       ],
       "image": "images/digimon_the_movie.jpg",
       "imageAlt": "Digimon: The Movie",
@@ -3649,9 +3648,9 @@
         1997
       ],
       "genres": [
-        "Animated Adventure",
-        "Musical Fantasy",
-        "Family Comedy"
+        "Animated",
+        "Adventure",
+        "Fantasy"
       ],
       "image": "images/hercules.jpg",
       "imageAlt": "Hercules",
@@ -3663,7 +3662,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Musical Fantasy, Family Comedy",
+          "value": "Animated Adventure, Musical Fantasy, Comedy",
           "italic": true
         },
         {
@@ -3757,9 +3756,8 @@
         1997
       ],
       "genres": [
-        "Animated Musical",
-        "Surreal Adventure",
-        "Family"
+        "Animated",
+        "Surreal Adventure"
       ],
       "image": "images/anastasia.jpg",
       "imageAlt": "Anastasia",
@@ -3771,7 +3769,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Musical, Surreal Adventure, Family",
+          "value": "Animated Musical, Surreal Adventure",
           "italic": true
         },
         {
@@ -3871,7 +3869,6 @@
       ],
       "genres": [
         "Animated Adventure",
-        "Family",
         "Existential Drama"
       ],
       "image": "images/balto.jpg",
@@ -3884,7 +3881,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Adventure, Family, Existential Drama",
+          "value": "Animated Adventure, Existential Drama",
           "italic": true
         },
         {
@@ -4110,7 +4107,6 @@
       "genres": [
         "Adventure",
         "Comedy",
-        "Family",
         "Fantasy",
         "Sci-Fi"
       ],
@@ -4124,7 +4120,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Family, Fantasy, Sci-Fi",
+          "value": "Adventure, Comedy, Fantasy, Sci-Fi",
           "italic": true
         },
         {
@@ -4218,8 +4214,7 @@
         1993
       ],
       "genres": [
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/the_beverly_hillbillies.jpg",
       "imageAlt": "The Beverly Hillbillies",
@@ -4231,7 +4226,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family",
+          "value": "Comedy",
           "italic": true
         },
         {
@@ -4378,7 +4373,6 @@
       ],
       "genres": [
         "Surreal Adventure",
-        "Family",
         "Drama"
       ],
       "image": "images/the_land_before_time.jpg",
@@ -4391,7 +4385,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Family, Drama",
+          "value": "Surreal Adventure, Drama",
           "italic": true
         },
         {
@@ -4949,8 +4943,7 @@
       ],
       "genres": [
         "Animated Fantasy",
-        "Musical",
-        "Family"
+        "Musical"
       ],
       "image": "images/alice_in_wonderland.jpg",
       "imageAlt": "Alice in Wonderland",
@@ -4962,7 +4955,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Fantasy, Musical, Family",
+          "value": "Animated Fantasy, Musical",
           "italic": true
         },
         {
@@ -5121,7 +5114,6 @@
       "genres": [
         "Mystery",
         "Comedy",
-        "Family",
         "Crime"
       ],
       "image": "images/the_sheep_detectives.jpg",
@@ -5134,7 +5126,7 @@
         },
         {
           "label": "Genre",
-          "value": "Mystery, Comedy, Family, Crime",
+          "value": "Mystery, Comedy, Crime",
           "italic": true
         },
         {
@@ -5238,8 +5230,7 @@
       ],
       "genres": [
         "Fantasy",
-        "Adventure",
-        "Family"
+        "Adventure"
       ],
       "image": "images/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe.jpg",
       "imageAlt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
@@ -5251,7 +5242,7 @@
         },
         {
           "label": "Genre",
-          "value": "Fantasy, Adventure, Family",
+          "value": "Fantasy, Adventure",
           "italic": true
         },
         {
@@ -5711,9 +5702,8 @@
         2001
       ],
       "genres": [
-        "Animated Comedy",
-        "Family",
-        "Fantasy",
+        "Animated",
+        "Comedy",
         "Adventure"
       ],
       "image": "images/monsters_inc.jpg",
@@ -5726,7 +5716,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Comedy, Family, Fantasy, Adventure",
+          "value": "Animated Comedy, Fantasy, Adventure",
           "italic": true
         },
         {
@@ -6418,7 +6408,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Adventure, Animation, Fantasy, Science-Fiction, Kids & Family",
+          "value": "Action, Adventure, Animation, Fantasy, Science-Fiction",
           "italic": true
         },
         {
@@ -6652,7 +6642,6 @@
       ],
       "genres": [
         "Comedy",
-        "Family",
         "Fantasy"
       ],
       "image": "images/doctor_dolittle.jpg",
@@ -6665,7 +6654,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family, Fantasy",
+          "value": "Comedy, Fantasy",
           "italic": true
         },
         {
@@ -6776,7 +6765,6 @@
       ],
       "genres": [
         "Comedy",
-        "Family",
         "Sci-Fi"
       ],
       "image": "images/flubber.jpg",
@@ -6789,7 +6777,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family, Sci-Fi",
+          "value": "Comedy, Sci-Fi",
           "italic": true
         },
         {
@@ -6895,7 +6883,6 @@
       ],
       "genres": [
         "Comedy",
-        "Family",
         "Fantasy"
       ],
       "image": "images/matilda.jpg",
@@ -6908,7 +6895,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family, Fantasy",
+          "value": "Comedy, Fantasy",
           "italic": true
         },
         {
@@ -7012,8 +6999,7 @@
       ],
       "genres": [
         "Adventure",
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/dunston_checks_in.jpg",
       "imageAlt": "Dunston Checks In (1996)",
@@ -7025,7 +7011,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Family",
+          "value": "Adventure, Comedy",
           "italic": true
         },
         {
@@ -7079,7 +7065,7 @@
         },
         {
           "label": "Genre",
-          "value": "Sports Comedy, Science Fiction, Animation, Family Adventure",
+          "value": "Sports Comedy, Science Fiction, Animation, Adventure",
           "italic": true
         },
         {
@@ -7120,8 +7106,7 @@
       ],
       "genres": [
         "Adventure",
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/101_dalmatians.jpg",
       "imageAlt": "101 Dalmatians",
@@ -7133,7 +7118,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Family",
+          "value": "Adventure, Comedy",
           "italic": true
         },
         {
@@ -7282,8 +7267,7 @@
       ],
       "genres": [
         "Adventure",
-        "Fantasy",
-        "Family"
+        "Fantasy"
       ],
       "image": "images/jumanji.jpg",
       "imageAlt": "Jumanji (1995)",
@@ -7295,7 +7279,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Fantasy, Family",
+          "value": "Adventure, Fantasy",
           "italic": true
         },
         {
@@ -7401,7 +7385,6 @@
       "genres": [
         "Comedy",
         "Drama",
-        "Family",
         "Fantasy"
       ],
       "image": "images/babe.jpg",
@@ -7414,7 +7397,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Drama, Family, Fantasy",
+          "value": "Comedy, Drama, Fantasy",
           "italic": true
         },
         {
@@ -7455,7 +7438,6 @@
       ],
       "genres": [
         "Comedy",
-        "Family",
         "Fantasy"
       ],
       "image": "images/casper.jpg",
@@ -7468,7 +7450,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family, Fantasy",
+          "value": "Comedy, Fantasy",
           "italic": true
         },
         {
@@ -7765,8 +7747,8 @@
         1994
       ],
       "genres": [
-        "Family Comedy",
-        "Male Camaraderie"
+        "Male Camaraderie",
+        "Comedy"
       ],
       "image": "images/the_little_rascals.jpg",
       "imageAlt": "The Little Rascals",
@@ -7778,7 +7760,7 @@
         },
         {
           "label": "Genre",
-          "value": "Family Comedy, Slapstick, Male Camaraderie",
+          "value": "Comedy, Slapstick, Male Camaraderie",
           "italic": true
         },
         {
@@ -7818,8 +7800,7 @@
         1994
       ],
       "genres": [
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/richie_rich.jpg",
       "imageAlt": "Richie Rich (1994)",
@@ -7831,7 +7812,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family",
+          "value": "Comedy",
           "italic": true
         },
         {
@@ -7937,8 +7918,7 @@
       "genres": [
         "Adventure",
         "Comedy",
-        "Drama",
-        "Family"
+        "Drama"
       ],
       "image": "images/homeward_bound.jpg",
       "imageAlt": "Homeward Bound: The Incredible Journey (1993)",
@@ -7950,7 +7930,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Drama, Family",
+          "value": "Adventure, Comedy, Drama",
           "italic": true
         },
         {
@@ -7991,8 +7971,7 @@
       ],
       "genres": [
         "Adventure",
-        "Drama",
-        "Family"
+        "Drama"
       ],
       "image": "images/free_willy.jpg",
       "imageAlt": "Free Willy (1993)",
@@ -8004,7 +7983,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Drama, Family",
+          "value": "Adventure, Drama",
           "italic": true
         },
         {
@@ -8046,7 +8025,6 @@
       "genres": [
         "Comedy",
         "Drama",
-        "Family",
         "Sport"
       ],
       "image": "images/cool_runnings.jpg",
@@ -8059,7 +8037,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Drama, Family, Sport",
+          "value": "Comedy, Drama, Sport",
           "italic": true
         },
         {
@@ -8289,8 +8267,7 @@
       ],
       "genres": [
         "Action",
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/3_ninjas.jpg",
       "imageAlt": "3 Ninjas",
@@ -8302,7 +8279,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Comedy, Family",
+          "value": "Action, Comedy",
           "italic": true
         },
         {
@@ -8342,8 +8319,7 @@
         1992
       ],
       "genres": [
-        "Comedy",
-        "Family"
+        "Comedy"
       ],
       "image": "images/beethoven.jpg",
       "imageAlt": "Beethoven (1992)",
@@ -8355,7 +8331,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Family",
+          "value": "Comedy",
           "italic": true
         },
         {
@@ -8471,8 +8447,7 @@
       "genres": [
         "Comedy",
         "Action",
-        "Crime",
-        "Family"
+        "Crime"
       ],
       "image": "images/kindergarten_cop.jpg",
       "imageAlt": "Kindergarten Cop (1990)",
@@ -8484,7 +8459,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Action, Crime, Family",
+          "value": "Comedy, Action, Crime",
           "italic": true
         },
         {
@@ -8707,7 +8682,6 @@
       "genres": [
         "Musical",
         "Drama",
-        "Family",
         "Romance"
       ],
       "image": "images/the_sound_of_music.jpg",
@@ -8720,7 +8694,7 @@
         },
         {
           "label": "Genre",
-          "value": "Musical, Drama, Family, Romance",
+          "value": "Musical, Drama, Romance",
           "italic": true
         },
         {

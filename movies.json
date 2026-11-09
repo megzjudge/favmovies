@@ -6822,10 +6822,9 @@
         1996
       ],
       "genres": [
-        "Magical Realism",
+        "Psychological Thriller",
         "Horror",
-        "Fantasy",
-        "Thriller"
+        "Magical Realism"
       ],
       "image": "images/the_craft.jpg",
       "imageAlt": "The Craft (1996)",
@@ -6837,7 +6836,7 @@
         },
         {
           "label": "Genre",
-          "value": "Horror, Fantasy, Thriller, Teen",
+          "value": "Horror, Psychological Thriller, Magical Realism",
           "italic": true
         },
         {

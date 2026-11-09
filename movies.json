@@ -3532,7 +3532,6 @@
       ],
       "genres": [
         "Surreal Adventure",
-        "Musical Drama",
         "Romance"
       ],
       "image": "images/the_lion_king_2.jpg",
@@ -3545,7 +3544,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Musical Drama, Romance",
+          "value": "Surreal Adventure, Romance",
           "italic": true
         },
         {
@@ -3921,9 +3920,8 @@
         1994
       ],
       "genres": [
-        "Comedy",
         "Cerebral Crime",
-        "Detective Parody"
+        "Comedy"
       ],
       "image": "images/ace_ventura_pet_detective.jpg",
       "imageAlt": "Ace Ventura: Pet Detective",
@@ -3935,7 +3933,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Cerebral Crime, Detective Parody",
+          "value": "Cerebral Crime, Comedy",
           "italic": true
         },
         {
@@ -5054,9 +5052,9 @@
         1940
       ],
       "genres": [
-        "Animated Musical",
-        "Fantasy",
-        "Experimental Film"
+        "Surreal Adventure",
+        "Animated",
+        "Fantasy"
       ],
       "image": "images/fantasia.jpg",
       "imageAlt": "Fantasia",
@@ -5068,7 +5066,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Musical, Fantasy, Experimental Film",
+          "value": "Surreal Adventure, Animated, Fantasy",
           "italic": true
         },
         {

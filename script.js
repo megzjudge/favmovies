@@ -99,6 +99,16 @@
       { url: 'https://www.imdb.com/list/ls070823747/?sort=user_rating%2Cdesc', icon: 'imdb' }
     ],
 
+    'Rebellion Adventure': [
+      { url: 'https://www.spot.ph/entertainment/movies-music-tv/71532/movies-about-revolution-rebellion-a00171-20170921-lfrm', icon: 'link' },
+      { url: 'https://www.indiewire.com/feature/best-teen-rebellion-movies-100828/', icon: 'link' },
+      { url: 'https://bestsimilar.com/tag/9094-rebel', icon: 'link' },
+      { url: 'https://bestsimilar.com/tag/10946-rebellion', icon: 'link' },
+      { url: 'https://www.cbr.com/greatest-rebellion-movies-ranked/', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls003839686/', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/List_of_films_about_revolution', icon: 'wikipedia' }
+    ],
+
     'Magical Realism': [
       { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
       { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' },

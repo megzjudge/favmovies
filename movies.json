@@ -2359,11 +2359,10 @@
         2002
       ],
       "genres": [
+        "Existential Drama",
         "Magical Realism",
         "Horror",
-        "Fantasy",
-        "Drama",
-        "Music"
+        "Fantasy"
       ],
       "image": "images/queen_of_the_damned.jpg",
       "imageAlt": "Queen of the Damned (2002)",
@@ -2375,7 +2374,7 @@
         },
         {
           "label": "Genre",
-          "value": "Horror, Fantasy, Drama, Music",
+          "value": "Existential Drama, Magical Realism, Horror, Fantasy",
           "italic": true
         },
         {
@@ -4268,8 +4267,8 @@
         1993
       ],
       "genres": [
-        "Surreal Adventure",
-        "Drama"
+        "Existential Drama",
+        "Surreal Adventure"
       ],
       "image": "images/the_silver_brumby.jpg",
       "imageAlt": "The Silver Brumby",
@@ -4281,7 +4280,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Drama",
+          "value": "Existential Drama, Surreal Adventure",
           "italic": true
         },
         {
@@ -7928,9 +7927,9 @@
         1993
       ],
       "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
+        "Surreal Adventure",
+        "Existential Drama",
+        "Comedy"
       ],
       "image": "images/homeward_bound.jpg",
       "imageAlt": "Homeward Bound: The Incredible Journey (1993)",
@@ -7942,7 +7941,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Drama",
+          "value": "Surreal Adventure, Existential Drama, Comedy",
           "italic": true
         },
         {
@@ -7982,7 +7981,8 @@
         1993
       ],
       "genres": [
-        "Adventure",
+        "Surreal Adventure",
+        "Existential Drama",
         "Drama"
       ],
       "image": "images/free_willy.jpg",
@@ -7995,7 +7995,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Drama",
+          "value": "Surreal Adventure, Existential Drama",
           "italic": true
         },
         {

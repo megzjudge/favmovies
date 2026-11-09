@@ -343,19 +343,22 @@ async function initializeMovies() {
   let filtersWereClosedByScroll = false;
   
   function updateFilterVisibility() {
-    const firstCard = document.querySelector( '#featuredMovieGrid .movie-card') || movieGrid.querySelector('.movie-card');
+    const firstCard = document.querySelector(
+      '#featuredMovieGrid .movie-card'
+    ) || movieGrid.querySelector('.movie-card');
   
     if (!firstCard) return;
-  
-    const contentRect = appContent.getBoundingClientRect();
-    const cardRect = firstCard.getBoundingClientRect();
   
     const scrolledPastFirstCard =
       appContent.scrollTop > 50;
   
     if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
+      const hasActiveFilter =
+        genreDropdown.value ||
+        countryDropdown.value ||
+        yearDropdown.value;
   
-      if (!filterPanel.hidden) {
+      if (!hasActiveFilter && !filterPanel.hidden) {
         setFiltersOpen(false);
       }
   
@@ -365,7 +368,7 @@ async function initializeMovies() {
     if (!scrolledPastFirstCard) {
       filtersWereClosedByScroll = false;
     }
-  }
+  }   
   
   let scrollTicking = false;
   

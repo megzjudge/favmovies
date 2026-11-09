@@ -1268,7 +1268,7 @@
         2009
       ],
       "genres": [
-        "Sci-Fi Action",
+        "Intelligent Action",
         "Magical Realism",
         "Psychological Thriller"
       ],
@@ -1282,7 +1282,7 @@
         },
         {
           "label": "Genre",
-          "value": "Sci-Fi Action, Magical Realism, Psychological Thriller",
+          "value": "Intelligent Action, Magical Realism, Psychological Thriller",
           "italic": true
         },
         {
@@ -1322,7 +1322,7 @@
         2009
       ],
       "genres": [
-        "Psychological Drama",
+        "Existential Drama",
         "Magical Realism",
         "Surreal Adventure"
       ],
@@ -1336,7 +1336,7 @@
         },
         {
           "label": "Genre",
-          "value": "Psychological Drama, Experimental, Surreal",
+          "value": "Existential Drama, Magical Realism, Surreal Adventure",
           "italic": true
         },
         {

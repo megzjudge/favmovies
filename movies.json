@@ -5511,9 +5511,8 @@
         2002
       ],
       "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
+        "High-Stakes Action",
+        "Rebellion Adventure",
         "Sci-Fi"
       ],
       "image": "images/star_wars_episode_2.jpg",
@@ -5526,7 +5525,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Adventure, Fantasy, Sci-Fi",
+          "value": "High-Stakes Actio, Rebellion Adventure, Sci-Fi",
           "italic": true
         },
         {
@@ -6092,9 +6091,8 @@
         1999
       ],
       "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
+        "High-Stakes Actio",
+        "Rebellion Adventure",
         "Sci-Fi"
       ],
       "image": "images/star_wars_episode_1.jpg",
@@ -6107,7 +6105,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Adventure, Fantasy, Sci-Fi",
+          "value": "High-Stakes Actio, Rebellion Adventure, Sci-Fi",
           "italic": true
         },
         {

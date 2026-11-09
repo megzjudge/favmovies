@@ -8392,7 +8392,7 @@
         1991
       ],
       "genres": [
-        "Comedy",
+        "Dark Comedy",
         "Fantasy",
         "Horror"
       ],
@@ -8457,8 +8457,8 @@
       ],
       "genres": [
         "Comedy",
-        "Action",
-        "Crime"
+        "Psychological Thriller",
+        "Cerebral Crime"
       ],
       "image": "images/kindergarten_cop.jpg",
       "imageAlt": "Kindergarten Cop (1990)",
@@ -8521,8 +8521,8 @@
       ],
       "genres": [
         "High-Stakes Action",
-        "Sci-Fi",
-        "Thriller"
+        "Dystopian Sci-Fi",
+        "Psychological Thriller"
       ],
       "image": "images/the_terminator.jpg",
       "imageAlt": "The Terminator (1984)",

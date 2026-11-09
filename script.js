@@ -266,7 +266,7 @@ function buildCardHtml(movie, compact = false) {
     if (d.label === 'Genre') {
       valueHtml = d.value
         .split(', ')
-        .map(g => `${escapeHtml(g)}${genreEmojis[g] ? ' ' + genreEmojis[g] : ''}`)
+        .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
         .join(', ');
     } else if (d.italic) {
       valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;

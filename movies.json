@@ -6463,9 +6463,9 @@
         1998
       ],
       "genres": [
+        "High-Stakes Action",
         "Magical Realism",
-        "Action",
-        "Horror"
+        "Dystopian Sci-Fi"
       ],
       "image": "images/blade.jpg",
       "imageAlt": "Blade (1998)",
@@ -6477,7 +6477,7 @@
         },
         {
           "label": "Genre",
-          "value": "Action, Horror, Sci-Fi, Superhero",
+          "value": "High-Stakes Action, Magical Realism, Dystopian Sci-Fi",
           "italic": true
         },
         {

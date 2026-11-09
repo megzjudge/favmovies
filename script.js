@@ -14,6 +14,8 @@
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛'
+    'Grumpy x Sunshine': 
+    
   };
 
 
@@ -32,7 +34,8 @@
     'High-Stakes Action': "A raw, intense, pulse-increasing confrontation where the gun is already in hand and everything is running against the clock, room holding its breath and seconds from catastrophe.",
     'Surreal Adventure': "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
     'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
-    'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition."
+    'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
+    'Grumpy x Sunshine': "."
   };
 
 
@@ -111,6 +114,13 @@
     'Film Noir': [
       { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
       { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
+    ],
+
+    'Grumpy x Sunshine': [
+      { url: 'http://archive.today/2026.03.29-210042/https://www.canberratimes.com.au/story/9014307/author-natalie-murrays-top-five-grumpy-sunshine-romance-movies/', icon: 'link' },
+      { url: 'https://collider.com/best-romance-movies-grumpy-sunshine-ranked/', icon: 'link' },
+      { url: 'https://lissag7.medium.com/my-favorite-grumpy-sunshine-romances-7811eeee3602', icon: 'link' },
+      { url: 'https://movieweb.com/iconic-cheerful-meets-grumpy-romance-movies/', icon: 'link' }
     ]
   };
 

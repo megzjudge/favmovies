@@ -5162,6 +5162,60 @@
       ]
     },
     {
+      "title": "The Proposal",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2009
+      ],
+      "genres": [
+        "Comedy",
+        "Grumpy x Sunshine",
+        "Drama"
+      ],
+      "image": "images/the_proposal.jpg",
+      "imageAlt": "The Proposal",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2009",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "Comedy, Grumpy x Sunshine, Drama",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "108 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-proposal",
+          "icon": "images/justwatch.png",
+          "alt": "The Proposal on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt1041829/",
+          "icon": "images/imdb.png",
+          "alt": "The Proposal on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Proposal_(2009_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Proposal on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Proposal+2009+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Proposal Trailer on YouTube"
+        }
+      ]
+    },   
+    {
       "title": "Clerks II",
       "flag": "🇺🇸",
       "country": "US",
@@ -6159,7 +6213,7 @@
       ],
       "genres": [
         "Comedy",
-        "Romance",
+        "Grumpy x Sunshine",
         "Drama",
         "Teen"
       ],
@@ -6173,7 +6227,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Romance, Drama, Teen",
+          "value": "Comedy, Grumpy x Sunshine, Drama, Teen",
           "italic": true
         },
         {
@@ -8687,7 +8741,7 @@
       "genres": [
         "Musical",
         "Drama",
-        "Romance"
+        "Grumpy x Sunshine"
       ],
       "image": "images/the_sound_of_music.jpg",
       "imageAlt": "The Sound of Music",

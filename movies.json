@@ -6145,7 +6145,7 @@
         1999
       ],
       "genres": [
-        "High-Stakes Actio",
+        "High-Stakes Action",
         "Rebellion Adventure",
         "Sci-Fi"
       ],
@@ -6159,7 +6159,7 @@
         },
         {
           "label": "Genre",
-          "value": "High-Stakes Actio, Rebellion Adventure, Sci-Fi",
+          "value": "High-Stakes Action, Rebellion Adventure, Sci-Fi",
           "italic": true
         },
         {

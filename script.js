@@ -405,7 +405,7 @@ updateFilterVisibility();
   // POPULATE DROPDOWNS
   // ==========================================
 
-  const genres = new Set();
+  const genreCounts = new Map();
   const countries = new Map();
   const allYears = new Set();
 
@@ -413,7 +413,9 @@ updateFilterVisibility();
     (card.dataset.genres || '')
       .split('|')
       .filter(Boolean)
-      .forEach(g => genres.add(g));
+      .forEach(g => {
+        genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
+      });
 
     const iso = card.dataset.country;
 
@@ -437,20 +439,15 @@ updateFilterVisibility();
   });
 
 
-  Array.from(genres)
-    .sort()
-    .forEach(genre => {
+  Array.from(genreCounts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([genre, count]) => {
       const option = document.createElement('option');
-
       option.value = genre;
-
       option.textContent =
-        genre + (genreEmojis[genre]
-          ? ' ' + genreEmojis[genre]
-          : '');
-
+        `${genre}${genreEmojis[genre] ? ' ' + genreEmojis[genre] : ''} (${count})`;
       genreDropdown.appendChild(option);
-    });
+    });   
 
 
   Array.from(countries.entries())
@@ -509,7 +506,6 @@ updateFilterVisibility();
       );
     }
   }
-
 
   yearsSortedDesc.forEach(y =>
     addYearOption(String(y), `year:${y}`)

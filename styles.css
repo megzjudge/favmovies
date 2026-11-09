@@ -146,11 +146,11 @@ h1 {
 .dropdown-container {
     margin-bottom: 15px;
     display: grid;
-    grid-template-columns: 1fr;
     gap: 10px;
     justify-items: center;
     width: fit-content;
     margin-inline: auto;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #genreDropdown,
@@ -641,7 +641,7 @@ a:hover {
     }
 
     .dropdown-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 

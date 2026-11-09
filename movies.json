@@ -2808,7 +2808,7 @@
       "genres": [
         "Comedy",
         "Science Fiction",
-        "Cult Classic"
+        "Male Camaraderie"
       ],
       "image": "images/dude_wheres_my_car.jpg",
       "imageAlt": "Dude, Where's My Car?",
@@ -2820,7 +2820,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Science Fiction, Cult Classic",
+          "value": "Comedy, Science Fiction, Male Camaraderie",
           "italic": true
         },
         {
@@ -3584,6 +3584,7 @@
         1998
       ],
       "genres": [
+        "Male Camaraderie",
         "Comedy",
         "Sport"
       ],
@@ -3597,7 +3598,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Sport",
+          "value": "Male Camaraderie, Comedy, Sport",
           "italic": true
         },
         {
@@ -4105,10 +4106,9 @@
         1993
       ],
       "genres": [
-        "Adventure",
+        "Surreal Adventure",
         "Comedy",
-        "Fantasy",
-        "Sci-Fi"
+        "Dystopian Sci-Fi"
       ],
       "image": "images/super_mario_bros.jpg",
       "imageAlt": "Super Mario Bros. (1993)",
@@ -4120,7 +4120,7 @@
         },
         {
           "label": "Genre",
-          "value": "Adventure, Comedy, Fantasy, Sci-Fi",
+          "value": "Surreal Adventure, Comedy, Dystopian Sci-Fi",
           "italic": true
         },
         {

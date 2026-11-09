@@ -15,7 +15,6 @@
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛',
     'Grumpy x Sunshine': '🐝'
-    
   };
 
 

@@ -408,7 +408,7 @@
         2024
       ],
       "genres": [
-        "Intelligent Action",
+        "High-Stakes Action",
         "Magical Realism",
         "Surreal Adventure"
       ],
@@ -531,6 +531,7 @@
         2023
       ],
       "genres": [
+        "Psychological Thriller",
         "Existential Drama",
         "Epic"
       ],
@@ -814,7 +815,7 @@
         },
         {
           "label": "Genre",
-          "value": "Neo-Noir Sci-Fi, Cyberpunk, Dystopian Sci-Fi, Mystery Thriller",
+          "value": "Neo-Noir, Dystopian Sci-Fi, Psychological Thriller",
           "italic": true
         },
         {
@@ -855,8 +856,7 @@
       ],
       "genres": [
         "Intelligent Action",
-        "Crime Thriller",
-        "Psychological Drama"
+        "Cerebral Crime"
       ],
       "image": "images/the_accountant.jpg",
       "imageAlt": "The Accountant",
@@ -868,7 +868,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Crime Thriller, Psychological Drama",
+          "value": "Intelligent Action, Cerebral Crime",
           "italic": true
         },
         {
@@ -1985,7 +1985,7 @@
         2004
       ],
       "genres": [
-        "Science Fiction",
+        "Sci-Fi",
         "Action",
         "Adventure"
       ],
@@ -2699,6 +2699,7 @@
         2000
       ],
       "genres": [
+        "Psychological Thriller",
         "Crime",
         "Existential Drama"
       ],
@@ -2860,7 +2861,8 @@
         2000
       ],
       "genres": [
-        "Animated Adventure",
+        "Animated",
+        "Surreal Adventure",
         "Science Fiction"
       ],
       "image": "images/digimon_the_movie.jpg",
@@ -2873,7 +2875,7 @@
         },
         {
           "label": "Genre",
-          "value": "Male Camaraderie, Animated, Adventure",
+          "value": "Male Camaraderie, Animated, Surreal Adventure",
           "italic": true
         },
         {
@@ -4428,7 +4430,7 @@
       "genres": [
         "Surreal Adventure",
         "Fantasy",
-        "Musical"
+        "Animated"
       ],
       "image": "images/my_little_pony.jpg",
       "imageAlt": "My Little Pony: The Movie",
@@ -4700,7 +4702,7 @@
       ],
       "genres": [
         "Stoner Comedy",
-        "Sketch Comedy",
+        "Comedy",
         "Surreal Adventure"
       ],
       "image": "images/nice_dreams.jpg",
@@ -4797,7 +4799,7 @@
       "genres": [
         "Absurdist Comedy",
         "Satire",
-        "Sketch Comedy"
+        "Comedy"
       ],
       "image": "images/life_of_brian.jpg",
       "imageAlt": "Life of Brian",
@@ -4814,7 +4816,7 @@
         },
         {
           "label": "Genre",
-          "value": "Absurdist Comedy, Satire, Sketch Comedy",
+          "value": "Absurdist Comedy, Satire, Comedy",
           "italic": true
         },
         {
@@ -4943,7 +4945,8 @@
         1951
       ],
       "genres": [
-        "Animated Fantasy",
+        "Animated",
+        "Fantasy",
         "Musical"
       ],
       "image": "images/alice_in_wonderland.jpg",
@@ -4956,7 +4959,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated Fantasy, Musical",
+          "value": "Animated, Fantasy, Musical",
           "italic": true
         },
         {
@@ -5576,10 +5579,9 @@
         2002
       ],
       "genres": [
-        "Crime",
+        "Cerebral Crime",
         "Comedy",
-        "Drama",
-        "Biography"
+        "Drama"
       ],
       "image": "images/catch_me_if_you_can.jpg",
       "imageAlt": "Catch Me If You Can (2002)",
@@ -5641,10 +5643,9 @@
         2001
       ],
       "genres": [
-        "Mystery",
+        "Magical Realism",
         "Psychological Thriller",
-        "Sci-Fi",
-        "Drama"
+        "Existential Drama"
       ],
       "image": "images/donnie_darko.jpg",
       "imageAlt": "Donnie Darko (2001)",
@@ -5656,7 +5657,7 @@
         },
         {
           "label": "Genre",
-          "value": "Mystery, Psychological Thriller, Sci-Fi, Drama",
+          "value": "Magical Realism, Psychological Thriller, Existential Drama",
           "italic": true
         },
         {
@@ -5760,7 +5761,7 @@
         2001
       ],
       "genres": [
-        "Crime",
+        "Cerebral Crime",
         "Male Camaraderie",
         "Comedy"
       ],

@@ -1,3 +1,130 @@
+  // ==========================================
+  // GENRE EMOJIS
+  // ==========================================
+
+  const genreEmojis = {
+    'Male Camaraderie': '🫂',
+    'Dark Comedy': '🎭',
+    'Psychological Thriller': '🧠',
+    'Existential Drama': '⏳',
+    'Cerebral Crime': '🎯',
+    'Intelligent Action': '💥',
+    'Surreal Adventure': '👣',
+    'Magical Realism': '✨',
+    'Dystopian Sci-Fi': '☠️',
+    'Film Noir': '🐈‍⬛'
+  };
+
+
+  // ==========================================
+  // GENRE DESCRIPTIONS
+  // ==========================================
+
+  const genreDescriptions = {
+    'Psychological Thriller':
+      "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
+
+    'Existential Drama':
+      "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
+
+    'Film Noir':
+      "A shadowy descent into the underbelly of society, filled with fatale dames and hard-edged antiheroes, riddled with grey ethics and the weight of consequence.",
+
+    'Male Camaraderie':
+      "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds.",
+
+    'Magical Realism':
+      "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
+
+    'Cerebral Crime':
+      "An intricate investigation where intellect clashes with deception, unraveling or orchestrating intelligent crimes through razor-sharp deduction and moral tension.",
+
+    'Intelligent Action':
+      "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
+
+    'Surreal Adventure':
+      "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
+
+    'Dystopian Sci-Fi':
+      "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
+
+    'Dark Comedy':
+      "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition."
+  };
+
+
+  // ==========================================
+  // GENRE LINKS
+  // ==========================================
+
+  const genreLinks = {
+    'Male Camaraderie': [
+      { url: 'https://en.wikipedia.org/wiki/Bromantic_comedy', icon: 'wikipedia' },
+      { url: 'https://en.wikipedia.org/wiki/Buddy_film', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/search/title/?keywords=male-camaraderie&explore=keywords&sort=year,desc', icon: 'imdb' },
+      { url: 'https://search.brave.com/search?q=male+camaraderie+films', icon: 'link' }
+    ],
+
+    'Dark Comedy': [
+      { url: 'https://en.wikipedia.org/wiki/Black_comedy', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/interest/in0000035/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls066399600/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls052772888/?sort=user_rating%2Cdesc', icon: 'imdb' }
+    ],
+
+    'Psychological Thriller': [
+      { url: 'https://en.wikipedia.org/wiki/Psychological_thriller', icon: 'wikipedia' },
+      { url: 'https://www.imdb.com/interest/in0000182/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/search/title/?lists=ls002428615&sort=user_rating,desc', icon: 'imdb' }
+    ],
+
+    'Existential Drama': [
+      { url: 'https://search.brave.com/search?q=Existential+Drama+genre&summary=1&conversation=d958cbb6d5164758391180', icon: 'link' },
+      { url: 'https://search.brave.com/search?q=Philosophical+Drama+list+of+films&summary=1&conversation=b004dc96feb281c1a8db3f', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls027345204/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.ranker.com/list/list-of-all-existentialism-movies/raul-cortez?pos=63&ref=listed_on', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls033275136/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls070122193/?sort=user_rating%2Cdesc', icon: 'imdb' }
+    ],
+
+    'Cerebral Crime': [
+      { url: 'https://www.ranker.com/list/best-smart-clever-movies/ranker-film', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls051221092/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://search.brave.com/search?q=Cerebral+Crime+films&summary=1&conversation=9ce824b1246953746acfcb', icon: 'link' }
+    ],
+
+    'Intelligent Action': [
+      { url: 'https://www.ranker.com/list/best-intelligent-action-movies/elise-trenton', icon: 'link' },
+      { url: 'https://www.listchallenges.com/the-101-best-intelligent-action-movies-ranked', icon: 'link' },
+      { url: 'https://search.brave.com/search?q=High-Stakes+Action+films&summary=1&conversation=52ea844f93ebc1746f4c8c', icon: 'link' }
+    ],
+
+    'Surreal Adventure': [
+      { url: 'https://www.ranker.com/list/surrealism-movies-and-films/davis-williams?pos=1', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls024295709/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls070823747/?sort=user_rating%2Cdesc', icon: 'imdb' }
+    ],
+
+    'Magical Realism': [
+      { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' },
+      { url: 'https://www.ranker.com/list/best-movies-with-magical-realism/ben-pearson?pos=65', icon: 'link' }
+    ],
+
+    'Dystopian Sci-Fi': [
+      { url: 'https://www.imdb.com/interest/in0000160/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/list/ls003911192/?sort=user_rating%2Cdesc', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Utopian_and_dystopian_fiction', icon: 'wikipedia' },
+      { url: 'https://en.wikipedia.org/wiki/List_of_dystopian_films', icon: 'wikipedia' }
+    ],
+
+    'Film Noir': [
+      { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
+      { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
+    ]
+  };
+
+
 // ==========================================
 // JSON RENDERING
 // ==========================================
@@ -208,133 +335,7 @@ async function initializeMovies() {
   const correlationsPanel = document.querySelector(
     '[data-view-panel="correlations"]'
   );
-
-  // ==========================================
-  // GENRE EMOJIS
-  // ==========================================
-
-  const genreEmojis = {
-    'Male Camaraderie': '🫂',
-    'Dark Comedy': '🎭',
-    'Psychological Thriller': '🧠',
-    'Existential Drama': '⏳',
-    'Cerebral Crime': '🎯',
-    'Intelligent Action': '💥',
-    'Surreal Adventure': '👣',
-    'Magical Realism': '✨',
-    'Dystopian Sci-Fi': '☠️',
-    'Film Noir': '🐈‍⬛'
-  };
-
-
-  // ==========================================
-  // GENRE DESCRIPTIONS
-  // ==========================================
-
-  const genreDescriptions = {
-    'Psychological Thriller':
-      "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
-
-    'Existential Drama':
-      "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself.",
-
-    'Film Noir':
-      "A shadowy descent into the underbelly of society, filled with fatale dames and hard-edged antiheroes, riddled with grey ethics and the weight of consequence.",
-
-    'Male Camaraderie':
-      "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds.",
-
-    'Magical Realism':
-      "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
-
-    'Cerebral Crime':
-      "An intricate investigation where intellect clashes with deception, unraveling or orchestrating intelligent crimes through razor-sharp deduction and moral tension.",
-
-    'Intelligent Action':
-      "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
-
-    'Surreal Adventure':
-      "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
-
-    'Dystopian Sci-Fi':
-      "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
-
-    'Dark Comedy':
-      "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition."
-  };
-
-
-  // ==========================================
-  // GENRE LINKS
-  // ==========================================
-
-  const genreLinks = {
-    'Male Camaraderie': [
-      { url: 'https://en.wikipedia.org/wiki/Bromantic_comedy', icon: 'wikipedia' },
-      { url: 'https://en.wikipedia.org/wiki/Buddy_film', icon: 'wikipedia' },
-      { url: 'https://www.imdb.com/search/title/?keywords=male-camaraderie&explore=keywords&sort=year,desc', icon: 'imdb' },
-      { url: 'https://search.brave.com/search?q=male+camaraderie+films', icon: 'link' }
-    ],
-
-    'Dark Comedy': [
-      { url: 'https://en.wikipedia.org/wiki/Black_comedy', icon: 'wikipedia' },
-      { url: 'https://www.imdb.com/interest/in0000035/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls066399600/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls052772888/?sort=user_rating%2Cdesc', icon: 'imdb' }
-    ],
-
-    'Psychological Thriller': [
-      { url: 'https://en.wikipedia.org/wiki/Psychological_thriller', icon: 'wikipedia' },
-      { url: 'https://www.imdb.com/interest/in0000182/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/search/title/?lists=ls002428615&sort=user_rating,desc', icon: 'imdb' }
-    ],
-
-    'Existential Drama': [
-      { url: 'https://search.brave.com/search?q=Existential+Drama+genre&summary=1&conversation=d958cbb6d5164758391180', icon: 'link' },
-      { url: 'https://search.brave.com/search?q=Philosophical+Drama+list+of+films&summary=1&conversation=b004dc96feb281c1a8db3f', icon: 'link' },
-      { url: 'https://www.imdb.com/list/ls027345204/?sort=user_rating%2Cdesc', icon: 'imdb' },
-      { url: 'https://www.ranker.com/list/list-of-all-existentialism-movies/raul-cortez?pos=63&ref=listed_on', icon: 'link' },
-      { url: 'https://www.imdb.com/list/ls033275136/?sort=user_rating%2Cdesc', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls070122193/?sort=user_rating%2Cdesc', icon: 'imdb' }
-    ],
-
-    'Cerebral Crime': [
-      { url: 'https://www.ranker.com/list/best-smart-clever-movies/ranker-film', icon: 'link' },
-      { url: 'https://www.imdb.com/list/ls051221092/?sort=user_rating%2Cdesc', icon: 'imdb' },
-      { url: 'https://search.brave.com/search?q=Cerebral+Crime+films&summary=1&conversation=9ce824b1246953746acfcb', icon: 'link' }
-    ],
-
-    'Intelligent Action': [
-      { url: 'https://www.ranker.com/list/best-intelligent-action-movies/elise-trenton', icon: 'link' },
-      { url: 'https://www.listchallenges.com/the-101-best-intelligent-action-movies-ranked', icon: 'link' },
-      { url: 'https://search.brave.com/search?q=High-Stakes+Action+films&summary=1&conversation=52ea844f93ebc1746f4c8c', icon: 'link' }
-    ],
-
-    'Surreal Adventure': [
-      { url: 'https://www.ranker.com/list/surrealism-movies-and-films/davis-williams?pos=1', icon: 'link' },
-      { url: 'https://www.imdb.com/list/ls024295709/?sort=user_rating%2Cdesc', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls070823747/?sort=user_rating%2Cdesc', icon: 'imdb' }
-    ],
-
-    'Magical Realism': [
-      { url: 'https://www.imdb.com/list/ls564991576/', icon: 'imdb' },
-      { url: 'https://en.wikipedia.org/wiki/Magical_realism', icon: 'wikipedia' },
-      { url: 'https://www.ranker.com/list/best-movies-with-magical-realism/ben-pearson?pos=65', icon: 'link' }
-    ],
-
-    'Dystopian Sci-Fi': [
-      { url: 'https://www.imdb.com/interest/in0000160/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls003911192/?sort=user_rating%2Cdesc', icon: 'imdb' },
-      { url: 'https://en.wikipedia.org/wiki/Utopian_and_dystopian_fiction', icon: 'wikipedia' },
-      { url: 'https://en.wikipedia.org/wiki/List_of_dystopian_films', icon: 'wikipedia' }
-    ],
-
-    'Film Noir': [
-      { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
-      { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
-    ]
-  };
-
+  
   // ==========================================
   // AUTO-CLOSE FILTERS ON SCROLL
   // ==========================================

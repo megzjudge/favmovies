@@ -145,10 +145,12 @@ h1 {
 
 .dropdown-container {
     margin-bottom: 15px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-items: center;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 #genreDropdown,
@@ -160,11 +162,11 @@ h1 {
     padding: 8px 12px;
     font-size: calc(14px + 0.390625vw);
     color: rgb(220, 220, 220);
-    width: 280px;
+    width: 100%;
     cursor: pointer;
     transition: all 0.3s ease;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
+}   
 
 #genreDropdown:hover,
 #countryDropdown:hover,

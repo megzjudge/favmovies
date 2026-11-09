@@ -2145,7 +2145,7 @@
         2003
       ],
       "genres": [
-        "Action",
+        "High-Stakes Action",
         "Magical Realism",
         "Dystopian Sci-Fi"
       ],
@@ -2969,9 +2969,8 @@
       ],
       "genres": [
         "Animation",
-        "Sci-Fi",
-        "Adventure",
-        "Action"
+        "Surreal Adventure",
+        "High-Stakes Action"
       ],
       "image": "images/titan_ae.jpg",
       "imageAlt": "Titan A.E. (2000)",
@@ -2983,7 +2982,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animation, Sci-Fi, Adventure, Action",
+          "value": "Animation, Surreal Adventure, High-Stakes Action",
           "italic": true
         },
         {
@@ -3818,7 +3817,7 @@
       ],
       "genres": [
         "Cerebral Crime",
-        "Action",
+        "High-Stakes Action",
         "Magical Realism"
       ],
       "image": "images/batman_forever.jpg",
@@ -3831,7 +3830,7 @@
         },
         {
           "label": "Genre",
-          "value": "Cerebral Crime, Action, Magical Realism",
+          "value": "Cerebral Crime, High-Stakes Action, Magical Realism",
           "italic": true
         },
         {
@@ -8521,8 +8520,8 @@
         1984
       ],
       "genres": [
+        "High-Stakes Action",
         "Sci-Fi",
-        "Action",
         "Thriller"
       ],
       "image": "images/the_terminator.jpg",
@@ -8535,7 +8534,7 @@
         },
         {
           "label": "Genre",
-          "value": "Sci-Fi, Action, Thriller",
+          "value": "High-Stakes Action, Dystopian Sci-Fi, Thriller",
           "italic": true
         },
         {

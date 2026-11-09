@@ -1536,6 +1536,60 @@
       ]
     },
     {
+      "title": "Blood Diamond",
+      "flag": "🇺🇸",
+      "country": "US",
+      "years": [
+        2006
+      ],
+      "genres": [
+        "War Drama",
+        "Political Thriller",
+        "Epic Adventure"
+      ],
+      "image": "images/blood-diamond.jpg",
+      "imageAlt": "Blood Diamond",
+      "detailLines": [
+        {
+          "label": "Year",
+          "value": "2006",
+          "italic": true
+        },
+        {
+          "label": "Genre",
+          "value": "War Drama, Political Thriller, Epic Adventure",
+          "italic": true
+        },
+        {
+          "label": "Runtime",
+          "value": "143 min",
+          "italic": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/blood-diamond",
+          "icon": "images/justwatch.png",
+          "alt": "Blood Diamond on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0450259/",
+          "icon": "images/imdb.png",
+          "alt": "Blood Diamond on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Blood_Diamond",
+          "icon": "images/wikipedia.png",
+          "alt": "Blood Diamond on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=91v0i-4i5cQ",
+          "icon": "images/youtube.png",
+          "alt": "Blood Diamond on Youtube"
+        }
+      ]
+    },
+    {
       "title": "The Illusionist",
       "flag": "🇺🇸",
       "country": "US",

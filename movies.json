@@ -801,8 +801,8 @@
         2017
       ],
       "genres": [
-        "Neo-Noir",
         "Dystopian Sci-Fi",
+        "Rebellion Adventure",
         "Psychological Thriller"
       ],
       "image": "images/blade_runner_2049.jpg",
@@ -815,7 +815,7 @@
         },
         {
           "label": "Genre",
-          "value": "Neo-Noir, Dystopian Sci-Fi, Psychological Thriller",
+          "value": "Dystopian Sci-Fi, Rebellion Adventure, Psychological Thriller",
           "italic": true
         },
         {
@@ -2200,7 +2200,7 @@
       ],
       "genres": [
         "Dystopian Sci-Fi",
-        "Surreal Adventure",
+        "Rebellion Adventure",
         "Existential Drama"
       ],
       "image": "images/the_animatrix.jpg",
@@ -2213,7 +2213,7 @@
         },
         {
           "label": "Genre",
-          "value": "Dystopian Sci-Fi, Surreal Adventure, Existential Drama",
+          "value": "Dystopian Sci-Fi, Rebellion Adventure, Existential Drama",
           "italic": true
         },
         {
@@ -3532,7 +3532,8 @@
         1998
       ],
       "genres": [
-        "Surreal Adventure",
+        "Rebellion Adventure",
+        "Grumpy x Sunshine",
         "Romance"
       ],
       "image": "images/the_lion_king_2.jpg",
@@ -3545,7 +3546,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Romance",
+          "value": "Rebellion Adventure, Grumpy x Sunshine",
           "italic": true
         },
         {
@@ -3704,7 +3705,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Surreal Adventure",
+        "Rebellion Adventure",
         "Existential Drama"
       ],
       "image": "images/princess_mononoke.jpg",
@@ -3717,7 +3718,7 @@
         },
         {
           "label": "Genre",
-          "value": "Magical Realism, Surreal Adventure, Existential Drama",
+          "value": "Magical Realism, Rebellion Adventure, Existential Drama",
           "italic": true
         },
         {
@@ -4268,7 +4269,7 @@
       ],
       "genres": [
         "Existential Drama",
-        "Surreal Adventure"
+        "Rebellion Adventure"
       ],
       "image": "images/the_silver_brumby.jpg",
       "imageAlt": "The Silver Brumby",
@@ -4280,7 +4281,7 @@
         },
         {
           "label": "Genre",
-          "value": "Existential Drama, Surreal Adventure",
+          "value": "Existential Drama, Rebellion Adventure",
           "italic": true
         },
         {
@@ -4889,7 +4890,7 @@
         1973
       ],
       "genres": [
-        "Surreal Adventure",
+        "Rebellion Adventure",
         "Comedy",
         "Musical"
       ],
@@ -4903,7 +4904,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Comedy, Musical",
+          "value": "Rebellion Adventure, Comedy, Musical",
           "italic": true
         },
         {
@@ -6993,7 +6994,7 @@
       "genres": [
         "Magical Realism",
         "Comedy",
-        "Fantasy"
+        "Rebellion Adventure"
       ],
       "image": "images/matilda.jpg",
       "imageAlt": "Matilda (1996)",
@@ -7005,7 +7006,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Fantasy",
+          "value": "Comedy, Fantasy, Rebellion Adventure",
           "italic": true
         },
         {
@@ -7495,8 +7496,8 @@
       ],
       "genres": [
         "Comedy",
-        "Drama",
-        "Fantasy"
+        "Existential Drama",
+        "Rebellion Adventure"
       ],
       "image": "images/babe.jpg",
       "imageAlt": "Babe (1995)",
@@ -7508,7 +7509,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Drama, Fantasy",
+          "value": "Comedy, Existential Drama, Rebellion Adventure",
           "italic": true
         },
         {
@@ -8082,7 +8083,7 @@
         1993
       ],
       "genres": [
-        "Surreal Adventure",
+        "Rebellion Adventure",
         "Existential Drama"
       ],
       "image": "images/free_willy.jpg",
@@ -8095,7 +8096,7 @@
         },
         {
           "label": "Genre",
-          "value": "Surreal Adventure, Existential Drama",
+          "value": "Rebellion Adventure, Existential Drama",
           "italic": true
         },
         {
@@ -8190,7 +8191,7 @@
       ],
       "genres": [
         "Comedy",
-        "Adventure",
+        "Rebellion Adventure",
         "Parody"
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
@@ -8203,7 +8204,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Adventure, Parody",
+          "value": "Comedy, Rebellion Adventure, Parody",
           "italic": true
         },
         {

@@ -3041,7 +3041,7 @@
       "genres": [
         "Intelligent Action",
         "Dystopian Sci-Fi",
-        "Magical Realism"
+        "Rebellion Adventure"
       ],
       "image": "images/the_matrix_reloaded.jpg",
       "imageAlt": "The Matrix Reloaded",
@@ -3053,7 +3053,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Dystopian Sci-Fi, Magical Realism",
+          "value": "Intelligent Action, Dystopian Sci-Fi, Rebellion Adventure",
           "italic": true
         },
         {

@@ -9,6 +9,7 @@
     'Existential Drama': '⏳',
     'Cerebral Crime': '🎯',
     'Intelligent Action': '💥',
+    'High-Stakes Action': '⏱️',
     'Surreal Adventure': '👣',
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',

@@ -1,6 +1,6 @@
-  // ==========================================
-  // GENRE EMOJIS
-  // ==========================================
+// ==========================================
+// GENRE EMOJIS
+// ==========================================
 
   const genreEmojis = {
     'Male Camaraderie': '🫂',
@@ -155,10 +155,10 @@
   };
 
   // ==========================================
-  // GENRE EMOJIS
+  // CATEGORIES EMOJIS
   // ==========================================
 
-  const taughtCategories = {
+  const categoriesEmojis = {
     'Love': '❤️',
     'Friendship': '🤝',
     'The Brain': '📝',
@@ -166,9 +166,21 @@
     'Reasons for Living': '🌱'
   };
 
-// ==========================================
-// JSON RENDERING
-// ==========================================
+  // ==========================================
+  // CATEGORIES DESCRIPTIONS
+  // ==========================================
+
+  const categoriesDescriptions = {
+    'Love': ".",
+    'Friendship': ".",
+    'The Brain': ".",
+    'Purpose': ".",
+    'Reasons for Living': "."
+  };
+
+  // ==========================================
+  // JSON RENDERING
+  // ==========================================
 
 async function renderMovieCards() {
   const movieGrid = document.getElementById('movieGrid');
@@ -617,37 +629,36 @@ Array.from(taughtCounts.entries())
     return true;
   }
 
-
   // ==========================================
   // MOVIE FILTERING
   // ==========================================
-
+  
   function filterMovies() {
     const selectedGenre = genreDropdown.value;
     const selectedCountryISO = countryDropdown.value;
     const selectedYearValue = yearDropdown.value;
     const selectedTaught = taughtDropdown.value;
-
+  
     descriptionContainer.innerHTML = '';
-
+  
     if (
       selectedGenre &&
       genreDescriptions[selectedGenre]
     ) {
       const descPara = document.createElement('p');
-
+  
       descPara.innerHTML =
         genreDescriptions[selectedGenre];
-
+  
       if (
         genreLinks[selectedGenre] &&
         genreLinks[selectedGenre].length > 0
       ) {
         let iconsHtml = ' ';
-
+  
         genreLinks[selectedGenre].forEach(link => {
           let iconHtml = '';
-
+  
           if (link.icon === 'imdb') {
             iconHtml = `
               <a href="${link.url}"
@@ -669,64 +680,69 @@ Array.from(taughtCounts.entries())
                  target="_blank"
                  rel="noopener">🔗</a>`;
           }
-
+  
           iconsHtml += iconHtml;
         });
-
+  
         descPara.innerHTML += iconsHtml;
       }
-
+  
+      descriptionContainer.appendChild(descPara);
+    } else if (
+      selectedTaught &&
+      categoriesDescriptions[selectedTaught]
+    ) {
+      const descPara = document.createElement('p');
+      descPara.textContent = categoriesDescriptions[selectedTaught];
       descriptionContainer.appendChild(descPara);
     }
-
-
+  
     let visibleCount = 0;
-
+  
     // IMPORTANT:
     // This filters both the main and compact collections.
     cards.forEach(card => {
       const cardGenres = (card.dataset.genres || '')
         .split('|')
         .filter(Boolean);
-
+  
       const matchesGenre =
         !selectedGenre ||
         cardGenres.includes(selectedGenre);
-
+  
       const matchesCountry =
         !selectedCountryISO ||
         card.dataset.country === selectedCountryISO;
-
+  
       const cardYears = (card.dataset.years || '')
         .split('|')
         .filter(Boolean)
         .map(y => parseInt(y, 10));
-
+  
       const matchesYear = matchesYearSelection(
         cardYears,
         selectedYearValue
       );
-
+  
       const cardCategories = (card.dataset.categories || '')
         .split('|').filter(Boolean);
       const matchesTaught =
         !selectedTaught ||
         cardCategories.includes(selectedTaught);
-
+  
       const visible =
         matchesGenre &&
         matchesCountry &&
         matchesYear &&
         matchesTaught;
-
+  
       card.classList.toggle('hidden', !visible);
-
+  
       if (visible) visibleCount++;
     });
-
+  
     noResults.hidden = visibleCount !== 0;
-  }
-
+  }   
 
   // ==========================================
   // FILTER EVENT LISTENERS

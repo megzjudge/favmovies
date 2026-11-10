@@ -329,12 +329,13 @@ function buildCardHtml(movie, compact = false) {
 
   const validCategories = (movie.categories || []).filter(Boolean);
   if (validCategories.length) {
+    const notes = movie.categoryNotes || {};
     detailsHtml.push(
       `<p>📚 <span class="detail-value">${validCategories
-        .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}${categoriesCardDescriptions[c] ? ' — ' + escapeHtml(categoriesCardDescriptions[c]) : ''}`)
+        .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}${notes[c] ? ' — ' + escapeHtml(notes[c]) : ''}`)
         .join(', ')}</span></p>`
     );
-  }
+  }   
 
   const linksHtml = movie.links.map(l =>
     `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener"><img src="${escapeHtml(l.icon)}" alt="${escapeHtml(l.alt)}" loading="lazy"></a>`

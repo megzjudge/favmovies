@@ -303,10 +303,6 @@ function buildCardHtml(movie, compact = false) {
   const yearsAttr = movie.years.join('|');
   const categoriesAttr = (movie.categories || []).join('|');
 
-  const flagHtml = movie.flag
-    ? ` <span class="flag">${escapeHtml(movie.flag)}</span>`
-    : '';
-
   const detailsHtml = [];
 
   if (movie.runtime) {
@@ -318,6 +314,12 @@ function buildCardHtml(movie, compact = false) {
   if (movie.years.length) {
     detailsHtml.push(
       `<p>🗓️ <span class="detail-value">${movie.years.join(', ')}</span></p>`
+    );
+  }
+
+  if (movie.country) {
+    detailsHtml.push(
+      `<p>🌏 <span class="detail-value">${escapeHtml(isoToCountryName(movie.country))}${movie.flag ? ' ' + escapeHtml(movie.flag) : ''}</span></p>`
     );
   }
 
@@ -353,7 +355,7 @@ function buildCardHtml(movie, compact = false) {
         <span class="movie-card-flip-hint" aria-hidden="true">&#8635;</span>
       </div>
       <div class="movie-card-face movie-card-back">
-        <h3>${escapeHtml(movie.title)}${flagHtml}</h3>
+        <h3>${escapeHtml(movie.title)}</h3>
         <div class="movie-card-details">${detailsHtml.join('')}</div>
         <div class="movie-card-links">${linksHtml}</div>
       </div>
@@ -455,18 +457,13 @@ updateFilterVisibility();
 
   function isoToCountryName(iso) {
     if (!iso) return '';
-
     try {
-      const dn = new Intl.DisplayNames(['en'], {
-        type: 'region'
-      });
-
+      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
       return dn.of(iso) || iso;
     } catch {
       return iso;
     }
   }
-
 
   // ==========================================
   // POPULATE DROPDOWNS

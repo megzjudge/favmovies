@@ -15,7 +15,7 @@
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛',
-    'Absurdist Comedy: '😈',
+    'Absurdist Comedy': '😈',
     'Grumpy x Sunshine': '🐝',
     'Carnivalesque': '🎲'
   };

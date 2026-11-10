@@ -1,14 +1,20 @@
 **Featured:**
-1. Revolver
-2. Fight Club
-3. V for Vendetta
-4. Inception
-5. Limitless
-6. Tenet
+1. Revolver - The Brain
+2. Fight Club - The Brain, Love
+3. V for Vendetta - The Brain, Friendship
+4. Inception - The Brain
+5. Limitless - The Brain
+6. Tenet - The Brain
+
+Love
+Friendship
+The Brain
+Purpose
+Reasons for Living
 
 **Movies:**
 7. Knives Out [series]
-8. Venom [series]
+8. Venom [series] - The Brain, Friendship
 9. The Ministry of Ungentlemanly Warfare
 10. Oppenheimer
 11. Everything Everywhere All at Once
@@ -40,86 +46,86 @@
 37. The Chronicles of Riddick
 38. Dogville
 39. The Sin Eater (The Order)
-40. Underworld
-41. The Animatrix
-42. The League of Extraordinary Gentlemen
-43. Spirit: Stallion of the Cimarron
-44. Queen of the Damned
-45. Sorority Boys
-46. xXx
-47. Jay and Silent Bob Strike Back
-48. Super Troopers
-49. Spirited Away
+40. Underworld - Love, Purpose
+41. The Animatrix - Purpose
+42. The League of Extraordinary Gentlemen - Friendship
+43. Spirit: Stallion of the Cimarron - Love, Purpose
+44. Queen of the Damned - Love, 
+45. Sorority Boys - Friendship
+46. xXx - Purpose
+47. Jay and Silent Bob Strike Back - Friendship
+48. Super Troopers - Friendship
+49. Spirited Away - Purpose
 50. Requiem for a Dream
-51. Snatch
-52. Dude, Where's My Car?
-53. Digimon: The Movie
-54. Malena
-55. Titan A.E.
-56. The Matrix [series]
-57. Being John Malkovich
-58. American Beauty
-59. Cruel Intentions
-60. The Mummy
-61. The Truman Show
+51. Snatch - Purpose
+52. Dude, Where's My Car? - Friendship
+53. Digimon: The Movie - Purpose
+54. Malena - Love, Purpose, Reasons for Living
+55. Titan A.E. - Love, Purpose
+56. The Matrix [series] - Purpose
+57. Being John Malkovich - Purpose, Love
+58. American Beauty - Love, Purpose
+59. Cruel Intentions - Love, 
+60. The Mummy - Love, Purpose
+61. The Truman Show - Purpose
 62. Lock, Stock and Two Smoking Barrels
 63. Fear and Loathing in Las Vegas
-64. Enemy of the State
-65. The Lion King II: Simba's Pride
-66. BASEketball
-67. Hercules
-68. Princess Mononoke
-69. Anastasia
+64. Enemy of the State - Purpose
+65. The Lion King II: Simba's Pride - Love, 
+66. BASEketball - Friendship
+67. Hercules - Love, 
+68. Princess Mononoke - Love, Purpose
+69. Anastasia - Love
 70. Batman Forever
-71. Balto
+71. Balto - Purpose - Love, 
 72. Ace Ventura: Pet Detective
 73. The Mask
-74. Stargate
-75. Super Mario Bros.
-76. Groundhog Day
-77. The Beverly Hillbillies
-78. The Silver Brumby
-79. Back to the Future Part II
-80. The Land Before Time
-81. My Little Pony: The Movie
-82. 1984
-83. Yellowbeard
-84. Blade Runner
-85. Grease 2
-86. Cheech & Chong [series]
-87. Monty Python [series]
+74. Stargate - Purpose, Friendship
+75. Super Mario Bros. - Friendship
+76. Groundhog Day - Love, 
+77. The Beverly Hillbillies - Purpose, Friendship
+78. The Silver Brumby - Purpose, 
+79. Back to the Future Part II - Purpose
+80. The Land Before Time - Friendship, Purpose
+81. My Little Pony: The Movie - Friendship, Purpose
+82. 1984 - Purpose, Reaasons to Live, 
+83. Yellowbeard - Love, 
+84. Blade Runner - Love, The Brain
+85. Grease 2 - Love, 
+86. Cheech & Chong [series] - Friendship
+87. Monty Python [series] - Friendship
 88. Robin Hood
-89. Alice in Wonderland
-90. The Big Sleep
+89. Alice in Wonderland - The Brain, Friendship
+90. The Big Sleep - Love, 
 91. Fantasia
 
 **Compact:**
 92. The Sheep Detectives
-93. The Proposal
+93. The Proposal - Love, 
 94. Clerks II
 95. The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
-96. 50 First Dates
+96. 50 First Dates - Love, 
 97. EuroTrip
 98. Freddy vs. Jason
-99. Star Wars: Episode II – Attack of the Clones
+99. Star Wars: Episode II – Attack of the Clones - Love, 
 100. The Hot Chick
 101. Catch Me If You Can
 102. Donnie Darko
 103. Monsters, Inc.
 104. Ocean's Eleven
-105. What Women Want
+105. What Women Want - Love, 
 106. Miss Congeniality
 107. Scary Movie
 108. Bedazzled
-109. Star Wars: Episode I – The Phantom Menace
+109. Star Wars: Episode I – The Phantom Menace - Love, 
 110. Austin Powers: The Spy Who Shagged Me
-111. 10 Things I Hate About You
+111. 10 Things I Hate About You - Love, 
 112. American Pie
 113. South Park: Bigger, Longer & Uncut
-114. The Mask of Zorro
+114. The Mask of Zorro - Love, 
 115. Pokémon: The First Movie
 116. Blade
-117. Mulan
+117. Mulan - Love, 
 118. Practical Magic
 119. Doctor Dolittle
 120. Austin Powers: International Man of Mystery
@@ -141,7 +147,7 @@
 136. Interview with the Vampire
 137. The Crow
 138. Forrest Gump
-139. The Little Rascals
+139. The Little Rascals - Love, 
 140. Richie Rich
 141. The Adventures of Priscilla, Queen of the Desert
 142. Homeward Bound: The Incredible Journey
@@ -151,11 +157,11 @@
 146. Aladdin
 147. Sister Act
 148. 3 Ninjas
-149. Beethoven
-150. The Addams Family
+149. Beethoven - Love, 
+150. The Addams Family - Love, 
 151. Kindergarten Cop
 152. The Terminator
-153. Grease
+153. Grease - Love, 
 154. The Rocky Horror Picture Show
 155. The Sound of Music
 156. The Sword in the Stone

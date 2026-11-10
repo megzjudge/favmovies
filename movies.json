@@ -3587,8 +3587,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/grease_2.jpg",
       "imageAlt": "Grease 2",
@@ -4761,8 +4760,7 @@
         "Drama"
       ],
       "categories": [
-        "Love",
-        ""
+        "Love"
       ],
       "image": "images/10_things_i_hate_about_you.jpg",
       "imageAlt": "10 Things I Hate About You (1999)",
@@ -6351,7 +6349,8 @@
       ],
       "categories": [
         "Friendship",
-        "Purpose"
+        "Purpose",
+        "Love"
       ],
       "image": "images/beethoven.jpg",
       "imageAlt": "Beethoven (1992)",
@@ -6392,8 +6391,7 @@
         "Horror"
       ],
       "categories": [
-        "Love",
-        ""
+        "Love"
       ],
       "image": "images/the_addams_family.jpg",
       "imageAlt": "The Addams Family (1991)",
@@ -6476,8 +6474,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "Purpose",
-        ""
+        "Purpose"
       ],
       "image": "images/the_terminator.jpg",
       "imageAlt": "The Terminator (1984)",
@@ -6518,8 +6515,7 @@
         "Comedy"
       ],
       "categories": [
-        "Love",
-        ""
+        "Love"
       ],
       "image": "images/grease.jpg",
       "imageAlt": "Grease",

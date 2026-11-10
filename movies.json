@@ -4,6 +4,7 @@
       "title": "Revolver",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "111 min",
       "years": [
         2005
       ],
@@ -16,28 +17,11 @@
         "The Brain",
         ""
       ],
+        "categoryNotes": {
+          "The Brain": "beating the ego"
+        }
       "image": "images/revolver.jpg",
       "imageAlt": "Revolver",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "111 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/revolver",

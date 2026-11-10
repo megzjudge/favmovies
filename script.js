@@ -283,7 +283,20 @@ async function renderMovieCards() {
     .join('');
   
   featuredSection.hidden = featuredMovies.length === 0;
+}
 
+// ==========================================
+// COUNTRY NAME CONVERSION
+// ==========================================
+
+function isoToCountryName(iso) {
+  if (!iso) return '';
+  try {
+    const dn = new Intl.DisplayNames(['en'], { type: 'region' });
+    return dn.of(iso) || iso;
+  } catch {
+    return iso;
+  }
 }
 
 // ==========================================
@@ -305,9 +318,9 @@ function buildCardHtml(movie, compact = false) {
 
   const detailsHtml = [];
 
-  if (movie.flag) {
+  if (movie.country) {
     detailsHtml.push(
-      `<p>${escapeHtml(movie.flag)}</p>`
+      `<p title="${escapeHtml(isoToCountryName(movie.country))}">${escapeHtml(movie.flag || '')}</p>`
     );
   }   
 
@@ -450,20 +463,6 @@ async function initializeMovies() {
   }, { passive: true });
 
 updateFilterVisibility();
-
-// ==========================================
-// COUNTRY NAME CONVERSION
-// ==========================================
-
-  function isoToCountryName(iso) {
-    if (!iso) return '';
-    try {
-      const dn = new Intl.DisplayNames(['en'], { type: 'region' });
-      return dn.of(iso) || iso;
-    } catch {
-      return iso;
-    }
-  }
 
   // ==========================================
   // POPULATE DROPDOWNS

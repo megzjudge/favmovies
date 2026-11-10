@@ -15,6 +15,7 @@
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛',
+    'Absurdist Comedy: '😈',
     'Grumpy x Sunshine': '🐝',
     'Carnivalesque': '🎲'
   };
@@ -138,7 +139,20 @@
     ],
 
     'Carnivalesque': [
-      { url: 'https://en.wikipedia.org/wiki/Carnivalesque', icon: 'wikipedia' }
+      { url: 'https://en.wikipedia.org/wiki/Carnivalesque', icon: 'wikipedia' },
+      { url: 'https://link.springer.com/chapter/10.1007/978-0-333-98569-4_7', icon: 'link' },
+      { url: 'https://call-for-papers.sas.upenn.edu/cfp/2010/05/23/cinema-and-the-carnivalesque%E2%80%942011-scms-panel-in-new-orleans-0310-0313', icon: 'link' },
+      { url: 'https://beverlyboy.com/filmmaking/what-is-carnivalesque-theory-in-film-nnarratives/', icon: 'link' }
+    ],
+      
+    'Absurdist Comedy': [
+      { url: 'https://en.wikipedia.org/wiki/Surreal_humour', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls526033980/', icon: 'imdb' },
+      { url: 'https://cinenoir.net/awards/comedy/just-for-laughs/the-unhinged-lens-10-essential-absurd-comedies-for-discerning-viewers/', icon: 'link' },
+      { url: 'https://en.wikipedia.org/wiki/Absurdist_fiction', icon: 'wikipedia' },
+      { url: 'https://altcomedy.com/absurdist-comedy', icon: 'link' }
+    ]
+    
   };
 
 

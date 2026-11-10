@@ -323,7 +323,7 @@ function buildCardHtml(movie, compact = false) {
   } else if (d.label === 'Taught Me') {
     valueHtml = (movie.categories || [])
       .filter(Boolean)
-      .map(c => `${taughtCategories[c] ? taughtCategories[c] + ' ' : ''}${escapeHtml(c)}`)
+      .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}`)
       .join(', ');
   } else if (d.italic) {
     valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;
@@ -527,7 +527,7 @@ Array.from(taughtCounts.entries())
     const option = document.createElement('option');
     option.value = category;
     option.textContent =
-      `${category}${taughtCategories[category] ? ' ' + taughtCategories[category] : ''} (${count})`;
+      `${category}${categoriesEmojis[category] ? ' ' + categoriesEmojis[category] : ''} (${count})`;
     taughtDropdown.appendChild(option);
   });
 

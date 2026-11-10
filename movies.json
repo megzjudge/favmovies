@@ -5630,9 +5630,9 @@
         2002
       ],
       "genres": [
+        "Absurdist Comedy",
         "Magical Realism",
-        "Comedy",
-        "Fantasy"
+        "Carnivalesque"
       ],
       "image": "images/the_hot_chick.jpg",
       "imageAlt": "The Hot Chick",
@@ -5644,7 +5644,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Fantasy",
+          "value": "Absurdist Comedy, Magical Realism, Carnivalesque",
           "italic": true
         },
         {
@@ -6210,10 +6210,9 @@
         1999
       ],
       "genres": [
-        "Comedy",
-        "Adventure",
-        "Action",
-        "Parody"
+        "Absurdist Comedy",
+        "Carnivalesque",
+        "Action"
       ],
       "image": "images/austin_powers_the_spy_who_shagged_me.jpg",
       "imageAlt": "Austin Powers: The Spy Who Shagged Me (1999)",
@@ -6225,7 +6224,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Adventure, Action, Parody",
+          "value": "Absurdist Comedy, Carnivalesque, Action",
           "italic": true
         },
         {
@@ -6394,8 +6393,8 @@
       ],
       "genres": [
         "Dark Comedy",
-        "Dystopian Sci-Fi",
-        "Satire"
+        "Satire",
+        "Carnivalesque"
       ],
       "image": "images/south_park.jpg",
       "imageAlt": "South Park: Bigger, Longer & Uncut",
@@ -6407,7 +6406,7 @@
         },
         {
           "label": "Genre",
-          "value": "Satirical Comedy, Dystopian Sci-Fi, Political Satire, Dark Comedy",
+          "value": "Dark Comedy, Satire, Carnivalesque",
           "italic": true
         },
         {
@@ -6762,7 +6761,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Fantasy",
+          "value": "Magical Realism, Comedy, Fantasy",
           "italic": true
         },
         {
@@ -6817,8 +6816,8 @@
         1997
       ],
       "genres": [
-        "Comedy",
-        "Adventure",
+        "Absurdist Comedy",
+        "Carnivalesque",
         "Action",
         "Parody"
       ],
@@ -6832,7 +6831,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Adventure, Action, Parody",
+          "value": "Absurdist Comedy, Carnivalesque, Action, Parody",
           "italic": true
         },
         {
@@ -7058,7 +7057,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Fantasy, Rebellion Adventure",
+          "value": "Magical Realism, Comedy, Rebellion Adventure",
           "italic": true
         },
         {
@@ -7108,7 +7107,8 @@
         1996
       ],
       "genres": [
-        "Comedy",
+        "Absurdist Comedy",
+        "Carnivalesque",
         "Sport"
       ],
       "image": "images/happy_gilmore.jpg",
@@ -7121,7 +7121,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Sport",
+          "value": "Absurdist Comedy, Carnivalesque, Sport",
           "italic": true
         },
         {
@@ -7321,7 +7321,7 @@
         1995
       ],
       "genres": [
-        "Comedy"
+        "Absurdist Comedy"
       ],
       "image": "images/billy_madison.jpg",
       "imageAlt": "Billy Madison",
@@ -7333,7 +7333,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy",
+          "value": "Absurdist Comedy",
           "italic": true
         },
         {

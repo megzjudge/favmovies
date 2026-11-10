@@ -324,6 +324,32 @@ function buildCardHtml(movie, compact = false) {
     );
   }   
 
+  if (movie.titles) {
+    detailsHtml.push(
+      `<p title="${escapeHtml(movie.titles)}">🎬 <span class="detail-value">${escapeHtml(movie.titles)}</span></p>`
+    );
+  }
+
+if (movie.notes) {
+  const lines = Array.isArray(movie.notes)
+    ? movie.notes
+    : [{ label: null, value: movie.notes, italic: false }];
+
+  lines.forEach(line => {
+    if (!line.value) return;
+
+    if (line.label === null || line.label === undefined) {
+      detailsHtml.push(
+        `<p class="detail-note${line.italic ? ' italic' : ''}">${escapeHtml(line.value)}</p>`
+      );
+    } else {
+      detailsHtml.push(
+        `<p>${escapeHtml(line.label)}: <span class="detail-value${line.italic ? ' italic' : ''}">${escapeHtml(line.value)}</span></p>`
+      );
+    }
+  });
+}   
+  
   if (movie.years.length) {
     detailsHtml.push(
       `<p>🗓️ <span class="detail-value">${movie.years.join(', ')}</span></p>`

@@ -235,10 +235,6 @@ async function renderMovieCards() {
     'compactMovieGrid'
   );
 
-  const taughtDropdown = document.getElementById(
-    'taughtDropdown'
-  );   
-
   compactGrid.innerHTML = compactMovies
     .map(movie => buildCardHtml(movie, true))
     .join('');
@@ -736,7 +732,6 @@ Array.from(taughtCounts.entries())
     dropdown.value = '';
   }
 
-
   genreDropdown.addEventListener('change', () => {
     if (isResetting) return;
     isResetting = true;
@@ -763,10 +758,9 @@ Array.from(taughtCounts.entries())
     if (isResetting) return;
 
     isResetting = true;
-
     resetDropdown(genreDropdown);
     resetDropdown(yearDropdown);
-
+    resetDropdown(taughtDropdown);
     isResetting = false;
 
     filterMovies();
@@ -777,18 +771,15 @@ Array.from(taughtCounts.entries())
     if (isResetting) return;
 
     isResetting = true;
-
     resetDropdown(genreDropdown);
     resetDropdown(countryDropdown);
-
+    resetDropdown(taughtDropdown);
     isResetting = false;
 
     filterMovies();
   });
 
-
   filterMovies();
-
 
   // ==========================================
   // GRID SIZING

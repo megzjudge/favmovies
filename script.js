@@ -192,8 +192,6 @@ async function renderMovieCards() {
 
   const data = await res.json();
 
-  // Support both the original array format and
-  // the new separated movies/compactMovies format.
   const featuredMovies = Array.isArray(data)
     ? []
     : (data.featuredMovies || []);
@@ -206,12 +204,10 @@ async function renderMovieCards() {
     ? []
     : (data.compactMovies || []);
 
-  // Render the main movie collection.
   movieGrid.innerHTML = movies
     .map(movie => buildCardHtml(movie))
     .join('');
 
-  // Create the compact subsection.
   let compactSection = document.getElementById(
     'compactMovieSection'
   );
@@ -242,7 +238,6 @@ async function renderMovieCards() {
     }
   }
 
-  // Render the compact movie collection.
   const compactGrid = document.getElementById(
     'compactMovieGrid'
   );
@@ -373,7 +368,6 @@ async function initializeMovies() {
   const descriptionContainer = document.getElementById('genreDescription');
   const noResults = document.getElementById('noResults');
 
-  // Includes BOTH main and compact movie cards.
   const cards = Array.from(
     document.querySelectorAll('.movie-card')
   );
@@ -698,8 +692,6 @@ Array.from(taughtCounts.entries())
   
     let visibleCount = 0;
   
-    // IMPORTANT:
-    // This filters both the main and compact collections.
     cards.forEach(card => {
       const cardGenres = (card.dataset.genres || '')
         .split('|')
@@ -739,9 +731,21 @@ Array.from(taughtCounts.entries())
   
       if (visible) visibleCount++;
     });
+    
+    const sections = [
+      document.getElementById('featuredMovieSection'),
+      document.getElementById('compactMovieSection'),
+      movieGrid.closest('.grid-section')
+    ];
+
+    sections.forEach(section => {
+      if (!section) return;
+      const hasVisible = section.querySelector('.movie-card:not(.hidden)');
+      section.hidden = !hasVisible;
+    });   
   
     noResults.hidden = visibleCount !== 0;
-  }   
+  }
 
   // ==========================================
   // FILTER EVENT LISTENERS
@@ -859,7 +863,6 @@ Array.from(taughtCounts.entries())
     );
   }
 
-
   // ==========================================
   // CORRELATIONS TEXT SIZING
   // ==========================================
@@ -899,7 +902,6 @@ Array.from(taughtCounts.entries())
     });
   }
 
-
   // ==========================================
   // WINDOW RESIZING
   // ==========================================
@@ -914,7 +916,6 @@ Array.from(taughtCounts.entries())
       fitCorrelationsText();
     }, 150);
   });
-
 
   // ==========================================
   // VIEW TABS
@@ -931,7 +932,6 @@ Array.from(taughtCounts.entries())
     filtersTab.classList.toggle('active', open);
   }
 
-  // Open filters by default
   setFiltersOpen(true);
 
   function setCorrelationsShowing(showing) {
@@ -968,7 +968,6 @@ Array.from(taughtCounts.entries())
       featuredSection.hidden = showing;
     }
   
-    // Hide the compact movie section on correlations page
     const compactSection = document.getElementById(
       'compactMovieSection'
     );
@@ -1010,9 +1009,6 @@ Array.from(taughtCounts.entries())
       flipped ? 'true' : 'false'
     );
   }
-
-  // Both main and compact cards receive
-  // the same click and keyboard interactions.
 
   cards.forEach(card => {
     card.addEventListener('click', e => {

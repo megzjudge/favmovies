@@ -226,6 +226,10 @@ async function renderMovieCards() {
     'compactMovieGrid'
   );
 
+  const taughtDropdown = document.getElementById(
+    'taughtDropdown'
+  );   
+
   compactGrid.innerHTML = compactMovies
     .map(movie => buildCardHtml(movie, true))
     .join('');
@@ -284,6 +288,7 @@ function escapeHtml(str) {
 function buildCardHtml(movie, compact = false) {
   const genresAttr = movie.genres.join('|');
   const yearsAttr = movie.years.join('|');
+  const categoriesAttr = (movie.categories || []).join('|');
 
   const flagHtml = movie.flag
     ? ` <span class="flag">${escapeHtml(movie.flag)}</span>`
@@ -317,7 +322,7 @@ function buildCardHtml(movie, compact = false) {
     : 'movie-card';
 
   return `<article class="${cardClass}" tabindex="0" role="button" aria-pressed="false" aria-label="Show details for ${escapeHtml(movie.title)}"
-    data-genres="${escapeHtml(genresAttr)}" data-country="${escapeHtml(movie.country)}" data-years="${escapeHtml(yearsAttr)}">
+    data-genres="${escapeHtml(genresAttr)}" data-country="${escapeHtml(movie.country)}" data-years="${escapeHtml(yearsAttr)}" data-categories="${escapeHtml(categoriesAttr)}">
     <div class="movie-card-inner">
       <div class="movie-card-face movie-card-front">
         <img src="${escapeHtml(movie.image)}" alt="${escapeHtml(movie.imageAlt)}" loading="lazy">
@@ -342,6 +347,7 @@ async function initializeMovies() {
   const genreDropdown = document.getElementById('genreDropdown');
   const countryDropdown = document.getElementById('countryDropdown');
   const yearDropdown = document.getElementById('yearDropdown');
+  const taughtDropdown = document.getElementById('taughtDropdown');
 
   const descriptionContainer = document.getElementById('genreDescription');
   const noResults = document.getElementById('noResults');
@@ -387,7 +393,8 @@ async function initializeMovies() {
       const hasActiveFilter =
         genreDropdown.value ||
         countryDropdown.value ||
-        yearDropdown.value;
+        yearDropdown.value ||
+        taughtDropdown.value;
   
       if (!hasActiveFilter && !filterPanel.hidden) {
         setFiltersOpen(false);
@@ -445,6 +452,7 @@ updateFilterVisibility();
   const genreCounts = new Map();
   const countries = new Map();
   const allYears = new Set();
+  const taughtCounts = new Map();
 
   cards.forEach(card => {
     (card.dataset.genres || '')
@@ -453,14 +461,21 @@ updateFilterVisibility();
       .forEach(g => {
         genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
       });
-
+  
+    (card.dataset.categories || '')
+      .split('|')
+      .filter(Boolean)
+      .forEach(c => {
+        taughtCounts.set(c, (taughtCounts.get(c) || 0) + 1);
+      });
+  
     const iso = card.dataset.country;
-
+  
     if (iso) {
       const flag = card.querySelector(
         '.movie-card-back .flag'
       );
-
+  
       if (!countries.has(iso)) {
         countries.set(
           iso,
@@ -468,13 +483,12 @@ updateFilterVisibility();
         );
       }
     }
-
+  
     (card.dataset.years || '')
       .split('|')
       .filter(Boolean)
       .forEach(y => allYears.add(parseInt(y, 10)));
-  });
-
+  });   
 
   Array.from(genreCounts.entries())
     .sort((a, b) => b[1] - a[1])
@@ -486,6 +500,14 @@ updateFilterVisibility();
       genreDropdown.appendChild(option);
     });   
 
+  Array.from(taughtCounts.entries())
+  .sort((a, b) => b[1] - a[1])
+  .forEach(([category, count]) => {
+    const option = document.createElement('option');
+    option.value = category;
+    option.textContent = `${category} (${count})`;
+    taughtDropdown.appendChild(option);
+  });
 
   Array.from(countries.entries())
     .sort((a, b) =>
@@ -593,6 +615,7 @@ updateFilterVisibility();
     const selectedGenre = genreDropdown.value;
     const selectedCountryISO = countryDropdown.value;
     const selectedYearValue = yearDropdown.value;
+    const selectedTaught = taughtDropdown.value;
 
     descriptionContainer.innerHTML = '';
 
@@ -673,10 +696,17 @@ updateFilterVisibility();
         selectedYearValue
       );
 
+      const cardCategories = (card.dataset.categories || '')
+        .split('|').filter(Boolean);
+      const matchesTaught =
+        !selectedTaught ||
+        cardCategories.includes(selectedTaught);
+
       const visible =
         matchesGenre &&
         matchesCountry &&
-        matchesYear;
+        matchesYear &&
+        matchesTaught;
 
       card.classList.toggle('hidden', !visible);
 
@@ -700,17 +730,25 @@ updateFilterVisibility();
 
   genreDropdown.addEventListener('change', () => {
     if (isResetting) return;
-
     isResetting = true;
-
     resetDropdown(countryDropdown);
     resetDropdown(yearDropdown);
-
+    resetDropdown(taughtDropdown);
     isResetting = false;
-
     filterMovies();
   });
 
+  taughtDropdown.addEventListener('change', () => {
+    if (isResetting) return;
+  
+    isResetting = true;
+    resetDropdown(genreDropdown);
+    resetDropdown(countryDropdown);
+    resetDropdown(yearDropdown);
+    isResetting = false;
+  
+    filterMovies();
+  });   
 
   countryDropdown.addEventListener('change', () => {
     if (isResetting) return;

@@ -410,7 +410,7 @@
       "genres": [
         "High-Stakes Action",
         "Magical Realism",
-        "Adventure"
+        "Carnivalesque"
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
@@ -427,7 +427,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Magical Realism, Adventure",
+          "value": "High-Stakes Action, Magical Realism, Carnivalesque",
           "italic": true
         },
         {
@@ -585,7 +585,7 @@
         2022
       ],
       "genres": [
-        "Dark Comedy",
+        "Carnivalesque",
         "Surreal Adventure",
         "Magical Realism"
       ],

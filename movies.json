@@ -46,6 +46,7 @@
       "title": "Fight Club",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "139 min",
       "years": [
         1999
       ],
@@ -60,26 +61,6 @@
       ],
       "image": "images/fight_club.jpg",
       "imageAlt": "Fight Club",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "139 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/fight-club",
@@ -107,6 +88,7 @@
       "title": "V for Vendetta",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "132 min",
       "years": [
         2005
       ],
@@ -121,26 +103,6 @@
       ],
       "image": "images/v_for_vendetta.jpg",
       "imageAlt": "V for Vendetta",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "132 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/v-for-vendetta",
@@ -168,6 +130,7 @@
       "title": "Inception",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "148 min",
       "years": [
         2010
       ],
@@ -182,26 +145,6 @@
       ],
       "image": "images/inception.jpg",
       "imageAlt": "Inception",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2010",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "148 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/origine",
@@ -229,6 +172,7 @@
       "title": "Limitless",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "105 min",
       "years": [
         2011
       ],
@@ -243,26 +187,6 @@
       ],
       "image": "images/limitless.jpg",
       "imageAlt": "Limitless",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2011",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "105 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/limitless",
@@ -290,6 +214,7 @@
       "title": "Tenet",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "150 min",
       "years": [
         2020
       ],
@@ -304,26 +229,6 @@
       ],
       "image": "images/tenet.jpg",
       "imageAlt": "Tenet",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2020",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "150 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/tenet",
@@ -354,6 +259,7 @@
       "title": "Knives Out [series]",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "130 min, 139 min, 144 min",
       "years": [
         2019,
         2022,
@@ -370,30 +276,6 @@
       ],
       "image": "images/knives_out.jpg",
       "imageAlt": "Knives Out film series",
-      "detailLines": [
-        {
-          "label": "Titles",
-          "italic": true
-        },
-        {
-          "label": "Years",
-          "value": "2019, 2022, 2025",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "value": "Cerebral Crime, Existential Drama, Dark Comedy",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtimes",
-          "value": "130 min, 139 min, 144 min",
-          "italic": true
-        }
       ],
       "links": [
         {
@@ -432,6 +314,8 @@
       "title": "Venom [series]",
       "flag": "🇺🇸",
       "country": "US",
+      "titles": "Venom, Venom: Let There Be Carnage, Venom: The Last Dance",
+      "runtime": "112 mins, 97 min, 109 min",
       "years": [
         2018,
         2021,
@@ -448,31 +332,6 @@
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
-      "detailLines": [
-        {
-          "label": "Titles",
-          "value": "Venom, Venom: Let There Be Carnage, Venom: The Last Dance",
-          "italic": true
-        },
-        {
-          "label": "Years",
-          "value": "2018, 2021, 2024",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "112 mins, 97 min, 109 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/venom-3-2024",
@@ -510,6 +369,7 @@
       "title": "The Ministry of Ungentlemanly Warfare",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "122 min",
       "years": [
         2024
       ],
@@ -524,26 +384,6 @@
       ],
       "image": "images/the_ministry_of_ungentlemanly_warfare.jpg",
       "imageAlt": "The Ministry of Ungentlemanly Warfare",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2024",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "122 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-ministry-of-ungentlemanly-warfare",
@@ -571,6 +411,7 @@
       "title": "Oppenheimer",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "180 min",
       "years": [
         2023
       ],
@@ -585,26 +426,6 @@
       ],
       "image": "images/oppenheimer.jpg",
       "imageAlt": "Oppenheimer",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2023",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "180 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/oppenheimer",
@@ -632,6 +453,7 @@
       "title": "Everything Everywhere All at Once",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "139 min",
       "years": [
         2022
       ],
@@ -646,26 +468,6 @@
       ],
       "image": "images/everything_everywhere_all_at_once.jpg",
       "imageAlt": "Everything Everywhere All at Once",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2022",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "139 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/everything-everywhere-all-at-once",
@@ -693,6 +495,7 @@
       "title": "Nine Days",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "124 min",
       "years": [
         2020
       ],
@@ -707,26 +510,6 @@
       ],
       "image": "images/nine_days.jpg",
       "imageAlt": "Nine Days",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2020",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/nine-days",
@@ -754,6 +537,7 @@
       "title": "The Gentlemen",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "113 min",
       "years": [
         2019
       ],
@@ -768,26 +552,6 @@
       ],
       "image": "images/the_gentlemen.jpg",
       "imageAlt": "The Gentlemen",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2019",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-gentlemen",
@@ -815,6 +579,7 @@
       "title": "Red Sparrow",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "140 min",
       "years": [
         2018
       ],
@@ -829,26 +594,6 @@
       ],
       "image": "images/red_sparrow.jpg",
       "imageAlt": "Red Sparrow",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2018",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "140 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/red-sparrow",
@@ -876,6 +621,7 @@
       "title": "Blade Runner 2049",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "164 min",
       "years": [
         2017
       ],
@@ -890,26 +636,6 @@
       ],
       "image": "images/blade_runner_2049.jpg",
       "imageAlt": "Blade Runner 2049",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2017",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "164 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/blade-runner-2049",
@@ -937,6 +663,7 @@
       "title": "The Accountant",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "128 min",
       "years": [
         2016
       ],
@@ -951,26 +678,6 @@
       ],
       "image": "images/the_accountant.jpg",
       "imageAlt": "The Accountant",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2016",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "128 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-accountant-2016",
@@ -998,6 +705,7 @@
       "title": "The Man from U.N.C.L.E.",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "116 min",
       "years": [
         2015
       ],
@@ -1012,26 +720,6 @@
       ],
       "image": "images/the_man_from_u_n_c_l_e.jpg",
       "imageAlt": "The Man from U.N.C.L.E.",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2015",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "116 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-man-from-u-n-c-l-e",
@@ -1059,6 +747,8 @@
       "title": "Alien [series]",
       "flag": "🇺🇸",
       "country": "US",
+      "titles": "Alien, Aliens, Alien³, Alien vs. Predator, Prometheus",
+      "runtime": "117 min, 137 min, 114 min, 109 min, 101 min, 124 min",
       "years": [
         1979,
         1986,
@@ -1078,31 +768,6 @@
       ],
       "image": "images/alien.jpg",
       "imageAlt": "Alien",
-      "detailLines": [
-        {
-          "label": "Titles",
-          "value": "Alien, Aliens, Alien³, Alien vs. Predator, Prometheus",
-          "italic": true
-        },
-        {
-          "label": "Years",
-          "value": "1979, 1986, 1992, 1997, 2004, 2012",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtimes",
-          "value": "117 min, 137 min, 114 min, 109 min, 101 min, 124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.imdb.com/title/tt0078748/",
@@ -1155,6 +820,7 @@
       "title": "John Dies at the End",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "99 min",
       "years": [
         2012
       ],
@@ -1169,26 +835,6 @@
       ],
       "image": "images/john_dies_at_the_end.jpg",
       "imageAlt": "John Dies at the End",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2012",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "99 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/john-dies-at-the-end",
@@ -1216,6 +862,7 @@
       "title": "Wanderlust",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "98 min",
       "years": [
         2012
       ],
@@ -1231,26 +878,6 @@
       ],
       "image": "images/wanderlust.jpg",
       "imageAlt": "Wanderlust",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2012",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "98 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/wanderlust",
@@ -1278,6 +905,7 @@
       "title": "Sucker Punch",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "110 min",
       "years": [
         2011
       ],
@@ -1292,26 +920,6 @@
       ],
       "image": "images/sucker_punch.jpg",
       "imageAlt": "Sucker Punch",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2011",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "110 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/sucker-punch-2011",
@@ -1339,6 +947,7 @@
       "title": "Scott Pilgrim vs. the World",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "112 min",
       "years": [
         2010
       ],
@@ -1353,26 +962,6 @@
       ],
       "image": "images/scott_pilgrim.jpg",
       "imageAlt": "Scott Pilgrim vs. the World",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2010",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "112 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/scott-pilgrims-precious-little-life",
@@ -1400,6 +989,7 @@
       "title": "Push",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "111 min",
       "years": [
         2009
       ],
@@ -1414,26 +1004,6 @@
       ],
       "image": "images/push.jpg",
       "imageAlt": "Push",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2009",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "111 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/push",
@@ -1461,6 +1031,8 @@
       "title": "Enter the Void",
       "flag": "🇫🇷",
       "country": "FR",
+      "runtime": "161 min",
+      "notes": "Trailer has massive spoilers.",
       "years": [
         2009
       ],
@@ -1475,31 +1047,6 @@
       ],
       "image": "images/enter_the_void.jpg",
       "imageAlt": "Enter the Void",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2009",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "161 min",
-          "italic": true
-        },
-        {
-          "label": null,
-          "value": "Trailer has massive spoilers",
-          "italic": false
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/enter-the-void",
@@ -1527,6 +1074,7 @@
       "title": "Superbad",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "113 min",
       "years": [
         2007
       ],
@@ -1541,26 +1089,6 @@
       ],
       "image": "images/superbad.jpg",
       "imageAlt": "Superbad",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2007",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/superbad",
@@ -1588,6 +1116,7 @@
       "title": "Idiocracy",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "84 min",
       "years": [
         2006
       ],
@@ -1602,26 +1131,6 @@
       ],
       "image": "images/idiocracy.jpg",
       "imageAlt": "Idiocracy",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "84 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/idiocracy",
@@ -1649,6 +1158,7 @@
       "title": "Suburban Mayhem",
       "flag": "🇦🇺",
       "country": "AU",
+      "runtime": "95 min",
       "years": [
         2006
       ],
@@ -1663,26 +1173,6 @@
       ],
       "image": "images/suburban_mayhem.jpg",
       "imageAlt": "Suburban Mayhem",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "95 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/suburban-mayhem",
@@ -1710,6 +1200,7 @@
       "title": "Blood Diamond",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "143 min",
       "years": [
         2006
       ],
@@ -1723,26 +1214,6 @@
       ],
       "image": "images/blood_diamond.jpg",
       "imageAlt": "Blood Diamond",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "143 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/blood-diamond",
@@ -1770,6 +1241,7 @@
       "title": "The Illusionist",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "110 min",
       "years": [
         2006
       ],
@@ -1784,26 +1256,6 @@
       ],
       "image": "images/the_illusionist.jpg",
       "imageAlt": "The Illusionist",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "110 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-illusionist-2006",
@@ -1831,6 +1283,7 @@
       "title": "The Departed",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "151 min",
       "years": [
         2006
       ],
@@ -1845,26 +1298,6 @@
       ],
       "image": "images/the_departed.jpg",
       "imageAlt": "The Departed",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "151 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-departed",
@@ -1892,6 +1325,7 @@
       "title": "Lord of War",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "122 min",
       "years": [
         2005
       ],
@@ -1906,26 +1340,6 @@
       ],
       "image": "images/lord_of_war.jpg",
       "imageAlt": "Lord of War",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "122 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/lord-of-war",
@@ -1953,6 +1367,7 @@
       "title": "Sin City",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "124 min",
       "years": [
         2005
       ],
@@ -1967,26 +1382,6 @@
       ],
       "image": "images/sin_city.jpg",
       "imageAlt": "Sin City",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/sin-city",
@@ -2014,6 +1409,7 @@
       "title": "Mr & Mrs Smith",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "120 min",
       "years": [
         2005
       ],
@@ -2027,26 +1423,6 @@
       ],
       "image": "images/mr_and_mrs_smith.jpg",
       "imageAlt": "Mr & Mrs Smith",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "120 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/mr-and-mrs-smith",
@@ -2074,6 +1450,7 @@
       "title": "Constantine",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "121 min",
       "years": [
         2005
       ],
@@ -2088,26 +1465,6 @@
       ],
       "image": "images/constantine.jpg",
       "imageAlt": "Constantine",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "121 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/constantine",
@@ -2135,6 +1492,7 @@
       "title": "Secret Window",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "96 min",
       "years": [
         2004
       ],
@@ -2149,26 +1507,6 @@
       ],
       "image": "images/secret_window.jpg",
       "imageAlt": "Secret Window",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2004",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "96 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/secret-window",
@@ -2196,6 +1534,7 @@
       "title": "Alien vs. Predator",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "101 min",
       "years": [
         2004
       ],
@@ -2211,26 +1550,6 @@
       ],
       "image": "images/alien_vs_predator.jpg",
       "imageAlt": "Alien vs. Predator (2004)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2004",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "101 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/alien-vs-predator",
@@ -2258,6 +1577,7 @@
       "title": "The Chronicles of Riddick",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "119 min",
       "years": [
         2004
       ],
@@ -2272,26 +1592,6 @@
       ],
       "image": "images/the_chronicles_of_riddick.jpg",
       "imageAlt": "The Chronicles of Riddick",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2004",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "119 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-chronicles-of-riddick",
@@ -2319,6 +1619,7 @@
       "title": "Dogville",
       "flag": "🇩🇰",
       "country": "DK",
+      "runtime": "178 min",
       "years": [
         2003
       ],
@@ -2332,26 +1633,6 @@
       ],
       "image": "images/dogville.jpg",
       "imageAlt": "Dogville",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "178 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/dogville",
@@ -2379,6 +1660,7 @@
       "title": "The Sin Eater (The Order)",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "102 min",
       "years": [
         2003
       ],
@@ -2392,26 +1674,6 @@
       ],
       "image": "images/the_sin_eater_the_order.jpg",
       "imageAlt": "The Sin Eater (The Order)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "102 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-sin-eater",
@@ -2439,6 +1701,7 @@
       "title": "Underworld",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "121 min",
       "years": [
         2003
       ],
@@ -2453,26 +1716,6 @@
       ],
       "image": "images/underworld.jpg",
       "imageAlt": "Underworld",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "121 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/underworld",
@@ -2500,6 +1743,7 @@
       "title": "The Animatrix",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "102 min",
       "years": [
         2003
       ],
@@ -2514,26 +1758,6 @@
       ],
       "image": "images/the_animatrix.jpg",
       "imageAlt": "The Animatrix",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "102 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-animatrix",
@@ -2561,6 +1785,7 @@
       "title": "The League of Extraordinary Gentlemen",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "110 min",
       "years": [
         2003
       ],
@@ -2575,26 +1800,6 @@
       ],
       "image": "images/the_league_of_extraordinary_gentlemen.jpg",
       "imageAlt": "The League of Extraordinary Gentlemen",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "110 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-league-of-extraordinary-gentlemen",
@@ -2622,6 +1827,7 @@
       "title": "Spirit: Stallion of the Cimarron",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "83 min",
       "years": [
         2002
       ],
@@ -2635,26 +1841,6 @@
       ],
       "image": "images/spirit_stallion_of_the_cimarron.jpg",
       "imageAlt": "Spirit: Stallion of the Cimarron",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "83 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/spirit-stallion-of-the-cimarron",
@@ -2682,6 +1868,7 @@
       "title": "Queen of the Damned",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "101 min",
       "years": [
         2002
       ],
@@ -2696,26 +1883,6 @@
       ],
       "image": "images/queen_of_the_damned.jpg",
       "imageAlt": "Queen of the Damned (2002)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "101 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/queen-of-the-damned",
@@ -2743,6 +1910,7 @@
       "title": "Sorority Boys",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "124 min",
       "years": [
         2002
       ],
@@ -2757,26 +1925,6 @@
       ],
       "image": "images/sorority_boys.jpg",
       "imageAlt": "Sorority Boys",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/sorority-boys",
@@ -2804,6 +1952,7 @@
       "title": "xXx",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "124 min",
       "years": [
         2002
       ],
@@ -2818,26 +1967,6 @@
       ],
       "image": "images/xXx.jpg",
       "imageAlt": "xXx",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/triple-x",
@@ -2865,6 +1994,7 @@
       "title": "Jay and Silent Bob Strike Back",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "144 min",
       "years": [
         2001
       ],
@@ -2879,26 +2009,6 @@
       ],
       "image": "images/jay_and_silent_bob_strike_back.jpg",
       "imageAlt": "Jay and Silent Bob Strike Back",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "144 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/jay-and-silent-bob-strike-back",
@@ -2926,6 +2036,7 @@
       "title": "Super Troopers",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "100 min",
       "years": [
         2001
       ],
@@ -2940,26 +2051,6 @@
       ],
       "image": "images/super_troopers.jpg",
       "imageAlt": "Super Troopers",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "100 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/super-troopers-die-superbullen",
@@ -2987,6 +2078,7 @@
       "title": "Spirited Away",
       "flag": "🇯🇵",
       "country": "JP",
+      "runtime": "125 min",
       "years": [
         2001
       ],
@@ -3001,26 +2093,6 @@
       ],
       "image": "images/spirited_away.jpg",
       "imageAlt": "Spirited Away",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "125 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/spirited-away",
@@ -3048,6 +2120,7 @@
       "title": "Requiem for a Dream",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "102 min",
       "years": [
         2000
       ],
@@ -3062,26 +2135,6 @@
       ],
       "image": "images/requiem_for_a_dream.jpg",
       "imageAlt": "Requiem for a Dream",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "102 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/requiem-for-a-dream",
@@ -3109,6 +2162,7 @@
       "title": "Snatch",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "102 min",
       "years": [
         2000
       ],
@@ -3123,26 +2177,6 @@
       ],
       "image": "images/snatch.jpg",
       "imageAlt": "Snatch",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "102 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/snatch",
@@ -3170,6 +2204,7 @@
       "title": "Dude, Where's My Car?",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "83 min",
       "years": [
         2000
       ],
@@ -3184,26 +2219,6 @@
       ],
       "image": "images/dude_wheres_my_car.jpg",
       "imageAlt": "Dude, Where's My Car?",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "83 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/dude-wheres-my-car",
@@ -3231,6 +2246,7 @@
       "title": "Digimon: The Movie",
       "flag": "🇯🇵",
       "country": "JP",
+      "runtime": "82 min",
       "years": [
         2000
       ],
@@ -3245,26 +2261,6 @@
       ],
       "image": "images/digimon_the_movie.jpg",
       "imageAlt": "Digimon: The Movie",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "82 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/digimon-the-movie",
@@ -3292,6 +2288,7 @@
       "title": "Malena",
       "flag": "🇮🇹",
       "country": "IT",
+      "runtime": "98 min",
       "years": [
         2000
       ],
@@ -3305,26 +2302,6 @@
       ],
       "image": "images/malena.jpg",
       "imageAlt": "Malèna",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "98 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/malena",
@@ -3352,6 +2329,7 @@
       "title": "Titan A.E.",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "94 min",
       "years": [
         2000
       ],
@@ -3366,26 +2344,6 @@
       ],
       "image": "images/titan_ae.jpg",
       "imageAlt": "Titan A.E. (2000)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "94 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/titan-a-e",
@@ -3413,6 +2371,7 @@
       "title": "The Matrix [series]",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "138 min",
       "years": [
         1999,
         2003,
@@ -3429,26 +2388,6 @@
       ],
       "image": "images/the_matrix_reloaded.jpg",
       "imageAlt": "The Matrix Reloaded",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999, 2003, 2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "138 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/search?q=the%20matrix",
@@ -3486,6 +2425,7 @@
       "title": "Being John Malkovich",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "113 min",
       "years": [
         1999
       ],
@@ -3500,26 +2440,6 @@
       ],
       "image": "images/being_john_malkovich.jpg",
       "imageAlt": "Being John Malkovich",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/being-john-malkovich",
@@ -3547,6 +2467,7 @@
       "title": "American Beauty",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "122 min",
       "years": [
         1999
       ],
@@ -3559,26 +2480,6 @@
       ],
       "image": "images/american_beauty.jpg",
       "imageAlt": "American Beauty",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "122 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/american-beauty",
@@ -3606,6 +2507,7 @@
       "title": "Cruel Intentions",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "97 min",
       "years": [
         1999
       ],
@@ -3619,26 +2521,6 @@
       ],
       "image": "images/cruel_intentions.jpg",
       "imageAlt": "Cruel Intentions",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "97 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/cruel-intentions",
@@ -3666,6 +2548,7 @@
       "title": "The Mummy",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "125 min",
       "years": [
         1999
       ],
@@ -3680,26 +2563,6 @@
       ],
       "image": "images/the_mummy.jpg",
       "imageAlt": "The Mummy",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "125 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-mummy",
@@ -3727,6 +2590,7 @@
       "title": "The Truman Show",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "103 min",
       "years": [
         1998
       ],
@@ -3741,26 +2605,6 @@
       ],
       "image": "images/the_truman_show.jpg",
       "imageAlt": "The Truman Show",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "103 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-truman-show",
@@ -3788,6 +2632,7 @@
       "title": "Lock, Stock and Two Smoking Barrels",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "107 min",
       "years": [
         1998
       ],
@@ -3802,26 +2647,6 @@
       ],
       "image": "images/lock_stock_and_two_smoking_barrels.jpg",
       "imageAlt": "Lock, Stock and Two Smoking Barrels",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "107 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/lock-stock-and-two-smoking-barrels",
@@ -3849,6 +2674,7 @@
       "title": "Fear and Loathing in Las Vegas",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "118 min",
       "years": [
         1998
       ],
@@ -3863,26 +2689,6 @@
       ],
       "image": "images/fear_and_loathing_in_las_vegas.jpg",
       "imageAlt": "Fear and Loathing in Las Vegas",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "118 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/fear-and-loathing-in-las-vegas",
@@ -3910,6 +2716,7 @@
       "title": "Enemy of the State",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "132 min",
       "years": [
         1998
       ],
@@ -3924,26 +2731,6 @@
       ],
       "image": "images/enemy_of_the_state.jpg",
       "imageAlt": "Enemy of the State",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "132 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/enemy-of-the-state",
@@ -3971,6 +2758,7 @@
       "title": "The Lion King II: Simba's Pride",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "81 min",
       "years": [
         1998
       ],
@@ -3985,26 +2773,6 @@
       ],
       "image": "images/the_lion_king_2.jpg",
       "imageAlt": "The Lion King II: Simba&#x27;s Pride",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "81 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-lion-king-2-simbas-pride",
@@ -4032,6 +2800,7 @@
       "title": "BASEketball",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "103 min",
       "years": [
         1998
       ],
@@ -4046,26 +2815,6 @@
       ],
       "image": "images/baseketball.jpg",
       "imageAlt": "BASEketball (1998)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "103 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/baseketball",
@@ -4093,6 +2842,7 @@
       "title": "Hercules",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "93 min",
       "years": [
         1997
       ],
@@ -4107,26 +2857,6 @@
       ],
       "image": "images/hercules.jpg",
       "imageAlt": "Hercules",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "93 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/hercules-1997",
@@ -4154,6 +2884,7 @@
       "title": "Princess Mononoke",
       "flag": "🇯🇵",
       "country": "JP",
+      "runtime": "134 min",
       "years": [
         1997
       ],
@@ -4164,26 +2895,6 @@
       ],
       "image": "images/princess_mononoke.jpg",
       "imageAlt": "Princess Mononoke",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "134 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/princess-mononoke",
@@ -4211,6 +2922,7 @@
       "title": "Anastasia",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "94 min",
       "years": [
         1997
       ],
@@ -4225,26 +2937,6 @@
       ],
       "image": "images/anastasia.jpg",
       "imageAlt": "Anastasia",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "94 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/anastasia",
@@ -4277,6 +2969,7 @@
       "title": "Batman Forever",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "121 min",
       "years": [
         1995
       ],
@@ -4291,26 +2984,6 @@
       ],
       "image": "images/batman_forever.jpg",
       "imageAlt": "Batman Forever",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "121 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/batman-3-batman-forever",
@@ -4338,6 +3011,7 @@
       "title": "Balto",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "78 min",
       "years": [
         1995
       ],
@@ -4351,26 +3025,6 @@
       ],
       "image": "images/balto.jpg",
       "imageAlt": "Balto",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "78 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/balto-1",
@@ -4398,6 +3052,7 @@
       "title": "Ace Ventura: Pet Detective",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "86 min",
       "years": [
         1994
       ],
@@ -4412,26 +3067,6 @@
       ],
       "image": "images/ace_ventura_pet_detective.jpg",
       "imageAlt": "Ace Ventura: Pet Detective",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "86 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/ace-ventura-pet-detective",
@@ -4459,6 +3094,7 @@
       "title": "The Mask",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "101 min",
       "years": [
         1994
       ],
@@ -4474,26 +3110,6 @@
       ],
       "image": "images/the_mask.jpg",
       "imageAlt": "The Mask (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "101 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-mask",
@@ -4521,6 +3137,7 @@
       "title": "Stargate",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "121 min",
       "years": [
         1994
       ],
@@ -4535,26 +3152,6 @@
       ],
       "image": "images/stargate.jpg",
       "imageAlt": "Stargate (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "121 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/stargate",
@@ -4582,6 +3179,7 @@
       "title": "Super Mario Bros.",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "104 min",
       "years": [
         1993
       ],
@@ -4596,26 +3194,6 @@
       ],
       "image": "images/super_mario_bros.jpg",
       "imageAlt": "Super Mario Bros. (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/super-mario-bros",
@@ -4643,6 +3221,7 @@
       "title": "Groundhog Day",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "101 min",
       "years": [
         1993
       ],
@@ -4657,26 +3236,6 @@
       ],
       "image": "images/groundhog_day.jpg",
       "imageAlt": "Groundhog Day (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "101 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/groundhog-day",
@@ -4704,6 +3263,7 @@
       "title": "The Beverly Hillbillies",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "91 min",
       "years": [
         1993
       ],
@@ -4716,26 +3276,6 @@
       ],
       "image": "images/the_beverly_hillbillies.jpg",
       "imageAlt": "The Beverly Hillbillies",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "91 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-beverly-hillbillies",
@@ -4763,6 +3303,7 @@
       "title": "The Silver Brumby",
       "flag": "🇦🇺",
       "country": "AU",
+      "runtime": "93 min",
       "years": [
         1993
       ],
@@ -4776,26 +3317,6 @@
       ],
       "image": "images/the_silver_brumby.jpg",
       "imageAlt": "The Silver Brumby",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "93 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-silver-stallion",
@@ -4823,6 +3344,7 @@
       "title": "Back to the Future Part II",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "108 min",
       "years": [
         1989
       ],
@@ -4836,26 +3358,6 @@
       ],
       "image": "images/back_to_the_future_part_ii.jpg",
       "imageAlt": "Back to the Future Part II",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1989",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "108 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/back-to-the-future-2",
@@ -4883,6 +3385,7 @@
       "title": "The Land Before Time",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "69 min",
       "years": [
         1988
       ],
@@ -4896,26 +3399,6 @@
       ],
       "image": "images/the_land_before_time.jpg",
       "imageAlt": "The Land Before Time",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1988",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "69 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-land-before-time",
@@ -4943,6 +3426,7 @@
       "title": "My Little Pony: The Movie",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "87 min",
       "years": [
         1986
       ],
@@ -4957,26 +3441,6 @@
       ],
       "image": "images/my_little_pony.jpg",
       "imageAlt": "My Little Pony: The Movie",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1986",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "87 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/my-little-pony-the-movie",
@@ -5004,6 +3468,7 @@
       "title": "1984",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "113 min",
       "years": [
         1984
       ],
@@ -5018,26 +3483,6 @@
       ],
       "image": "images/1984.jpg",
       "imageAlt": "1984",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1984",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/1984",
@@ -5065,6 +3510,7 @@
       "title": "Yellowbeard",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "96 min",
       "years": [
         1983
       ],
@@ -5079,26 +3525,6 @@
       ],
       "image": "images/yellowbeard.jpg",
       "imageAlt": "Yellowbeard",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1983",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "96 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/yellowbeard",
@@ -5126,6 +3552,7 @@
       "title": "Blade Runner",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "117 min",
       "years": [
         1982
       ],
@@ -5140,26 +3567,6 @@
       ],
       "image": "images/blade_runner.jpg",
       "imageAlt": "Blade Runner",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1982",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "117 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/blade-runner",
@@ -5187,6 +3594,7 @@
       "title": "Grease 2",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "114 min",
       "years": [
         1982
       ],
@@ -5201,26 +3609,6 @@
       ],
       "image": "images/grease_2.jpg",
       "imageAlt": "Grease 2",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1982",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "114 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/grease-2",
@@ -5248,6 +3636,8 @@
       "title": "Cheech & Chong [series]",
       "flag": "🇺🇸",
       "country": "US",
+      "titles": "Up in Smoke, Cheech & Chong's Nice Dreams, Things Are Tough All Over, Cheech & Chong's The Corsican Brothers",
+      "runtime": "86 min, 88 min, 90 min, 88 min",
       "years": [
         1978,
         1981,
@@ -5265,31 +3655,6 @@
       ],
       "image": "images/nice_dreams.jpg",
       "imageAlt": "Cheech and Chong&#x27;s Nice Dreams",
-      "detailLines": [
-        {
-          "label": null,
-          "value": "Up in Smoke, Cheech & Chong's Nice Dreams, Things Are Tough All Over, Cheech & Chong's The Corsican Brothers",
-          "italic": false
-        },
-        {
-          "label": "Year",
-          "value": "1978, 1981, 1982, 1984",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtimes",
-          "value": "86 min, 88 min, 90 min, 88 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/up-in-smoke-1978",
@@ -5352,6 +3717,8 @@
       "title": "Monty Python [series]",
       "flag": "🇬🇧",
       "country": "GB",
+      "titles": "And Now for Something Completely Different, Monty Python and the Holy Grail, Life of Brian",
+      "runtime": "88 min, 91 min, 94 min",
       "years": [
         1971,
         1975,
@@ -5367,31 +3734,6 @@
       ],
       "image": "images/life_of_brian.jpg",
       "imageAlt": "Life of Brian",
-      "detailLines": [
-        {
-          "label": null,
-          "value": "And Now for Something Completely Different, Monty Python and the Holy Grail, Life of Brian",
-          "italic": false
-        },
-        {
-          "label": "Year",
-          "value": "1971, 1975, 1979",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtimes",
-          "value": "88 min, 91 min, 94 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.imdb.com/title/tt0066765/",
@@ -5454,6 +3796,7 @@
       "title": "Robin Hood",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "83 min",
       "years": [
         1973
       ],
@@ -5468,26 +3811,6 @@
       ],
       "image": "images/robin_hood.jpg",
       "imageAlt": "Robin Hood",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1973",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "83 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/disneys-robin-hood",
@@ -5515,6 +3838,7 @@
       "title": "Alice in Wonderland",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "75 min",
       "years": [
         1951
       ],
@@ -5529,26 +3853,6 @@
       ],
       "image": "images/alice_in_wonderland.jpg",
       "imageAlt": "Alice in Wonderland",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1951",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "75 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/alice-in-wonderland-1951",
@@ -5581,6 +3885,7 @@
       "title": "The Big Sleep",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "114 min",
       "years": [
         1946
       ],
@@ -5595,26 +3900,6 @@
       ],
       "image": "images/the_big_sleep.jpg",
       "imageAlt": "The Big Sleep",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1946",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "114 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-big-sleep",
@@ -5642,6 +3927,7 @@
       "title": "Fantasia",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "124 min",
       "years": [
         1940
       ],
@@ -5656,26 +3942,6 @@
       ],
       "image": "images/fantasia.jpg",
       "imageAlt": "Fantasia",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1940",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "124 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/fantasia",
@@ -5707,6 +3973,7 @@
       "title": "The Sheep Detectives",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "109 min",
       "years": [
         2026
       ],
@@ -5721,26 +3988,6 @@
       ],
       "image": "images/the_sheep_detectives.jpg",
       "imageAlt": "The Sheep Detectives",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2026",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "109 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-sheep-detectives",
@@ -5768,6 +4015,7 @@
       "title": "The Proposal",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "108 min",
       "years": [
         2009
       ],
@@ -5782,26 +4030,6 @@
       ],
       "image": "images/the_proposal.jpg",
       "imageAlt": "The Proposal",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2009",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "108 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-proposal",
@@ -5829,6 +4057,7 @@
       "title": "Clerks II",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "97 min",
       "years": [
         2006
       ],
@@ -5842,26 +4071,6 @@
       ],
       "image": "images/clerks_2.jpg",
       "imageAlt": "Clerks II (2006)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2006",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "97 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/clerks-ii",
@@ -5889,6 +4098,7 @@
       "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "143 min",
       "years": [
         2005
       ],
@@ -5902,26 +4112,6 @@
       ],
       "image": "images/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe.jpg",
       "imageAlt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2005",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "143 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe",
@@ -5949,6 +4139,7 @@
       "title": "50 First Dates",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "99 min",
       "years": [
         2004
       ],
@@ -5962,26 +4153,6 @@
       ],
       "image": "images/50_first_dates.jpg",
       "imageAlt": "50 First Dates",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2004",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "99 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/50-first-dates",
@@ -6009,6 +4180,7 @@
       "title": "EuroTrip",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "92 min",
       "years": [
         2004
       ],
@@ -6022,26 +4194,6 @@
       ],
       "image": "images/eurotrip.jpg",
       "imageAlt": "EuroTrip (2004)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2004",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "92 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/eurotrip",
@@ -6069,6 +4221,7 @@
       "title": "Freddy vs. Jason",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "97 min",
       "years": [
         2003
       ],
@@ -6084,26 +4237,6 @@
       ],
       "image": "images/freddy_vs_jason.jpg",
       "imageAlt": "Freddy vs. Jason (2003)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2003",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "97 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/freddy-vs-jason",
@@ -6131,6 +4264,7 @@
       "title": "Star Wars: Episode II – Attack of the Clones",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "142 min",
       "years": [
         2002
       ],
@@ -6145,26 +4279,6 @@
       ],
       "image": "images/star_wars_episode_2.jpg",
       "imageAlt": "Star Wars: Episode II – Attack of the Clones (2002)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "142 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/star-wars-episode-ii-attack-of-the-clones",
@@ -6192,6 +4306,7 @@
       "title": "The Hot Chick",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "104 min",
       "years": [
         2002
       ],
@@ -6206,26 +4321,6 @@
       ],
       "image": "images/the_hot_chick.jpg",
       "imageAlt": "The Hot Chick",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-hot-chick",
@@ -6253,6 +4348,7 @@
       "title": "Catch Me If You Can",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "141 min",
       "years": [
         2002
       ],
@@ -6267,26 +4363,6 @@
       ],
       "image": "images/catch_me_if_you_can.jpg",
       "imageAlt": "Catch Me If You Can (2002)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2002",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "141 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/catch-me-if-you-can",
@@ -6314,6 +4390,7 @@
       "title": "Donnie Darko",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "113 min",
       "years": [
         2001
       ],
@@ -6328,26 +4405,6 @@
       ],
       "image": "images/donnie_darko.jpg",
       "imageAlt": "Donnie Darko (2001)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "113 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/donnie-darko",
@@ -6375,6 +4432,7 @@
       "title": "Monsters, Inc.",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "92 min",
       "years": [
         2001
       ],
@@ -6389,26 +4447,6 @@
       ],
       "image": "images/monsters_inc.jpg",
       "imageAlt": "Monsters, Inc.",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "92 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/monsters-inc",
@@ -6436,6 +4474,7 @@
       "title": "Ocean's Eleven",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "116 min",
       "years": [
         2001
       ],
@@ -6450,26 +4489,6 @@
       ],
       "image": "images/oceans_eleven.jpg",
       "imageAlt": "Ocean's Eleven (2001)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2001",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "116 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/oceans-eleven",
@@ -6497,6 +4516,7 @@
       "title": "What Women Want",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "127 min",
       "years": [
         2000
       ],
@@ -6511,26 +4531,6 @@
       ],
       "image": "images/what_women_want.jpg",
       "imageAlt": "What Women Want",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "127 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/what-women-want",
@@ -6558,6 +4558,7 @@
       "title": "Miss Congeniality",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "109 min",
       "years": [
         2000
       ],
@@ -6572,26 +4573,6 @@
       ],
       "image": "images/miss_congeniality.jpg",
       "imageAlt": "Miss Congeniality",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "109 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/miss-congeniality",
@@ -6619,6 +4600,7 @@
       "title": "Scary Movie",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "88 min",
       "years": [
         2000
       ],
@@ -6633,26 +4615,6 @@
       ],
       "image": "images/scary_movie.jpg",
       "imageAlt": "Scary Movie",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "88 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/scary-movie",
@@ -6680,6 +4642,7 @@
       "title": "Bedazzled",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "93 min",
       "years": [
         2000
       ],
@@ -6694,26 +4657,6 @@
       ],
       "image": "images/bedazzled.jpg",
       "imageAlt": "Bedazzled (2000)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "2000",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "93 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/bedazzled",
@@ -6741,6 +4684,7 @@
       "title": "Star Wars: Episode I – The Phantom Menace",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "136 min",
       "years": [
         1999
       ],
@@ -6755,26 +4699,6 @@
       ],
       "image": "images/star_wars_episode_1.jpg",
       "imageAlt": "Star Wars: Episode I – The Phantom Menace (1999)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "136 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/star-wars-episode-i-the-phantom-menace",
@@ -6802,6 +4726,7 @@
       "title": "Austin Powers: The Spy Who Shagged Me",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "95 min",
       "years": [
         1999
       ],
@@ -6816,26 +4741,6 @@
       ],
       "image": "images/austin_powers_the_spy_who_shagged_me.jpg",
       "imageAlt": "Austin Powers: The Spy Who Shagged Me (1999)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "95 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/austin-powers-the-spy-who-shagged-me",
@@ -6863,6 +4768,7 @@
       "title": "10 Things I Hate About You",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "97 min",
       "years": [
         1999
       ],
@@ -6877,26 +4783,6 @@
       ],
       "image": "images/10_things_i_hate_about_you.jpg",
       "imageAlt": "10 Things I Hate About You (1999)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "97 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/10-things-i-hate-about-you",
@@ -6924,6 +4810,7 @@
       "title": "American Pie",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "95 min",
       "years": [
         1999
       ],
@@ -6938,26 +4825,6 @@
       ],
       "image": "images/american_pie.jpg",
       "imageAlt": "American Pie (1999)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "95 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/american-pie",
@@ -6985,6 +4852,7 @@
       "title": "South Park: Bigger, Longer & Uncut",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "81 min",
       "years": [
         1999
       ],
@@ -6999,26 +4867,6 @@
       ],
       "image": "images/south_park.jpg",
       "imageAlt": "South Park: Bigger, Longer & Uncut",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1999",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "81 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/south-park-bigger-longer-and-uncut",
@@ -7046,6 +4894,7 @@
       "title": "The Mask of Zorro",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "136 min",
       "years": [
         1998
       ],
@@ -7060,26 +4909,6 @@
       ],
       "image": "images/the_mask_of_zorro.jpg",
       "imageAlt": "The Mask of Zorro",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "136 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-mask-of-zorro",
@@ -7107,6 +4936,7 @@
       "title": "Pokémon: The First Movie",
       "flag": "🇯🇵",
       "country": "JP",
+      "runtime": "96 min",
       "years": [
         1998
       ],
@@ -7121,26 +4951,6 @@
       ],
       "image": "images/pokemon_the_first_movie.jpg",
       "imageAlt": "Pokémon: The First Movie (1998)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "96 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/pokemon-the-first-movie-mewtwo-strikes-back",
@@ -7168,6 +4978,7 @@
       "title": "Blade",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "120 min",
       "years": [
         1998
       ],
@@ -7182,26 +4993,6 @@
       ],
       "image": "images/blade.jpg",
       "imageAlt": "Blade (1998)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "120 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/blade",
@@ -7229,6 +5020,7 @@
       "title": "Mulan",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "88 min",
       "years": [
         1998
       ],
@@ -7243,26 +5035,6 @@
       ],
       "image": "images/mulan.jpg",
       "imageAlt": "Mulan",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "88 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/mulan",
@@ -7290,6 +5062,7 @@
       "title": "Practical Magic",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "104 min",
       "years": [
         1998
       ],
@@ -7305,26 +5078,6 @@
       ],
       "image": "images/practical_magic.jpg",
       "imageAlt": "Practical Magic (1998)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/practical-magic",
@@ -7352,6 +5105,7 @@
       "title": "Doctor Dolittle",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "85 min",
       "years": [
         1998
       ],
@@ -7366,26 +5120,6 @@
       ],
       "image": "images/doctor_dolittle.jpg",
       "imageAlt": "Doctor Dolittle (1998)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1998",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "85 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/doctor-dolittle",
@@ -7413,6 +5147,7 @@
       "title": "Austin Powers: International Man of Mystery",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "89 min",
       "years": [
         1997
       ],
@@ -7428,26 +5163,6 @@
       ],
       "image": "images/austin_powers.jpg",
       "imageAlt": "Austin Powers: International Man of Mystery (1997)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "89 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/austin-powers-international-man-of-mystery",
@@ -7475,6 +5190,7 @@
       "title": "As Good as It Gets",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "139 min",
       "years": [
         1997
       ],
@@ -7489,26 +5205,6 @@
       ],
       "image": "images/as_good_as_it_gets.jpg",
       "imageAlt": "As Good as It Gets",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "139 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/as-good-as-it-gets",
@@ -7536,6 +5232,7 @@
       "title": "Flubber",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "93 min",
       "years": [
         1997
       ],
@@ -7550,26 +5247,6 @@
       ],
       "image": "images/flubber.jpg",
       "imageAlt": "Flubber (1997)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1997",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "93 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/flubber",
@@ -7597,6 +5274,7 @@
       "title": "The Craft",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "101 min",
       "years": [
         1996
       ],
@@ -7611,26 +5289,6 @@
       ],
       "image": "images/the_craft.jpg",
       "imageAlt": "The Craft (1996)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "101 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-craft",
@@ -7658,6 +5316,7 @@
       "title": "Matilda",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "98 min",
       "years": [
         1996
       ],
@@ -7672,26 +5331,6 @@
       ],
       "image": "images/matilda.jpg",
       "imageAlt": "Matilda (1996)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "98 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/matilda",
@@ -7719,6 +5358,7 @@
       "title": "Happy Gilmore",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "92 min",
       "years": [
         1996
       ],
@@ -7733,26 +5373,6 @@
       ],
       "image": "images/happy_gilmore.jpg",
       "imageAlt": "Happy Gilmore (1996)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "92 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/happy-gilmore",
@@ -7780,6 +5400,7 @@
       "title": "Dunston Checks In",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "88 min",
       "years": [
         1996
       ],
@@ -7793,26 +5414,6 @@
       ],
       "image": "images/dunston_checks_in.jpg",
       "imageAlt": "Dunston Checks In (1996)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "88 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/dunston-checks-in",
@@ -7840,6 +5441,7 @@
       "title": "Space Jam",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "88 min",
       "years": [
         1996
       ],
@@ -7854,26 +5456,6 @@
       ],
       "image": "images/space_jam.jpg",
       "imageAlt": "Space Jam",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "88 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/space-jam",
@@ -7901,6 +5483,7 @@
       "title": "101 Dalmatians",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "103 min",
       "years": [
         1996
       ],
@@ -7914,26 +5497,6 @@
       ],
       "image": "images/101_dalmatians.jpg",
       "imageAlt": "101 Dalmatians",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1996",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "103 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/101-dalmatians",
@@ -7961,6 +5524,7 @@
       "title": "Billy Madison",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "89 min",
       "years": [
         1995
       ],
@@ -7973,26 +5537,6 @@
       ],
       "image": "images/billy_madison.jpg",
       "imageAlt": "Billy Madison",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "89 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/billy-madison",
@@ -8020,6 +5564,7 @@
       "title": "Pocahontas",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "81 min",
       "years": [
         1995
       ],
@@ -8034,26 +5579,6 @@
       ],
       "image": "images/pocahontas.jpg",
       "imageAlt": "Pocahontas",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "81 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/pocahontas",
@@ -8081,6 +5606,7 @@
       "title": "Jumanji",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "104 min",
       "years": [
         1995
       ],
@@ -8095,26 +5621,6 @@
       ],
       "image": "images/jumanji.jpg",
       "imageAlt": "Jumanji (1995)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/jumanji",
@@ -8142,6 +5648,7 @@
       "title": "Ace Ventura: When Nature Calls",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "90 min",
       "years": [
         1995
       ],
@@ -8156,26 +5663,6 @@
       ],
       "image": "images/ace_ventura_when_nature_calls.jpg",
       "imageAlt": "Ace Ventura: When Nature Calls (1995)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "90 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/ace-ventura-when-nature-calls",
@@ -8203,6 +5690,7 @@
       "title": "Babe",
       "flag": "🇦🇺",
       "country": "AU",
+      "runtime": "91 min",
       "years": [
         1995
       ],
@@ -8217,26 +5705,6 @@
       ],
       "image": "images/babe.jpg",
       "imageAlt": "Babe (1995)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "91 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/babe",
@@ -8264,6 +5732,7 @@
       "title": "Casper",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "100 min",
       "years": [
         1995
       ],
@@ -8278,26 +5747,6 @@
       ],
       "image": "images/casper.jpg",
       "imageAlt": "Casper (1995)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1995",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "100 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/casper",
@@ -8325,6 +5774,7 @@
       "title": "Dumb and Dumber",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "107 min",
       "years": [
         1994
       ],
@@ -8339,26 +5789,6 @@
       ],
       "image": "images/dumb_and_dumber.jpg",
       "imageAlt": "Dumb and Dumber (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "107 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/dumb-and-dumber",
@@ -8386,6 +5816,7 @@
       "title": "Interview with the Vampire",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "123 min",
       "years": [
         1994
       ],
@@ -8400,26 +5831,6 @@
       ],
       "image": "images/interview_with_a_vampire.jpg",
       "imageAlt": "Interview with the Vampire (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "123 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/interview-with-the-vampire",
@@ -8447,6 +5858,7 @@
       "title": "The Crow",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "102 min",
       "years": [
         1994
       ],
@@ -8461,26 +5873,6 @@
       ],
       "image": "images/the_crow.jpg",
       "imageAlt": "The Crow (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "102 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-crow",
@@ -8508,6 +5900,7 @@
       "title": "Forrest Gump",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "142 min",
       "years": [
         1994
       ],
@@ -8523,26 +5916,6 @@
       ],
       "image": "images/forrest_gump.jpg",
       "imageAlt": "Forrest Gump (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "142 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/forrest-gump",
@@ -8570,6 +5943,7 @@
       "title": "The Little Rascals",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "82 min",
       "years": [
         1994
       ],
@@ -8583,26 +5957,6 @@
       ],
       "image": "images/the_little_rascals.jpg",
       "imageAlt": "The Little Rascals",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "82 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-little-rascals",
@@ -8630,6 +5984,7 @@
       "title": "Richie Rich",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "95 min",
       "years": [
         1994
       ],
@@ -8642,26 +5997,6 @@
       ],
       "image": "images/richie_rich.jpg",
       "imageAlt": "Richie Rich (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "95 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/richie-rich",
@@ -8689,6 +6024,7 @@
       "title": "The Adventures of Priscilla, Queen of the Desert",
       "flag": "🇦🇺",
       "country": "AU",
+      "runtime": "104 min",
       "years": [
         1994
       ],
@@ -8703,26 +6039,6 @@
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
       "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1994",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-adventures-of-priscilla-queen-of-the-desert",
@@ -8750,6 +6066,7 @@
       "title": "Homeward Bound: The Incredible Journey",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "84 min",
       "years": [
         1993
       ],
@@ -8764,26 +6081,6 @@
       ],
       "image": "images/homeward_bound.jpg",
       "imageAlt": "Homeward Bound: The Incredible Journey (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "84 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/homeward-bound-the-incredible-journey",
@@ -8811,6 +6108,7 @@
       "title": "Free Willy",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "112 min",
       "years": [
         1993
       ],
@@ -8824,26 +6122,6 @@
       ],
       "image": "images/free_willy.jpg",
       "imageAlt": "Free Willy (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "112 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/free-willy",
@@ -8871,6 +6149,7 @@
       "title": "Cool Runnings",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "98 min",
       "years": [
         1993
       ],
@@ -8885,26 +6164,6 @@
       ],
       "image": "images/cool_runnings.jpg",
       "imageAlt": "Cool Runnings (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "98 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/cool-runnings",
@@ -8932,6 +6191,7 @@
       "title": "Robin Hood: Men in Tights",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "104 min",
       "years": [
         1993
       ],
@@ -8946,26 +6206,6 @@
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
       "imageAlt": "Robin Hood: Men in Tights (1993)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1993",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "104 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/robin-hood-men-in-tights",
@@ -8993,6 +6233,7 @@
       "title": "Aladdin",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "90 min",
       "years": [
         1992
       ],
@@ -9007,26 +6248,6 @@
       ],
       "image": "images/aladdin.jpg",
       "imageAlt": "Aladdin (1992)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1992",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "90 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/aladdin",
@@ -9054,6 +6275,7 @@
       "title": "Sister Act",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "100 min",
       "years": [
         1992
       ],
@@ -9068,26 +6290,6 @@
       ],
       "image": "images/sister_act.jpg",
       "imageAlt": "Sister Act (1992)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1992",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "100 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/sister-act",
@@ -9115,6 +6317,7 @@
       "title": "3 Ninjas",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "96 min",
       "years": [
         1992
       ],
@@ -9129,26 +6332,6 @@
       ],
       "image": "images/3_ninjas.jpg",
       "imageAlt": "3 Ninjas",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1992",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "96 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/3-ninjas",
@@ -9176,6 +6359,7 @@
       "title": "Beethoven",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "87 min",
       "years": [
         1992
       ],
@@ -9188,26 +6372,6 @@
       ],
       "image": "images/beethoven.jpg",
       "imageAlt": "Beethoven (1992)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1992",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "87 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/beethoven",
@@ -9235,6 +6399,7 @@
       "title": "The Addams Family",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "99 min",
       "years": [
         1991
       ],
@@ -9249,26 +6414,6 @@
       ],
       "image": "images/the_addams_family.jpg",
       "imageAlt": "The Addams Family (1991)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1991",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "99 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-addams-family",
@@ -9296,6 +6441,7 @@
       "title": "Kindergarten Cop",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "111 min",
       "years": [
         1990
       ],
@@ -9310,26 +6456,6 @@
       ],
       "image": "images/kindergarten_cop.jpg",
       "imageAlt": "Kindergarten Cop (1990)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1990",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "111 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/kindergarten-cop",
@@ -9357,6 +6483,7 @@
       "title": "The Terminator",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "107 min",
       "years": [
         1984
       ],
@@ -9371,26 +6498,6 @@
       ],
       "image": "images/the_terminator.jpg",
       "imageAlt": "The Terminator (1984)",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1984",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "107 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/the-terminator",
@@ -9418,6 +6525,7 @@
       "title": "Grease",
       "flag": "🇺🇸",
       "country": "US",
+      "runtime": "110 min",
       "years": [
         1978
       ],
@@ -9432,26 +6540,6 @@
       ],
       "image": "images/grease.jpg",
       "imageAlt": "Grease",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1978",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "110 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/au/movie/grease",
@@ -9479,6 +6567,7 @@
       "title": "The Rocky Horror Picture Show",
       "flag": "🇬🇧",
       "country": "GB",
+      "runtime": "100 min",
       "years": [
         1975
       ],
@@ -9493,26 +6582,6 @@
       ],
       "image": "images/the_rocky_horror_picture_show.jpg",
       "imageAlt": "The Rocky Horror Picture Show",
-      "detailLines": [
-        {
-          "label": "Year",
-          "value": "1975",
-          "italic": true
-        },
-        {
-          "label": "Genre",
-          "italic": true
-        },
-        { 
-          "label": "Taught Me",
-           "italic": true
-        },
-        {
-          "label": "Runtime",
-          "value": "100 min",
-          "italic": true
-        }
-      ],
       "links": [
         {
           "url": "https://www.justwatch.com/us/movie/the-rocky-horror-picture-show",

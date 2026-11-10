@@ -141,11 +141,11 @@ h1 {
 
 .genre-chip {
   cursor: pointer;
-  text-decoration: underline dotted;
+  transition: color 0.15s;
 }
 
 .genre-chip:hover {
-  text-decoration: underline solid;
+  color: #e0a030;
 }   
 
 .filter-bar {

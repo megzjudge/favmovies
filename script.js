@@ -38,7 +38,8 @@
     'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
     'Dark Comedy': "Schadenfreude. A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
-    'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal."
+    'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
+    'Absurdist Comedy': "."
   };
 
   // ==========================================
@@ -178,17 +179,6 @@
   };
 
   // ==========================================
-  // LABEL EMOJIS
-  // ==========================================
-
-  const labelEmojis = {
-    'Genre': '📂',
-    'Runtime': '⏰',
-    'Year': '🗓️',
-    'Taught Me': '📚'
-  };   
-
-  // ==========================================
   // JSON RENDERING
   // ==========================================
 
@@ -317,32 +307,34 @@ function buildCardHtml(movie, compact = false) {
     ? ` <span class="flag">${escapeHtml(movie.flag)}</span>`
     : '';
 
-  const detailsHtml = movie.detailLines.map(d => {
-    if (!d.label) return `<p>${escapeHtml(d.value)}</p>`;
+  const detailsHtml = [];
 
-    let valueHtml;
+  if (movie.runtime) {
+    detailsHtml.push(
+      `<p>⏰ <span class="detail-value">${escapeHtml(movie.runtime)}</span></p>`
+    );
+  }
 
-    if (d.label === 'Genre') {
-      valueHtml = movie.genres
-        .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
-        .join(', ');
-    } else if (d.label === 'Taught Me') {
-      valueHtml = (movie.categories || [])
-        .filter(Boolean)
-        .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}`)
-        .join(', ');
-    } else {
-      valueHtml = escapeHtml(d.value);
-    }
+  if (movie.years.length) {
+    detailsHtml.push(
+      `<p>🗓️ <span class="detail-value">${movie.years.join(', ')}</span></p>`
+    );
+  }
 
-    if (d.italic) {
-      valueHtml = `<span class="detail-value">${valueHtml}</span>`;
-    }
+  detailsHtml.push(
+    `<p>${movie.genres
+      .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
+      .join(', ')}</p>`
+  );
 
-    const label = d.label in labelEmojis ? labelEmojis[d.label] : d.label;
-    const labelPart = label ? `${label}: ` : '';
-    return `<p>${labelPart}${valueHtml}</p>`;
-  }).join('');
+  const validCategories = (movie.categories || []).filter(Boolean);
+  if (validCategories.length) {
+    detailsHtml.push(
+      `<p>📚 <span class="detail-value">${validCategories
+        .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}${categoriesCardDescriptions[c] ? ' — ' + escapeHtml(categoriesCardDescriptions[c]) : ''}`)
+        .join(', ')}</span></p>`
+    );
+  }
 
   const linksHtml = movie.links.map(l =>
     `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener"><img src="${escapeHtml(l.icon)}" alt="${escapeHtml(l.alt)}" loading="lazy"></a>`
@@ -361,7 +353,7 @@ function buildCardHtml(movie, compact = false) {
       </div>
       <div class="movie-card-face movie-card-back">
         <h3>${escapeHtml(movie.title)}${flagHtml}</h3>
-        <div class="movie-card-details">${detailsHtml}</div>
+        <div class="movie-card-details">${detailsHtml.join('')}</div>
         <div class="movie-card-links">${linksHtml}</div>
       </div>
     </div>

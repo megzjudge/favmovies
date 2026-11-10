@@ -1029,6 +1029,7 @@ Array.from(taughtCounts.entries())
     );
   }
 
+  cards.forEach(card => {
     card.addEventListener('click', e => {
       if (e.target.closest('a')) return;
     
@@ -1061,9 +1062,9 @@ Array.from(taughtCounts.entries())
       if (e.target !== card) return;
       e.preventDefault();
       toggleFlip(card);
-    });   
-  };
-}
+    });
+  });
+}   
 
 // ==========================================
 // DOM READY

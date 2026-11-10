@@ -13,7 +13,7 @@
         "Intelligent Action"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/revolver.jpg",
@@ -70,7 +70,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/fight_club.jpg",
@@ -127,7 +127,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/v_for_vendetta.jpg",
@@ -184,7 +184,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/inception.jpg",
@@ -241,7 +241,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/limitless.jpg",
@@ -298,7 +298,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/tenet.jpg",
@@ -434,8 +434,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain",
+        "Friendship"
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
@@ -620,7 +620,7 @@
         "Magical Realism"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/everything_everywhere_all_at_once.jpg",
@@ -677,7 +677,7 @@
         "Magical Realism"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/nine_days.jpg",
@@ -734,7 +734,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/the_gentlemen.jpg",
@@ -848,8 +848,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain",
+        "Love"
       ],
       "image": "images/blade_runner_2049.jpg",
       "imageAlt": "Blade Runner 2049",
@@ -1111,7 +1111,7 @@
         "Magical Realism"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/john_dies_at_the_end.jpg",
@@ -1169,7 +1169,7 @@
         "Existential Drama"
       ],
       "categories": [
-        "",
+        "The Brain",
         ""
       ],
       "image": "images/wanderlust.jpg",
@@ -8169,7 +8169,7 @@
         "Existential Drama"
       ],
       "categories": [
-        "",
+        "Friendship",
         ""
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
@@ -8226,8 +8226,8 @@
         "Comedy"
       ],
       "categories": [
-        "",
-        ""
+        "Purpose",
+        "Friendship"
       ],
       "image": "images/homeward_bound.jpg",
       "imageAlt": "Homeward Bound: The Incredible Journey (1993)",
@@ -8282,8 +8282,8 @@
         "Existential Drama"
       ],
       "categories": [
-        "",
-        ""
+        "Purpose",
+        "Friendship"
       ],
       "image": "images/free_willy.jpg",
       "imageAlt": "Free Willy (1993)",
@@ -8339,7 +8339,7 @@
         "Sport"
       ],
       "categories": [
-        "",
+        "Purpose",
         ""
       ],
       "image": "images/cool_runnings.jpg",
@@ -8396,7 +8396,7 @@
         "Carnivalesque"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
@@ -8453,7 +8453,7 @@
         "Picaresque"
       ],
       "categories": [
-        "",
+        "Purpose",
         ""
       ],
       "image": "images/aladdin.jpg",
@@ -8510,7 +8510,7 @@
         "Carnivalesque"
       ],
       "categories": [
-        "",
+        "Friendship",
         ""
       ],
       "image": "images/sister_act.jpg",
@@ -8567,7 +8567,7 @@
         "Comedy"
       ],
       "categories": [
-        "",
+        "Purpose",
         ""
       ],
       "image": "images/3_ninjas.jpg",
@@ -8622,8 +8622,8 @@
         "Comedy"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship",
+        "Purpose"
       ],
       "image": "images/beethoven.jpg",
       "imageAlt": "Beethoven (1992)",
@@ -8679,7 +8679,7 @@
         "Horror"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/the_addams_family.jpg",
@@ -8693,6 +8693,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8736,7 +8740,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
+        "Purpose",
         ""
       ],
       "image": "images/kindergarten_cop.jpg",
@@ -8750,6 +8754,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8793,7 +8801,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
+        "Purpose",
         ""
       ],
       "image": "images/the_terminator.jpg",
@@ -8807,6 +8815,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8850,7 +8862,7 @@
         "Comedy"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/grease.jpg",
@@ -8864,6 +8876,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8907,7 +8923,7 @@
         "Horror"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/the_rocky_horror_picture_show.jpg",
@@ -8921,6 +8937,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8964,7 +8984,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/the_sound_of_music.jpg",
@@ -8978,6 +8998,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -9021,7 +9045,7 @@
         "Animated"
       ],
       "categories": [
-        "",
+        "Friendship",
         ""
       ],
       "image": "images/the_sword_in_the_stone.jpg",
@@ -9035,6 +9059,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",

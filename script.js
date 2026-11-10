@@ -305,9 +305,9 @@ function buildCardHtml(movie, compact = false) {
 
   const detailsHtml = [];
 
-  if (movie.runtime) {
+  if (movie.country) {
     detailsHtml.push(
-      `<p>⏰ <span class="detail-value">${escapeHtml(movie.runtime)}</span></p>`
+      `<p>🌏 <span class="detail-value">${escapeHtml(isoToCountryName(movie.country))}${movie.flag ? ' ' + escapeHtml(movie.flag) : ''}</span></p>`
     );
   }
 
@@ -317,9 +317,9 @@ function buildCardHtml(movie, compact = false) {
     );
   }
 
-  if (movie.country) {
+  if (movie.runtime) {
     detailsHtml.push(
-      `<p>🌏 <span class="detail-value">${escapeHtml(isoToCountryName(movie.country))}${movie.flag ? ' ' + escapeHtml(movie.flag) : ''}</span></p>`
+      `<p>⏰ <span class="detail-value">${escapeHtml(movie.runtime)}</span></p>`
     );
   }
 

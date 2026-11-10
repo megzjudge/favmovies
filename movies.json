@@ -3830,8 +3830,7 @@
         "Musical"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain"
       ],
       "image": "images/alice_in_wonderland.jpg",
       "imageAlt": "Alice in Wonderland",
@@ -4508,8 +4507,7 @@
         "Comedy"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/what_women_want.jpg",
       "imageAlt": "What Women Want",
@@ -5011,8 +5009,8 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Purpose"
       ],
       "image": "images/mulan.jpg",
       "imageAlt": "Mulan",

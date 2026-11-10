@@ -7665,7 +7665,7 @@
       "genres": [
         "Male Camaraderie",
         "Absurdist Comedy",
-        "Adventure"
+        "Carnivalesque"
       ],
       "image": "images/dumb_and_dumber.jpg",
       "imageAlt": "Dumb and Dumber (1994)",
@@ -7677,7 +7677,7 @@
         },
         {
           "label": "Genre",
-          "value": "Male Camaraderie, Absurdist Comedy, Adventure",
+          "value": "Male Camaraderie, Absurdist Comedy, Carnivalesque",
           "italic": true
         },
         {
@@ -8016,8 +8016,8 @@
       ],
       "genres": [
         "Rebellion Adventure",
-        "Comedy",
-        "Drama"
+        "Carnivalesque",
+        "Existential Drama"
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
       "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
@@ -8029,7 +8029,7 @@
         },
         {
           "label": "Genre",
-          "value": "Rebellion Adventure, Drama",
+          "value": "Rebellion Adventure, Carnivalesque, Existential Drama",
           "italic": true
         },
         {
@@ -8242,7 +8242,7 @@
       "genres": [
         "Comedy",
         "Rebellion Adventure",
-        "Parody"
+        "Carnivalesque"
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
       "imageAlt": "Robin Hood: Men in Tights (1993)",
@@ -8254,7 +8254,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Rebellion Adventure, Parody",
+          "value": "Comedy, Rebellion Adventure, Carnivalesque",
           "italic": true
         },
         {
@@ -8364,7 +8364,8 @@
       ],
       "genres": [
         "Comedy",
-        "Music"
+        "Music",
+        "Carnivalesque"
       ],
       "image": "images/sister_act.jpg",
       "imageAlt": "Sister Act (1992)",
@@ -8376,7 +8377,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Music, Crime",
+          "value": "Comedy, Music, Carnivalesque",
           "italic": true
         },
         {
@@ -8788,7 +8789,7 @@
         1975
       ],
       "genres": [
-        "Musical",
+        "Carnivalesque",
         "Comedy",
         "Horror"
       ],
@@ -8802,7 +8803,7 @@
         },
         {
           "label": "Genre",
-          "value": "Musical, Comedy, Horror",
+          "value": "Carnivalesque, Comedy, Horror",
           "italic": true
         },
         {

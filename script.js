@@ -182,7 +182,7 @@
   // ==========================================
 
   const labelEmojis = {
-    'Genre': '',
+    'Genre': '📂',
     'Runtime': '⏰',
     'Year': '🗓️',
     'Taught Me': '📚'

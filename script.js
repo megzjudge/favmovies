@@ -1045,7 +1045,6 @@ Array.from(taughtCounts.entries())
       toggleFlip(card);
     });   
 
-
     card.addEventListener('keydown', e => {
       if (e.key !== 'Enter' && e.key !== ' ') return;
     
@@ -1063,7 +1062,7 @@ Array.from(taughtCounts.entries())
       e.preventDefault();
       toggleFlip(card);
     });   
-  });
+  };
 }
 
 // ==========================================

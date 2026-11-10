@@ -3996,8 +3996,7 @@
         "Drama"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/the_proposal.jpg",
       "imageAlt": "The Proposal",
@@ -4160,8 +4159,8 @@
         "Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Friendship"
       ],
       "image": "images/eurotrip.jpg",
       "imageAlt": "EuroTrip (2004)",

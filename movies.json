@@ -2485,7 +2485,7 @@
       "genres": [
         "Male Camaraderie",
         "Comedy",
-        "Romance"
+        "Carnivalesque"
       ],
       "image": "images/sorority_boys.jpg",
       "imageAlt": "Sorority Boys",
@@ -2497,7 +2497,7 @@
         },
         {
           "label": "Genre",
-          "value": "Male Camaraderie, Comedy, Romance",
+          "value": "Male Camaraderie, Comedy, Carnivalesque",
           "italic": true
         },
         {
@@ -2591,9 +2591,10 @@
         2001
       ],
       "genres": [
-        "Comedy",
+        "Absurdist Comedy",
         "Male Camaraderie",
-        "Satire"
+        "Carnivalesque"
+
       ],
       "image": "images/jay_and_silent_bob_strike_back.jpg",
       "imageAlt": "Jay and Silent Bob Strike Back",
@@ -2605,7 +2606,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Male Camaraderie, Satire",
+          "value": "Absurdist Comedy, Male Camaraderie, Carnivalesque",
           "italic": true
         },
         {
@@ -2645,9 +2646,9 @@
         2001
       ],
       "genres": [
-        "Comedy",
+        "Absurdist Comedy",
         "Male Camaraderie",
-        "Crime"
+        "Carnivalesque"
       ],
       "image": "images/super_troopers.jpg",
       "imageAlt": "Super Troopers",
@@ -2659,7 +2660,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Male Camaraderie, Crime",
+          "value": "Absurdist Comedy, Male Camaraderie, Carnivalesque",
           "italic": true
         },
         {
@@ -2861,9 +2862,9 @@
         2000
       ],
       "genres": [
-        "Comedy",
-        "Science Fiction",
-        "Male Camaraderie"
+        "Absurdist Comedy",
+        "Male Camaraderie",
+        "Carnivalesque"
       ],
       "image": "images/dude_wheres_my_car.jpg",
       "imageAlt": "Dude, Where's My Car?",
@@ -2875,7 +2876,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Science Fiction, Male Camaraderie",
+          "value": "Absurdist Comedy, Male Camaraderie, Carnivalesque",
           "italic": true
         },
         {
@@ -3478,8 +3479,8 @@
         1998
       ],
       "genres": [
+        "Carnivalesque",
         "Dark Comedy",
-        "Male Camaraderie",
         "Surreal Adventure"
       ],
       "image": "images/fear_and_loathing_in_las_vegas.jpg",
@@ -3492,7 +3493,7 @@
         },
         {
           "label": "Genre",
-          "value": "Dark Comedy, Male Camaraderie, Surreal Adventure",
+          "value": "Carnivalesque, Dark Comedy, Surreal Adventure",
           "italic": true
         },
         {
@@ -3641,7 +3642,7 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Comedy",
+        "Absurdist Comedy",
         "Sport"
       ],
       "image": "images/baseketball.jpg",
@@ -3654,7 +3655,7 @@
         },
         {
           "label": "Genre",
-          "value": "Male Camaraderie, Comedy, Sport",
+          "value": "Male Camaraderie, Absurdist Comedy, Sport",
           "italic": true
         },
         {

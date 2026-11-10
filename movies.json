@@ -55,8 +55,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "The Brain",
-        ""
+        "The Brain"
       ],
       "image": "images/fight_club.jpg",
       "imageAlt": "Fight Club",
@@ -98,7 +97,7 @@
       ],
       "categories": [
         "The Brain",
-        ""
+        "Friendship"
       ],
       "image": "images/v_for_vendetta.jpg",
       "imageAlt": "V for Vendetta",

@@ -15,7 +15,8 @@
     'Magical Realism': '✨',
     'Dystopian Sci-Fi': '☠️',
     'Film Noir': '🐈‍⬛',
-    'Grumpy x Sunshine': '🐝'
+    'Grumpy x Sunshine': '🐝',
+    'Carnivalesque': '🎲'
   };
 
 
@@ -36,7 +37,8 @@
     'Rebellion Adventure': "A defiant refusal to be broken or claimed, the adventure of rebellion itself a journey — fought across open terrain or through the serpentine layers of the Self.",
     'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
     'Dark Comedy': "A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
-    'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit."
+    'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
+    'Carnivalesque': "."
   };
 
 
@@ -134,6 +136,9 @@
       { url: 'http://archive.today/2026.03.29-210042/https://www.canberratimes.com.au/story/9014307/author-natalie-murrays-top-five-grumpy-sunshine-romance-movies/', icon: 'link' },
       { url: 'https://movieweb.com/iconic-cheerful-meets-grumpy-romance-movies/', icon: 'link' }
     ]
+
+    'Carnivalesque': [
+      { url: 'https://en.wikipedia.org/wiki/Carnivalesque', icon: 'wikipedia' }
   };
 
 

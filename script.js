@@ -161,7 +161,8 @@
   const taughtCategories = {
     'Love': '❤️',
     'Friendship': '🤝',
-    'Brain Stuff': '🌊',
+    'The Brain': '📝',
+    'Purpose': '🌊',
     'Reasons for Living': '🌱'
   };
 

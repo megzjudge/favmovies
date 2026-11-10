@@ -308,11 +308,10 @@ function buildCardHtml(movie, compact = false) {
 
     let valueHtml;
 
-    if (d.label === 'Genre') {
-      valueHtml = d.value
-        .split(', ')
-        .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
-        .join(', ');
+  if (d.label === 'Genre') {
+    valueHtml = movie.genres
+      .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
+      .join(', ');
     } else if (d.italic) {
       valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;
     } else {

@@ -888,6 +888,9 @@
         "The Brain",
         "Love"
       ],
+      "categoryNotes": {
+        "The Brain": "memory"
+      }
       "image": "images/blade_runner_2049.jpg",
       "imageAlt": "Blade Runner 2049",
       "detailLines": [

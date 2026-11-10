@@ -353,7 +353,7 @@ if (movie.notes) {
 
   detailsHtml.push(
     `<p>${movie.genres
-      .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
+      .map(g => `<span class="genre-chip" data-genre="${escapeHtml(g)}" role="button" tabindex="0">${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}</span>`)
       .join(', ')}</p>`
   );
 
@@ -1029,12 +1029,21 @@ Array.from(taughtCounts.entries())
     );
   }
 
-  cards.forEach(card => {
     card.addEventListener('click', e => {
       if (e.target.closest('a')) return;
-
+    
+      const chip = e.target.closest('[data-genre]');
+      if (chip) {
+        e.stopPropagation();
+        genreDropdown.value = chip.dataset.genre;
+        filterMovies();
+        card.classList.remove('is-flipped');
+        card.setAttribute('aria-pressed', 'false');
+        return;
+      }
+    
       toggleFlip(card);
-    });
+    });   
 
 
     card.addEventListener('keydown', e => {
@@ -1051,9 +1060,7 @@ Array.from(taughtCounts.entries())
       }
     });
   });
-
 }
-
 
 // ==========================================
 // DOM READY

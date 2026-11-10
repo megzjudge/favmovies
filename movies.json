@@ -5961,9 +5961,12 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "Love": "amnesiac lover",
+        "",
         ""
       ],
+      "categoryNotes": {
+        "Love": "amnesiac lover"
+      },
       "image": "images/50_first_dates.jpg",
       "imageAlt": "50 First Dates",
       "detailLines": [

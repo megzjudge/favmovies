@@ -12,6 +12,10 @@
         "Cerebral Crime",
         "Intelligent Action"
       ],
+      "categories": [
+        "",
+        ""
+      ],
       "image": "images/revolver.jpg",
       "imageAlt": "Revolver",
       "detailLines": [

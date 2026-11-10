@@ -1,22 +1,12 @@
 **Featured:**
-1. Revolver - The Brain
-2. Fight Club - The Brain, Love
-3. V for Vendetta - The Brain, Friendship
 4. Inception - The Brain
 5. Limitless - The Brain
 6. Tenet - The Brain
-
-Love
-Friendship
-The Brain
-Purpose
-Reasons for Living
 
 **Movies:**
 7. Knives Out [series]
 8. Venom [series] - The Brain, Friendship
 9. The Ministry of Ungentlemanly Warfare
-10. Oppenheimer
 11. Everything Everywhere All at Once
 12. Nine Days
 13. The Gentlemen
@@ -136,7 +126,7 @@ Reasons for Living
 125. Happy Gilmore
 126. Dunston Checks In
 127. Space Jam
-128. 101 Dalmatians
+128. 101 Dalmatians - Love
 129. Billy Madison
 130. Pocahontas
 131. Jumanji
@@ -160,9 +150,14 @@ Reasons for Living
 149. Beethoven - Love, 
 150. The Addams Family - Love, 
 151. Kindergarten Cop
-152. The Terminator
+152. The Terminator - Purpose, 
 153. Grease - Love, 
 154. The Rocky Horror Picture Show
-155. The Sound of Music
-156. The Sword in the Stone
+155. The Sound of Music - 
+156. The Sword in the Stone - Friendship
 
+Love
+Friendship
+The Brain
+Purpose
+Reasons for Living

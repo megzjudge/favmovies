@@ -184,7 +184,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Dystopian Sci-Fi, Psychological Thriller",
+          "value": "Psychological Thriller, Intelligent Action, Cerebral Crime",
           "italic": true
         },
         {
@@ -238,7 +238,7 @@
         },
         {
           "label": "Genre",
-          "value": "Psychological Thriller, Intelligent Action",
+          "value": "Psychological Thriller, Intelligent Action, Cerebral Crime",
           "italic": true
         },
         {
@@ -292,7 +292,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Dystopian Sci-Fi, Surreal Adventure",
+          "value": "Psychological Thriller, Intelligent Action, Cerebral Crime",
           "italic": true
         },
         {
@@ -410,7 +410,7 @@
       "genres": [
         "High-Stakes Action",
         "Magical Realism",
-        "Surreal Adventure"
+        "Adventure"
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
@@ -427,7 +427,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Magical Realism, Surreal Adventure",
+          "value": "Intelligent Action, Magical Realism, Adventure",
           "italic": true
         },
         {
@@ -531,8 +531,8 @@
         2023
       ],
       "genres": [
-        "Psychological Thriller",
         "Existential Drama",
+        "Psychological Thriller",
         "Epic"
       ],
       "image": "images/oppenheimer.jpg",
@@ -545,7 +545,7 @@
         },
         {
           "label": "Genre",
-          "value": "Existential Drama, Epic",
+          "value": "Existential Drama, Psychological Thriller, Epic",
           "italic": true
         },
         {
@@ -856,6 +856,7 @@
       ],
       "genres": [
         "Intelligent Action",
+        "Existential Drama",
         "Cerebral Crime"
       ],
       "image": "images/the_accountant.jpg",
@@ -868,7 +869,7 @@
         },
         {
           "label": "Genre",
-          "value": "Intelligent Action, Cerebral Crime",
+          "value": "Intelligent Action, Existential Drama, Cerebral Crime",
           "italic": true
         },
         {

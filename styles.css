@@ -150,7 +150,7 @@ h1 {
     justify-items: center;
     width: fit-content;
     margin-inline: auto;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #genreDropdown,

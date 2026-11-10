@@ -3981,7 +3981,8 @@
       ],
       "genres": [
         "Cerebral Crime",
-        "Absurdist Comedy"
+        "Absurdist Comedy",
+        "Carnivalesque"
       ],
       "image": "images/ace_ventura_pet_detective.jpg",
       "imageAlt": "Ace Ventura: Pet Detective",
@@ -3993,7 +3994,7 @@
         },
         {
           "label": "Genre",
-          "value": "Cerebral Crime, Absurdist Comedy",
+          "value": "Cerebral Crime, Absurdist Comedy, Carnivalesque",
           "italic": true
         },
         {
@@ -4755,8 +4756,8 @@
         1984
       ],
       "genres": [
-        "Stoner Comedy",
-        "Comedy",
+        "Absurdist Comedy",
+        "Carnivalesque",
         "Surreal Adventure"
       ],
       "image": "images/nice_dreams.jpg",
@@ -4774,7 +4775,7 @@
         },
         {
           "label": "Genre",
-          "value": "Stoner Comedy, Sketch Comedy, Surreal Adventure",
+          "value": "Absurdist Comedy, Carnivalesque, Surreal Adventure",
           "italic": true
         },
         {
@@ -4998,8 +4999,8 @@
         1951
       ],
       "genres": [
-        "Animated",
-        "Fantasy",
+        "Surreal Adventure",
+        "Carnivalesque",
         "Musical"
       ],
       "image": "images/alice_in_wonderland.jpg",
@@ -5012,7 +5013,7 @@
         },
         {
           "label": "Genre",
-          "value": "Animated, Fantasy, Musical",
+          "value": "Surreal Adventure, Carnivalesque, Musical",
           "italic": true
         },
         {
@@ -7481,8 +7482,8 @@
       ],
       "genres": [
         "Absurdist Comedy",
-        "Adventure",
-        "Mystery"
+        "Cerebral Crime",
+        "Carnivalesque"
       ],
       "image": "images/ace_ventura_when_nature_calls.jpg",
       "imageAlt": "Ace Ventura: When Nature Calls (1995)",
@@ -7494,7 +7495,7 @@
         },
         {
           "label": "Genre",
-          "value": "Absurdist Comedy, Adventure, Mystery",
+          "value": "Absurdist Comedy, Cerebral Crime, Carnivalesque",
           "italic": true
         },
         {

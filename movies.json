@@ -889,7 +889,8 @@
         "Love"
       ],
       "categoryNotes": {
-        "The Brain": "memory"
+        "The Brain": "memory",
+        "Love": "amnesiac lover"
       }
       "image": "images/blade_runner_2049.jpg",
       "imageAlt": "Blade Runner 2049",
@@ -5960,7 +5961,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
+        "Love": "amnesiac lover",
         ""
       ],
       "image": "images/50_first_dates.jpg",

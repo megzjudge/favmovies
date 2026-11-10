@@ -239,9 +239,7 @@ async function renderMovieCards() {
     }
   }
 
-  const compactGrid = document.getElementById(
-    'compactMovieGrid'
-  );
+  const compactGrid = document.getElementById('compactMovieGrid');
 
   compactGrid.innerHTML = compactMovies
     .map(movie => buildCardHtml(movie, true))
@@ -253,9 +251,7 @@ async function renderMovieCards() {
   // RENDER FEATURED MOVIE COLLECTION
   // ==========================================
   
-  let featuredSection = document.getElementById(
-    'featuredMovieSection'
-  );
+  let featuredSection = document.getElementById('featuredMovieSection');
   
   if (!featuredSection) {
     featuredSection = document.createElement('section');
@@ -265,18 +261,11 @@ async function renderMovieCards() {
       'grid-section featured-grid-section';
   
     featuredSection.innerHTML = `
-      <div id="featuredMovieGrid" class="featured-movie-grid"></div>
-    `;
+      <div id="featuredMovieGrid" class="featured-movie-grid"></div>`;
   
-    movieGrid.insertAdjacentElement(
-      'beforebegin',
-      featuredSection
-    );
-  }
+    movieGrid.insertAdjacentElement('beforebegin',featuredSection);}
   
-  const featuredGrid = document.getElementById(
-    'featuredMovieGrid'
-  );
+  const featuredGrid = document.getElementById('featuredMovieGrid');
   
   featuredGrid.innerHTML = featuredMovies
     .map(movie => buildCardHtml(movie))

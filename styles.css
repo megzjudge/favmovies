@@ -139,6 +139,15 @@ h1 {
     margin: 0 auto;
 }
 
+.genre-chip {
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+
+.genre-chip:hover {
+  text-decoration: underline solid;
+}   
+
 .filter-bar {
     padding: 16px 0 4px;
 }

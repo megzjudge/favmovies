@@ -155,7 +155,8 @@ h1 {
 
 #genreDropdown,
 #countryDropdown,
-#yearDropdown {
+#yearDropdown,
+#taughtDropdown {
     background: rgb(10, 54, 107);
     border: 2px solid rgb(74, 144, 226);
     border-radius: 8px;
@@ -170,20 +171,23 @@ h1 {
 
 #genreDropdown:hover,
 #countryDropdown:hover,
-#yearDropdown:hover {
+#yearDropdown:hover,
+#taughtDropdown:hover {
     background: rgb(30, 95, 139);
 }
 
 #genreDropdown:focus,
 #countryDropdown:focus,
-#yearDropdown:focus {
+#yearDropdown:focus,
+#taughtDropdown:focus {
     outline: none;
     box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
 }
 
 #genreDropdown option,
 #countryDropdown option,
-#yearDropdown option {
+#yearDropdown option,
+#taughtDropdown option {
     background: rgb(10, 54, 107);
     color: rgb(220, 220, 220);
 }

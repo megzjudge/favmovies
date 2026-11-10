@@ -171,10 +171,10 @@
   // ==========================================
 
   const categoriesDescriptions = {
-    'Love': ".",
-    'Friendship': ".",
-    'The Brain': ".",
-    'Purpose': ".",
+    'Love': "Love crossing the boundary it shouldn't — biology, death, a side, a lie... Love as the curtain revealing truths to the overall situation surrounding the characters, love fought for, the characters growing or learning something required to obtain their partner.",
+    'Friendship': "The Self reflected in the Other — seeing yourself in someone who isn't you, maybe someone psychologically different, a beast or a machine - the friend as the part of you that can only be seen from the outside, and shows you the limit of what you can handle reflected back in the mirror."",
+    'The Brain': "The mind shown being used differently — bent, split, or pointed somewhere it wasn't meant to go. Not just watching someone think, but watching what happens when the brain is repurposed, pushed past its normal operating parameters, or broken open to find something else inside.",
+    'Purpose': "The drive for something a character has learnt they cannot live without, the struggle and fight for it, as though their life depends on it — freedom, survival, creation, business, status, ego — movies usually about someone refusing to stop.",
     'Reasons for Living': "."
   };
 

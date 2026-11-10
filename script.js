@@ -305,11 +305,11 @@ function buildCardHtml(movie, compact = false) {
 
   const detailsHtml = [];
 
-  if (movie.country) {
+  if (movie.flag) {
     detailsHtml.push(
-      `<p>🌏 <span class="detail-value">${escapeHtml(isoToCountryName(movie.country))}${movie.flag ? ' ' + escapeHtml(movie.flag) : ''}</span></p>`
+      `<p>${escapeHtml(movie.flag)}</p>`
     );
-  }
+  }   
 
   if (movie.years.length) {
     detailsHtml.push(

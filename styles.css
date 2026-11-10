@@ -743,8 +743,8 @@ a:hover {
     }
 
     .compact-movie-card .movie-card-links img {
-        width: 18px;
-        height: 18px;
+        width: 15px
+        height: 15px
     }
 
     .featured-movie-grid {
@@ -776,8 +776,4 @@ a:hover {
         font-size: clamp(9px, 2.8vw, 12px);
     }
 
-    .compact-movie-card .movie-card-links img {
-        width: 15px;
-        height: 15px;
-    }
 }

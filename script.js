@@ -1047,18 +1047,22 @@ Array.from(taughtCounts.entries())
 
 
     card.addEventListener('keydown', e => {
-      if (e.target !== card) return;
-
-      if (
-        e.key === 'Enter' ||
-        e.key === ' ' ||
-        e.key === 'Spacebar'
-      ) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+    
+      const chip = e.target.closest('[data-genre]');
+      if (chip) {
         e.preventDefault();
-
-        toggleFlip(card);
+        genreDropdown.value = chip.dataset.genre;
+        filterMovies();
+        card.classList.remove('is-flipped');
+        card.setAttribute('aria-pressed', 'false');
+        return;
       }
-    });
+    
+      if (e.target !== card) return;
+      e.preventDefault();
+      toggleFlip(card);
+    });   
   });
 }
 

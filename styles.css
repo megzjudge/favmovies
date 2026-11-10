@@ -504,7 +504,7 @@ a:hover {
 }
 
 .featured-movie-grid .movie-card-back {
-    padding: 12px;
+    padding: 20px;
 }
 
 .featured-movie-grid .movie-card-back h3 {
@@ -634,6 +634,10 @@ a:hover {
 
     .featured-movie-grid .movie-card-back h3 {
         font-size: clamp(35px, 2vw, 65px);
+    }
+
+    .featured-movie-grid .movie-card-back {
+        padding: 2px;
     }
     
     .featured-movie-grid .movie-card-details p {

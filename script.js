@@ -309,11 +309,16 @@ function buildCardHtml(movie, compact = false) {
     valueHtml = movie.genres
       .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
       .join(', ');
-    } else if (d.italic) {
-      valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;
-    } else {
-      valueHtml = escapeHtml(d.value);
-    }
+  } else if (d.label === 'Taught Me') {
+    valueHtml = (movie.categories || [])
+      .filter(Boolean)
+      .map(c => `${taughtCategories[c] ? taughtCategories[c] + ' ' : ''}${escapeHtml(c)}`)
+      .join(', ');
+  } else if (d.italic) {
+    valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;
+  } else {
+    valueHtml = escapeHtml(d.value);
+  }   
 
     return `<p>${escapeHtml(d.label)}: ${valueHtml}</p>`;
   }).join('');

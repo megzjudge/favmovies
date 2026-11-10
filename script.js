@@ -20,7 +20,6 @@
     'Carnivalesque': '🎲'
   };
 
-
   // ==========================================
   // GENRE DESCRIPTIONS
   // ==========================================
@@ -155,6 +154,16 @@
     
   };
 
+  // ==========================================
+  // GENRE EMOJIS
+  // ==========================================
+
+  const taughtCategories = {
+    'Love': '❤️',
+    'Friendship': '🤝',
+    'Brain Stuff': '🌊',
+    'Reasons for Living': '🌱'
+  };
 
 // ==========================================
 // JSON RENDERING
@@ -500,12 +509,13 @@ updateFilterVisibility();
       genreDropdown.appendChild(option);
     });   
 
-  Array.from(taughtCounts.entries())
+Array.from(taughtCounts.entries())
   .sort((a, b) => b[1] - a[1])
   .forEach(([category, count]) => {
     const option = document.createElement('option');
     option.value = category;
-    option.textContent = `${category} (${count})`;
+    option.textContent =
+      `${category}${taughtCategories[category] ? ' ' + taughtCategories[category] : ''} (${count})`;
     taughtDropdown.appendChild(option);
   });
 

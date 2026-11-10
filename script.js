@@ -178,6 +178,17 @@
   };
 
   // ==========================================
+  // LABEL EMOJIS
+  // ==========================================
+
+  const labelEmojis = {
+    'Genre': '',
+    'Runtime': '⏰',
+    'Year': '🗓️',
+    'Taught Me': '📚'
+  };   
+
+  // ==========================================
   // JSON RENDERING
   // ==========================================
 
@@ -311,22 +322,26 @@ function buildCardHtml(movie, compact = false) {
 
     let valueHtml;
 
-  if (d.label === 'Genre') {
-    valueHtml = movie.genres
-      .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
-      .join(', ');
-  } else if (d.label === 'Taught Me') {
-    valueHtml = (movie.categories || [])
-      .filter(Boolean)
-      .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}`)
-      .join(', ');
-  } else if (d.italic) {
-    valueHtml = `<span class="detail-value">${escapeHtml(d.value)}</span>`;
-  } else {
-    valueHtml = escapeHtml(d.value);
-  }   
+    if (d.label === 'Genre') {
+      valueHtml = movie.genres
+        .map(g => `${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}`)
+        .join(', ');
+    } else if (d.label === 'Taught Me') {
+      valueHtml = (movie.categories || [])
+        .filter(Boolean)
+        .map(c => `${categoriesEmojis[c] ? categoriesEmojis[c] + ' ' : ''}${escapeHtml(c)}`)
+        .join(', ');
+    } else {
+      valueHtml = escapeHtml(d.value);
+    }
 
-    return `<p>${escapeHtml(d.label)}: ${valueHtml}</p>`;
+    if (d.italic) {
+      valueHtml = `<span class="detail-value">${valueHtml}</span>`;
+    }
+
+    const label = d.label in labelEmojis ? labelEmojis[d.label] : d.label;
+    const labelPart = label ? `${label}: ` : '';
+    return `<p>${labelPart}${valueHtml}</p>`;
   }).join('');
 
   const linksHtml = movie.links.map(l =>

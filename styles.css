@@ -144,13 +144,15 @@ h1 {
 }
 
 .dropdown-container {
+.dropdown-container {
     margin-bottom: 15px;
     display: grid;
     gap: 10px;
     justify-items: center;
     width: fit-content;
     margin-inline: auto;
-    grid-template-columns: repeat(4, 1fr);
+    padding: 0 2px;
+    grid-template-columns: auto auto auto auto;
 }
 
 #genreDropdown,

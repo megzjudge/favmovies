@@ -320,7 +320,7 @@ function buildCardHtml(movie, compact = false) {
 
   if (movie.country) {
     detailsHtml.push(
-      `<p title="${escapeHtml(isoToCountryName(movie.country))}">${escapeHtml(movie.flag || '')}</p>`
+      `<p title="${escapeHtml(isoToCountryName(movie.country))}">🌏 ${escapeHtml(movie.flag || '')}</p>`
     );
   }   
 

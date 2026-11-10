@@ -28,6 +28,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "111 min",
@@ -84,6 +88,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -142,6 +150,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "132 min",
@@ -198,6 +210,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -256,6 +272,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "105 min",
@@ -312,6 +332,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -376,13 +400,17 @@
           "italic": true
         },
         {
-          "label": "Runtimes",
-          "value": "130 min, 139 min, 144 min",
-          "italic": true
-        },
-        {
           "label": "Genre",
           "value": "Cerebral Crime, Existential Drama, Dark Comedy",
+          "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
+        {
+          "label": "Runtimes",
+          "value": "130 min, 139 min, 144 min",
           "italic": true
         }
       ],
@@ -454,6 +482,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "112 mins, 97 min, 109 min",
@@ -521,6 +553,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "122 min",
@@ -577,6 +613,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -635,6 +675,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "139 min",
@@ -691,6 +735,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -749,6 +797,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "113 min",
@@ -805,6 +857,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -863,6 +919,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "164 min",
@@ -920,6 +980,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "128 min",
@@ -976,6 +1040,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1041,12 +1109,16 @@
           "italic": true
         },
         {
-          "label": "Runtimes",
-          "value": "117 min, 137 min, 114 min, 109 min, 101 min, 124 min",
+          "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
-          "label": "Genre",
+          "label": "Runtimes",
+          "value": "117 min, 137 min, 114 min, 109 min, 101 min, 124 min",
           "italic": true
         }
       ],
@@ -1126,6 +1198,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "99 min",
@@ -1184,6 +1260,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "98 min",
@@ -1240,6 +1320,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1298,6 +1382,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "112 min",
@@ -1355,6 +1443,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "111 min",
@@ -1411,6 +1503,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1474,6 +1570,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "113 min",
@@ -1530,6 +1630,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1588,6 +1692,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "95 min",
@@ -1643,6 +1751,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1701,6 +1813,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "110 min",
@@ -1757,6 +1873,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1815,6 +1935,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "122 min",
@@ -1872,6 +1996,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "124 min",
@@ -1927,6 +2055,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -1985,6 +2117,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "121 min",
@@ -2041,6 +2177,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2100,19 +2240,13 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "101 min",
-          "italic": true
-        },
-        {
-          "label": "Director",
-          "value": "Paul W. S. Anderson",
-          "italic": true
-        },
-        {
-          "label": "Starring",
-          "value": "Sanaa Lathan, Raoul Bova, Lance Henriksen, Ewen Bremner, Colin Salmon, Tommy Flanagan",
           "italic": true
         }
       ],
@@ -2166,6 +2300,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2223,6 +2361,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "178 min",
@@ -2278,6 +2420,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2336,6 +2482,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "121 min",
@@ -2392,6 +2542,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2450,6 +2604,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "110 min",
@@ -2505,6 +2663,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2563,6 +2725,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "101 min",
@@ -2619,6 +2785,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2677,6 +2847,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "124 min",
@@ -2733,6 +2907,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2791,6 +2969,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "100 min",
@@ -2847,6 +3029,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -2905,6 +3091,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "102 min",
@@ -2961,6 +3151,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3019,6 +3213,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "83 min",
@@ -3076,6 +3274,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "82 min",
@@ -3131,6 +3333,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3188,6 +3394,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3247,6 +3457,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3315,6 +3529,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "113 min",
@@ -3369,6 +3587,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3425,6 +3647,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3483,6 +3709,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "125 min",
@@ -3539,6 +3769,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3597,6 +3831,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "107 min",
@@ -3653,6 +3891,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3711,6 +3953,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "132 min",
@@ -3767,6 +4013,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3825,6 +4075,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "103 min",
@@ -3882,6 +4136,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "93 min",
@@ -3934,6 +4192,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -3991,6 +4253,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4054,6 +4320,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "121 min",
@@ -4109,6 +4379,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4166,6 +4440,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4225,6 +4503,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "101 min",
@@ -4281,6 +4563,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4339,6 +4625,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "104 min",
@@ -4396,6 +4686,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "101 min",
@@ -4450,6 +4744,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4507,6 +4805,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "93 min",
@@ -4563,6 +4865,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "108 min",
@@ -4618,6 +4924,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4676,6 +4986,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "87 min",
@@ -4732,6 +5046,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4790,6 +5108,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "96 min",
@@ -4847,6 +5169,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "117 min",
@@ -4903,6 +5229,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -4968,6 +5298,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtimes",
@@ -5067,6 +5401,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtimes",
           "value": "88 min, 91 min, 94 min",
@@ -5159,6 +5497,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "83 min",
@@ -5215,6 +5557,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5278,6 +5624,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "114 min",
@@ -5334,6 +5684,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5396,6 +5750,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "109 min",
@@ -5453,6 +5811,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "108 min",
@@ -5508,6 +5870,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5565,6 +5931,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "143 min",
@@ -5621,6 +5991,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "99 min",
@@ -5676,6 +6050,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5735,6 +6113,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "97 min",
@@ -5791,6 +6173,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5849,6 +6235,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "104 min",
@@ -5905,6 +6295,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -5963,6 +6357,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "113 min",
@@ -6019,6 +6417,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6077,6 +6479,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "116 min",
@@ -6133,6 +6539,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6191,6 +6601,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "109 min",
@@ -6247,6 +6661,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6305,6 +6723,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "93 min",
@@ -6361,6 +6783,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6419,6 +6845,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "95 min",
@@ -6461,7 +6891,7 @@
         "Drama"
       ],
       "categories": [
-        "",
+        "Love",
         ""
       ],
       "image": "images/10_things_i_hate_about_you.jpg",
@@ -6474,8 +6904,11 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Grumpy x Sunshine, Drama",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6534,6 +6967,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "95 min",
@@ -6590,6 +7027,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6648,6 +7089,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "136 min",
@@ -6704,6 +7149,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6762,6 +7211,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "120 min",
@@ -6818,6 +7271,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6877,6 +7334,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "104 min",
@@ -6933,6 +7394,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -6992,6 +7457,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "89 min",
@@ -7048,6 +7517,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7106,6 +7579,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "93 min",
@@ -7162,6 +7639,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7220,6 +7701,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "98 min",
@@ -7277,6 +7762,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "92 min",
@@ -7333,6 +7822,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "88 min",
@@ -7388,8 +7881,11 @@
         },
         {
           "label": "Genre",
-
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7447,6 +7943,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "103 min",
@@ -7501,6 +8001,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7559,6 +8063,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "81 min",
@@ -7615,6 +8123,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7673,6 +8185,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "90 min",
@@ -7729,6 +8245,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7787,6 +8307,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "100 min",
@@ -7843,6 +8367,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -7901,6 +8429,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "123 min",
@@ -7957,6 +8489,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8016,6 +8552,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "142 min",
@@ -8072,6 +8612,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "82 min",
@@ -8126,6 +8670,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8184,6 +8732,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "104 min",
@@ -8241,6 +8793,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "84 min",
@@ -8296,6 +8852,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8354,6 +8914,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "98 min",
@@ -8410,6 +8974,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8468,6 +9036,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "90 min",
@@ -8524,6 +9096,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",
@@ -8582,6 +9158,10 @@
           "label": "Genre",
           "italic": true
         },
+        { 
+          "label": "Taught Me",
+           "italic": true
+        },
         {
           "label": "Runtime",
           "value": "96 min",
@@ -8636,6 +9216,10 @@
         {
           "label": "Genre",
           "italic": true
+        },
+        { 
+          "label": "Taught Me",
+           "italic": true
         },
         {
           "label": "Runtime",

@@ -3980,7 +3980,7 @@
       ],
       "genres": [
         "Cerebral Crime",
-        "Comedy"
+        "Absurdist Comedy"
       ],
       "image": "images/ace_ventura_pet_detective.jpg",
       "imageAlt": "Ace Ventura: Pet Detective",
@@ -3992,7 +3992,7 @@
         },
         {
           "label": "Genre",
-          "value": "Cerebral Crime, Comedy",
+          "value": "Cerebral Crime, Absurdist Comedy",
           "italic": true
         },
         {
@@ -4033,8 +4033,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Comedy",
-        "Fantasy",
+        "Absurdist Comedy",
         "Action",
         "Crime"
       ],
@@ -4048,7 +4047,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Fantasy, Action, Crime",
+          "value": "Absurdist Comedy, Fantasy, Action, Crime",
           "italic": true
         },
         {
@@ -4852,8 +4851,7 @@
       ],
       "genres": [
         "Absurdist Comedy",
-        "Satire",
-        "Comedy"
+        "Satire"
       ],
       "image": "images/life_of_brian.jpg",
       "imageAlt": "Life of Brian",
@@ -4870,7 +4868,7 @@
         },
         {
           "label": "Genre",
-          "value": "Absurdist Comedy, Satire, Comedy",
+          "value": "Absurdist Comedy, Satire",
           "italic": true
         },
         {
@@ -6928,7 +6926,7 @@
       "genres": [
         "Magical Realism",
         "Comedy",
-        "Sci-Fi"
+        "Carnivalesque"
       ],
       "image": "images/flubber.jpg",
       "imageAlt": "Flubber (1997)",
@@ -6940,7 +6938,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Sci-Fi",
+          "value": "Comedy, Sci-Fi, Carnivalesque",
           "italic": true
         },
         {
@@ -7481,7 +7479,7 @@
         1995
       ],
       "genres": [
-        "Comedy",
+        "Absurdist Comedy",
         "Adventure",
         "Mystery"
       ],
@@ -7495,7 +7493,7 @@
         },
         {
           "label": "Genre",
-          "value": "Comedy, Adventure, Mystery",
+          "value": "Absurdist Comedy, Adventure, Mystery",
           "italic": true
         },
         {
@@ -7664,7 +7662,7 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Comedy",
+        "Absurdist Comedy",
         "Adventure"
       ],
       "image": "images/dumb_and_dumber.jpg",
@@ -7677,7 +7675,7 @@
         },
         {
           "label": "Genre",
-          "value": "Male Camaraderie, Comedy, Adventure",
+          "value": "Male Camaraderie, Absurdist Comedy, Adventure",
           "italic": true
         },
         {

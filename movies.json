@@ -1734,7 +1734,7 @@
         "Existential Drama"
       ],
       "categories": [
-        "Purpose",
+        "The Brain",
         "Reasons for Living"
       ],
       "image": "images/the_animatrix.jpg",
@@ -2357,6 +2357,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
+        "The Brain",
         "Reasons for Living"
       ],
       "image": "images/the_matrix_reloaded.jpg",
@@ -2408,7 +2409,7 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "Love",
+        "The Brain",
         "Reasons for Living"
       ],
       "image": "images/being_john_malkovich.jpg",
@@ -2449,7 +2450,7 @@
         "Dark Romance"
       ],
       "categories": [
-        "Love",
+        "The Brain",
         "Reasons for Living"
       ],
       "image": "images/american_beauty.jpg",
@@ -2573,7 +2574,7 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "Purpose",
+        "The Brain",
         "Reasons for Living"
       ],
       "image": "images/the_truman_show.jpg",
@@ -2657,8 +2658,7 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain"
       ],
       "image": "images/fear_and_loathing_in_las_vegas.jpg",
       "imageAlt": "Fear and Loathing in Las Vegas",
@@ -3076,8 +3076,7 @@
         "Picaresque"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain"
       ],
       "image": "images/the_mask.jpg",
       "imageAlt": "The Mask (1994)",
@@ -3202,7 +3201,8 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "The Brain"
       ],
       "image": "images/groundhog_day.jpg",
       "imageAlt": "Groundhog Day (1993)",

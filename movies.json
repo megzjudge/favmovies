@@ -3040,7 +3040,7 @@
       "genres": [
         "Cerebral Crime",
         "Absurdist Comedy",
-        "Carnivalesque"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -4161,6 +4161,7 @@
         2004
       ],
       "genres": [
+        "Picaresque",
         "Comedy",
         "Adventure"
       ],
@@ -4330,8 +4331,8 @@
       ],
       "genres": [
         "Cerebral Crime",
-        "Comedy",
-        "Drama"
+        "Picaresque",
+        "Existential Drama"
       ],
       "categories": [
         "",
@@ -4708,7 +4709,7 @@
       "genres": [
         "Absurdist Comedy",
         "Carnivalesque",
-        "Action"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -4832,7 +4833,7 @@
       ],
       "genres": [
         "Dark Comedy",
-        "Satire",
+        "Picaresque",
         "Carnivalesque"
       ],
       "categories": [
@@ -5127,8 +5128,7 @@
       "genres": [
         "Absurdist Comedy",
         "Carnivalesque",
-        "Action",
-        "Parody"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -5378,8 +5378,9 @@
         1996
       ],
       "genres": [
-        "Adventure",
-        "Comedy"
+        "Surreal Adventure",
+        "Carnivalesque",
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -5503,7 +5504,8 @@
         1995
       ],
       "genres": [
-        "Absurdist Comedy"
+        "Absurdist Comedy",
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -5629,7 +5631,7 @@
       "genres": [
         "Absurdist Comedy",
         "Cerebral Crime",
-        "Carnivalesque"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -5755,7 +5757,7 @@
       "genres": [
         "Male Camaraderie",
         "Absurdist Comedy",
-        "Carnivalesque"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -5879,10 +5881,9 @@
         1994
       ],
       "genres": [
-        "Drama",
+        "Picaresque",
         "Romance",
-        "Comedy",
-        "War"
+        "Comedy"
       ],
       "categories": [
         "",
@@ -5923,7 +5924,8 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Comedy"
+        "Picaresque",
+        "Carnivalesque"
       ],
       "categories": [
         "",
@@ -6004,7 +6006,7 @@
       ],
       "genres": [
         "Rebellion Adventure",
-        "Carnivalesque",
+        "Picaresque",
         "Existential Drama"
       ],
       "categories": [
@@ -6170,8 +6172,8 @@
         1993
       ],
       "genres": [
-        "Comedy",
         "Rebellion Adventure",
+        "Picaresque",
         "Carnivalesque"
       ],
       "categories": [

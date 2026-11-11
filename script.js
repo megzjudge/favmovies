@@ -473,42 +473,31 @@ async function initializeMovies() {
     const scrolledPastFirstCard =
       appContent.scrollTop > 50;
   
-    if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
-      const hasActiveFilter =
-        genreDropdown.value ||
-        countryDropdown.value ||
-        yearDropdown.value ||
-        taughtDropdown.value;
+    const hasActiveFilter =
+      genreDropdown.value ||
+      countryDropdown.value ||
+      yearDropdown.value ||
+      taughtDropdown.value;
   
+    if (scrolledPastFirstCard && !filtersWereClosedByScroll) {
       if (!hasActiveFilter && !filterPanel.hidden) {
         setFiltersOpen(false);
       }
   
-      descriptionContainer.hidden = true;
+      if (!hasActiveFilter) {
+        descriptionContainer.hidden = true;
+      }
   
       filtersWereClosedByScroll = true;
     }
   
     if (!scrolledPastFirstCard) {
       filtersWereClosedByScroll = false;
-      descriptionContainer.hidden = false;
+      if (!hasActiveFilter) {
+        descriptionContainer.hidden = false;
+      }
     }
-  }     
-  
-  let scrollTicking = false;
-  
-  appContent.addEventListener('scroll', () => {
-    if (scrollTicking) return;
-  
-    scrollTicking = true;
-  
-    requestAnimationFrame(() => {
-      updateFilterVisibility();
-      scrollTicking = false;
-    });
-  }, { passive: true });
-
-updateFilterVisibility();
+  }   
 
   // ==========================================
   // POPULATE DROPDOWNS

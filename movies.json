@@ -1525,8 +1525,7 @@
       "genres": [
         "Dystopian Sci-Fi",
         "High-Stakes Action",
-        "Horror",
-        "Adventure"
+        "Horror"
       ],
       "categories": [
         "Purpose"
@@ -1565,9 +1564,9 @@
         2004
       ],
       "genres": [
-        "Sci-Fi",
-        "Action",
-        "Adventure"
+        "Dystopian Sci-Fi",
+        "Intelligent Action",
+        "Surreal Adventure"
       ],
       "categories": [
         "",
@@ -4667,7 +4666,7 @@
       "genres": [
         "High-Stakes Action",
         "Rebellion Adventure",
-        "Sci-Fi"
+        "Dystopian Sci-Fi"
       ],
       "categories": [
         "",

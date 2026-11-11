@@ -43,7 +43,7 @@
     'Dark Comedy': "Schadenfreude. A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
-    'Picaresque': "An episodic odyssey of a rogue or underdog moving through a corrupt or absurd world — sardonic wit the only moral compass along with their cunning. The next town, the next case, the next con is already waiting.",
+    'Picaresque': "A morally-grey rogue or underdog moving through a corrupt or absurd world — sardonic wit the only moral compass along with their cunning. The next town, the next case, the next con is already waiting.",
     'Absurdist Comedy': ".",
     'Folklore Animation': ".",
     'Anthropomorphic Animation': ".",

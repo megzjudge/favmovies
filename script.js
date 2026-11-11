@@ -18,7 +18,7 @@
     'Absurdist Comedy': '😈',
     'Grumpy x Sunshine': '🐝',
     'Carnivalesque': '🎲',
-    'Dark Romance': ''
+    'Dark Romance': '🥀'
   };
 
   // ==========================================

@@ -340,9 +340,9 @@ function buildCardHtml(movie, compact = false) {
 
   if (movie.country) {
     detailsHtml.push(
-      `<p title="${escapeHtml(isoToCountryName(movie.country))}">🌏 ${escapeHtml(movie.flag || '')}</p>`
+      `<p title="${escapeHtml(isoToCountryName(movie.country))}">🌏 <span class="flag">${escapeHtml(movie.flag || '')}</span></p>`
     );
-  }   
+  }
 
   if (movie.titles) {
     detailsHtml.push(
@@ -561,7 +561,7 @@ updateFilterVisibility();
       const option = document.createElement('option');
       option.value = genre;
       option.textContent =
-        `${genre}${genreEmojis[genre] ? ' ' + genreEmojis[genre] : ''} (${count})`;
+        `${genreEmojis[genre] ? genreEmojis[genre] + ' ' : ''}${genre} (${count})`;
       genreDropdown.appendChild(option);
     });   
 
@@ -571,7 +571,7 @@ Array.from(taughtCounts.entries())
     const option = document.createElement('option');
     option.value = category;
     option.textContent =
-      `${category}${categoriesEmojis[category] ? ' ' + categoriesEmojis[category] : ''} (${count})`;
+      `${categoriesEmojis[category] ? categoriesEmojis[category] + ' ' : ''}${category} (${count})`;
     taughtDropdown.appendChild(option);
   });
 
@@ -589,8 +589,8 @@ Array.from(taughtCounts.entries())
       const name = isoToCountryName(iso);
 
       option.textContent = flag
-        ? `${name} ${flag}`
-        : name;
+        ? `${flag} ${name}`
+        : name;   
 
       countryDropdown.appendChild(option);
     });

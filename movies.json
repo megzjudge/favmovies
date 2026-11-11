@@ -322,7 +322,8 @@
       ],
       "categories": [
         "The Brain",
-        "Friendship"
+        "Friendship",
+        "Love"
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
@@ -947,8 +948,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/scott_pilgrim.jpg",
       "imageAlt": "Scott Pilgrim vs. the World",
@@ -1031,8 +1031,7 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Reasons for Living"
       ],
       "notes": "Trailer has massive spoilers.",
       "image": "images/enter_the_void.jpg",
@@ -1198,7 +1197,8 @@
         "Dark Romance"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Love"
       ],
       "image": "images/blood_diamond.jpg",
       "imageAlt": "Blood Diamond",
@@ -1363,8 +1363,7 @@
         "Stylised Action"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/sin_city.jpg",
       "imageAlt": "Sin City",

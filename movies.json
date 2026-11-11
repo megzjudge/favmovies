@@ -1942,8 +1942,7 @@
         "High-Stakes Action"
       ],
       "categories": [
-        "",
-        ""
+        "Purpose"
       ],
       "image": "images/xXx.jpg",
       "imageAlt": "xXx",
@@ -2191,8 +2190,7 @@
         "Carnivalesque"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship"
       ],
       "image": "images/dude_wheres_my_car.jpg",
       "imageAlt": "Dude, Where's My Car?",
@@ -2233,8 +2231,7 @@
         "Science Fiction"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship"
       ],
       "image": "images/digimon_the_movie.jpg",
       "imageAlt": "Digimon: The Movie",
@@ -2316,8 +2313,8 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Purpose"
       ],
       "image": "images/titan_ae.jpg",
       "imageAlt": "Titan A.E. (2000)",
@@ -2360,8 +2357,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Reasons for Living"
       ],
       "image": "images/the_matrix_reloaded.jpg",
       "imageAlt": "The Matrix Reloaded",
@@ -2412,8 +2408,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Reasons for Living"
       ],
       "image": "images/being_john_malkovich.jpg",
       "imageAlt": "Being John Malkovich",
@@ -2535,8 +2531,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Purpose"
       ],
       "image": "images/the_mummy.jpg",
       "imageAlt": "The Mummy",
@@ -2577,7 +2573,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Reasons for Living"
       ],
       "image": "images/the_truman_show.jpg",
       "imageAlt": "The Truman Show",
@@ -2784,8 +2781,7 @@
         "Sport"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship"
       ],
       "image": "images/baseketball.jpg",
       "imageAlt": "BASEketball (1998)",
@@ -3328,8 +3324,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship",
+        "Love"
       ],
       "image": "images/back_to_the_future_part_ii.jpg",
       "imageAlt": "Back to the Future Part II",
@@ -3453,8 +3449,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
-        ""
+        "Reasons for Living",
+        "The Brain"
       ],
       "image": "images/1984.jpg",
       "imageAlt": "1984",
@@ -3495,8 +3491,7 @@
         "Male Camaraderie"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/yellowbeard.jpg",
       "imageAlt": "Yellowbeard",
@@ -3703,7 +3698,6 @@
         "Carnivalesque"
       ],
       "categories": [
-        "",
         ""
       ],
       "image": "images/life_of_brian.jpg",
@@ -3780,8 +3774,7 @@
         "Folklore Animation"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/robin_hood.jpg",
       "imageAlt": "Robin Hood",
@@ -3868,8 +3861,7 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/the_big_sleep.jpg",
       "imageAlt": "The Big Sleep",
@@ -6174,8 +6166,7 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Love",
-        ""
+        "Love"
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
       "imageAlt": "Robin Hood: Men in Tights (1993)",
@@ -6217,7 +6208,7 @@
       ],
       "categories": [
         "Purpose",
-        ""
+        "Friendship"
       ],
       "image": "images/aladdin.jpg",
       "imageAlt": "Aladdin (1992)",
@@ -6587,8 +6578,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "Love",
-        ""
+        "Love"
       ],
       "image": "images/the_sound_of_music.jpg",
       "imageAlt": "The Sound of Music",

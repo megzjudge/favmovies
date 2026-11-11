@@ -1316,7 +1316,7 @@
         2005
       ],
       "genres": [
-        "High-Stakes Action",
+        "Picaresque",
         "Cerebral Crime",
         "Existential Drama"
       ],
@@ -1442,7 +1442,7 @@
       "genres": [
         "Intelligent Action",
         "Existential Drama",
-        "Psychological Thriller"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -2150,7 +2150,7 @@
       "genres": [
         "Intelligent Action",
         "Male Camaraderie",
-        "Dark Comedy"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -2617,7 +2617,7 @@
         1998
       ],
       "genres": [
-        "Intelligent Action",
+        "Picaresque",
         "Male Camaraderie",
         "Cerebral Crime"
       ],
@@ -2660,7 +2660,7 @@
       ],
       "genres": [
         "Carnivalesque",
-        "Dark Comedy",
+        "Picaresque",
         "Surreal Adventure"
       ],
       "categories": [
@@ -3082,8 +3082,7 @@
       "genres": [
         "Magical Realism",
         "Absurdist Comedy",
-        "Action",
-        "Crime"
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -3248,7 +3247,8 @@
         1993
       ],
       "genres": [
-        "Absurdist Comedy"
+        "Absurdist Comedy",
+        "Picaresque"
       ],
       "categories": [
         "",
@@ -3624,7 +3624,7 @@
       ],
       "genres": [
         "Absurdist Comedy",
-        "Carnivalesque",
+        "Picaresque",
         "Surreal Adventure"
       ],
       "categories": [
@@ -3703,6 +3703,7 @@
       ],
       "genres": [
         "Absurdist Comedy",
+        "Picaresque",
         "Satire"
       ],
       "categories": [
@@ -3779,7 +3780,7 @@
       ],
       "genres": [
         "Rebellion Adventure",
-        "Comedy",
+        "Picaresque",
         "Folklore Animation"
       ],
       "categories": [

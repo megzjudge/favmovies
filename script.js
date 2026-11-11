@@ -18,6 +18,7 @@
     'Absurdist Comedy': '😈',
     'Grumpy x Sunshine': '🐝',
     'Carnivalesque': '🎲',
+    'Picaresque': '',
     'Folklore Animation': "🧚‍♀️",
     'Anthropomorphic Animation': "🐾",
     'Dark Romance': '🥀'
@@ -42,6 +43,7 @@
     'Dark Comedy': "Schadenfreude. A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
+    'Picaresque': ''
     'Absurdist Comedy': ".",
     'Folklore Animation': ".",
     'Anthropomorphic Animation': ".",
@@ -149,7 +151,14 @@
       { url: 'https://call-for-papers.sas.upenn.edu/cfp/2010/05/23/cinema-and-the-carnivalesque%E2%80%942011-scms-panel-in-new-orleans-0310-0313', icon: 'link' },
       { url: 'https://beverlyboy.com/filmmaking/what-is-carnivalesque-theory-in-film-nnarratives/', icon: 'link' }
     ],
-      
+
+    'Picaresque': [
+      { url: 'https://www.tasteofcinema.com/2020/10-great-picaresque-movies-to-stumble-across-the-world-with/', icon: 'link' },
+      { url: 'https://en.wikipedia.org/wiki/Picaresque_novel', icon: 'wikipedia' },
+      { url: 'https://tvtropes.org/pmwiki/pmwiki.php/Main/Picaresque', icon: 'link' },
+      { url: 'https://www.imdb.com/list/ls068162289/', icon: 'imdb' }
+    ],
+    
     'Absurdist Comedy': [
       { url: 'https://en.wikipedia.org/wiki/Surreal_humour', icon: 'link' },
       { url: 'https://www.imdb.com/list/ls526033980/', icon: 'imdb' },

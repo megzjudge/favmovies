@@ -39,7 +39,9 @@
     'Dark Comedy': "Schadenfreude. A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
-    'Absurdist Comedy': "."
+    'Absurdist Comedy': ".",
+    'Folklore Animation': ".",
+    'Anthropomorphic Animation': "."
   };
 
   // ==========================================
@@ -150,6 +152,14 @@
       { url: 'https://cinenoir.net/awards/comedy/just-for-laughs/the-unhinged-lens-10-essential-absurd-comedies-for-discerning-viewers/', icon: 'link' },
       { url: 'https://en.wikipedia.org/wiki/Absurdist_fiction', icon: 'wikipedia' },
       { url: 'https://altcomedy.com/absurdist-comedy', icon: 'link' }
+    ]
+
+    'Folklore Animation': [
+      { url: '', icon: 'link' }
+    ]
+    
+    'Anthropomorphic Animation': [
+      { url: '', icon: 'link' }
     ]
     
   };

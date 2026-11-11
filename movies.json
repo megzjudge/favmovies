@@ -5664,8 +5664,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship"
       ],
       "image": "images/babe.jpg",
       "imageAlt": "Babe (1995)",
@@ -5706,8 +5705,8 @@
         "Folklore Animation"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Friendship"
       ],
       "image": "images/casper.jpg",
       "imageAlt": "Casper (1995)",
@@ -5748,8 +5747,7 @@
         "Picaresque"
       ],
       "categories": [
-        "",
-        ""
+        "Friendship"
       ],
       "image": "images/dumb_and_dumber.jpg",
       "imageAlt": "Dumb and Dumber (1994)",
@@ -5790,8 +5788,7 @@
         "Fantasy"
       ],
       "categories": [
-        "",
-        ""
+        "Reasons for Living"
       ],
       "image": "images/interview_with_a_vampire.jpg",
       "imageAlt": "Interview with the Vampire (1994)",
@@ -5832,8 +5829,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
-        ""
+        "Reasons for Living"
       ],
       "image": "images/the_crow.jpg",
       "imageAlt": "The Crow (1994)",
@@ -6454,7 +6450,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Friendship"
       ],
       "image": "images/the_terminator.jpg",
       "imageAlt": "The Terminator (1984)",

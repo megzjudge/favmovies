@@ -582,8 +582,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain",
+        "Love"
       ],
       "image": "images/red_sparrow.jpg",
       "imageAlt": "Red Sparrow",
@@ -989,8 +989,7 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "",
-        ""
+        "The Brain"
       ],
       "image": "images/push.jpg",
       "imageAlt": "Push",
@@ -1031,6 +1030,7 @@
         "Surreal Adventure"
       ],
       "categories": [
+        "The Brain",
         "Reasons for Living"
       ],
       "notes": "Trailer has massive spoilers.",

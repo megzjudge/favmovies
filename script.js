@@ -43,7 +43,7 @@
     'Absurdist Comedy': ".",
     'Folklore Animation': ".",
     'Anthropomorphic Animation': ".",
-    'Dark Romance': "."
+    'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, changes the Self or the World."
   };
 
   // ==========================================

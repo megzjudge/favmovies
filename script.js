@@ -17,7 +17,8 @@
     'Film Noir': '🐈‍⬛',
     'Absurdist Comedy': '😈',
     'Grumpy x Sunshine': '🐝',
-    'Carnivalesque': '🎲'
+    'Carnivalesque': '🎲',
+    'Dark Romance': ''
   };
 
   // ==========================================
@@ -41,7 +42,8 @@
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
     'Absurdist Comedy': ".",
     'Folklore Animation': ".",
-    'Anthropomorphic Animation': "."
+    'Anthropomorphic Animation': ".",
+    'Dark Romance': "."
   };
 
   // ==========================================
@@ -152,14 +154,22 @@
       { url: 'https://cinenoir.net/awards/comedy/just-for-laughs/the-unhinged-lens-10-essential-absurd-comedies-for-discerning-viewers/', icon: 'link' },
       { url: 'https://en.wikipedia.org/wiki/Absurdist_fiction', icon: 'wikipedia' },
       { url: 'https://altcomedy.com/absurdist-comedy', icon: 'link' }
-    ]
+    ],
 
     'Folklore Animation': [
       { url: '', icon: 'link' }
-    ]
+    ],
     
     'Anthropomorphic Animation': [
       { url: '', icon: 'link' }
+    ],
+
+    'Dark Romance': [
+      { url: 'https://screenvibedaily.com/dark-romance-movies/', icon: 'link' },
+      { url: 'https://www.cbr.com/best-dark-romance-movies-ranked/', icon: 'link' },
+      { url: 'https://www.imdb.com/interest/dark-romance/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/chart/movie/in0000149/', icon: 'imdb' },
+      { url: 'https://www.penguin.co.uk/discover/articles/dark-romance-guide', icon: 'link' }
     ]
     
   };

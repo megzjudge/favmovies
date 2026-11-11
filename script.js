@@ -18,6 +18,8 @@
     'Absurdist Comedy': '😈',
     'Grumpy x Sunshine': '🐝',
     'Carnivalesque': '🎲',
+    'Folklore Animation': "🧚‍♀️",
+    'Anthropomorphic Animation': "🐾",
     'Dark Romance': '🥀'
   };
 

@@ -47,8 +47,8 @@
     'Absurdist Comedy': "Breaks the logic of the world, its a challenge to give up on logic and making sense of the world, the absurd says 'reality is meaningless', it tries to keep you analysing until you break into laughter.",
     'Camp Comedy': "Joy in the Absurd. Camp is partying, breaks the taste of the world, 'reality is too boring, let's make it more.' It's exagguration of reality to find joy in its awareness of the absurd.",
     'Folklore Animation': "Traditional stories, myths, legends, fairy tales, cultural norms, and oral traditions of a particular culture - preserved and transmitted through the medium of animation.",
-    'Anthropomorphic Animation': "Non-human entities — animals, objects, vehicles, abstract concepts — are given human traits, form, behaviour, or speech - a form of projection where humans infer the Self onto non-humanoids.",
-    'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides."
+    'Anthropomorphic Animation': "Non-human entities — animals, objects, vehicles, abstract concepts — are given human traits, form, behaviour, or speech - a form of projection where humans infer the Self onto non-humanoids to express the Self.",
+    'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides.",
     'Disagreeableness': ".",
     'Openness': "."
   };

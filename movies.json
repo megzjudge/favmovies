@@ -596,6 +596,7 @@
         2018
       ],
       "genres": [
+        "Existential Drama",
         "Psychological Thriller",
         "Cerebral Crime",
         "Film Noir"
@@ -776,6 +777,7 @@
       ],
       "genres": [
         "Psychological Thriller",
+        "High-Stakes Action",
         "Dystopian Sci-Fi",
         "Existential Drama"
       ],
@@ -1349,10 +1351,9 @@
         2006
       ],
       "genres": [
+        "High-Stakes Action",
         "Cerebral Crime",
-        "Film Noir",
-        "Psychological Thriller",
-        "High-Stakes Action"
+        "Film Noir"
       ],
       "categories": [
         "Purpose",
@@ -2663,7 +2664,8 @@
       "genres": [
         "Absurdist Comedy",
         "Existential Drama",
-        "Dystopian Sci-Fi"
+        "Dystopian Sci-Fi",
+        "Psychological Thriller"
       ],
       "categories": [
         "The Brain",

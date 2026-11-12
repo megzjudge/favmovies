@@ -174,6 +174,14 @@
       { url: 'https://www.advocate.com/arts-entertainment/film/2015/05/13/16-camp-classics-keep-us-laughing', icon: 'link' }
     ],
 
+    'Dark Romance': [
+      { url: 'https://screenvibedaily.com/dark-romance-movies/', icon: 'link' },
+      { url: 'https://www.cbr.com/best-dark-romance-movies-ranked/', icon: 'link' },
+      { url: 'https://www.imdb.com/interest/dark-romance/', icon: 'imdb' },
+      { url: 'https://www.imdb.com/chart/movie/in0000149/', icon: 'imdb' },
+      { url: 'https://www.penguin.co.uk/discover/articles/dark-romance-guide', icon: 'link' }
+    ],
+
     'Folklore Animation': [
       { url: '', icon: 'link' }
     ],
@@ -181,13 +189,13 @@
     'Anthropomorphic Animation': [
       { url: '', icon: 'link' }
     ],
-
-    'Dark Romance': [
-      { url: 'https://screenvibedaily.com/dark-romance-movies/', icon: 'link' },
-      { url: 'https://www.cbr.com/best-dark-romance-movies-ranked/', icon: 'link' },
-      { url: 'https://www.imdb.com/interest/dark-romance/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/chart/movie/in0000149/', icon: 'imdb' },
-      { url: 'https://www.penguin.co.uk/discover/articles/dark-romance-guide', icon: 'link' }
+    
+    'Disagreeableness': [
+      { url: '', icon: 'link' }
+    ],
+    
+    'Openness': [
+      { url: '', icon: 'link' }
     ]
     
   };

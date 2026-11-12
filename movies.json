@@ -265,7 +265,8 @@
       "genres": [
         "Cerebral Crime",
         "Existential Drama",
-        "Camp Comedy"
+        "Camp Comedy",
+        "Picaresque"
       ],
       "categories": [
         "The Brain"
@@ -372,7 +373,8 @@
       "genres": [
         "Intelligent Action",
         "Cerebral Crime",
-        "Male Camaraderie"
+        "Male Camaraderie",
+        "Picaresque"
       ],
       "categories": [
         "Disagreeableness"
@@ -538,6 +540,7 @@
       "genres": [
         "Intelligent Action",
         "Camp Comedy",
+        "Picaresque",
         "Cerebral Crime"
       ],
       "categories": [
@@ -708,7 +711,8 @@
         "Intelligent Action",
         "Male Camaraderie",
         "Cerebral Crime",
-        "Camp Comedy"
+        "Camp Comedy",
+        "Picaresque"
       ],
       "categories": [
         "Disagreeableness"
@@ -1243,7 +1247,8 @@
         "Psychological Thriller",
         "Rebellion Adventure",
         "Cerebral Crime",
-        "Dark Romance"
+        "Dark Romance",
+        "Picaresque"
       ],
       "categories": [
         "Love",
@@ -2417,7 +2422,8 @@
       "genres": [
         "Dark Romance",
         "Existential Drama",
-        "Dystopian Sci-Fi"
+        "Dystopian Sci-Fi",
+        "Picaresque"
       ],
       "categories": [
         "The Brain",
@@ -3507,7 +3513,8 @@
       "genres": [
         "Rebellion Adventure",
         "Camp Comedy",
-        "Male Camaraderie"
+        "Male Camaraderie",
+        "Picaresque"
       ],
       "categories": [
         "Love",
@@ -3637,7 +3644,8 @@
       "genres": [
         "Absurdist Comedy",
         "Carnivalesque",
-        "Surreal Adventure"
+        "Surreal Adventure",
+        "Picaresque"
       ],
       "categories": [
         "Friendship",
@@ -3882,6 +3890,7 @@
       "genres": [
         "Film Noir",
         "Dark Romance",
+        "Picaresque",
         "Cerebral Crime"
       ],
       "categories": [
@@ -4464,7 +4473,8 @@
       "genres": [
         "Cerebral Crime",
         "Male Camaraderie",
-        "Camp Comedy"
+        "Camp Comedy",
+        "Picaresque"
       ],
       "categories": [
         "Friendship",
@@ -4879,7 +4889,8 @@
       "genres": [
         "Rebellion Adventure",
         "High-Stakes Action",
-        "Dark Romance"
+        "Dark Romance",
+        "Picaresque"
       ],
       "categories": [
         "Purpose",
@@ -5749,8 +5760,7 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Absurdist Comedy",
-        "Picaresque"
+        "Absurdist Comedy"
       ],
       "categories": [
         "Friendship",
@@ -5914,8 +5924,7 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Absurdist Comedy",
-        "Picaresque"
+        "Absurdist Comedy"
       ],
       "categories": [
         "Friendship",
@@ -6248,7 +6257,6 @@
       ],
       "genres": [
         "Carnivalesque",
-        "Picaresque",
         "Camp Comedy"
       ],
       "categories": [

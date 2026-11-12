@@ -477,6 +477,35 @@ function donutSlice(cx, cy, r, startAngle, endAngle) {
   return `M ${cx} ${cy} L ${x1} ${y1} A ${r} ${r} 0 ${largeArc} 1 ${x2} ${y2} Z`;
 }
 
+function linkDonutHover(container) {
+  const slices = container.querySelectorAll('.donut-slice');
+  const legendItems = container.querySelectorAll('.legend-item');
+
+  function highlight(index) {
+    slices.forEach((s, i) => {
+      s.style.opacity = i === index ? '1' : '0.3';
+    });
+    legendItems.forEach((l, i) => {
+      l.style.opacity = i === index ? '1' : '0.4';
+    });
+  }
+
+  function reset() {
+    slices.forEach(s => s.style.opacity = '1');
+    legendItems.forEach(l => l.style.opacity = '1');
+  }
+
+  legendItems.forEach((item, i) => {
+    item.addEventListener('mouseenter', () => highlight(i));
+    item.addEventListener('mouseleave', reset);
+  });
+
+  slices.forEach((slice, i) => {
+    slice.addEventListener('mouseenter', () => highlight(i));
+    slice.addEventListener('mouseleave', reset);
+  });
+}
+
 function renderDonut(container, data, title, emoji) {
   const entries = Object.entries(data).sort((a, b) => b[1] - a[1]);
   const total = entries.reduce((sum, [, v]) => sum + v, 0);
@@ -514,7 +543,9 @@ function renderDonut(container, data, title, emoji) {
         ).join('')}
       </div>
     </div>`;
-}   
+
+  linkDonutHover(container.querySelector('.correlation-card'));
+}
 
 function renderStats(panel) {
   const cards = Array.from(document.querySelectorAll('.movie-card'));

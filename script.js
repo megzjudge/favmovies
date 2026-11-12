@@ -47,10 +47,8 @@
     'Camp Comedy': "Joy in the Absurd, it's a partying, 'reality is too boring, let's make it more'. It's exagguration of reality to find joy in the awareness of the absurd nature of life.",
     'Folklore Animation': "Traditional stories, myths, legends, fairy tales, cultural norms, and oral traditions of a particular culture - preserved and transmitted through the medium of animation.",
     'Anthropomorphic Animation': "Non-human entities — animals, objects, vehicles, abstract concepts — are given human traits, form, behaviour, or speech - a form of projection where humans infer the Self onto non-humanoids to express the Self.",
-    'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides.",
-    'Disagreeableness': "These films are/or have characters that reflect my own personality back at me - Disagreeableness (low agreeableness) is the trait of antagonism, bluntness, friction, self-liberation (Self vs Other), and a refusal to conform to social expectations. 'You are completely incarcerated by your conceptualized self,' (Guy Ritchie, 2007).",
-    'Openness': "These films are/or have characters that reflect my own personality back at me - High Openness to Experience is the trait of curiousity, pattern-seeking, aestheticism, intellectual exploration, possibility divergence, seeking to see all sides of everything. Seeing the world as incomplete without the next door, pattern, or 'what if.' It's always seeking the pattern."
-  };
+    'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides."
+ };
 
   // ==========================================
   // GENRE LINKS
@@ -223,6 +221,8 @@
     'The Brain': "The mind, ego, Self, and/or personality shown as being used differently — bent, split, or pointed somewhere it wasn't meant to go. Not just watching someone think, but watching what happens when the brain is repurposed, pushed past its normal operating parameters, or broken open to find something else inside.",
     'Purpose': "The drive for something a character has learnt they cannot live without, the struggle and fight for it, as though their life depends on it — freedom, survival, creation, business, status, ego — movies usually about someone refusing to stop.",
     'Reasons for Living': "Obscure reasons for living I never considered before watching them - a new weird thing I picked up in a movie as a brain hack that a character does that keeps my inquisitiveness busy for 10 years trying to solve how the character's mind could do something I couldn't usually, but sometimes its just an oddity, a quirk that I never considered I cared about."
+    'Disagreeableness': "These films are/or have characters that reflect my own personality back at me - Disagreeableness (low agreeableness) is the trait of antagonism, bluntness, friction, self-liberation (Self vs Other), and a refusal to conform to social expectations. 'You are completely incarcerated by your conceptualized self,' (Guy Ritchie, 2007).",
+    'Openness': "These films are/or have characters that reflect my own personality back at me - High Openness to Experience is the trait of curiousity, pattern-seeking, aestheticism, intellectual exploration, possibility divergence, seeking to see all sides of everything. Seeing the world as incomplete without the next door, pattern, or 'what if.' It's always seeking the pattern."
   };
 
   // ==========================================

@@ -394,7 +394,7 @@ if (movie.notes) {
     `<p>${movie.genres
       .map(g => `<span class="genre-chip" data-genre="${escapeHtml(g)}" title="${escapeHtml(genreDescriptions[g] || '')}" role="button" tabindex="0">${genreEmojis[g] ? genreEmojis[g] + ' ' : ''}${escapeHtml(g)}</span>`)
       .join(', ')}</p>`
-  );\
+  );
 
   const validCategories = (movie.categories || []).filter(Boolean);
   if (validCategories.length) {

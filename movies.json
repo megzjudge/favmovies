@@ -1126,8 +1126,8 @@
       ],
       "genres": [
         "Camp Comedy",
-        "Male Camaraderie",
-        "Rebellion Adventure"
+        "Rebellion Adventure",
+        "Male Camaraderie"
       ],
       "categories": [
         "Friendship",
@@ -2403,7 +2403,7 @@
           "alt": "Titan A.E. on Wikipedia"
         },
         {
-          "url": "https://www.youtube.com/results?search_query=Titan+AE+2000+official+trailer",
+          "url": "https://www.youtube.com/watch?v=4cnt5mChnRo",
           "icon": "images/youtube.png",
           "alt": "Titan A.E. Trailer on YouTube"
         }
@@ -3694,7 +3694,6 @@
         1982
       ],
       "genres": [
-        "Rebellion Adventure",
         "Male Camaraderie",
         "Grumpy x Sunshine"
       ],
@@ -4278,8 +4277,8 @@
       ],
       "genres": [
         "Picaresque",
-        "Absurdist Comedy",
-        "Rebellion Adventure"
+        "Rebellion Adventure",
+        "Absurdist Comedy"
       ],
       "categories": [
         "Love",

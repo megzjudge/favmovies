@@ -1072,6 +1072,49 @@
       ]
     },
     {
+      "title": "Zodiac",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "157 min",
+      "years": [
+        2007
+      ],
+      "genres": [
+        "Psychological Thriller",
+        "Existential Drama",
+        "Cerebral Crime",
+        "Film Noir"
+      ],
+      "categories": [
+        "The Brain",
+        "Disagreeableness"
+      ],
+      "image": "images/zodiac.jpg",
+      "imageAlt": "Zodiac",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/zodiac",
+          "icon": "images/justwatch.png",
+          "alt": "Zodiac on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0457430/",
+          "icon": "images/imdb.png",
+          "alt": "Zodiac on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Zodiac_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Zodiac on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Zodiac+2007+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Zodiac Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Superbad",
       "flag": "🇺🇸",
       "country": "US",
@@ -2965,6 +3008,49 @@
           "url": "https://www.youtube.com/watch?v=qA7XKmC5QbQ",
           "icon": "images/youtube.png",
           "alt": "Anastasia Trailer on Youtube"
+        }
+      ]
+    },
+    {
+      "title": "Se7en",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "127 min",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Psychological Thriller",
+        "Cerebral Crime",
+        "Existential Drama",
+        "Film Noir"
+      ],
+      "categories": [
+        "The Brain",
+        "Disagreeableness"
+      ],
+      "image": "images/se7en.jpg",
+      "imageAlt": "Se7en",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/se7en",
+          "icon": "images/justwatch.png",
+          "alt": "Se7en on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0114369/",
+          "icon": "images/imdb.png",
+          "alt": "Se7en on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Se7en",
+          "icon": "images/wikipedia.png",
+          "alt": "Se7en on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Se7en+1995+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Se7en Trailer on YouTube"
         }
       ]
     },

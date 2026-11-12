@@ -265,7 +265,7 @@
       "genres": [
         "Cerebral Crime",
         "Existential Drama",
-        "Dark Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "The Brain"
@@ -318,8 +318,8 @@
       ],
       "genres": [
         "High-Stakes Action",
-        "Magical Realism",
-        "Carnivalesque"
+        "Dystopian Sci-Fi",
+        "Camp Comedy"
       ],
       "categories": [
         "The Brain",
@@ -537,7 +537,7 @@
       ],
       "genres": [
         "Intelligent Action",
-        "Dark Comedy",
+        "Camp Comedy",
         "Cerebral Crime"
       ],
       "categories": [
@@ -706,7 +706,7 @@
       "genres": [
         "Intelligent Action",
         "Male Camaraderie",
-        "Dark Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Disagreeableness"
@@ -1068,9 +1068,9 @@
         2007
       ],
       "genres": [
-        "Comedy",
+        "Camp Comedy",
         "Male Camaraderie",
-        "Romance"
+        "Rebellion Adventure"
       ],
       "categories": [
         "Friendship",
@@ -1111,7 +1111,7 @@
       ],
       "genres": [
         "Existential Drama",
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Dystopian Sci-Fi"
       ],
       "categories": [
@@ -2503,6 +2503,7 @@
       ],
       "genres": [
         "Existential Drama",
+        "Camp Comedy",
         "Dark Romance"
       ],
       "categories": [
@@ -2543,7 +2544,7 @@
       ],
       "genres": [
         "High-Stakes Action",
-        "Dark Romance",
+        "Camp Comedy",
         "Surreal Adventure"
       ],
       "categories": [
@@ -2584,7 +2585,7 @@
         1998
       ],
       "genres": [
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Existential Drama",
         "Dystopian Sci-Fi"
       ],
@@ -2669,7 +2670,7 @@
       ],
       "genres": [
         "Carnivalesque",
-        "Picaresque",
+        "Absurdist Comedy",
         "Surreal Adventure"
       ],
       "categories": [
@@ -2794,8 +2795,7 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "Absurdist Comedy",
-        "Sport"
+        "Absurdist Comedy"
       ],
       "categories": [
         "Friendship",
@@ -3259,6 +3259,7 @@
       ],
       "genres": [
         "Absurdist Comedy",
+        "Carnivalesque",
         "Picaresque"
       ],
       "categories": [
@@ -3590,7 +3591,7 @@
         1982
       ],
       "genres": [
-        "Musical",
+        "Rebellion Adventure",
         "Male Camaraderie",
         "Grumpy x Sunshine"
       ],
@@ -3968,7 +3969,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Comedy",
+        "Absurdist Comedy",
         "Cerebral Crime"
       ],
       "categories": [
@@ -4008,7 +4009,7 @@
         2009
       ],
       "genres": [
-        "Comedy",
+        "Camp Comedy",
         "Grumpy x Sunshine",
         "Dark Romance"
       ],
@@ -4050,8 +4051,7 @@
         2006
       ],
       "genres": [
-        "Comedy",
-        "Drama"
+        "Camp Comedy"
       ],
       "categories": [
         "",
@@ -4132,7 +4132,8 @@
         2004
       ],
       "genres": [
-        "Comedy",
+        "Camp Comedy",
+        "Dark Romance",
         "Grumpy x Sunshine"
       ],
       "categories": [
@@ -4173,8 +4174,8 @@
       ],
       "genres": [
         "Picaresque",
-        "Comedy",
-        "Adventure"
+        "Absurdist Comedy",
+        "Rebellion Adventure"
       ],
       "categories": [
         "Love",
@@ -4427,8 +4428,8 @@
       ],
       "genres": [
         "Anthropomorphic Animation",
-        "Comedy",
-        "Adventure"
+        "Camp Comedy",
+        "Rebellion Adventure"
       ],
       "categories": [
         "Friendship"
@@ -4469,7 +4470,7 @@
       "genres": [
         "Cerebral Crime",
         "Male Camaraderie",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Friendship",
@@ -4512,7 +4513,7 @@
       "genres": [
         "Magical Realism",
         "Grumpy x Sunshine",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Love",
@@ -4554,8 +4555,7 @@
         2000
       ],
       "genres": [
-        "Comedy",
-        "Crime",
+        "Camp Comedy",
         "High-Stakes Action"
       ],
       "categories": [
@@ -4595,7 +4595,7 @@
         2000
       ],
       "genres": [
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Horror",
         "Slasher"
       ],
@@ -4761,9 +4761,8 @@
         1999
       ],
       "genres": [
-        "Dark Comedy",
-        "Grumpy x Sunshine",
-        "Drama"
+        "Camp Comedy",
+        "Grumpy x Sunshine"
       ],
       "categories": [
         "Love",
@@ -4803,8 +4802,8 @@
         1999
       ],
       "genres": [
-        "Comedy",
-        "Romance",
+        "Camp Comedy",
+        "Rebellion Adventure",
         "Male Camaraderie"
       ],
       "categories": [
@@ -4844,7 +4843,7 @@
         1999
       ],
       "genres": [
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Picaresque",
         "Carnivalesque"
       ],
@@ -5178,7 +5177,7 @@
         1997
       ],
       "genres": [
-        "Dark Comedy",
+        "Camp Comedy",
         "Dark Romance",
         "Grumpy x Sunshine"
       ],
@@ -5303,7 +5302,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Comedy",
+        "Camp Comedy",
         "Rebellion Adventure"
       ],
       "categories": [
@@ -5346,7 +5345,7 @@
       "genres": [
         "Absurdist Comedy",
         "Carnivalesque",
-        "Sport"
+        "Picaresque"
       ],
       "categories": [
         "Purpose"
@@ -5387,7 +5386,7 @@
       "genres": [
         "Surreal Adventure",
         "Carnivalesque",
-        "Picaresque"
+        "Absurdist Comedy"
       ],
       "categories": [
         "Friendship"
@@ -5426,7 +5425,7 @@
         1996
       ],
       "genres": [
-        "Comedy",
+        "Absurdist Comedy",
         "Magical Realism",
         "Anthropomorphic Animation"
       ],
@@ -5468,9 +5467,8 @@
         1996
       ],
       "genres": [
-        "Adventure",
         "Anthropomorphic Animation",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Love"
@@ -5676,7 +5674,7 @@
         1995
       ],
       "genres": [
-        "Comedy",
+        "Camp Comedy",
         "Existential Drama",
         "Rebellion Adventure"
       ],
@@ -5718,7 +5716,7 @@
       ],
       "genres": [
         "Magical Realism",
-        "Dark Comedy",
+        "Camp Comedy",
         "Folklore Animation"
       ],
       "categories": [
@@ -5887,8 +5885,7 @@
       ],
       "genres": [
         "Picaresque",
-        "Romance",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Friendship"
@@ -5928,8 +5925,8 @@
       ],
       "genres": [
         "Male Camaraderie",
+        "Absurdist Comedy",
         "Picaresque",
-        "Carnivalesque"
       ],
       "categories": [
         "Friendship",
@@ -5970,7 +5967,7 @@
       ],
       "genres": [
         "Picaresque",
-        "Comedy"
+        "Absurdist Comedy"
       ],
       "categories": [
         "",
@@ -6054,7 +6051,7 @@
       "genres": [
         "Surreal Adventure",
         "Existential Drama",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Purpose",
@@ -6136,9 +6133,7 @@
         1993
       ],
       "genres": [
-        "Comedy",
-        "Drama",
-        "Sport"
+        "Camp Comedy"
       ],
       "categories": [
         "Purpose",
@@ -6180,7 +6175,7 @@
       "genres": [
         "Rebellion Adventure",
         "Picaresque",
-        "Carnivalesque"
+        "Camp Comedy"
       ],
       "categories": [
         "Love",
@@ -6264,7 +6259,9 @@
         1992
       ],
       "genres": [
-        "Carnivalesque"
+        "Carnivalesque",
+        "Picaresque",
+        "Camp Comedy"
       ],
       "categories": [
         "Friendship",
@@ -6305,7 +6302,8 @@
       ],
       "genres": [
         "Male Camaraderie",
-        "High-Stakes Action"
+        "High-Stakes Action",
+        "Camp Comedy"
       ],
       "categories": [
         "Purpose",
@@ -6345,7 +6343,7 @@
         1992
       ],
       "genres": [
-        ""
+        "Camp Comedy"
       ],
       "categories": [
         "Friendship",
@@ -6386,7 +6384,7 @@
         1991
       ],
       "genres": [
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Dark Romance",
         "Horror"
       ],
@@ -6516,9 +6514,8 @@
         1978
       ],
       "genres": [
-        "Musical",
         "Dark Romance",
-        "Comedy"
+        "Camp Comedy"
       ],
       "categories": [
         "Love",
@@ -6559,7 +6556,7 @@
       ],
       "genres": [
         "Carnivalesque",
-        "Dark Comedy",
+        "Absurdist Comedy",
         "Horror"
       ],
       "categories": [
@@ -6600,8 +6597,8 @@
         1965
       ],
       "genres": [
-        "Musical",
-        "Drama",
+        "Camp Comedy",
+        "Existential Drama",
         "Grumpy x Sunshine"
       ],
       "categories": [

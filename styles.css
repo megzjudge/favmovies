@@ -549,8 +549,10 @@ a:hover {
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    max-width: 480px;
+    margin: 0 auto;
 }
 
 .stats-chart-group {
@@ -584,8 +586,14 @@ a:hover {
 
 .donut-slice,
 .legend-item {
-    transition: opacity 0.2s ease;
+    transition: opacity 0.08s ease;
+    will-change: opacity;
 }
+
+.donut-slice.dimmed,
+.legend-item.dimmed {
+    opacity: 0.3;
+}   
 
 .donut-legend {
     display: flex;
@@ -593,7 +601,7 @@ a:hover {
     gap: 4px 10px;
     justify-content: center;
     margin-top: 10px;
-    font-size: 0.72rem;
+    font-size: 0.9rem;
 }
 
 .legend-item {
@@ -604,8 +612,8 @@ a:hover {
 }
 
 .legend-item i {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border-radius: 2px;
     background: var(--c);
     display: inline-block;

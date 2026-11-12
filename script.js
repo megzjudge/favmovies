@@ -44,10 +44,13 @@
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
     'Picaresque': "A morally-grey rogue or underdog moving through a corrupt or absurd world — sardonic wit the only moral compass along with their cunning. The next town, the next case, the next con is already waiting.",
-    'Absurdist Comedy': ".",
+    'Absurdist Comedy': "Breaks the logic of the world, its a challenge to give up on logic and making sense of the world, the absurd says 'reality is meaningless', it tries to keep you analysing until you break into laughter.",
+    'Camp Comedy': "Joy in the Absurd. Camp is partying, breaks the taste of the world, 'reality is too boring, let's make it more.' It's exagguration of reality to find joy in its awareness of the absurd.",
     'Folklore Animation': ".",
     'Anthropomorphic Animation': ".",
     'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides."
+    'Disagreeableness': ".",
+    'Openness': "."
   };
 
   // ==========================================

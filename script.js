@@ -482,17 +482,13 @@ function linkDonutHover(container) {
   const legendItems = container.querySelectorAll('.legend-item');
 
   function highlight(index) {
-    slices.forEach((s, i) => {
-      s.style.opacity = i === index ? '1' : '0.3';
-    });
-    legendItems.forEach((l, i) => {
-      l.style.opacity = i === index ? '1' : '0.4';
-    });
+    slices.forEach((s, i) => s.classList.toggle('dimmed', i !== index));
+    legendItems.forEach((l, i) => l.classList.toggle('dimmed', i !== index));
   }
 
   function reset() {
-    slices.forEach(s => s.style.opacity = '1');
-    legendItems.forEach(l => l.style.opacity = '1');
+    slices.forEach(s => s.classList.remove('dimmed'));
+    legendItems.forEach(l => l.classList.remove('dimmed'));
   }
 
   legendItems.forEach((item, i) => {

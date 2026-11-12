@@ -231,7 +231,7 @@ h1 {
 .description p a img {
     width: 1.2em;
     height: 1.2em;
-    display: block;
+    display: inline-block;
 }
 
 .description p a:hover {
@@ -239,13 +239,7 @@ h1 {
     transform: scale(1.1);
 }
 
-a {
-    display: inline-block;
-    color: rgb(100, 160, 240);
-    text-decoration: none;
-}
-
-#genreDescription a {
+a, #genreDescription a {
     display: inline;
     color: rgb(100, 160, 240);
     text-decoration: none;

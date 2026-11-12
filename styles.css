@@ -582,6 +582,11 @@ a:hover {
     opacity: 0.75;
 }
 
+.donut-slice,
+.legend-item {
+    transition: opacity 0.2s ease;
+}
+
 .donut-legend {
     display: flex;
     flex-wrap: wrap;

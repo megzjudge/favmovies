@@ -4,7 +4,7 @@
 
   const genreEmojis = {
     'Male Camaraderie': '🫂',
-    'Dark Comedy': '🎭',
+    'Camp Comedy': '🎭',
     'Psychological Thriller': '🧠',
     'Existential Drama': '⏳',
     'Cerebral Crime': '🎯',
@@ -40,7 +40,6 @@
     'Surreal Adventure': "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
     'Rebellion Adventure': "A defiant refusal to be broken or claimed, the adventure of rebellion itself a journey — fought across open terrain or through the serpentine layers of the Self.",
     'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
-    'Dark Comedy': "Schadenfreude. A wry comedy that grapples with grave subjects, mixing humour and melancholy to illuminate the absurd shadows of the human condition.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",
     'Picaresque': "A morally-grey rogue or underdog moving through a corrupt or absurd world — sardonic wit the only moral compass along with their cunning. The next town, the next case, the next con is already waiting.",
@@ -63,13 +62,6 @@
       { url: 'https://en.wikipedia.org/wiki/Buddy_film', icon: 'wikipedia' },
       { url: 'https://www.imdb.com/search/title/?keywords=male-camaraderie&explore=keywords&sort=year,desc', icon: 'imdb' },
       { url: 'https://search.brave.com/search?q=male+camaraderie+films', icon: 'link' }
-    ],
-
-    'Dark Comedy': [
-      { url: 'https://en.wikipedia.org/wiki/Black_comedy', icon: 'wikipedia' },
-      { url: 'https://www.imdb.com/interest/in0000035/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls066399600/', icon: 'imdb' },
-      { url: 'https://www.imdb.com/list/ls052772888/?sort=user_rating%2Cdesc', icon: 'imdb' }
     ],
 
     'Psychological Thriller': [

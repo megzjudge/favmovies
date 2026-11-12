@@ -17,7 +17,8 @@
       ],
       "categories": [
         "The Brain",
-        "Disagreeableness"
+        "Disagreeableness",
+        "Openness"
       ],
       "image": "images/revolver.jpg",
       "imageAlt": "Revolver",
@@ -61,7 +62,8 @@
       ],
       "categories": [
         "The Brain",
-        "Disagreeableness"
+        "Disagreeableness",
+        "Openness"
       ],
       "image": "images/fight_club.jpg",
       "imageAlt": "Fight Club",
@@ -103,7 +105,9 @@
       ],
       "categories": [
         "The Brain",
-        "Friendship"
+        "Friendship",
+        "Disagreeableness",
+        "Openness"
       ],
       "image": "images/v_for_vendetta.jpg",
       "imageAlt": "V for Vendetta",
@@ -144,7 +148,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/inception.jpg",
       "imageAlt": "Inception",
@@ -185,7 +190,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/limitless.jpg",
       "imageAlt": "Limitless",
@@ -226,7 +232,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/tenet.jpg",
       "imageAlt": "Tenet",
@@ -323,13 +330,15 @@
       ],
       "genres": [
         "High-Stakes Action",
+        "Male Camaraderie",
         "Dystopian Sci-Fi",
         "Camp Comedy"
       ],
       "categories": [
         "The Brain",
         "Friendship",
-        "Love"
+        "Love",
+        "Disagreeableness"
       ],
       "image": "images/venom.jpg",
       "imageAlt": "Venom: The Last Dance",
@@ -464,7 +473,8 @@
         "Magical Realism"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/everything_everywhere_all_at_once.jpg",
       "imageAlt": "Everything Everywhere All at Once",
@@ -506,7 +516,7 @@
       ],
       "categories": [
         "The Brain",
-        ""
+        "Openness"
       ],
       "image": "images/nine_days.jpg",
       "imageAlt": "Nine Days",
@@ -771,8 +781,7 @@
         "Existential Drama"
       ],
       "categories": [
-        "",
-        ""
+        "Purpose"
       ],
       "image": "images/alien.jpg",
       "imageAlt": "Alien",
@@ -839,7 +848,7 @@
       ],
       "categories": [
         "The Brain",
-        ""
+        "Openness"
       ],
       "image": "images/john_dies_at_the_end.jpg",
       "imageAlt": "John Dies at the End",
@@ -881,7 +890,7 @@
       ],
       "categories": [
         "The Brain",
-        ""
+        "Openness"
       ],
       "image": "images/wanderlust.jpg",
       "imageAlt": "Wanderlust",
@@ -923,7 +932,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/sucker_punch.jpg",
       "imageAlt": "Sucker Punch",
@@ -1005,7 +1015,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/push.jpg",
       "imageAlt": "Push",
@@ -1721,10 +1732,12 @@
       ],
       "genres": [
         "Magical Realism",
-        "Psychological Thriller"
+        "Psychological Thriller",
+        "Dark Romance"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/the_sin_eater_the_order.jpg",
       "imageAlt": "The Sin Eater (The Order)",
@@ -2137,6 +2150,7 @@
         "Surreal Adventure"
       ],
       "categories": [
+        "Purpose",
         "Openness"
       ],
       "image": "images/spirited_away.jpg",
@@ -2430,7 +2444,8 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/the_matrix_reloaded.jpg",
       "imageAlt": "The Matrix Reloaded",
@@ -2483,7 +2498,8 @@
         "Picaresque"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/being_john_malkovich.jpg",
       "imageAlt": "Being John Malkovich",
@@ -2777,7 +2793,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreeableness"
       ],
       "image": "images/enemy_of_the_state.jpg",
       "imageAlt": "Enemy of the State",
@@ -2946,7 +2963,8 @@
       ],
       "categories": [
         "Love",
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/princess_mononoke.jpg",
       "imageAlt": "Princess Mononoke",
@@ -3203,7 +3221,8 @@
       ],
       "categories": [
         "The Brain",
-        "Disagreeableness"
+        "Disagreeableness",
+        "Openness"
       ],
       "image": "images/the_mask.jpg",
       "imageAlt": "The Mask (1994)",
@@ -3665,7 +3684,8 @@
       ],
       "categories": [
         "Love",
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/blade_runner.jpg",
       "imageAlt": "Blade Runner",
@@ -4205,6 +4225,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
+        "Friendship",
         "Openness"
       ],
       "image": "images/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe.jpg",
@@ -4246,6 +4267,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
+        "Love",
         "Disagreeableness"
       ],
       "image": "images/50_first_dates.jpg",
@@ -4369,8 +4391,9 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Friendship",
+        "Purpose"
       ],
       "image": "images/star_wars_episode_2.jpg",
       "imageAlt": "Star Wars: Episode II – Attack of the Clones (2002)",
@@ -4496,8 +4519,8 @@
         "Existential Drama"
       ],
       "categories": [
-        "",
-        ""
+        "Openness",
+        "Disagreeableness"
       ],
       "image": "images/donnie_darko.jpg",
       "imageAlt": "Donnie Darko (2001)",
@@ -4789,8 +4812,9 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Love",
+        "Friendship",
+        "Purpose"
       ],
       "image": "images/star_wars_episode_1.jpg",
       "imageAlt": "Star Wars: Episode I – The Phantom Menace (1999)",
@@ -4868,6 +4892,7 @@
       ],
       "genres": [
         "Camp Comedy",
+        "Dark Romance",
         "Grumpy x Sunshine"
       ],
       "categories": [
@@ -5163,8 +5188,7 @@
         "Magical Realism"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/practical_magic.jpg",
       "imageAlt": "Practical Magic (1998)",
@@ -5369,7 +5393,8 @@
         "Magical Realism"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/the_craft.jpg",
       "imageAlt": "The Craft (1996)",
@@ -5411,7 +5436,8 @@
       ],
       "categories": [
         "The Brain",
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/matilda.jpg",
       "imageAlt": "Matilda (1996)",
@@ -5698,8 +5724,7 @@
         "Folklore Animation"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/pocahontas.jpg",
       "imageAlt": "Pocahontas",
@@ -5740,8 +5765,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Openness",
+        "Friendship"
       ],
       "image": "images/jumanji.jpg",
       "imageAlt": "Jumanji (1995)",
@@ -5947,7 +5972,8 @@
       ],
       "genres": [
         "Existential Drama",
-        "Magical Realism"
+        "Magical Realism",
+        "Dark Romance"
       ],
       "categories": [
         "The Brain",

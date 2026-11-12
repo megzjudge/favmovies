@@ -38,7 +38,7 @@
     'Intelligent Action': "A pulse-pounding rush of explosive set pieces, narrow escapes, and relentless pursuit, orchestrated with cunning strategy and razor-sharp ingenuity.",
     'High-Stakes Action': "A raw, intense, pulse-increasing confrontation where the gun is already in hand and everything is running against the clock, room holding its breath and seconds from catastrophe.",
     'Surreal Adventure': "A dreamlike odyssey through strange circumstances and unlikely encounters, where the boundaries of the conceivable blur and curiosity leads one tumbling down the rabbit hole.",
-    'Rebellion Adventure': "A defiant refusal to be broken or claimed, the adventure of rebellion itself a journey — fought across open terrain or through the serpentine layers of the Self.",
+    'Rebellion Adventure': "A defiant refusal to be broken, controlled or claimed, the adventure of rebellion itself a journey — fought across open terrain or through the serpentine layers of the Self.",
     'Dystopian Sci-Fi': "A speculative lens on warped circumstances—within society or the self—where control, truth, and technology blur the boundaries of what it means to be human.",
     'Grumpy x Sunshine': "A slow-burn love where one's armour and the other's warmth grind against each other until both are reshaped — the closed one learning to let someone in, and the open one learning to commit.",
     'Carnivalesque': "In a way, the world turned upside down - not chaos for its own sake - but something normal order forbids being the new norm - like carnivals, where a type of chaos is made entirely normal.",

@@ -491,6 +491,89 @@ a:hover {
 }
 
 /* ==========================================
+   STATISTICS PANEL
+   ========================================== */
+
+[data-view-panel="statistics"] {
+    padding: 16px 0;
+}
+
+[data-view-panel="statistics"] h2 {
+    font-family: 'Rosehot', cursive, sans-serif;
+    font-size: clamp(28px, 3vw, 42px);
+    color: rgb(100, 160, 240);
+    text-align: center;
+    margin-bottom: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+[data-view-panel="statistics"] h3 {
+    font-family: 'Rosehot', cursive, sans-serif;
+    font-size: clamp(20px, 2vw, 28px);
+    color: rgb(100, 160, 240);
+    text-align: center;
+    margin: 24px 0 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.correlation-card {
+    text-align: center;
+    padding: 14px 10px;
+    border-radius: 12px;
+    background: radial-gradient(circle at top, rgb(30, 85, 150) 0%, rgb(10, 54, 107) 100%);
+    border: 2px solid rgb(74, 144, 226);
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.4), 0 0 12px rgba(74, 144, 226, 0.2);
+}
+
+.correlation-card h4 {
+    font-size: 0.9rem;
+    margin: 0 0 10px;
+    color: rgb(220, 220, 220);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.donut-slice {
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.donut-slice:hover {
+    opacity: 0.75;
+}
+
+.donut-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.72rem;
+}
+
+.legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(200, 213, 230);
+}
+
+.legend-item i {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background: var(--c);
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* ==========================================
    FEATURED MOVIE SECTION
    ========================================== */
 
@@ -761,6 +844,19 @@ a:hover {
     .featured-movie-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 16px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 14px;
+    }
+
+    .correlation-card {
+        padding: 10px 8px;
+    }
+
+    .donut-legend {
+        font-size: 0.65rem;
     }
 }
 

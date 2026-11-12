@@ -797,8 +797,13 @@ Array.from(taughtCounts.entries())
       if (!section) return;
       const hasVisible = section.querySelector('.movie-card:not(.hidden)');
       section.hidden = !hasVisible;
+    });
+
+    descriptionContainer.querySelectorAll('a').forEach(a => {
+      a.target = '_blank';
+      a.rel = 'noopener';
     });   
-  
+      
     noResults.hidden = visibleCount !== 0;
   }
 

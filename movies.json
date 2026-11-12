@@ -14,7 +14,8 @@
         "Intelligent Action"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/revolver.jpg",
       "imageAlt": "Revolver",
@@ -55,7 +56,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/fight_club.jpg",
       "imageAlt": "Fight Club",
@@ -373,8 +375,7 @@
         "Male Camaraderie"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/the_ministry_of_ungentlemanly_warfare.jpg",
       "imageAlt": "The Ministry of Ungentlemanly Warfare",
@@ -415,7 +416,8 @@
         "Epic"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/oppenheimer.jpg",
       "imageAlt": "Oppenheimer",
@@ -540,7 +542,7 @@
       ],
       "categories": [
         "Love",
-        ""
+        "Disagreableness"
       ],
       "image": "images/the_gentlemen.jpg",
       "imageAlt": "The Gentlemen",
@@ -707,8 +709,7 @@
         "Dark Comedy"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/the_man_from_u_n_c_l_e.jpg",
       "imageAlt": "The Man from U.N.C.L.E.",
@@ -1029,7 +1030,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "notes": "Trailer has massive spoilers.",
       "image": "images/enter_the_void.jpg",
@@ -1071,7 +1073,8 @@
         "Romance"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/superbad.jpg",
       "imageAlt": "Superbad",
@@ -1153,7 +1156,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/suburban_mayhem.jpg",
       "imageAlt": "Suburban Mayhem",
@@ -1195,7 +1199,9 @@
       ],
       "categories": [
         "Purpose",
-        "Love"
+        "Love",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/blood_diamond.jpg",
       "imageAlt": "Blood Diamond",
@@ -1278,7 +1284,8 @@
         "High-Stakes Action"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/the_departed.jpg",
       "imageAlt": "The Departed",
@@ -1319,7 +1326,9 @@
         "Existential Drama"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/lord_of_war.jpg",
       "imageAlt": "Lord of War",
@@ -1401,7 +1410,8 @@
         "Dark Romance"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/mr_and_mrs_smith.jpg",
       "imageAlt": "Mr & Mrs Smith",
@@ -1484,7 +1494,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/secret_window.jpg",
       "imageAlt": "Secret Window",
@@ -1525,7 +1536,8 @@
         "Horror"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/alien_vs_predator.jpg",
       "imageAlt": "Alien vs. Predator (2004)",
@@ -1566,8 +1578,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness",
+        "Purpose"
       ],
       "image": "images/the_chronicles_of_riddick.jpg",
       "imageAlt": "The Chronicles of Riddick",
@@ -1731,7 +1743,8 @@
         "Existential Drama"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/the_animatrix.jpg",
       "imageAlt": "The Animatrix",
@@ -1815,7 +1828,8 @@
       ],
       "categories": [
         "Love",
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/spirit_stallion_of_the_cimarron.jpg",
       "imageAlt": "Spirit: Stallion of the Cimarron",
@@ -1897,7 +1911,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/sorority_boys.jpg",
       "imageAlt": "Sorority Boys",
@@ -1938,7 +1953,8 @@
         "High-Stakes Action"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/xXx.jpg",
       "imageAlt": "xXx",
@@ -2020,7 +2036,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/super_troopers.jpg",
       "imageAlt": "Super Troopers",
@@ -2061,8 +2078,7 @@
         "Fantasy"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/spirited_away.jpg",
       "imageAlt": "Spirited Away",
@@ -2103,7 +2119,8 @@
         "Existential Drama"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/requiem_for_a_dream.jpg",
       "imageAlt": "Requiem for a Dream",
@@ -2144,7 +2161,8 @@
         "Picaresque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/snatch.jpg",
       "imageAlt": "Snatch",
@@ -2185,7 +2203,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/dude_wheres_my_car.jpg",
       "imageAlt": "Dude, Where's My Car?",
@@ -2226,7 +2245,8 @@
         "Science Fiction"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/digimon_the_movie.jpg",
       "imageAlt": "Digimon: The Movie",
@@ -2445,7 +2465,8 @@
         "Dark Romance"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/american_beauty.jpg",
       "imageAlt": "American Beauty",
@@ -2568,7 +2589,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/the_truman_show.jpg",
       "imageAlt": "The Truman Show",
@@ -2609,7 +2631,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/lock_stock_and_two_smoking_barrels.jpg",
       "imageAlt": "Lock, Stock and Two Smoking Barrels",
@@ -2650,7 +2673,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/fear_and_loathing_in_las_vegas.jpg",
       "imageAlt": "Fear and Loathing in Las Vegas",
@@ -2732,7 +2756,8 @@
         "Anthropomorphic Animation"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/the_lion_king_2.jpg",
       "imageAlt": "The Lion King II: Simba&#x27;s Pride",
@@ -2773,7 +2798,8 @@
         "Sport"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/baseketball.jpg",
       "imageAlt": "BASEketball (1998)",
@@ -2814,7 +2840,8 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/hercules.jpg",
       "imageAlt": "Hercules",
@@ -2943,8 +2970,7 @@
         "Magical Realism"
       ],
       "categories": [
-        "",
-        ""
+        "Love"
       ],
       "image": "images/batman_forever.jpg",
       "imageAlt": "Batman Forever",
@@ -3027,7 +3053,8 @@
         "Picaresque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/ace_ventura_pet_detective.jpg",
       "imageAlt": "Ace Ventura: Pet Detective",
@@ -3068,7 +3095,8 @@
         "Picaresque"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/the_mask.jpg",
       "imageAlt": "The Mask (1994)",
@@ -3109,8 +3137,7 @@
         "High-Stakes Action"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/stargate.jpg",
       "imageAlt": "Stargate (1994)",
@@ -3151,8 +3178,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness",
+        "Friendship"
       ],
       "image": "images/super_mario_bros.jpg",
       "imageAlt": "Super Mario Bros. (1993)",
@@ -3194,7 +3221,8 @@
       ],
       "categories": [
         "Love",
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/groundhog_day.jpg",
       "imageAlt": "Groundhog Day (1993)",
@@ -3275,7 +3303,8 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/the_silver_brumby.jpg",
       "imageAlt": "The Silver Brumby",
@@ -3440,7 +3469,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/1984.jpg",
       "imageAlt": "1984",
@@ -3481,7 +3511,8 @@
         "Male Camaraderie"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/yellowbeard.jpg",
       "imageAlt": "Yellowbeard",
@@ -3609,7 +3640,8 @@
         "Surreal Adventure"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/nice_dreams.jpg",
       "imageAlt": "Cheech and Chong&#x27;s Nice Dreams",
@@ -3688,7 +3720,7 @@
         "Carnivalesque"
       ],
       "categories": [
-        ""
+        "Disagreableness"
       ],
       "image": "images/life_of_brian.jpg",
       "imageAlt": "Life of Brian",
@@ -3764,7 +3796,8 @@
         "Folklore Animation"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/robin_hood.jpg",
       "imageAlt": "Robin Hood",
@@ -3805,7 +3838,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Openness"
       ],
       "image": "images/alice_in_wonderland.jpg",
       "imageAlt": "Alice in Wonderland",
@@ -3851,7 +3885,8 @@
         "Cerebral Crime"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/the_big_sleep.jpg",
       "imageAlt": "The Big Sleep",
@@ -3892,8 +3927,7 @@
         "Fantasy"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/fantasia.jpg",
       "imageAlt": "Fantasia",
@@ -3979,7 +4013,8 @@
         "Dark Romance"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/the_proposal.jpg",
       "imageAlt": "The Proposal",
@@ -4061,8 +4096,7 @@
         "Adventure"
       ],
       "categories": [
-        "",
-        ""
+        "Openness"
       ],
       "image": "images/the_chronicles_of_narnia_the_lion_the_witch_and_the_wardrobe.jpg",
       "imageAlt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
@@ -4102,8 +4136,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/50_first_dates.jpg",
       "imageAlt": "50 First Dates",
@@ -4313,7 +4346,9 @@
         "Existential Drama"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Openness",
+        "Disagreableness"
       ],
       "image": "images/catch_me_if_you_can.jpg",
       "imageAlt": "Catch Me If You Can (2002)",
@@ -4438,7 +4473,8 @@
       ],
       "categories": [
         "Friendship",
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/oceans_eleven.jpg",
       "imageAlt": "Ocean's Eleven (2001)",
@@ -4480,7 +4516,9 @@
       ],
       "categories": [
         "Love",
-        "The Brain"
+        "The Brain",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/what_women_want.jpg",
       "imageAlt": "What Women Want",
@@ -4521,8 +4559,7 @@
         "High-Stakes Action"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/miss_congeniality.jpg",
       "imageAlt": "Miss Congeniality",
@@ -4605,8 +4642,7 @@
         "Dark Romance"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/bedazzled.jpg",
       "imageAlt": "Bedazzled (2000)",
@@ -4730,7 +4766,8 @@
         "Drama"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/10_things_i_hate_about_you.jpg",
       "imageAlt": "10 Things I Hate About You (1999)",
@@ -4812,7 +4849,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/south_park.jpg",
       "imageAlt": "South Park: Bigger, Longer & Uncut",
@@ -4936,7 +4974,8 @@
         "Dystopian Sci-Fi"
       ],
       "categories": [
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/blade.jpg",
       "imageAlt": "Blade (1998)",
@@ -4978,7 +5017,8 @@
       ],
       "categories": [
         "Love",
-        "Purpose"
+        "Purpose",
+        "Disagreableness"
       ],
       "image": "images/mulan.jpg",
       "imageAlt": "Mulan",
@@ -5143,8 +5183,7 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "",
-        ""
+        "Disagreableness"
       ],
       "image": "images/as_good_as_it_gets.jpg",
       "imageAlt": "As Good as It Gets",
@@ -5600,7 +5639,8 @@
         "Picaresque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/ace_ventura_when_nature_calls.jpg",
       "imageAlt": "Ace Ventura: When Nature Calls (1995)",
@@ -5683,7 +5723,8 @@
       ],
       "categories": [
         "Love",
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/casper.jpg",
       "imageAlt": "Casper (1995)",
@@ -5724,7 +5765,8 @@
         "Picaresque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/dumb_and_dumber.jpg",
       "imageAlt": "Dumb and Dumber (1994)",
@@ -5765,7 +5807,8 @@
         "Fantasy"
       ],
       "categories": [
-        "The Brain"
+        "The Brain",
+        "Disagreableness"
       ],
       "image": "images/interview_with_a_vampire.jpg",
       "imageAlt": "Interview with the Vampire (1994)",
@@ -5806,7 +5849,8 @@
         "Psychological Thriller"
       ],
       "categories": [
-        "Reasons for Living"
+        "Reasons for Living",
+        "Disagreableness"
       ],
       "image": "images/the_crow.jpg",
       "imageAlt": "The Crow (1994)",
@@ -5888,7 +5932,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Friendship"
+        "Friendship",
+        "Disagreableness"
       ],
       "image": "images/the_little_rascals.jpg",
       "imageAlt": "The Little Rascals",
@@ -5971,7 +6016,7 @@
       ],
       "categories": [
         "Friendship",
-        ""
+        "Openess"
       ],
       "image": "images/priscilla_queen_of_the_desert.jpg",
       "imageAlt": "The Adventures of Priscilla, Queen of the Desert (1994)",
@@ -6054,7 +6099,8 @@
       ],
       "categories": [
         "Purpose",
-        "Friendship"
+        "Friendship",
+        "Openness"
       ],
       "image": "images/free_willy.jpg",
       "imageAlt": "Free Willy (1993)",
@@ -6137,7 +6183,8 @@
         "Carnivalesque"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/robin_hood_men_in_tights.jpg",
       "imageAlt": "Robin Hood: Men in Tights (1993)",
@@ -6179,7 +6226,9 @@
       ],
       "categories": [
         "Purpose",
-        "Friendship"
+        "Friendship",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/aladdin.jpg",
       "imageAlt": "Aladdin (1992)",
@@ -6342,7 +6391,9 @@
         "Horror"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/the_addams_family.jpg",
       "imageAlt": "The Addams Family (1991)",
@@ -6384,7 +6435,7 @@
       ],
       "categories": [
         "Purpose",
-        ""
+        "Disagreableness"
       ],
       "image": "images/kindergarten_cop.jpg",
       "imageAlt": "Kindergarten Cop (1990)",
@@ -6427,7 +6478,9 @@
       "categories": [
         "Purpose",
         "The Brain",
-        "Friendship"
+        "Friendship",
+        "Disagreableness",
+        "Openness"
       ],
       "image": "images/the_terminator.jpg",
       "imageAlt": "The Terminator (1984)",
@@ -6468,7 +6521,8 @@
         "Comedy"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Disagreableness"
       ],
       "image": "images/grease.jpg",
       "imageAlt": "Grease",
@@ -6510,7 +6564,7 @@
       ],
       "categories": [
         "Love",
-        ""
+        "Openness"
       ],
       "image": "images/the_rocky_horror_picture_show.jpg",
       "imageAlt": "The Rocky Horror Picture Show",
@@ -6551,7 +6605,8 @@
         "Grumpy x Sunshine"
       ],
       "categories": [
-        "Love"
+        "Love",
+        "Openness"
       ],
       "image": "images/the_sound_of_music.jpg",
       "imageAlt": "The Sound of Music",
@@ -6593,7 +6648,7 @@
       ],
       "categories": [
         "Friendship",
-        ""
+        "Openness"
       ],
       "image": "images/the_sword_in_the_stone.jpg",
       "imageAlt": "The Sword in the Stone",

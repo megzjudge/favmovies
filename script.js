@@ -516,10 +516,10 @@ function renderDonut(container, data, title, emoji) {
     </div>`;
 }   
 
-function renderStats() {
+function renderStats(panel) {
   const cards = Array.from(document.querySelectorAll('.movie-card'));
 
-  statsPanel.innerHTML = `
+  panel.innerHTML = `
     <h2>📊 Statistics</h2>
     <div class="stats-filter">
       <label class="sr-only" for="statsGenreSelect">Select a genre</label>
@@ -530,8 +530,8 @@ function renderStats() {
     <div id="statsResults" class="stats-results"></div>
   `;
 
-  const select = statsPanel.querySelector('#statsGenreSelect');
-  const results = statsPanel.querySelector('#statsResults');
+  const select = panel.querySelector('#statsGenreSelect');
+  const results = panel.querySelector('#statsResults');
 
   // Populate genre options
   const genreCounts = new Map();
@@ -622,7 +622,6 @@ function renderStats() {
     }
 
     if (Object.keys(decades).length) {
-      // Sort decades chronologically
       const sorted = {};
       Object.keys(decades).sort((a, b) => parseInt(a) - parseInt(b))
         .forEach(k => { sorted[k] = decades[k]; });
@@ -1221,7 +1220,7 @@ Array.from(taughtCounts.entries())
 
     if (showing) {
       setFiltersOpen(false);
-      renderStats();
+      renderStats(statsPanel);
     } else {
       fitMovieGrid();
     }

@@ -193,8 +193,7 @@
     'Love': '❤️',
     'Friendship': '🤝',
     'The Brain': '📝',
-    'Purpose': '🌊',
-    'Reasons for Living': '🌱'
+    'Purpose': '🌊'
   };
 
   // ==========================================

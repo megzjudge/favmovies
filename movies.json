@@ -11,7 +11,8 @@
       "genres": [
         "Existential Drama",
         "Cerebral Crime",
-        "Intelligent Action"
+        "Intelligent Action",
+        "Film Noir"
       ],
       "categories": [
         "The Brain",
@@ -583,7 +584,8 @@
       "genres": [
         "Intelligent Action",
         "Psychological Thriller",
-        "Cerebral Crime"
+        "Cerebral Crime",
+        "Film Noir"
       ],
       "categories": [
         "The Brain",
@@ -626,6 +628,7 @@
         "Existential Drama",
         "Cerebral Crime",
         "Dystopian Sci-Fi",
+        "Film Noir",
         "Rebellion Adventure"
       ],
       "categories": [
@@ -668,7 +671,8 @@
       "genres": [
         "Intelligent Action",
         "Existential Drama",
-        "Cerebral Crime"
+        "Cerebral Crime",
+        "Film Noir"
       ],
       "categories": [
         "",
@@ -712,6 +716,7 @@
         "Male Camaraderie",
         "Cerebral Crime",
         "Camp Comedy",
+        "Film Noir",
         "Picaresque"
       ],
       "categories": [
@@ -1289,6 +1294,7 @@
       ],
       "genres": [
         "Cerebral Crime",
+        "Film Noir",
         "Psychological Thriller",
         "High-Stakes Action"
       ],
@@ -1332,7 +1338,8 @@
       "genres": [
         "Picaresque",
         "Cerebral Crime",
-        "Existential Drama"
+        "Existential Drama",
+        "Film Noir"
       ],
       "categories": [
         "Purpose",
@@ -1457,7 +1464,8 @@
         "Intelligent Action",
         "Existential Drama",
         "Cerebral Crime",
-        "Picaresque"
+        "Picaresque",
+        "Film Noir"
       ],
       "categories": [
         "",
@@ -3557,6 +3565,7 @@
         "Dystopian Sci-Fi",
         "Cerebral Crime",
         "Psychological Thriller",
+        "Film Noir",
         "Existential Drama"
       ],
       "categories": [
@@ -5844,6 +5853,7 @@
         "Existential Drama",
         "High-Stakes Action",
         "Psychological Thriller",
+        "Film Noir",
         "Magical Realism"
       ],
       "categories": [

@@ -48,8 +48,8 @@
     'Folklore Animation': "Traditional stories, myths, legends, fairy tales, cultural norms, and oral traditions of a particular culture - preserved and transmitted through the medium of animation.",
     'Anthropomorphic Animation': "Non-human entities — animals, objects, vehicles, abstract concepts — are given human traits, form, behaviour, or speech - a form of projection where humans infer the Self onto non-humanoids to express the Self.",
     'Dark Romance': "The attraction is the friction itself: belligerence, obsession, antagonism, egoism, a gap between that they keep trying to close by leaning harder. A love that struggles, defies odds, or opens the Self up to it's hidden sides.",
-    'Disagreeableness': ".",
-    'Openness': "."
+    'Disagreeableness': "These films are/or have characters that reflect my own personality back at me - Disagreeableness (low agreeableness) is the trait of antagonism, bluntness, friction, self-liberation (Self vs Other), and a refusal to conform to social expectations. 'You are completely incarcerated by your conceptualized self,' (Guy Ritchie, 2007).",
+    'Openness': "These films are/or have characters that reflect my own personality back at me - High Openness to Experience is the trait of curiousity, pattern-seeking, aestheticism, intellectual exploration, possibility divergence, seeking to see all sides of everything. Seeing the world as incomplete without the next door, pattern, or 'what if.' It's always seeking the pattern."
   };
 
   // ==========================================

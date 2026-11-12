@@ -240,6 +240,7 @@ h1 {
 }
 
 a {
+    display: inline-block;
     color: rgb(100, 160, 240);
     text-decoration: none;
 }

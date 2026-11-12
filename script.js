@@ -194,6 +194,8 @@
     'Friendship': '🤝',
     'The Brain': '📝',
     'Purpose': '🌊'
+    'Disagreeableness': '🕹️',
+    'Openness': '🌀'
   };
 
   // ==========================================

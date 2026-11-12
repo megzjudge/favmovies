@@ -171,9 +171,10 @@
     ],
 
     'Camp Comedy': [
-      { url: '', icon: 'link' },
-      { url: '', icon: 'link' },
-      { url: '', icon: 'link' }
+      { url: 'https://www.ranker.com/list/best-camp-comedy-movies-list/ranker-film', icon: 'link' },
+      { url: 'https://en.wikipedia.org/wiki/Camp_(style)', icon: 'wikipedia' },
+      { url: 'https://en.wikipedia.org/wiki/Comedy_film#Camp_and_bawdy_comedy', icon: 'wikipedia' },
+      { url: 'https://www.advocate.com/arts-entertainment/film/2015/05/13/16-camp-classics-keep-us-laughing', icon: 'link' }
     ],
 
     'Folklore Animation': [

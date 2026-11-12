@@ -736,14 +736,14 @@ Array.from(taughtCounts.entries())
       }
   
       descriptionContainer.appendChild(descPara);
-    } else if (
-      selectedTaught &&
-      categoriesDescriptions[selectedTaught]
-    ) {
-      const descPara = document.createElement('p');
-      descPara.textContent = categoriesDescriptions[selectedTaught];
-      descriptionContainer.appendChild(descPara);
-    }
+      } else if (
+        selectedTaught &&
+        categoriesDescriptions[selectedTaught]
+      ) {
+        const descPara = document.createElement('p');
+        descPara.innerHTML = categoriesDescriptions[selectedTaught];
+        descriptionContainer.appendChild(descPara);
+      }   
   
     let visibleCount = 0;
   

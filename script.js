@@ -439,6 +439,112 @@ if (movie.notes) {
 }
 
 // ==========================================
+// STATISTICS RENDERING
+// ==========================================
+
+function buildCooccurrenceData(cards) {
+  const genreToCat = {};
+  const catToGenre = {};
+
+  cards.forEach(card => {
+    const genres = (card.dataset.genres || '').split('|').filter(Boolean);
+    const cats = (card.dataset.categories || '').split('|').filter(Boolean);
+
+    genres.forEach(g => {
+      genreToCat[g] = genreToCat[g] || {};
+      cats.forEach(c => {
+        genreToCat[g][c] = (genreToCat[g][c] || 0) + 1;
+      });
+    });
+
+    cats.forEach(c => {
+      catToGenre[c] = catToGenre[c] || {};
+      genres.forEach(g => {
+        catToGenre[c][g] = (catToGenre[c][g] || 0) + 1;
+      });
+    });
+  });
+
+  return { genreToCat, catToGenre };
+}
+
+function donutSlice(cx, cy, r, startAngle, endAngle) {
+  const x1 = cx + r * Math.cos(startAngle);
+  const y1 = cy + r * Math.sin(startAngle);
+  const x2 = cx + r * Math.cos(endAngle);
+  const y2 = cy + r * Math.sin(endAngle);
+  const largeArc = endAngle - startAngle > Math.PI ? 1 : 0;
+  return `M ${cx} ${cy} L ${x1} ${y1} A ${r} ${r} 0 ${largeArc} 1 ${x2} ${y2} Z`;
+}
+
+function renderDonut(container, data, title, emoji) {
+  const entries = Object.entries(data).sort((a, b) => b[1] - a[1]);
+  const total = entries.reduce((sum, [, v]) => sum + v, 0);
+  if (!total) return;
+
+  const size = 140, r = 55, cx = size / 2, cy = size / 2;
+  const colors = ['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#1abc9c','#e67e22','#34495e'];
+
+  let angle = -Math.PI / 2;
+  let paths = '';
+
+  entries.forEach(([key, count], i) => {
+    const slice = (count / total) * Math.PI * 2;
+    paths += `<path d="${donutSlice(cx, cy, r, angle, angle + slice)}"
+      fill="${colors[i % colors.length]}"
+      class="donut-slice">
+      <title>${key}: ${count} (${Math.round(count/total*100)}%)</title>
+    </path>`;
+    angle += slice;
+  });
+
+  const innerR = r * 0.55;
+  const inner = `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="var(--bg, #0a0a1a)"/>`;
+
+  container.innerHTML = `
+    <div class="correlation-card">
+      <h4>${emoji || ''} ${title}</h4>
+      <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${title} breakdown">
+        ${paths}${inner}
+      </svg>
+      <div class="donut-legend">
+        ${entries.map(([k, v], i) =>
+          `<span class="legend-item" style="--c:${colors[i % colors.length]}">
+            <i></i>${k} (${v})
+          </span>`
+        ).join('')}
+      </div>
+    </div>`;
+}
+
+function renderStats() {
+  const cards = Array.from(document.querySelectorAll('.movie-card'));
+  const { genreToCat, catToGenre } = buildCooccurrenceData(cards);
+
+  statsPanel.innerHTML = `
+    <h2>📊 Statistics</h2>
+    <h3>Genres → Categories</h3>
+    <div class="stats-grid" id="genreStatsGrid"></div>
+    <h3>Categories → Genres</h3>
+    <div class="stats-grid" id="catStatsGrid"></div>
+  `;
+
+  const genreGrid = statsPanel.querySelector('#genreStatsGrid');
+  Object.entries(genreToCat).forEach(([genre, cats]) => {
+    const div = document.createElement('div');
+    genreGrid.appendChild(div);
+    renderDonut(div, cats, genre, genreEmojis[genre]);
+  });
+
+  const catGrid = statsPanel.querySelector('#catStatsGrid');
+  Object.entries(catToGenre).forEach(([cat, genres]) => {
+    const div = document.createElement('div');
+    catGrid.appendChild(div);
+    renderDonut(div, genres, cat, categoriesEmojis[cat]);
+  });
+}
+
+// ==========================================
 // INITIALIZATION
 // ==========================================
 
@@ -462,6 +568,7 @@ async function initializeMovies() {
 
   const filtersTab = document.getElementById('filtersTab');
   const correlationsTab = document.getElementById('correlationsTab');
+  const statsTab = document.getElementById('statsTab');
 
   const filterPanel = document.getElementById('filterPanel');
 
@@ -472,6 +579,10 @@ async function initializeMovies() {
   const correlationsPanel = document.querySelector(
     '[data-view-panel="correlations"]'
   );
+
+  const statsPanel = document.querySelector(
+    '[data-view-panel="statistics"]'
+  );   
   
   // ==========================================
   // AUTO-CLOSE FILTERS ON SCROLL
@@ -980,6 +1091,10 @@ Array.from(taughtCounts.entries())
   // ==========================================
   // VIEW TABS
   // ==========================================
+  
+  // ==========================================
+  // VIEW TABS
+  // ==========================================
 
   function setFiltersOpen(open) {
     filterPanel.hidden = !open;
@@ -994,48 +1109,52 @@ Array.from(taughtCounts.entries())
 
   setFiltersOpen(true);
 
-  function setCorrelationsShowing(showing) {
-    correlationsPanel.classList.toggle(
-      'active',
-      showing
-    );
-  
-    moviesPanel.classList.toggle(
-      'active',
-      !showing
-    );
-  
-    correlationsTab.setAttribute(
-      'aria-pressed',
-      String(showing)
-    );
-  
-    correlationsTab.classList.toggle(
-      'active',
-      showing
-    );
-  
-    appContent.classList.toggle(
-      'correlations-showing',
-      showing
-    );
+  function setStatsShowing(showing) {
+    statsPanel.classList.toggle('active', showing);
+    moviesPanel.classList.toggle('active', !showing);
+    correlationsPanel.classList.toggle('active', false);
 
-    const featuredSection = document.getElementById(
-      'featuredMovieSection'
-    );
-    
-    if (featuredSection) {
-      featuredSection.hidden = showing;
+    statsTab.setAttribute('aria-pressed', String(showing));
+    statsTab.classList.toggle('active', showing);
+    correlationsTab.setAttribute('aria-pressed', 'false');
+    correlationsTab.classList.toggle('active', false);
+
+    appContent.classList.toggle('statistics-showing', showing);
+    appContent.classList.remove('correlations-showing');
+
+    const featuredSection = document.getElementById('featuredMovieSection');
+    if (featuredSection) featuredSection.hidden = showing;
+
+    const compactSection = document.getElementById('compactMovieSection');
+    if (compactSection) compactSection.hidden = showing;
+
+    if (showing) {
+      setFiltersOpen(false);
+      renderStats();
+    } else {
+      fitMovieGrid();
     }
-  
-    const compactSection = document.getElementById(
-      'compactMovieSection'
-    );
-  
-    if (compactSection) {
-      compactSection.hidden = showing;
-    }
-  
+  }
+
+  function setCorrelationsShowing(showing) {
+    correlationsPanel.classList.toggle('active', showing);
+    moviesPanel.classList.toggle('active', !showing);
+    statsPanel.classList.toggle('active', false);
+
+    correlationsTab.setAttribute('aria-pressed', String(showing));
+    correlationsTab.classList.toggle('active', showing);
+    statsTab.setAttribute('aria-pressed', 'false');
+    statsTab.classList.toggle('active', false);
+
+    appContent.classList.toggle('correlations-showing', showing);
+    appContent.classList.remove('statistics-showing');
+
+    const featuredSection = document.getElementById('featuredMovieSection');
+    if (featuredSection) featuredSection.hidden = showing;
+
+    const compactSection = document.getElementById('compactMovieSection');
+    if (compactSection) compactSection.hidden = showing;
+
     if (showing) {
       setFiltersOpen(false);
       fitCorrelationsText();
@@ -1048,11 +1167,14 @@ Array.from(taughtCounts.entries())
     setFiltersOpen(filterPanel.hidden);
   });
 
+  statsTab.addEventListener('click', () => {
+    const isShowing = statsPanel.classList.contains('active');
+    setStatsShowing(!isShowing);
+  });
 
   correlationsTab.addEventListener('click', () => {
-    setCorrelationsShowing(
-      !correlationsPanel.classList.contains('active')
-    );
+    const isShowing = correlationsPanel.classList.contains('active');
+    setCorrelationsShowing(!isShowing);
   });
 
   fitMovieGrid();

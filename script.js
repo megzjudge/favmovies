@@ -482,8 +482,8 @@ function renderDonut(container, data, title, emoji) {
   const total = entries.reduce((sum, [, v]) => sum + v, 0);
   if (!total) return;
 
-  const size = 140, r = 55, cx = size / 2, cy = size / 2;
-  const colors = ['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#1abc9c','#e67e22','#34495e'];
+  const size = 160, r = 60, cx = size / 2, cy = size / 2;
+  const colors = ['#e74c3c','#3498db','#2ecc71','#f39c12','#9b59b6','#1abc9c','#e67e22','#34495e','#d35400','#16a085'];
 
   let angle = -Math.PI / 2;
   let paths = '';
@@ -499,12 +499,11 @@ function renderDonut(container, data, title, emoji) {
   });
 
   const innerR = r * 0.55;
-  const inner = `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="var(--bg, #0a0a1a)"/>`;
+  const inner = `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="rgb(10, 54, 107)"/>`;
 
   container.innerHTML = `
     <div class="correlation-card">
-      <h4>${emoji || ''} ${title}</h4>
-      <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${title} breakdown">
+      <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${title || 'breakdown'}">
         ${paths}${inner}
       </svg>
       <div class="donut-legend">
@@ -515,32 +514,128 @@ function renderDonut(container, data, title, emoji) {
         ).join('')}
       </div>
     </div>`;
-}
+}   
 
 function renderStats() {
   const cards = Array.from(document.querySelectorAll('.movie-card'));
-  const { genreToCat, catToGenre } = buildCooccurrenceData(cards);
 
   statsPanel.innerHTML = `
     <h2>📊 Statistics</h2>
-    <h3>Genres → Categories</h3>
-    <div class="stats-grid" id="genreStatsGrid"></div>
-    <h3>Categories → Genres</h3>
-    <div class="stats-grid" id="catStatsGrid"></div>
+    <div class="stats-filter">
+      <label class="sr-only" for="statsGenreSelect">Select a genre</label>
+      <select id="statsGenreSelect">
+        <option value="">📂 Select a genre…</option>
+      </select>
+    </div>
+    <div id="statsResults" class="stats-results"></div>
   `;
 
-  const genreGrid = statsPanel.querySelector('#genreStatsGrid');
-  Object.entries(genreToCat).forEach(([genre, cats]) => {
-    const div = document.createElement('div');
-    genreGrid.appendChild(div);
-    renderDonut(div, cats, genre, genreEmojis[genre]);
+  const select = statsPanel.querySelector('#statsGenreSelect');
+  const results = statsPanel.querySelector('#statsResults');
+
+  // Populate genre options
+  const genreCounts = new Map();
+  cards.forEach(card => {
+    (card.dataset.genres || '').split('|').filter(Boolean)
+      .forEach(g => genreCounts.set(g, (genreCounts.get(g) || 0) + 1));
   });
 
-  const catGrid = statsPanel.querySelector('#catStatsGrid');
-  Object.entries(catToGenre).forEach(([cat, genres]) => {
-    const div = document.createElement('div');
-    catGrid.appendChild(div);
-    renderDonut(div, genres, cat, categoriesEmojis[cat]);
+  Array.from(genreCounts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([genre, count]) => {
+      const opt = document.createElement('option');
+      opt.value = genre;
+      opt.textContent = `${genreEmojis[genre] || ''} ${genre} (${count})`;
+      select.appendChild(opt);
+    });
+
+  select.addEventListener('change', () => {
+    const selectedGenre = select.value;
+    if (!selectedGenre) {
+      results.innerHTML = '';
+      return;
+    }
+
+    // Find all cards that have this genre
+    const matchingCards = cards.filter(card =>
+      (card.dataset.genres || '').split('|').filter(Boolean)
+        .includes(selectedGenre)
+    );
+
+    // 1. Other genres on the same films
+    const otherGenres = {};
+    matchingCards.forEach(card => {
+      (card.dataset.genres || '').split('|').filter(Boolean)
+        .forEach(g => {
+          if (g !== selectedGenre) {
+            otherGenres[g] = (otherGenres[g] || 0) + 1;
+          }
+        });
+    });
+
+    // 2. Decade distribution
+    const decades = {};
+    matchingCards.forEach(card => {
+      (card.dataset.years || '').split('|').filter(Boolean)
+        .forEach(y => {
+          const year = parseInt(y, 10);
+          const decade = Math.floor(year / 10) * 10;
+          const label = `${decade}s`;
+          decades[label] = (decades[label] || 0) + 1;
+        });
+    });
+
+    // 3. Categories
+    const cats = {};
+    matchingCards.forEach(card => {
+      (card.dataset.categories || '').split('|').filter(Boolean)
+        .forEach(c => {
+          cats[c] = (cats[c] || 0) + 1;
+        });
+    });
+
+    results.innerHTML = `
+      <div class="stats-grid">
+        <div class="stats-chart-group">
+          <h4>🎬 Co-occurring Genres</h4>
+          <div id="statsGenreDonut"></div>
+        </div>
+        <div class="stats-chart-group">
+          <h4>🗓️ Decade Distribution</h4>
+          <div id="statsYearDonut"></div>
+        </div>
+        <div class="stats-chart-group">
+          <h4>📚 Categories</h4>
+          <div id="statsCatDonut"></div>
+        </div>
+      </div>
+    `;
+
+    const gDonut = results.querySelector('#statsGenreDonut');
+    const yDonut = results.querySelector('#statsYearDonut');
+    const cDonut = results.querySelector('#statsCatDonut');
+
+    if (Object.keys(otherGenres).length) {
+      renderDonut(gDonut, otherGenres, '', null);
+    } else {
+      gDonut.innerHTML = '<p class="stats-empty">No co-occurring genres.</p>';
+    }
+
+    if (Object.keys(decades).length) {
+      // Sort decades chronologically
+      const sorted = {};
+      Object.keys(decades).sort((a, b) => parseInt(a) - parseInt(b))
+        .forEach(k => { sorted[k] = decades[k]; });
+      renderDonut(yDonut, sorted, '', null);
+    } else {
+      yDonut.innerHTML = '<p class="stats-empty">No year data.</p>';
+    }
+
+    if (Object.keys(cats).length) {
+      renderDonut(cDonut, cats, '', null);
+    } else {
+      cDonut.innerHTML = '<p class="stats-empty">No categories.</p>';
+    }
   });
 }
 

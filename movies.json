@@ -2342,8 +2342,7 @@
         "Dark Romance"
       ],
       "categories": [
-        "Love",
-        "Reasons for Living"
+        "Love"
       ],
       "image": "images/malena.jpg",
       "imageAlt": "Malèna",
@@ -2429,8 +2428,7 @@
         "Rebellion Adventure"
       ],
       "categories": [
-        "The Brain",
-        "Reasons for Living"
+        "The Brain"
       ],
       "image": "images/the_matrix_reloaded.jpg",
       "imageAlt": "The Matrix Reloaded",
@@ -2483,8 +2481,7 @@
         "Picaresque"
       ],
       "categories": [
-        "The Brain",
-        "Reasons for Living"
+        "The Brain"
       ],
       "image": "images/being_john_malkovich.jpg",
       "imageAlt": "Being John Malkovich",
@@ -5953,7 +5950,6 @@
         "Magical Realism"
       ],
       "categories": [
-        "Reasons for Living",
         "Disagreeableness"
       ],
       "image": "images/the_crow.jpg",

@@ -203,7 +203,7 @@
     'Love': '❤️',
     'Friendship': '🤝',
     'The Brain': '📝',
-    'Purpose': '🌊'
+    'Purpose': '🌊',
     'Disagreeableness': '🕹️',
     'Openness': '🌀'
   };

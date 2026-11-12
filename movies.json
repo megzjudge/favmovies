@@ -5642,6 +5642,45 @@
       ]
     },
     {
+      "title": "Major Payne",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "1h 35m",
+      "years": [
+        1995
+      ],
+      "genres": [
+        "Male Camaraderie",
+      ],
+      "categories": [
+        "Disagreeableness"
+      ],
+      "image": "images/major-payne.jpg",
+      "imageAlt": "Major Payne",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/major-payne",
+          "icon": "images/justwatch.png",
+          "alt": "Major Payne on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0110443/",
+          "icon": "images/imdb.png",
+          "alt": "Major Payne on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Major_Payne_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Major Payne on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4KJ4R0llAQs",
+          "icon": "images/youtube.png",
+          "alt": "Major Payne Trailer on Youtube"
+        }
+      ]
+    },
+    {
       "title": "Pocahontas",
       "flag": "🇺🇸",
       "country": "US",
@@ -6597,6 +6636,46 @@
           "url": "https://www.youtube.com/results?search_query=The+Terminator+1984+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Terminator Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Stripes",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "1h 46m",
+      "years": [
+        1981
+      ],
+      "genres": [
+        "Male Camaraderie"
+      ],
+      "categories": [
+        "Disagreeableness",
+        "Friendship"
+      ],
+      "image": "images/stripes.jpg",
+      "imageAlt": "Stripes",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/stripes-1981",
+          "icon": "images/justwatch.png",
+          "alt": "Stripes on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0083131/",
+          "icon": "images/imdb.png",
+          "alt": "Stripes on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stripes_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Stripes on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dAGGupgTS8E",
+          "icon": "images/youtube.png",
+          "alt": "Stripes Trailer on Youtube"
         }
       ]
     },

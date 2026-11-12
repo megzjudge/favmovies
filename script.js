@@ -133,6 +133,7 @@
       { url: 'https://tvtropes.org/pmwiki/pmwiki.php/Main/FilmNoir', icon: 'link' },
       { url: 'https://screenrant.com/modern-film-noir-movies-best-list/', icon: 'link' },
       { url: 'https://cinenoir.net/awards/century-masterpieces/21st-century/modern-film-noir-a-curated-selection-of-critical-acclaim/', icon: 'link' },
+      { url: 'https://nofilmschool.com/film-noir-meaning', icon: 'link' },
       { url: 'https://www.backstage.com/magazine/article/neo-noir-films-75751/', icon: 'link' }
     ],
 

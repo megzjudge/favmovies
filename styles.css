@@ -239,7 +239,8 @@ h1 {
     transform: scale(1.1);
 }
 
-a, #genreDescription a {
+a,
+#genreDescription a {
     color: rgb(100, 160, 240);
     text-decoration: none;
 }

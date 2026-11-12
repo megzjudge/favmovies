@@ -31,7 +31,7 @@
   const genreDescriptions = {
     'Psychological Thriller': "A tense, twisting tale where perception and reality blur, ensnaring both protagonist and viewer in a snaking plotline coiling around an unraveling inner world.",
     'Existential Drama': "A layered narrative where characters confront power, mortality, or the burden of choice, often forcing reckonings with consequence, control, or the void itself - giving one a reason to exist when questioning it.",
-    'Film Noir': "A shadowy descent into the underbelly of society, filled with fatale dames and hard-edged antiheroes, riddled with grey ethics and the weight of consequence.",
+    'Film Noir': "A shadowy descent into the underbelly of society, filled with fatale dames and hard-edged antiheroes, riddled with grey ethics and the weight of consequence. An umbrella term for Classic Noir, Neo-Noir, and Dark Crime.",
     'Male Camaraderie': "A rowdy journey of male bonding, innate brotherhood or rivalry-tested mateship, forged through banter, loyalty, and thrilling exploits against all odds.",
     'Magical Realism': "A grounded world subtly laced with supernatural, metaphysical, or unexplained phenomena, seamlessly absorbed into the logic of everyday life.",
     'Cerebral Crime': "An intricate investigation where intellect clashes with deception, unraveling or orchestrating intelligent crimes through razor-sharp deduction and moral tension.",
@@ -128,8 +128,12 @@
     ],
 
     'Film Noir': [
+      { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' },
       { url: 'https://www.imdb.com/interest/in0000054/', icon: 'imdb' },
-      { url: 'https://en.wikipedia.org/wiki/Film_noir', icon: 'wikipedia' }
+      { url: 'https://tvtropes.org/pmwiki/pmwiki.php/Main/FilmNoir', icon: 'link' },
+      { url: 'https://screenrant.com/modern-film-noir-movies-best-list/', icon: 'link' },
+      { url: 'https://cinenoir.net/awards/century-masterpieces/21st-century/modern-film-noir-a-curated-selection-of-critical-acclaim/', icon: 'link' },
+      { url: 'https://www.backstage.com/magazine/article/neo-noir-films-75751/', icon: 'link' }
     ],
 
     'Grumpy x Sunshine': [

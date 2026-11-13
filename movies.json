@@ -4616,6 +4616,47 @@
       ]
     },
     {
+      "title": "Serendipity",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "90 min",
+      "years": [
+        2001
+      ],
+      "genres": [
+        "Magical Realism",
+        "Existential Drama",
+        "Grumpy x Sunshine"
+      ],
+      "categories": [
+        "Love"
+      ],
+      "image": "images/serendipity.jpg",
+      "imageAlt": "Serendipity",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/serendipity",
+          "icon": "images/justwatch.png",
+          "alt": "Serendipity on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0240890/",
+          "icon": "images/imdb.png",
+          "alt": "Serendipity on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Serendipity_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Serendipity on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tC3nf6bna6s",
+          "icon": "images/youtube.png",
+          "alt": "Serendipity on Youtube"
+        }
+      ]
+    },
+    {
       "title": "Ocean's Eleven",
       "flag": "🇺🇸",
       "country": "US",

@@ -4153,6 +4153,47 @@
       ]
     },
     {
+      "title": "Spit",
+      "flag": "🇦🇺",
+      "country": "AU",
+      "runtime": "105 min",
+      "years": [
+        2025
+      ],
+      "genres": [
+        "Camp Comedy",
+        "Cerebral Crime",
+        "Picaresque"
+      ],
+      "categories": [
+        "Friendship"
+      ],
+      "image": "images/spit.jpg",
+      "imageAlt": "Spit",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/spit",
+          "icon": "images/justwatch.png",
+          "alt": "Spit on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt34748740/",
+          "icon": "images/imdb.png",
+          "alt": "Spit on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Spit_(2025_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Spit on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hkMvHuBcn2I",
+          "icon": "images/youtube.png",
+          "alt": "Spit Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "The Proposal",
       "flag": "🇺🇸",
       "country": "US",

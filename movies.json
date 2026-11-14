@@ -3221,133 +3221,6 @@
       ]
     },
     {
-      "title": "The Mask",
-      "flag": "🇺🇸",
-      "country": "US",
-      "runtime": "101 min",
-      "years": [
-        1994
-      ],
-      "genres": [
-        "Magical Realism",
-        "Absurdist Comedy",
-        "Picaresque",
-        "Carnivalesque"
-      ],
-      "categories": [
-        "The Brain",
-        "Disagreeableness",
-        "Openness"
-      ],
-      "image": "images/the_mask.jpg",
-      "imageAlt": "The Mask (1994)",
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/the-mask",
-          "icon": "images/justwatch.png",
-          "alt": "The Mask on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0110475/",
-          "icon": "images/imdb.png",
-          "alt": "The Mask on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/The_Mask_(1994_film)",
-          "icon": "images/wikipedia.png",
-          "alt": "The Mask on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=The+Mask+1994+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "The Mask Trailer on YouTube"
-        }
-      ]
-    },
-    {
-      "title": "Stargate",
-      "flag": "🇺🇸",
-      "country": "US",
-      "runtime": "121 min",
-      "years": [
-        1994
-      ],
-      "genres": [
-        "Dystopian Sci-Fi",
-        "Surreal Adventure",
-        "High-Stakes Action"
-      ],
-      "categories": [
-        "Openness"
-      ],
-      "image": "images/stargate.jpg",
-      "imageAlt": "Stargate (1994)",
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/stargate",
-          "icon": "images/justwatch.png",
-          "alt": "Stargate on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0111282/",
-          "icon": "images/imdb.png",
-          "alt": "Stargate on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Stargate_(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "Stargate on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=Stargate+1994+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "Stargate Trailer on YouTube"
-        }
-      ]
-    },
-    {
-      "title": "Super Mario Bros.",
-      "flag": "🇺🇸",
-      "country": "US",
-      "runtime": "104 min",
-      "years": [
-        1993
-      ],
-      "genres": [
-        "Surreal Adventure",
-        "Absurdist Comedy",
-        "Dystopian Sci-Fi"
-      ],
-      "categories": [
-        "Disagreeableness",
-        "Friendship"
-      ],
-      "image": "images/super_mario_bros.jpg",
-      "imageAlt": "Super Mario Bros. (1993)",
-      "links": [
-        {
-          "url": "https://www.justwatch.com/au/movie/super-mario-bros",
-          "icon": "images/justwatch.png",
-          "alt": "Super Mario Bros. on JustWatch"
-        },
-        {
-          "url": "https://www.imdb.com/title/tt0108255/",
-          "icon": "images/imdb.png",
-          "alt": "Super Mario Bros. on IMDb"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros._(film)",
-          "icon": "images/wikipedia.png",
-          "alt": "Super Mario Bros. on Wikipedia"
-        },
-        {
-          "url": "https://www.youtube.com/results?search_query=Super+Mario+Bros+1993+official+trailer",
-          "icon": "images/youtube.png",
-          "alt": "Super Mario Bros. Trailer on YouTube"
-        }
-      ]
-    },
-    {
       "title": "Groundhog Day",
       "flag": "🇺🇸",
       "country": "US",
@@ -6040,6 +5913,91 @@
       ]
     },
     {
+      "title": "The Mask",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "101 min",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Magical Realism",
+        "Absurdist Comedy",
+        "Picaresque",
+        "Carnivalesque"
+      ],
+      "categories": [
+        "The Brain",
+        "Disagreeableness",
+        "Openness"
+      ],
+      "image": "images/the_mask.jpg",
+      "imageAlt": "The Mask (1994)",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-mask",
+          "icon": "images/justwatch.png",
+          "alt": "The Mask on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0110475/",
+          "icon": "images/imdb.png",
+          "alt": "The Mask on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mask_(1994_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Mask on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=The+Mask+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "The Mask Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Stargate",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "121 min",
+      "years": [
+        1994
+      ],
+      "genres": [
+        "Dystopian Sci-Fi",
+        "Surreal Adventure",
+        "High-Stakes Action"
+      ],
+      "categories": [
+        "Openness"
+      ],
+      "image": "images/stargate.jpg",
+      "imageAlt": "Stargate (1994)",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/stargate",
+          "icon": "images/justwatch.png",
+          "alt": "Stargate on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0111282/",
+          "icon": "images/imdb.png",
+          "alt": "Stargate on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stargate_(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Stargate on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Stargate+1994+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Stargate Trailer on YouTube"
+        }
+      ]
+    },
+    {
       "title": "Dumb and Dumber",
       "flag": "🇺🇸",
       "country": "US",
@@ -6329,6 +6287,48 @@
           "url": "https://www.youtube.com/results?search_query=The+Adventures+of+Priscilla+Queen+of+the+Desert+1994+official+trailer",
           "icon": "images/youtube.png",
           "alt": "The Adventures of Priscilla Trailer on YouTube"
+        }
+      ]
+    },
+    {
+      "title": "Super Mario Bros.",
+      "flag": "🇺🇸",
+      "country": "US",
+      "runtime": "104 min",
+      "years": [
+        1993
+      ],
+      "genres": [
+        "Surreal Adventure",
+        "Absurdist Comedy",
+        "Dystopian Sci-Fi"
+      ],
+      "categories": [
+        "Disagreeableness",
+        "Friendship"
+      ],
+      "image": "images/super_mario_bros.jpg",
+      "imageAlt": "Super Mario Bros. (1993)",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/super-mario-bros",
+          "icon": "images/justwatch.png",
+          "alt": "Super Mario Bros. on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0108255/",
+          "icon": "images/imdb.png",
+          "alt": "Super Mario Bros. on IMDb"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros._(film)",
+          "icon": "images/wikipedia.png",
+          "alt": "Super Mario Bros. on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/results?search_query=Super+Mario+Bros+1993+official+trailer",
+          "icon": "images/youtube.png",
+          "alt": "Super Mario Bros. Trailer on YouTube"
         }
       ]
     },

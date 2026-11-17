@@ -263,6 +263,50 @@
   ],
 
   "movies": [
+
+    {
+      "title": "The Fox",
+      "flag": "🇦🇺",
+      "country": "AU",
+      "runtime": "90 min",
+      "years": [
+        2025
+      ],
+      "genres": [
+        "Magical Realism",
+        "Absurdist Comedy",
+        "Carnivalesque",
+        "Anthropomorphic Animation",
+        "Dark Romance"
+      ],
+      "categories": [
+        "Love"
+      ],
+      "image": "images/the-fox.jpg",
+      "imageAlt": "The Fox",
+      "links": [
+        {
+          "url": "https://www.justwatch.com/au/movie/the-fox-2025",
+          "icon": "images/justwatch.png",
+          "alt": "The Fox on JustWatch"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt12525406/",
+          "icon": "images/imdb.png",
+          "alt": "The Fox on IMDB"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Fox_(2025_film)",
+          "icon": "images/wikipedia.png",
+          "alt": "The Fox on Wikipedia"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_XEZHlWlZ_o",
+          "icon": "images/youtube.png",
+          "alt": "The Fox on Youtube"
+        }
+      ]
+    },
     {
       "title": "Knives Out [series]",
       "flag": "🇺🇸",
